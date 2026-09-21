@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the static weekly dashboard from a supplied leadership workbook."""
+"""Refresh the static weekly IT Program Leadership Dashboard."""
 
 from __future__ import annotations
 
@@ -172,7 +172,7 @@ def main() -> None:
     payload = {
         "reportDate": args.report_date,
         "sourceFile": SOURCE_FILENAME,
-        "dashboardFile": "IT_Leadership_Dashboard_Weekly.html",
+        "dashboardFile": "IT_Program_Leadership_Dashboard_Weekly.html",
         "records": records,
     }
     html = index_path.read_text(encoding="utf-8")

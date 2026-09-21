@@ -1,4 +1,4 @@
-# IT Leadership Dashboard
+# IT Program Leadership Dashboard
 
 Public, no-login, weekly-only leadership dashboard. The site is fully static and can be opened directly from `index.html` or served by GitHub Pages.
 
@@ -7,7 +7,7 @@ Public, no-login, weekly-only leadership dashboard. The site is fully static and
 - Use the Team filter first; the RAG filter then lists only values represented for that team.
 - Counts, whole-number percentages, team health bars, and the record table update immediately.
 - Use **Download source workbook** for the public `Weekly_Leadership_Source_Workbook.xlsx` copy.
-- Use **Download dashboard** for a standalone HTML snapshot. Keep the source workbook beside that file when source download access is needed.
+- Use **Download IT Program Leadership Dashboard** for a standalone HTML snapshot. Keep the source workbook beside that file when source download access is needed.
 
 ## Weekly refresh
 
