@@ -32,13 +32,28 @@ def text(value: object) -> str:
 def percentage(value: object) -> int | None:
     if value in (None, ""):
         return None
+    raw = str(value).strip()
+    already_percent = raw.endswith("%")
+    if already_percent:
+        raw = raw[:-1].strip()
     try:
-        number = Decimal(str(value))
+        number = Decimal(raw)
     except Exception as exc:
         raise ValueError(f"Unsupported completion value: {value!r}") from exc
-    if abs(number) <= 1:
+    if not already_percent and abs(number) <= 1:
         number *= 100
     return int(number.quantize(Decimal("1"), rounding=ROUND_HALF_UP))
+
+
+def is_percentage_value(value: object) -> bool:
+    if value in (None, ""):
+        return False
+    raw = str(value).strip().removesuffix("%").strip()
+    try:
+        Decimal(raw)
+    except Exception:
+        return False
+    return True
 
 
 def rgb(color: object) -> str | None:
@@ -74,15 +89,25 @@ def record_from_row(sheet: object, row_number: int) -> dict[str, object] | None:
         raise ValueError(f"{sheet.title}!{row_number} has data but no Project / Workstream")
 
     explicit_rag = text(values[3]).title()
-    if explicit_rag in SUPPORTED_RAGS:
+    status = text(values[2])
+    if explicit_rag in SUPPORTED_RAGS and is_percentage_value(values[6]):
         status = text(values[2])
         rag = explicit_rag
         style_cell = sheet.cell(row_number, 4)
         start, finish, completion = values[4], values[5], values[6]
         objective, progress, next_step = values[7], values[8], values[9]
         owner, risks, attention, source = values[10], values[11], values[12], values[13]
+    elif explicit_rag in SUPPORTED_RAGS and is_percentage_value(values[5]):
+        rag = explicit_rag
+        style_cell = sheet.cell(row_number, 4)
+        start, finish, completion = None, values[4], values[5]
+        objective, progress, next_step = values[6], values[7], values[8]
+        owner, risks, attention, source = values[9], values[10], values[11], values[12]
+    elif explicit_rag in SUPPORTED_RAGS:
+        raise ValueError(
+            f"{sheet.title}!{row_number} has an unrecognized explicit-RAG column layout"
+        )
     else:
-        status = text(values[2])
         rag = rag_from_status(status)
         style_cell = sheet.cell(row_number, 3) if rag else None
         start, finish, completion = values[3], values[4], values[5]
