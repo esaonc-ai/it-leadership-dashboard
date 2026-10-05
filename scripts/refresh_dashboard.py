@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import argparse
+import base64
+import hashlib
 import json
 import re
 import shutil
@@ -22,7 +24,7 @@ SOURCE_FILENAME = "Weekly_Leadership_Source_Workbook.xlsx"
 
 
 def text(value: object) -> str:
-    if value is None:
+    if value is None or str(value).strip().lower() in ("nan", "none", "null"):
         return ""
     if isinstance(value, (datetime, date)):
         return value.strftime("%Y-%m-%d")
@@ -42,6 +44,8 @@ def percentage(value: object) -> int | None:
         raise ValueError(f"Unsupported completion value: {value!r}") from exc
     if not already_percent and abs(number) <= 1:
         number *= 100
+    if not number.is_finite() or not 0 <= number <= 100:
+        raise ValueError(f"Completion out of range: {value!r}")
     return int(number.quantize(Decimal("1"), rounding=ROUND_HALF_UP))
 
 
@@ -78,6 +82,33 @@ def source_style(cell: object) -> tuple[str | None, str | None]:
     if getattr(cell.fill, "fill_type", None):
         fill = rgb(cell.fill.fgColor)
     font = rgb(cell.font.color)
+    # Excel conditional-formatting overrides direct formatting, per property
+    # and ascending priority. RAG ranges in this workbook use containsText.
+    applicable = []
+    for cf, rules in cell.parent.conditional_formatting._cf_rules.items():
+        if cell.coordinate in cf.sqref:
+            applicable.extend(rules)
+    fill_set = font_set = False
+    for rule in sorted(applicable, key=lambda r: r.priority):
+        if rule.type != "containsText":
+            raise ValueError(f"Unsupported RAG formatting rule: {cell.parent.title}!{cell.coordinate}: {rule.type}")
+        if not rule.text or rule.text.casefold() not in text(cell.value).casefold():
+            continue
+        dxf = rule.dxf
+        if dxf:
+            if dxf.fill and not fill_set:
+                # Excel differential fills commonly store their color in bgColor.
+                conditional_fill = rgb(dxf.fill.bgColor)
+                if conditional_fill in (None, "#000000"):
+                    conditional_fill = rgb(dxf.fill.fgColor)
+                if conditional_fill:
+                    fill, fill_set = conditional_fill, True
+            if dxf.font and not font_set:
+                conditional_font = rgb(dxf.font.color)
+                if conditional_font:
+                    font, font_set = conditional_font, True
+        if rule.stopIfTrue:
+            break
     return fill, font
 
 
@@ -85,7 +116,7 @@ def record_from_row(sheet: object, row_number: int) -> dict[str, object] | None:
     values = [sheet.cell(row_number, column).value for column in range(1, 15)]
     if not any(value not in (None, "") for value in values):
         return None
-    if values[1] in (None, ""):
+    if not text(values[0]) or not text(values[1]):
         raise ValueError(f"{sheet.title}!{row_number} has data but no Project / Workstream")
 
     explicit_rag = text(values[3]).title()
@@ -132,7 +163,8 @@ def record_from_row(sheet: object, row_number: int) -> dict[str, object] | None:
         "owner": text(owner),
         "risks": text(risks),
         "attention": text(attention),
-        "source": text(source),
+        "source": "Embedded workbook image; view in source workbook" if text(source).startswith("=_xlfn.DISPIMG(") else text(source),
+        "sourceLayout": "shifted" if explicit_rag in SUPPORTED_RAGS and not is_percentage_value(values[6]) else "standard",
         "sourceRow": row_number,
     }
 
@@ -141,6 +173,9 @@ def build_records(workbook_path: Path) -> list[dict[str, object]]:
     workbook = load_workbook(workbook_path, data_only=False, read_only=False)
     records: list[dict[str, object]] = []
     for sheet in workbook.worksheets:
+        headers = [text(sheet.cell(1, c).value) for c in range(1, 15)]
+        if headers[:4] != ["#", "Project / Workstream", "Status", "RAG Status"]:
+            continue
         for row_number in range(2, sheet.max_row + 1):
             record = record_from_row(sheet, row_number)
             if record:
@@ -172,6 +207,8 @@ def main() -> None:
     payload = {
         "reportDate": args.report_date,
         "sourceFile": SOURCE_FILENAME,
+        "sourceWorkbookBase64": base64.b64encode(workbook_path.read_bytes()).decode("ascii"),
+        "sourceSha256": hashlib.sha256(workbook_path.read_bytes()).hexdigest(),
         "dashboardFile": "IT_Program_Leadership_Dashboard_Weekly.html",
         "records": records,
     }
