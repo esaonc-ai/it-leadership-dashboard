@@ -1,0 +1,169 @@
+team,cell,field,value,category
+Security,E5,start,TBD,TBD
+Security,E6,start,TBD,TBD
+Security,E7,start,TBD,TBD
+Security,E8,start,TBD,TBD
+Security,E9,start,TBD,TBD
+Infrastructure & Cloud,E5,start,TBD,TBD
+Infrastructure & Cloud,E6,start,TBD,TBD
+Infrastructure & Cloud,E7,start,TBD,TBD
+Infrastructure & Cloud,E8,start,TBD,TBD
+Infrastructure & Cloud,E9,start,TBD,TBD
+Infrastructure & Cloud,E10,start,TBD,TBD
+Infrastructure & Cloud,E11,start,TBD,TBD
+Infrastructure & Cloud,E12,start,TBD,TBD
+Infrastructure & Cloud,E13,start,TBD,TBD
+Infrastructure & Cloud,E14,start,TBD,TBD
+Infrastructure & Cloud,E15,start,TBD,TBD
+Infrastructure & Cloud,E16,start,TBD,TBD
+Infrastructure & Cloud,E17,start,TBD,TBD
+Infrastructure & Cloud,E18,start,TBD,TBD
+Infrastructure & Cloud,E19,start,TBD,TBD
+Infrastructure & Cloud,E21,start,TBD,TBD
+Infrastructure & Cloud,E24,start,TBD,TBD
+Infrastructure & Cloud,E25,start,TBD,TBD
+Infrastructure & Cloud,E27,start,TBD,TBD
+Infrastructure & Cloud,E30,start,TBD,TBD
+Infrastructure & Cloud,E31,start,TBD,TBD
+Infrastructure & Cloud,E32,start,TBD,TBD
+Infrastructure & Cloud,E33,start,TBD,TBD
+Infrastructure & Cloud,E34,start,TBD,TBD
+Infrastructure & Cloud,E58,start,TBD,TBD
+IoT,E4,start,TBD,TBD
+IoT,E5,start,TBD,TBD
+IoT,E6,start,TBD,TBD
+IoT,E7,start,TBD,TBD
+IoT,E8,start,TBD,TBD
+R&D AI,E2,start,TBD,TBD
+R&D AI,E3,start,TBD,TBD
+R&D AI,E4,start,TBD,TBD
+R&D AI,E5,start,TBD,TBD
+R&D AI,E6,start,TBD,TBD
+R&D AI,E7,start,TBD,TBD
+R&D AI,E8,start,TBD,TBD
+WCS Engineering,E2,start,TBD,TBD
+WCS Engineering,E3,start,TBD,TBD
+Compliance Program,E2,start,TBD,TBD
+Compliance Program,E15,start,TBD,TBD
+Security,F2,finish,"TBD - after scope, evidence, and control closure",TBD
+Security,F3,finish,TBD - after cost and impact assessment,TBD
+Security,F4,finish,TBD - management reprioritization required,TBD
+Security,F5,finish,TBD,TBD
+Security,F6,finish,TBD,TBD
+Security,F7,finish,TBD,TBD
+Security,F8,finish,TBD,TBD
+Security,F9,finish,TBD,TBD
+Security,F10,finish,TBD,TBD
+Infrastructure & Cloud,F2,finish,"TBD - after equipment, access, rack, power, connectivity, and service-readiness validation",TBD
+Infrastructure & Cloud,F3,finish,"TBD - after equipment suitability, service requirements, site readiness, and architecture approval",TBD
+Infrastructure & Cloud,F5,finish,TBD,TBD
+Infrastructure & Cloud,F6,finish,N/A,not applicable
+Infrastructure & Cloud,F7,finish,TBD,TBD
+Infrastructure & Cloud,F8,finish,TBD,TBD
+Infrastructure & Cloud,F10,finish,TBD - after post-installation survey and user validation,TBD
+Infrastructure & Cloud,F11,finish,N/A,not applicable
+Infrastructure & Cloud,F12,finish,N/A,not applicable
+Infrastructure & Cloud,F13,finish,TBD,TBD
+Infrastructure & Cloud,F14,finish,N/A,not applicable
+Infrastructure & Cloud,F15,finish,N/A,not applicable
+Infrastructure & Cloud,F16,finish,TBD,TBD
+Infrastructure & Cloud,F17,finish,N/A,not applicable
+Infrastructure & Cloud,F18,finish,TBD,TBD
+Infrastructure & Cloud,F19,finish,N/A,not applicable
+Infrastructure & Cloud,F20,finish,"TBD - after operational approvals, testing, and plan sign-off",TBD
+Infrastructure & Cloud,F21,finish,N/A,not applicable
+Infrastructure & Cloud,F22,finish,TBD - after stability validation,TBD
+Infrastructure & Cloud,F23,finish,N/A,not applicable
+Infrastructure & Cloud,F24,finish,TBD,TBD
+Infrastructure & Cloud,F25,finish,TBD,TBD
+Infrastructure & Cloud,F26,finish,TBD,TBD
+Infrastructure & Cloud,F27,finish,TBD,TBD
+Infrastructure & Cloud,F28,finish,TBD - approximately six-week office target; server cutover unconfirmed,TBD
+Infrastructure & Cloud,F29,finish,TBD - after technical validation,TBD
+Infrastructure & Cloud,F30,finish,N/A,not applicable
+Infrastructure & Cloud,F31,finish,N/A,not applicable
+Infrastructure & Cloud,F32,finish,N/A,not applicable
+Infrastructure & Cloud,F33,finish,TBD,TBD
+Infrastructure & Cloud,F34,finish,TBD,TBD
+Infrastructure & Cloud,F35,finish,TBD,TBD
+Infrastructure & Cloud,F36,finish,TBD,TBD
+Infrastructure & Cloud,F37,finish,TBD,TBD
+Infrastructure & Cloud,F38,finish,TBD - after final AP replacement and reconciliation,TBD
+Infrastructure & Cloud,F39,finish,TBD,TBD
+Infrastructure & Cloud,F40,finish,TBD,TBD
+Infrastructure & Cloud,F41,finish,TBD,TBD
+Infrastructure & Cloud,F43,finish,TBD,TBD
+Infrastructure & Cloud,F44,finish,TBD,TBD
+Infrastructure & Cloud,F45,finish,TBD,TBD
+Infrastructure & Cloud,F46,finish,TBD,TBD
+Infrastructure & Cloud,F47,finish,TBD,TBD
+Infrastructure & Cloud,F48,finish,TBD,TBD
+Infrastructure & Cloud,F49,finish,TBD,TBD
+Infrastructure & Cloud,F50,finish,TBD,TBD
+Infrastructure & Cloud,F51,finish,TBD,TBD
+Infrastructure & Cloud,F52,finish,TBD,TBD
+Infrastructure & Cloud,F53,finish,TBD - before migration scheduling,TBD
+Infrastructure & Cloud,F54,finish,TBD - approximately six weeks,TBD
+Infrastructure & Cloud,F55,finish,TBD,TBD
+Infrastructure & Cloud,F56,finish,TBD,TBD
+Infrastructure & Cloud,F57,finish,TBD,TBD
+Infrastructure & Cloud,F59,finish,TBD,TBD
+Infrastructure & Cloud,F60,finish,TBD,TBD
+Infrastructure & Cloud,F61,finish,TBD - after decision approval and tabletop exercise,TBD
+Infrastructure & Cloud,F62,finish,"TBD - after HR approval, configuration, and business validation",TBD
+IoT,F4,finish,TBD,TBD
+IoT,F5,finish,TBD,TBD
+IoT,F6,finish,TBD,TBD
+IoT,F7,finish,TBD,TBD
+IoT,F8,finish,TBD,TBD
+R&D AI,F2,finish,TBD,TBD
+R&D AI,F3,finish,ETD: 4 weeks,relative / unscheduled
+R&D AI,F4,finish,TBD,TBD
+R&D AI,F5,finish,ETD: 3–4 weeks,relative / unscheduled
+R&D AI,F6,finish,ETD: 2 weeks,relative / unscheduled
+R&D AI,F7,finish,Ongoing / No ETA,relative / unscheduled
+R&D AI,F8,finish,TBD,TBD
+WCS Engineering,F2,finish,TBD,TBD
+WCS Engineering,F3,finish,TBD,TBD
+WCS Engineering,F4,finish,"TBD - final deliveries, bench testing, and site readiness",TBD
+WCS Engineering,F5,finish,TBD,TBD
+WCS Engineering,F6,finish,TBD - 5–6-week parts lead time after approval,TBD
+WCS Engineering,F7,finish,N/A,not applicable
+WCS Engineering,F8,finish,TBD; arrival in the U.S. and deployment / commissioning expected in early December 2026,TBD
+WCS Engineering,F9,finish,TBD - proposal and diagnostic review,TBD
+Compliance Program,F2,finish,TBD,TBD
+Compliance Program,F3,finish,TBD - 4–6 weeks from testing start,TBD
+Compliance Program,F5,finish,TBD - before scoping form submission,TBD
+Compliance Program,F6,finish,TBD - aligned with approved TSC scope,TBD
+Compliance Program,F7,finish,TBD,TBD
+Compliance Program,F8,finish,"TBD - after pricing, readiness, and separate engagement approval",TBD
+Compliance Program,F9,finish,TBD,TBD
+Compliance Program,F10,finish,TBD,TBD
+Compliance Program,F11,finish,TBD,TBD
+Compliance Program,F12,finish,TBD,TBD
+Compliance Program,F13,finish,TBD - pending scope decision and auditor assignment,TBD
+Compliance Program,F14,finish,TBD (3-4 weeks),TBD
+Compliance Program,F15,finish,TBD,TBD
+Compliance Program,F16,finish,TBD - after legal review and signed Change Order,TBD
+Compliance Program,F17,finish,TBD - Johanson and Accounting written confirmation,TBD
+UNIS.CO Email & Ticketing,F2,finish,TBD,TBD
+UNIS.CO Email & Ticketing,F3,finish,TBD,TBD
+UNIS.CO Email & Ticketing,F4,finish,TBD,TBD
+UNIS.CO Email & Ticketing,F5,finish,TBD - after pilot acceptance,TBD
+UNIS.CO Email & Ticketing,F6,finish,TBD - after client validation,TBD
+UNIS.CO Email & Ticketing,F7,finish,TBD,TBD
+UNIS.CO Email & Ticketing,F8,finish,TBD,TBD
+UNIS.CO Email & Ticketing,F9,finish,TBD,TBD
+UNIS.CO Email & Ticketing,F11,finish,TBD - after operational acceptance,TBD
+UNIS.CO Email & Ticketing,F12,finish,TBD - before broader mail enforcement,TBD
+UNIS.CO Email & Ticketing,F13,finish,TBD,TBD
+UNIS.CO Email & Ticketing,F14,finish,TBD - after user acceptance,TBD
+UNIS.CO Email & Ticketing,F15,finish,TBD - after approved pilot,TBD
+UNIS ITEM- eHub integration,F2,finish,TBD - after approved pilot and acceptance review,TBD
+UNIS ITEM- eHub integration,F3,finish,TBD - after eHub analysis clarification and TSP review,TBD
+UNIS ITEM- eHub integration,F4,finish,TBD - after technical validation,TBD
+UNIS ITEM- eHub integration,F5,finish,TBD - before pilot activation,TBD
+UNIS ITEM- eHub integration,F6,finish,TBD - before high-value shipment pilot,TBD
+UNIS ITEM- eHub integration,F7,finish,TBD - aligned with pilot,TBD
+UNIS ITEM- eHub integration,F8,finish,TBD - during pilot readiness,TBD
+UNIS ITEM- eHub integration,F9,finish,TBD - after platform and account confirmation,TBD

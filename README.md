@@ -21,4 +21,18 @@ The refresh includes every compatible-sheet workbook row with an identifier and 
 
 Before publishing, verify record and Team/RAG totals against the workbook, check browser console output, test the cascading filters, and trigger both public downloads. No build step, server, authentication, or external service is required.
 
-Current reporting week: 5 October 2026. Source: latest attached 05Oct2026 workbook (newer than the prior 28 September deployment). IoT rows 2–6 retain the existing shifted source layout; completion is in F and owner in J. IoT M4 contains an Excel image formula with cached #NAME?; the dashboard refers users to the preserved workbook image.
+Current reporting week: **12 October 2026**. Refreshed from the newest attached weekly workbook. 128 records: 78 Amber, 48 Green, 2 Red across 8 teams. Both explicit-RAG schemas and title/header rows are discovered; completion text (including TBD) is preserved and excluded from numeric averages.
+
+IoT now has its headers on row 3 and five records in rows 4–8. Columns are normalized in the attachment (completion G, owner K); no source edits were made by the dashboard. Start/delivery E4:F8 remain TBD. The former image error is now at N6 (cached #NAME?); N8 notes remain blank. A2 still carries a 23 August reporting date. See `QA_REPORT.md` for reconciliation and remaining source-field gaps.
+
+Local upload of a compatible future-week XLSX is supported. Choose the reporting week then upload. Parsing and validation occur entirely in the browser; the exact original bytes replace the download payload only after validation. Download the refreshed standalone HTML to retain the snapshot. This does not publish local uploads to GitHub. Unsupported RAG formatting blocks upload rather than recoloring records.
+
+Per-card Team/RAG dropdowns use the shared dashboard scope. Charts and cards retain all effective fill variants. No separate RAG-style legend or source-color-code labels are shown.
+
+QA (requires Python Playwright/Chromium):
+
+```bash
+python3 scripts/qa_dashboard.py https://esaonc-ai.github.io/it-leadership-dashboard/ --output qa-public
+```
+
+The source workbook is never re-saved through an Excel library; its byte hash is checked against both online and offline downloads.

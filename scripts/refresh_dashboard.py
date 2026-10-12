@@ -14,6 +14,7 @@ from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 from openpyxl import load_workbook
+from openpyxl.formula.translate import Translator
 
 
 DATA_PATTERN = re.compile(
@@ -41,7 +42,7 @@ def percentage(value: object) -> int | None:
     try:
         number = Decimal(raw)
     except Exception as exc:
-        raise ValueError(f"Unsupported completion value: {value!r}") from exc
+        return None
     if not already_percent and abs(number) <= 1:
         number *= 100
     if not number.is_finite() or not 0 <= number <= 100:
@@ -77,6 +78,29 @@ def rag_from_status(status: str) -> str | None:
     return None
 
 
+def evaluate_expression(formula: str, sheet: object) -> bool:
+    """Strict subset of Excel boolean SEARCH expressions; fail closed."""
+    token = re.compile(r'ISNUMBER\(SEARCH\("([^"]*)",(\$?[A-Z]+\$?\d+)\)\)')
+    formula = token.sub(lambda m: "True" if m[1].casefold() in text(sheet[m[2].replace("$", "")].value).casefold() else "False", formula)
+    formula = re.sub(r'(\$?[A-Z]+\$?\d+)<>""', lambda m: "True" if text(sheet[m[1].replace("$", "")].value) else "False", formula)
+    def parse(value):
+        if value in ("True", "False"):
+            return value == "True"
+        m = re.fullmatch(r"(OR|AND|NOT)\((.*)\)", value)
+        if not m:
+            raise ValueError(f"Unsupported RAG expression: {value}")
+        parts, depth, start = [], 0, 0
+        for i, char in enumerate(m[2]):
+            if char == "(": depth += 1
+            elif char == ")": depth -= 1
+            elif char == "," and not depth:
+                parts.append(m[2][start:i]); start = i + 1
+        parts.append(m[2][start:])
+        args = [parse(x) for x in parts]
+        return any(args) if m[1] == "OR" else all(args) if m[1] == "AND" else not args[0]
+    return parse(formula)
+
+
 def source_style(cell: object) -> tuple[str | None, str | None]:
     fill = None
     if getattr(cell.fill, "fill_type", None):
@@ -90,9 +114,15 @@ def source_style(cell: object) -> tuple[str | None, str | None]:
             applicable.extend(rules)
     fill_set = font_set = False
     for rule in sorted(applicable, key=lambda r: r.priority):
-        if rule.type != "containsText":
+        if rule.type == "containsText":
+            matches = bool(rule.text and rule.text.casefold() in text(cell.value).casefold())
+        elif rule.type == "expression":
+            origin = next(str(cf.sqref).split()[0].split(":")[0] for cf, rr in cell.parent.conditional_formatting._cf_rules.items() if rule in rr and cell.coordinate in cf.sqref)
+            formula = Translator("=" + rule.formula[0], origin=origin).translate_formula(cell.coordinate)[1:]
+            matches = evaluate_expression(formula, cell.parent)
+        else:
             raise ValueError(f"Unsupported RAG formatting rule: {cell.parent.title}!{cell.coordinate}: {rule.type}")
-        if not rule.text or rule.text.casefold() not in text(cell.value).casefold():
+        if not matches:
             continue
         dxf = rule.dxf
         if dxf:
@@ -117,11 +147,11 @@ def record_from_row(sheet: object, row_number: int) -> dict[str, object] | None:
     if not any(value not in (None, "") for value in values):
         return None
     if not text(values[0]) or not text(values[1]):
-        raise ValueError(f"{sheet.title}!{row_number} has data but no Project / Workstream")
+        return None
 
-    explicit_rag = text(values[3]).title()
+    explicit_rag = text(values[3])
     status = text(values[2])
-    if explicit_rag in SUPPORTED_RAGS and is_percentage_value(values[6]):
+    if explicit_rag and not (is_percentage_value(values[5]) and not is_percentage_value(values[6])):
         status = text(values[2])
         rag = explicit_rag
         style_cell = sheet.cell(row_number, 4)
@@ -157,6 +187,7 @@ def record_from_row(sheet: object, row_number: int) -> dict[str, object] | None:
         "start": text(start),
         "finish": text(finish),
         "completion": percentage(completion),
+        "completionSource": text(completion),
         "objective": text(objective),
         "progress": text(progress),
         "next": text(next_step),
@@ -164,7 +195,7 @@ def record_from_row(sheet: object, row_number: int) -> dict[str, object] | None:
         "risks": text(risks),
         "attention": text(attention),
         "source": "Embedded workbook image; view in source workbook" if text(source).startswith("=_xlfn.DISPIMG(") else text(source),
-        "sourceLayout": "shifted" if explicit_rag in SUPPORTED_RAGS and not is_percentage_value(values[6]) else "standard",
+        "sourceLayout": "shifted" if explicit_rag in SUPPORTED_RAGS and is_percentage_value(values[5]) and not is_percentage_value(values[6]) else "standard",
         "sourceRow": row_number,
     }
 
@@ -173,10 +204,11 @@ def build_records(workbook_path: Path) -> list[dict[str, object]]:
     workbook = load_workbook(workbook_path, data_only=False, read_only=False)
     records: list[dict[str, object]] = []
     for sheet in workbook.worksheets:
-        headers = [text(sheet.cell(1, c).value) for c in range(1, 15)]
-        if headers[:4] != ["#", "Project / Workstream", "Status", "RAG Status"]:
+        header_row = next((r for r in range(1, min(sheet.max_row, 20) + 1)
+                           if [text(sheet.cell(r, c).value) for c in range(1, 5)] == ["#", "Project / Workstream", "Status", "RAG Status"]), None)
+        if header_row is None:
             continue
-        for row_number in range(2, sheet.max_row + 1):
+        for row_number in range(header_row + 1, sheet.max_row + 1):
             record = record_from_row(sheet, row_number)
             if record:
                 record["index"] = len(records)
