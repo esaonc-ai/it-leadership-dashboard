@@ -61,7 +61,12 @@
       "Green"
     ]
   ],
-  "passedAssertions": 5071,
+  "dropdowns": {
+    "Team": 1,
+    "RAG": 1,
+    "total": 2
+  },
+  "passedAssertions": 5090,
   "browserErrors": [],
   "status": "PASS"
 }

@@ -26,7 +26,7 @@ Additional IoT observation: A2 still states reporting date 2026-08-23 and refere
 - `Source_Field_Gaps.csv` lists exact coordinates and supplied values for every unspecified/relative/not-applicable date.
 
 ## QA
-Local standalone end-to-end QA passed: 5,071 assertions, 13 represented Team → RAG combinations, all 128 detail views, all per-card controls, invalid prior RAG reset, deliberately empty search, restoration, computed badge/chart colors, named chart totals, KPI color-strip proportions, whole percentages and estimated delivery values. Independent expected RAG styles were evaluated from raw XLSX XML using the browser reader, separately from the Python generation path. 37 cells have conditional fill overrides; eight effective RAG fill/font variants are retained. Unsupported XML extensions were inspected; they affect data bars in F/G/K or repeated columns, not canonical RAG D cells.
+Initial refresh local standalone end-to-end QA passed: 5,071 assertions, 13 represented Team → RAG combinations, all 128 detail views, then-existing per-card controls, invalid prior RAG reset, deliberately empty search, restoration, computed badge/chart colors, named chart totals, KPI color-strip proportions, whole percentages and estimated delivery values. Independent expected RAG styles were evaluated from raw XLSX XML using the browser reader, separately from the Python generation path. 37 cells have conditional fill overrides; eight effective RAG fill/font variants are retained. Unsupported XML extensions were inspected; they affect data bars in F/G/K or repeated columns, not canonical RAG D cells.
 
 Triggered workbook and dashboard downloads work; downloaded HTML reopens offline and produces a byte-identical workbook. Valid future-week local upload and snapshot downloads work; invalid upload leaves the last validated payload unchanged. Desktop/mobile screenshots inspected. No console/page errors. Neutral dashboard/download labels; no separate RAG-style/color-code legend; no CDN/internal runtime API/login dependency.
 
@@ -36,3 +36,9 @@ Verified anonymous URL: https://esaonc-ai.github.io/it-leadership-dashboard/
 GitHub Pages served the 12 October build with 128 records before public tests ran. Deployed build commit: `0095678`. Public end-to-end QA passed **5,071 assertions**, all 13 represented Team/RAG combinations and 128 detail views, zero browser console/page errors. Publicly triggered downloads, downloaded offline HTML, upload snapshots and byte-identical workbook downloads passed. The anonymous static workbook URL also returned HTTP 200 with the same source hash. Repo and Pages are public; no authentication is needed. See `QA_PUBLIC_RESULTS.json`.
 
 **Remaining blockers:** none for deployment or dashboard QA. Remaining issues are the source-field gaps and IoT caveats above; edits require source-owner authorization. Confirm the IoT Phase 2 Green/20% change and stale August sheet banner with its owner if needed.
+
+
+## Filter simplification requested after refresh
+Regenerated the same dashboard with exactly **one shared Team dropdown and one shared RAG dropdown**. Removed all duplicate per-card dropdowns; cascading Team → RAG options remain. No data refresh or other feature changes were made. Payload and original/source workbook bytes are unchanged.
+
+Verified build `3cd0971` anonymously at the same public URL. Local and deployed end-to-end QA each passed **5,090 assertions**, including exactly two dropdowns after filtering and offline reopening, all 13 Team/RAG combinations, 128 details, source RAG colors, dates and whole percentages, both download actions, future-week upload and invalid-upload protection. Zero browser errors; no new issues. `QA_PUBLIC_RESULTS.json` now contains these latest results.
