@@ -1,0 +1,67 @@
+{
+  "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+  "sourceSha256": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d",
+  "records": 128,
+  "rags": {
+    "Amber": 78,
+    "Green": 48,
+    "Red": 2
+  },
+  "teamRagCombinations": [
+    [
+      "Compliance Program",
+      "Amber"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Red"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Amber"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Green"
+    ],
+    [
+      "IoT",
+      "Green"
+    ],
+    [
+      "R&D AI",
+      "Green"
+    ],
+    [
+      "Security",
+      "Amber"
+    ],
+    [
+      "Security",
+      "Green"
+    ],
+    [
+      "UNIS ITEM- eHub integration",
+      "Amber"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Amber"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Green"
+    ],
+    [
+      "WCS Engineering",
+      "Amber"
+    ],
+    [
+      "WCS Engineering",
+      "Green"
+    ]
+  ],
+  "passedAssertions": 5071,
+  "browserErrors": [],
+  "status": "PASS"
+}

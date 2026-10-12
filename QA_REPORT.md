@@ -30,4 +30,9 @@ Local standalone end-to-end QA passed: 5,071 assertions, 13 represented Team →
 
 Triggered workbook and dashboard downloads work; downloaded HTML reopens offline and produces a byte-identical workbook. Valid future-week local upload and snapshot downloads work; invalid upload leaves the last validated payload unchanged. Desktop/mobile screenshots inspected. No console/page errors. Neutral dashboard/download labels; no separate RAG-style/color-code legend; no CDN/internal runtime API/login dependency.
 
-Public deployment QA is executed after GitHub Pages serves the new payload; its results are supplied with the delivery.
+## Public deployment verification
+Verified anonymous URL: https://esaonc-ai.github.io/it-leadership-dashboard/
+
+GitHub Pages served the 12 October build with 128 records before public tests ran. Deployed build commit: `0095678`. Public end-to-end QA passed **5,071 assertions**, all 13 represented Team/RAG combinations and 128 detail views, zero browser console/page errors. Publicly triggered downloads, downloaded offline HTML, upload snapshots and byte-identical workbook downloads passed. The anonymous static workbook URL also returned HTTP 200 with the same source hash. Repo and Pages are public; no authentication is needed. See `QA_PUBLIC_RESULTS.json`.
+
+**Remaining blockers:** none for deployment or dashboard QA. Remaining issues are the source-field gaps and IoT caveats above; edits require source-owner authorization. Confirm the IoT Phase 2 Green/20% change and stale August sheet banner with its owner if needed.
