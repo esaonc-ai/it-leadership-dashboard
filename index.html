@@ -21,10 +21,6 @@
 
     * { box-sizing: border-box; }
     [hidden] { display: none !important; }
-    .card-wrap .kpi { width:100%; }
-    .card-controls { display:flex; gap:8px; padding:8px; background:white; border:1px solid #d6dde7; border-top:0; }
-    .card-controls label { flex:1; min-width:0; font-size:11px; }
-    .card-controls select { width:100%; min-width:0; font-size:11px; }
     body { margin: 0; background: var(--bg); color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
     button, input, select { font: inherit; }
     button, select { cursor: pointer; }
@@ -166,7 +162,7 @@
       <label class="control" for="rag">RAG
         <select id="rag"></select>
       </label>
-      <span class="filter-note">Choose a Team first; RAG lists only applicable values. Card dropdowns use the same dashboard scope.</span>
+      <span class="filter-note">Choose a Team first; RAG lists only applicable values.</span>
     </section>
 
     <div class="grid">
@@ -316,9 +312,6 @@ function parseWeeklyWorkbook(bytes) {
       return `<span class="badge" data-rag="${escapeHtml(record.rag)}" data-rag-fill="${escapeHtml(record.ragFill)}" style="background-color:${record.ragFill};color:${font}">${escapeHtml(record.rag)}</span>`;
     }
 
-    function cardControls() {
-      return `<div class="card-controls"><label>Team<select class="card-team" aria-label="Card Team">${optionMarkup(teams.map(value=>({value,label:value})), 'All teams')}</select></label><label>RAG<select class="card-rag" aria-label="Card RAG">${optionMarkup(applicableRags().map(value=>({value,label:ragLabel(value==='__none__'?null:value)})), 'All applicable RAGs')}</select></label></div>`;
-    }
     function renderCards(data) {
       const available = applicableRags();
       const allCard = `<button class="kpi ${!ragSelect.value ? 'active' : ''}" type="button" data-rag-filter="" style="border-top-color:var(--blue)"><span class="num">${data.length}</span><span class="percent">${percentage(data.length, data.length)}</span><div class="label">Visible records</div></button>`;
@@ -327,9 +320,7 @@ function parseWeeklyWorkbook(bytes) {
         const label = ragLabel(key === '__none__' ? null : key);
         return `<button class="kpi ${ragSelect.value === key ? 'active' : ''}" type="button" data-rag-filter="${escapeHtml(key)}"${ragIndicatorStyle(key)}><span class="num">${count}</span><span class="percent">${percentage(count, data.length)}</span><div class="label">${escapeHtml(label)}</div></button>`;
       }).join('');
-      byId('cards').innerHTML = (allCard + ragCards).replace(/(<button.*?<\/button>)/gs, '<div class="card-wrap">$1'+cardControls()+'</div>');
-      byId('cards').querySelectorAll('.card-team').forEach(select=>{select.value=teamSelect.value;select.addEventListener('change',()=>{teamSelect.value=select.value;refreshRagOptions();render();});});
-      byId('cards').querySelectorAll('.card-rag').forEach(select=>{select.value=ragSelect.value;select.addEventListener('change',()=>{ragSelect.value=select.value;render();});});
+      byId('cards').innerHTML = allCard + ragCards;
       byId('cards').querySelectorAll('[data-rag-filter]').forEach((button) => button.addEventListener('click', () => {
         ragSelect.value = button.dataset.ragFilter;
         render();

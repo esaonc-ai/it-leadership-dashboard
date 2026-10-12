@@ -21,6 +21,7 @@ with sync_playwright() as p:
    check(a[key]==e[key],f"{a['team']} row {a['sourceRow']}: {key} reconciled")
  check(Counter(x['rag'] for x in expected)=={'Amber':78,'Green':48,'Red':2},'78 Amber / 48 Green / 2 Red reconciled')
  def assert_view(selected):
+  check(page.locator('select').count()==2,'Exactly two dropdowns retained after filtering')
   rows=page.locator('#rows tr');check(rows.count()==len(selected),'Filtered record count')
   for i,r in enumerate(selected):
    badge=rows.nth(i).locator('.badge');check(badge.inner_text()==r['rag'],'Exact canonical RAG label');check(badge.evaluate('(el)=>getComputedStyle(el).backgroundColor')==rgb(r['ragFill']),'Computed badge fill matches independently evaluated XLSX formatting');check(badge.evaluate('(el)=>getComputedStyle(el).color')==rgb(r['ragFont'] or '#000000'),'Computed badge font matches independently evaluated XLSX formatting');cells=rows.nth(i).locator('td');check(cells.nth(3).inner_text()==(str(r['completion'])+'%' if r['completion'] is not None else r['completionSource'] or 'Not provided'),'Whole-number percentage or unchanged source text');check(cells.nth(4).inner_text()==(r['finish'] or 'Not provided'),'Estimated delivery date preserved')
@@ -50,9 +51,7 @@ with sync_playwright() as p:
    page.select_option('#rag',rag);assert_view([r for r in expected if r['team']==team and r['rag']==rag]);combinations.append([team,rag])
  page.select_option('#team','Infrastructure & Cloud');page.select_option('#rag','Red');page.select_option('#team','IoT');check(page.locator('#rag').input_value()=='','Inapplicable prior RAG resets when team changes')
  page.click('#clear')
- for index in range(4):
-  page.locator('.card-team').nth(index).select_option('Infrastructure & Cloud');page.locator('.card-rag').nth(index).select_option('Red');check(page.locator('#rows tr').count()==2,'Every card Team → RAG controls work');page.click('#clear')
- page.locator('.card-team').nth(0).select_option('Infrastructure & Cloud');page.locator('.card-rag').nth(0).select_option('Red');check(page.locator('#rows tr').count()==2,'Card Team → RAG dropdowns functional');page.click('#clear');page.locator('[data-rag-filter="Amber"]').click();check(page.locator('#rows tr').count()==78,'RAG card click functional');page.click('#clear')
+ check(page.locator('select').count()==2 and page.locator('#team').count()==1 and page.locator('#rag').count()==1,'Exactly one Team dropdown and one RAG dropdown, no duplicates');page.locator('[data-rag-filter="Amber"]').click();check(page.locator('#rows tr').count()==78,'RAG card click functional');page.click('#clear')
  for r in expected:
   page.locator(f'tr[data-record-index="{r["index"]}"]').click();check(page.locator('#modalTitle').text_content()==r['project'],'Record detail opens');check(page.locator('#detail').inner_text().find('Estimated delivery date')>=0,'Details contain estimated delivery date');page.click('#close')
  page.fill('#search','__NO_MATCH_QA_9351__');check(page.locator('#rows tr').count()==0,'No-match filter has no blank records');check(not page.locator('#cards').is_visible() and not page.locator('.grid').is_visible() and not page.locator('table').is_visible(),'Empty panels suppressed in actual browser');page.click('#clear');check(page.locator('#rows tr').count()==128 and page.locator('.grid').is_visible(),'Panels return when filters cleared')
@@ -61,7 +60,7 @@ with sync_playwright() as p:
   with page.expect_download() as download:page.click(button)
   download.value.save_as(out/filename)
  check(hashlib.sha256((out/'public-workbook.xlsx').read_bytes()).hexdigest()==sha,'Triggered public workbook download is byte-identical')
- offline=context.new_page();offline.on('pageerror',lambda e:errors.append(str(e)));context.set_offline(True);offline.goto((out/'dashboard.html').resolve().as_uri());check(offline.locator('#rows tr').count()==128,'Downloaded dashboard opens offline without external dependencies')
+ offline=context.new_page();offline.on('pageerror',lambda e:errors.append(str(e)));context.set_offline(True);offline.goto((out/'dashboard.html').resolve().as_uri());check(offline.locator('#rows tr').count()==128,'Downloaded dashboard opens offline without external dependencies');check(offline.locator('select').count()==2,'Downloaded standalone dashboard also has only Team and RAG dropdowns')
  with offline.expect_download() as dl:offline.click('#downloadWorkbook')
  dl.value.save_as(out/'offline-workbook.xlsx');check(hashlib.sha256((out/'offline-workbook.xlsx').read_bytes()).hexdigest()==sha,'Offline dashboard workbook download is byte-identical');context.set_offline(False)
  # Local future-week upload proves bytes/payload change only after valid parsing.
@@ -73,4 +72,4 @@ with sync_playwright() as p:
  invalid=out/'invalid.xlsx';invalid.write_bytes(b'not a workbook');before=page.evaluate('dashboardData.sourceSha256');page.set_input_files('#uploadWorkbook',invalid);page.wait_for_function("document.getElementById('statusMessage').textContent.startsWith('Workbook not loaded:')");check(page.evaluate('dashboardData.sourceSha256')==before,'Invalid upload does not replace workbook payload')
  page.goto(args.url,wait_until='networkidle');page.set_viewport_size({'width':390,'height':844});page.screenshot(path=str(out/'mobile.png'));check(page.locator('#downloadWorkbook').is_visible(),'Mobile download actions visible');check(not errors,'No browser console/page errors');check(hashlib.sha256(source.read_bytes()).hexdigest()==sha,'Original attachment remains unchanged')
  browser.close()
-summary={'url':args.url,'sourceSha256':sha,'records':128,'rags':dict(Counter(r['rag'] for r in expected)),'teamRagCombinations':combinations,'passedAssertions':len(checks),'browserErrors':errors,'status':'PASS'};(out/'qa-results.json').write_text(json.dumps(summary,indent=2));print(json.dumps(summary,indent=2))
+summary={'url':args.url,'sourceSha256':sha,'records':128,'rags':dict(Counter(r['rag'] for r in expected)),'teamRagCombinations':combinations,'dropdowns':{'Team':1,'RAG':1,'total':2},'passedAssertions':len(checks),'browserErrors':errors,'status':'PASS'};(out/'qa-results.json').write_text(json.dumps(summary,indent=2));print(json.dumps(summary,indent=2))

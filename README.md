@@ -27,7 +27,7 @@ IoT now has its headers on row 3 and five records in rows 4–8. Columns are nor
 
 Local upload of a compatible future-week XLSX is supported. Choose the reporting week then upload. Parsing and validation occur entirely in the browser; the exact original bytes replace the download payload only after validation. Download the refreshed standalone HTML to retain the snapshot. This does not publish local uploads to GitHub. Unsupported RAG formatting blocks upload rather than recoloring records.
 
-Per-card Team/RAG dropdowns use the shared dashboard scope. Charts and cards retain all effective fill variants. No separate RAG-style legend or source-color-code labels are shown.
+Exactly one shared Team dropdown and one shared RAG dropdown control the dashboard; RAG options cascade from Team. Duplicate per-card dropdowns have been removed. Charts and cards retain all effective fill variants. No separate RAG-style legend or source-color-code labels are shown.
 
 QA (requires Python Playwright/Chromium):
 
