@@ -1,38 +1,32 @@
 # IT Program Leadership Dashboard
 
-Public, no-login, weekly-only leadership dashboard. The site is fully static and can be opened directly from `index.html` or served by GitHub Pages.
+Public, anonymous, weekly-only dashboard at https://esaonc-ai.github.io/it-leadership-dashboard/. This is the existing static GitHub Pages app; no build or runtime dependencies are required. Its design and downloads are retained.
 
-## Public usage
+Current source: **IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx**, reporting week **18 October 2026**. Selected by the version/reporting date in the attachment name, ahead of the repository's 12 October source; filesystem timestamps were not used. All eight sheets reconcile to **133 records: 74 Amber, 56 Green, 3 Red**.
 
-- Use the Team filter first; the RAG filter then lists only values represented for that team.
-- Counts, whole-number percentages, team health bars, and the record table update immediately.
-- Use **Download source workbook** for the public `Weekly_Leadership_Source_Workbook.xlsx` copy.
-- Use **Download IT Program Leadership Dashboard** for a standalone HTML snapshot. The exact source workbook bytes are embedded; both downloads work offline.
+Use the single **Team** dropdown followed by the single **RAG** dropdown. Available RAG values cascade from Team; an unavailable previous RAG resets. Search, summary cards, reset, charts and detail views use the same selection. Percentages are whole numbers. Dates, TBD, N/A and relative estimates retain source meaning. Optional missing fields do not exclude records.
 
-## Weekly refresh
+**Download source workbook** returns the original XLSX bytes. **Download IT Program Leadership Dashboard** saves a standalone HTML snapshot with the exact workbook embedded; it works offline, including filters, details and workbook download. There is no RAG-style legend or color-code text. Badges, chart segments and summary strips retain effective source-cell formatting, including conditional formatting.
 
-Requires Python 3 and `openpyxl`. From this directory, run:
+Local workbook upload parses entirely in the browser. Choose a reporting week, upload a compatible XLSX, then download the dashboard to retain the snapshot. Loading, success, validation and failure states are visible; invalid input preserves the last validated snapshot. Local upload does not publish to GitHub.
 
-```bash
-python3 scripts/refresh_dashboard.py /path/to/current-week.xlsx --report-date YYYY-MM-DD
-```
+## Refresh and QA
 
-The refresh includes every compatible-sheet workbook row with an identifier and Project / Workstream value, supports the standard schema and shifted schemas where RAG may be embedded in Status or an explicit RAG is present while Start Date is omitted, converts decimal or whole completion values to whole-number percentages, copies the workbook under the neutral public filename, and retains effective source-cell RAG fill/font colors, including matching conditional formatting. Records without a supported source RAG remain neutral.
-
-Before publishing, verify record and Team/RAG totals against the workbook, check browser console output, test the cascading filters, and trigger both public downloads. No build step, server, authentication, or external service is required.
-
-Current reporting week: **12 October 2026**. Refreshed from the newest attached weekly workbook. 128 records: 78 Amber, 48 Green, 2 Red across 8 teams. Both explicit-RAG schemas and title/header rows are discovered; completion text (including TBD) is preserved and excluded from numeric averages.
-
-IoT now has its headers on row 3 and five records in rows 4–8. Columns are normalized in the attachment (completion G, owner K); no source edits were made by the dashboard. Start/delivery E4:F8 remain TBD. The former image error is now at N6 (cached #NAME?); N8 notes remain blank. A2 still carries a 23 August reporting date. See `QA_REPORT.md` for reconciliation and remaining source-field gaps.
-
-Local upload of a compatible future-week XLSX is supported. Choose the reporting week then upload. Parsing and validation occur entirely in the browser; the exact original bytes replace the download payload only after validation. Download the refreshed standalone HTML to retain the snapshot. This does not publish local uploads to GitHub. Unsupported RAG formatting blocks upload rather than recoloring records.
-
-Exactly one shared Team dropdown and one shared RAG dropdown control the dashboard; RAG options cascade from Team. Duplicate per-card dropdowns have been removed. Charts and cards retain all effective fill variants. No separate RAG-style legend or source-color-code labels are shown.
-
-QA (requires Python Playwright/Chromium):
+Requires Python 3 with `openpyxl`; browser QA additionally requires `playwright` and its Chromium browser. From the application directory:
 
 ```bash
-python3 scripts/qa_dashboard.py https://esaonc-ai.github.io/it-leadership-dashboard/ --output qa-public
+python scripts/refresh_dashboard.py '/path/to/weekly.xlsx' --report-date YYYY-MM-DD
+python scripts/audit_workbook.py '/path/to/weekly.xlsx' --output qa-local
+python -m http.server 3000 --bind 0.0.0.0
 ```
 
-The source workbook is never re-saved through an Excel library; its byte hash is checked against both online and offline downloads.
+In a second shell, run:
+
+```bash
+python scripts/qa_dashboard.py http://127.0.0.1:3000/ --workbook '/path/to/weekly.xlsx' --report-date YYYY-MM-DD --output qa-local
+python scripts/qa_dashboard.py https://esaonc-ai.github.io/it-leadership-dashboard/ --workbook '/path/to/weekly.xlsx' --report-date YYYY-MM-DD --output qa-public
+```
+
+The audit reads every worksheet, checks row mapping and cached formula errors, and writes `Source_Field_Gaps.csv` plus a detailed JSON audit. Browser expectations independently read raw source XLSX XML and effective formatting, separately from Python generation. Evidence directories contain HTTP/page snapshots, screenshots, downloaded offline dashboards/workbooks, and QA results. They are excluded from publication. See `QA_REPORT.md`, `QA_LOCAL_RESULTS.json`, and `QA_PUBLIC_RESULTS.json` for this refresh's outcomes and remaining source issues.
+
+No build/typecheck step applies to this plain HTML/JavaScript app. Use `python -m py_compile scripts/*.py` and `node --check` for JavaScript syntax, including extracted inline scripts. Stop temporary verification servers after QA. For a managed preview, run the static-server command above from the application directory on port **3000**. It accepts arbitrary Host headers.

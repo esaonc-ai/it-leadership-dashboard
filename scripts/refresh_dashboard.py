@@ -231,6 +231,8 @@ def main() -> None:
         raise SystemExit("--report-date must use YYYY-MM-DD") from exc
 
     project_dir = Path(__file__).resolve().parent.parent
+    source_bytes = workbook_path.read_bytes()
+    source_hash = hashlib.sha256(source_bytes).hexdigest()
     index_path = project_dir / "index.html"
     records = build_records(workbook_path)
     if not records:
@@ -239,8 +241,8 @@ def main() -> None:
     payload = {
         "reportDate": args.report_date,
         "sourceFile": SOURCE_FILENAME,
-        "sourceWorkbookBase64": base64.b64encode(workbook_path.read_bytes()).decode("ascii"),
-        "sourceSha256": hashlib.sha256(workbook_path.read_bytes()).hexdigest(),
+        "sourceWorkbookBase64": base64.b64encode(source_bytes).decode("ascii"),
+        "sourceSha256": source_hash,
         "dashboardFile": "IT_Program_Leadership_Dashboard_Weekly.html",
         "records": records,
     }
@@ -251,8 +253,12 @@ def main() -> None:
         raise SystemExit("Dashboard data marker was not found exactly once")
     index_path.write_text(updated, encoding="utf-8")
     shutil.copyfile(workbook_path, project_dir / SOURCE_FILENAME)
+    if any(hashlib.sha256(path.read_bytes()).hexdigest() != source_hash
+           for path in (workbook_path, project_dir / SOURCE_FILENAME)):
+        raise SystemExit("Source workbook integrity check failed")
     print(f"Updated {index_path} with {len(records)} records")
     print(f"Copied source workbook to {project_dir / SOURCE_FILENAME}")
+    print(f"Unchanged source and public copy SHA-256: {source_hash}")
 
 
 if __name__ == "__main__":

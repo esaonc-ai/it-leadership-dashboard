@@ -1,44 +1,55 @@
-# Weekly dashboard refresh — 12 October 2026
+# Weekly dashboard refresh — 18 October 2026
 
-## Source integrity and reconciliation
-- Existing dashboard/repository retained; no replacement site created.
-- Newest supplied attachment is the 12 October weekly workbook. Current payload is 128 genuine workstream records across eight teams. No valid records were excluded because of unspecified optional fields.
-- 78 Amber, 48 Green, 2 Red. Previous 5 October payload: 111 records (62 Amber, 47 Green, 2 Red). Infrastructure increases from 51 to 61 and eHub integration from 1 to 8.
-- Team counts: Infrastructure & Cloud 61; Compliance Program 16; UNIS.CO Email & Ticketing 14; Security 9; WCS Engineering 8; eHub integration 8; R&D AI 7; IoT 5.
-- Attachment and public copy SHA-256: `d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d`.
-- Workbook bytes are copied/embedded unchanged, not re-saved. Source edits were neither authorized nor made.
+## Source selection and integrity
 
-## Prior IoT issues rechecked against both workbooks
-| Prior issue | 12 October finding |
-|---|---|
-| Five shifted data rows 2–6 | Resolved in the supplied source: title rows 1–2, headers row 3, records rows 4–8; completion now G, owners K, notes N. Dashboard discovers the header instead of dropping IoT. |
-| No start dates | Still no actual dates: E4:E8 are explicitly TBD. Estimated delivery F4:F8 is also TBD. No dates fabricated from target text in C. |
-| M4 image formula cached #NAME? | Persists at N6: `_xlfn.DISPIMG` formula, cached `#NAME?`. Dashboard uses a neutral workbook-image reference; original image/formula bytes retained. |
-| Row 6 missing notes (M6) | Persists for the same Phase 2 workstream, now N8 blank. No substitute notes created. |
+Existing repository and static dashboard retained: https://github.com/esaonc-ai/it-leadership-dashboard. Public URL: https://esaonc-ai.github.io/it-leadership-dashboard/.
 
-Additional IoT observation: A2 still states reporting date 2026-08-23 and references an August roadmap. Dashboard weekly scope uses the supplied 12 October file, not this stale sheet banner. Source change to note: Phase 2 workstream is now Green / 20%, versus Amber / 90% in the previous workbook. Both new values are faithfully reported; confirm with the owner if unexpected.
+Available candidates were the attached `IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx` and the repository's 12 October workbook (128 records, 78 Amber / 48 Green / 2 Red). Selected version v1.0 dated 18 October by reporting filename date, not filesystem or document modified timestamp. No additional workbook download was needed.
 
-## Optional source-field gaps, not missing records
-- Start dates: 82 valid calendar dates; 46 TBD; zero blank/invalid date literals.
-- Estimated delivery: 6 valid calendar dates, 105 TBD, 13 N/A, 4 relative/unscheduled estimates (R&D AI F3, F5:F7). No invalid calendar date literals. Text is displayed as supplied, not converted to guessed dates.
-- Eight nonnumeric completion cells: Infrastructure & Cloud G10, G53:G57, G59:G60. G10 states "TBD - 3 AP replacements remaining"; the other seven state TBD. Preserved as text; excluded from the numeric completion average (120 numeric records; displayed average 74%).
-- Source/notes gap: IoT N8. Cached formula error: IoT N6 only in A:N across included sheets.
-- `Source_Field_Gaps.csv` lists exact coordinates and supplied values for every unspecified/relative/not-applicable date.
+Original SHA-256 before refresh, after audit/QA, copied workbook, embedded workbook and downloaded workbook:
 
-## QA
-Initial refresh local standalone end-to-end QA passed: 5,071 assertions, 13 represented Team → RAG combinations, all 128 detail views, then-existing per-card controls, invalid prior RAG reset, deliberately empty search, restoration, computed badge/chart colors, named chart totals, KPI color-strip proportions, whole percentages and estimated delivery values. Independent expected RAG styles were evaluated from raw XLSX XML using the browser reader, separately from the Python generation path. 37 cells have conditional fill overrides; eight effective RAG fill/font variants are retained. Unsupported XML extensions were inspected; they affect data bars in F/G/K or repeated columns, not canonical RAG D cells.
+`53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147`
 
-Triggered workbook and dashboard downloads work; downloaded HTML reopens offline and produces a byte-identical workbook. Valid future-week local upload and snapshot downloads work; invalid upload leaves the last validated payload unchanged. Desktop/mobile screenshots inspected. No console/page errors. Neutral dashboard/download labels; no separate RAG-style/color-code legend; no CDN/internal runtime API/login dependency.
+The workbook is read only, copied/embedded byte for byte and never re-saved through an Excel library. Unsupported extension warnings were investigated in raw XML: the extended rules are data bars in F/G/K, not RAG column D; original XML extensions and images remain in the unchanged download.
 
-## Public deployment verification
-Verified anonymous URL: https://esaonc-ai.github.io/it-leadership-dashboard/
+## All-worksheet reconciliation
 
-GitHub Pages served the 12 October build with 128 records before public tests ran. Deployed build commit: `0095678`. Public end-to-end QA passed **5,071 assertions**, all 13 represented Team/RAG combinations and 128 detail views, zero browser console/page errors. Publicly triggered downloads, downloaded offline HTML, upload snapshots and byte-identical workbook downloads passed. The anonymous static workbook URL also returned HTTP 200 with the same source hash. Repo and Pages are public; no authentication is needed. See `QA_PUBLIC_RESULTS.json`.
+| Team / worksheet | Records | Amber | Green | Red | Included rows |
+|---|---:|---:|---:|---:|---|
+| Security | 9 | 3 | 6 | 0 | 2–5, 8–12 |
+| Infrastructure & Cloud | 63 | 43 | 20 | 0 | 2–64 |
+| IoT | 5 | 0 | 5 | 0 | 4–8 |
+| R&D AI | 9 | 0 | 9 | 0 | 2–10 |
+| WCS Engineering | 8 | 3 | 4 | 1 | 2–9 |
+| Compliance Program | 16 | 14 | 0 | 2 | 2–17 |
+| UNIS.CO Email & Ticketing | 14 | 2 | 12 | 0 | 2–15 |
+| UNIS ITEM- eHub integration | 9 | 9 | 0 | 0 | 2–10 |
+| **Total** | **133** | **74** | **56** | **3** | |
 
-**Remaining blockers:** none for deployment or dashboard QA. Remaining issues are the source-field gaps and IoT caveats above; edits require source-owner authorization. Confirm the IoT Phase 2 Green/20% change and stale August sheet banner with its owner if needed.
+All eight worksheets are visible and use A:N: identifier A, project B, status C, RAG D, start E, completion/delivery F, percentage G, objective H, progress I, next steps J, owner K, risk L, attention M, notes N. IoT has a row-3 header; the others have row-1 headers. All valid rows, including records with absent optional notes, are included. Security rows 6–7 contain only Green in D and old note references in N, without identifier, project or workstream details; audited as orphan remnants, not invented records or reassigned notes. R&D AI rows 11–15 contain formatting only. IoT rows 1–2 are title/banner rows.
 
+Compared with 12 October: Infrastructure adds IDs 62–64 and no longer contains former ID 19 (UNIS.CO Email Transition & Ticketing Integration); R&D AI adds IDs 8–9; eHub adds ID 9. Net change +5. This reports the current workbook, without merging history into weekly totals.
 
-## Filter simplification requested after refresh
-Regenerated the same dashboard with exactly **one shared Team dropdown and one shared RAG dropdown**. Removed all duplicate per-card dropdowns; cascading Team → RAG options remain. No data refresh or other feature changes were made. Payload and original/source workbook bytes are unchanged.
+Effective source RAG fills/fonts include six combinations: 71 Amber with dark amber font, 3 Amber with black font; 42 Green with dark green font, 9 Green with black font, 5 IoT Green with its distinct pale green fill/font; 3 Red. Colors are audited independently from raw XML (including rule priorities and translated formulas) and checked against actual computed browser styles. No style legend or color strings appear in the dashboard.
 
-Verified build `3cd0971` anonymously at the same public URL. Local and deployed end-to-end QA each passed **5,090 assertions**, including exactly two dropdowns after filtering and offline reopening, all 13 Team/RAG combinations, 128 details, source RAG colors, dates and whole percentages, both download actions, future-week upload and invalid-upload protection. Zero browser errors; no new issues. `QA_PUBLIC_RESULTS.json` now contains these latest results.
+## Source issues and date fidelity
+
+- **IoT A2:** still states 23 August 2026 and an August roadmap. Dashboard reporting week uses the 18 October source date.
+- **IoT E4:E8:** TBD. **F4:F7:** now N/A, replacing the historical TBD. **F8:** TBD. No dates inferred from status or attention text.
+- **IoT N6:** `_xlfn.DISPIMG` image formula still has cached `#NAME?`. This is the sole formula/cached error across all worksheet cells. The detail view uses “Embedded workbook image; view in source workbook”; original workbook bytes retain the formula/image.
+- **IoT N8, Security N11:N12:** source notes absent. Records remain included; detail views explicitly show “Not provided.” Security orphan notes N6:N7 are not guessed to belong to other rows.
+- **IoT D8/G8:** current source remains Green / 20%. Historical Amber / 90% is not substituted or used as a current discrepancy.
+- Source starts: 77 calendar dates, 56 TBD. Delivery/completion: 4 calendar dates, 104 TBD or qualified TBD values, 19 N/A, 6 text/relative estimates. No blank date cells or invalid ISO calendar literals. All text estimates remain exact; no relative estimate is converted to an invented date.
+- Relative/text delivery cells: Infrastructure & Cloud F41; R&D AI F3, F5:F7; WCS Engineering F8. WCS F8 retains both the 31-Oct test target and early-Dec arrival/deployment qualification.
+- All 133 completion values are numeric and displayed rounded to whole percentages. Source UNIS.CO G6/G14 fractional completion values remain untouched in the XLSX.
+- `Source_Field_Gaps.csv` lists every date uncertainty/not-applicable value and absent optional field by exact sheet/cell. `qa-local/workbook-audit.json` includes every source row mapping, all non-record nonempty rows, formula caches and extended formatting ranges.
+
+## Validation and publishing
+
+Local Playwright QA passed **18,212 assertions** with zero console/page errors or failed requests. Independently reconciled all 133 records and fields; tested all 14 represented Team/RAG combinations plus unavailable options, all 24 cascade transitions, reset, summary-card filters, search and empty states; opened every record detail and checked exact dates/notes; verified actual rendered badge/chart/KPI colors and whole percentages. Desktop 1440×1000 and mobile 390×844 passed, including mobile details/download and internal table scrolling. Downloaded HTML passed the complete filter matrix offline, keyboard detail interaction and byte-identical workbook download. Valid local upload, reporting-week validation, visible loading/disabled feedback, invalid-upload protection and offline uploaded snapshots passed. Screenshots were visually inspected. Anonymous direct workbook HTTP and triggered downloads match the attachment hash.
+
+Python scripts compile; the workbook reader and every inline HTML script pass `node --check`. There is no framework build/typecheck step in this static app, and no app dependency changes were made. No operational-system write smoke tests were used; uploads are local browser-only snapshots.
+
+Local evidence: `qa-local/qa-results.json`, `workbook-audit.json`, `http.json`, `page-snapshot.html`, `page-text.txt`, `desktop.png`, `mobile.png`, `mobile-detail.png`, `dashboard.html`, `public-workbook.xlsx`, `offline-workbook.xlsx`, `mobile-workbook.xlsx`, and uploaded snapshot/download artifacts. Summary: `QA_LOCAL_RESULTS.json`.
+
+Publishing is authorized to the existing `main` branch and existing root-based GitHub Pages configuration. Public verification is pending deployment.
