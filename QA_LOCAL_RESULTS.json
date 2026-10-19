@@ -1,8 +1,8 @@
 {
   "url": "http://127.0.0.1:3000/",
   "reportDate": "2026-10-18",
-  "sourceFile": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
-  "sourceSha256": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
+  "sourceFile": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_1.xlsx",
+  "sourceSha256": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
   "records": 133,
   "rags": {
     "Amber": 74,
@@ -114,5 +114,7 @@
   "failedRequests": [],
   "offlineDashboard": "PASS",
   "downloadHashes": "PASS",
-  "status": "PASS"
+  "status": "PASS",
+  "verifiedAtUtc": "2026-10-19T03:39:05.241414+00:00",
+  "evidenceDirectory": "qa-local/revision-1"
 }

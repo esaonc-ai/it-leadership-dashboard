@@ -2,7 +2,7 @@
 
 Public, anonymous, weekly-only dashboard at https://esaonc-ai.github.io/it-leadership-dashboard/. This is the existing static GitHub Pages app; no build or runtime dependencies are required. Its design and downloads are retained.
 
-Current source: **IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx**, reporting week **18 October 2026**. Selected by the version/reporting date in the attachment name, ahead of the repository's 12 October source; filesystem timestamps were not used. All eight sheets reconcile to **133 records: 74 Amber, 56 Green, 3 Red**.
+Current source: **IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_1.xlsx**, reporting week **18 October 2026**. Selected by reporting version/date, with the latest supplied attachment taking priority over the earlier equal-dated 18 October source and the historical 12 October source; filesystem timestamps were not used. This revision changes eight Security owner/notes cells across five records, while counts and effective RAG formatting remain unchanged. See `SOURCE_COMPARISON.json` for hashes and cell changes. All eight sheets reconcile to **133 records: 74 Amber, 56 Green, 3 Red**.
 
 Use the single **Team** dropdown followed by the single **RAG** dropdown. Available RAG values cascade from Team; an unavailable previous RAG resets. Search, summary cards, reset, charts and detail views use the same selection. Percentages are whole numbers. Dates, TBD, N/A and relative estimates retain source meaning. Optional missing fields do not exclude records.
 
