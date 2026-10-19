@@ -1,8 +1,10 @@
 {
   "url": "http://127.0.0.1:3000/",
   "reportDate": "2026-10-18",
-  "sourceFile": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_4.xlsx",
-  "sourceSha256": "bfa717b9374fa262449994b49b8965b4f1d631e2281795d555950f2d542236ec",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
+  "sourceSha256": "cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8",
+  "dashboardTitle": "IT & Technology Program Leadership Dashboard",
+  "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
   "records": 133,
   "rags": {
     "Amber": 74,
@@ -109,12 +111,12 @@
     "1440x1000",
     "390x844"
   ],
-  "passedAssertions": 19143,
+  "passedAssertions": 19182,
   "browserErrors": [],
   "failedRequests": [],
   "offlineDashboard": "PASS",
   "downloadHashes": "PASS",
   "status": "PASS",
-  "verifiedAtUtc": "2026-10-19T04:23:05.033084+00:00",
-  "evidenceDirectory": "qa-local/revision-4"
+  "verifiedAtUtc": "2026-10-19T05:13:45.820063+00:00",
+  "evidenceDirectory": "qa-local/technology-revision"
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the static weekly IT Program Leadership Dashboard."""
+"""Refresh the static weekly IT & Technology Program Leadership Dashboard."""
 
 from __future__ import annotations
 
@@ -240,10 +240,11 @@ def main() -> None:
 
     payload = {
         "reportDate": args.report_date,
-        "sourceFile": SOURCE_FILENAME,
+        "sourceFile": workbook_path.name,
+        "sourceDownloadFile": SOURCE_FILENAME,
         "sourceWorkbookBase64": base64.b64encode(source_bytes).decode("ascii"),
         "sourceSha256": source_hash,
-        "dashboardFile": "IT_Program_Leadership_Dashboard_Weekly.html",
+        "dashboardFile": "IT & Technology Program Leadership Dashboard_Weekly.html",
         "records": records,
     }
     html = index_path.read_text(encoding="utf-8")

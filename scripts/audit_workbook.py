@@ -132,7 +132,7 @@ def main():
                     extensions.append({"part": name, "ranges": [e.text for e in cf.iter() if e.tag.endswith("}sqref")],
                                        "types": [e.get("type") for e in cf.iter() if e.tag.endswith("}cfRule")]})
     after = hashlib.sha256(args.workbook.read_bytes()).hexdigest()
-    copy_hash = hashlib.sha256((root / payload["sourceFile"]).read_bytes()).hexdigest()
+    copy_hash = hashlib.sha256((root / payload.get("sourceDownloadFile", payload["sourceFile"])).read_bytes()).hexdigest()
     assert before == after == copy_hash == payload["sourceSha256"]
     result = {"sourceFile": args.workbook.name, "reportDate": payload["reportDate"],
               "sourceSha256Before": before, "sourceSha256After": after, "publicCopySha256": copy_hash,

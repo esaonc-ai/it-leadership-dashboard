@@ -26,6 +26,8 @@ sha = hashlib.sha256(source.read_bytes()).hexdigest()
 audit = json.loads(args.audit.read_text())
 reader = (Path(__file__).parent / 'workbook_reader.js').read_text()
 errors, checks, failures, combinations, cascade_cases = [], [], [], [], []
+brand = 'IT & Technology Program Leadership Dashboard'
+dashboard_filename = brand + '_Weekly.html'
 
 
 def check(condition, label):
@@ -53,7 +55,16 @@ try:
         observe(page)
         response = page.goto(args.url, wait_until='networkidle')
         check(response is None or response.status == 200, 'Anonymous page HTTP 200')
-        check(page.locator('h1').inner_text() == 'IT Program Leadership Dashboard', 'Existing branding')
+        def assert_branding(target, source_name):
+            check(target.locator('h1').inner_text() == brand, 'Current dashboard heading')
+            check(target.title() == brand + ' | Weekly Report', 'Current browser title')
+            check(brand in target.locator('meta[name="description"]').get_attribute('content'), 'Current browser description')
+            check(target.locator('#downloadDashboard').inner_text() == 'Download ' + brand, 'Current dashboard download label')
+            check(target.evaluate('dashboardData.dashboardFile') == dashboard_filename, 'Current dashboard download filename')
+            check(target.evaluate('dashboardData.sourceFile') == source_name, 'Original source filename retained')
+            check(target.locator('#sourceMeta').inner_text() == 'Source workbook: ' + source_name, 'Visible source filename including ampersand')
+
+        assert_branding(page, source.name)
         check(page.locator('#uploadWeek').input_value() == args.report_date, 'Selected reporting week')
         check(page.evaluate('dashboardData.reportDate') == args.report_date, 'Correct weekly source date')
         check(page.evaluate('dashboardData.sourceSha256') == sha, 'Embedded source hash')
@@ -189,6 +200,7 @@ try:
         for button, filename in [('#downloadWorkbook', 'public-workbook.xlsx'), ('#downloadDashboard', 'dashboard.html')]:
             with page.expect_download() as download:
                 page.click(button)
+            check(download.value.suggested_filename == (source.name if button == '#downloadWorkbook' else dashboard_filename), 'Original workbook or renamed dashboard suggested filename')
             download.value.save_as(out / filename)
             check('Download started:' in page.locator('#statusMessage').inner_text(), 'Visible download feedback')
         check(hashlib.sha256((out / 'public-workbook.xlsx').read_bytes()).hexdigest() == sha, 'Triggered workbook byte-identical')
@@ -196,6 +208,7 @@ try:
         observe(offline)
         context.set_offline(True)
         offline.goto((out / 'dashboard.html').resolve().as_uri())
+        assert_branding(offline, source.name)
         filters(offline)
         offline.locator('#rows tr').first.focus()
         offline.keyboard.press('Enter')
@@ -203,6 +216,7 @@ try:
         offline.keyboard.press('Escape')
         with offline.expect_download() as dl:
             offline.click('#downloadWorkbook')
+        check(dl.value.suggested_filename == source.name, 'Offline original workbook suggested filename')
         dl.value.save_as(out / 'offline-workbook.xlsx')
         check(hashlib.sha256((out / 'offline-workbook.xlsx').read_bytes()).hexdigest() == sha, 'Offline workbook byte-identical')
         context.set_offline(False)
@@ -214,8 +228,10 @@ try:
         next_week = (date.fromisoformat(args.report_date) + timedelta(days=7)).isoformat()
         page.fill('#uploadWeek', next_week)
         page.evaluate('window.loadingSeen=false;new MutationObserver(()=>{if(document.getElementById("uploadWorkbook").disabled && document.getElementById("statusMessage").textContent.includes("Loading"))window.loadingSeen=true}).observe(document.body,{subtree:true,attributes:true,childList:true})')
-        page.set_input_files('#uploadWorkbook', source)
+        upload_name = 'Uploaded & Technology Weekly.xlsx'
+        page.set_input_files('#uploadWorkbook', {'name': upload_name, 'mimeType': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'buffer': source.read_bytes()})
         page.wait_for_function('date => dashboardData.reportDate === date', arg=next_week)
+        assert_branding(page, upload_name)
         check(page.evaluate('window.loadingSeen'), 'Async local upload shows loading and disabled input')
         check(not page.locator('#uploadWorkbook').is_disabled(), 'Upload input restored after success')
         check(page.evaluate('records.length') == total, 'Local upload retains all source records')
@@ -224,10 +240,12 @@ try:
         dl.value.save_as(out / 'uploaded-dashboard.html')
         context.set_offline(True)
         offline.goto((out / 'uploaded-dashboard.html').resolve().as_uri())
+        assert_branding(offline, upload_name)
         check(offline.evaluate('dashboardData.reportDate') == next_week, 'Uploaded snapshot retains selected week offline')
         assert_view(expected, offline)
         with offline.expect_download() as dl:
             offline.click('#downloadWorkbook')
+        check(dl.value.suggested_filename == upload_name, 'Uploaded offline source download retains uploaded filename')
         dl.value.save_as(out / 'uploaded-workbook.xlsx')
         check(hashlib.sha256((out / 'uploaded-workbook.xlsx').read_bytes()).hexdigest() == sha, 'Uploaded snapshot source bytes unchanged')
         context.set_offline(False)
@@ -239,6 +257,7 @@ try:
         check(not page.locator('#uploadWorkbook').is_disabled(), 'Upload input restored after error')
         page.goto(args.url, wait_until='networkidle')
         page.set_viewport_size({'width': 390, 'height': 844})
+        assert_branding(page, source.name)
         filters()
         page.screenshot(path=str(out / 'mobile.png'))
         check(page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Mobile page fits viewport; wide table scrolls internally')
@@ -248,6 +267,7 @@ try:
         page.click('#close')
         with page.expect_download() as dl:
             page.click('#downloadWorkbook')
+        check(dl.value.suggested_filename == source.name, 'Mobile original workbook suggested filename')
         dl.value.save_as(out / 'mobile-workbook.xlsx')
         check(hashlib.sha256((out / 'mobile-workbook.xlsx').read_bytes()).hexdigest() == sha, 'Mobile download byte-identical')
         check(not errors, 'Zero browser page/console errors')
@@ -255,6 +275,7 @@ try:
         check(hashlib.sha256(source.read_bytes()).hexdigest() == sha, 'Original attachment unchanged after all QA')
         browser.close()
     summary = {'url': args.url, 'reportDate': args.report_date, 'sourceFile': source.name, 'sourceSha256': sha,
+               'dashboardTitle': brand, 'dashboardDownloadFilename': dashboard_filename,
                'records': total, 'rags': dict(totals), 'teamRags': team_totals,
                'teamRagCombinations': combinations, 'cascadeTransitions': len(cascade_cases),
                'dropdowns': {'Team': 1, 'RAG': 1, 'total': 2}, 'viewports': ['1440x1000', '390x844'],
