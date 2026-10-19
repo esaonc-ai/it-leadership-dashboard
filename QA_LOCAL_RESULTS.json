@@ -1,8 +1,8 @@
 {
   "url": "http://127.0.0.1:3000/",
   "reportDate": "2026-10-18",
-  "sourceFile": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_2.xlsx",
-  "sourceSha256": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759",
+  "sourceFile": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_3.xlsx",
+  "sourceSha256": "fc545f7cd6d74df3738b5149b28576060696a9977c7ae58b6f97e62567c963c4",
   "records": 133,
   "rags": {
     "Amber": 74,
@@ -115,6 +115,6 @@
   "offlineDashboard": "PASS",
   "downloadHashes": "PASS",
   "status": "PASS",
-  "verifiedAtUtc": "2026-10-19T03:56:35.679989+00:00",
-  "evidenceDirectory": "qa-local/revision-2"
+  "verifiedAtUtc": "2026-10-19T04:10:23.571631+00:00",
+  "evidenceDirectory": "qa-local/revision-3"
 }
