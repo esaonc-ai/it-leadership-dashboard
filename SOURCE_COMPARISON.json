@@ -17,7 +17,8 @@
       "size": 101974,
       "sourceSha256Before": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
       "sourceSha256AfterComparison": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
-      "sha256AfterLocalQa": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147"
+      "sha256AfterLocalQa": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
+      "sha256AfterPublicQa": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147"
     },
     {
       "name": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_1.xlsx",
@@ -31,7 +32,8 @@
       "size": 101764,
       "sourceSha256Before": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
       "sourceSha256AfterComparison": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
-      "sha256AfterLocalQa": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3"
+      "sha256AfterLocalQa": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
+      "sha256AfterPublicQa": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3"
     },
     {
       "name": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_2.xlsx",
@@ -42,7 +44,8 @@
       "size": 101703,
       "sourceSha256Before": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759",
       "sourceSha256AfterComparison": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759",
-      "sha256AfterLocalQa": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759"
+      "sha256AfterLocalQa": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759",
+      "sha256AfterPublicQa": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759"
     },
     {
       "name": "Repository 2026-10-12 (0095678)",
@@ -54,7 +57,8 @@
       "selected": false,
       "size": 353835,
       "sourceSha256Before": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d",
-      "sourceSha256AfterComparison": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d"
+      "sourceSha256AfterComparison": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d",
+      "sha256AfterPublicQa": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d"
     },
     {
       "name": "Repository 2026-10-05 (0bd2cc5)",
@@ -66,7 +70,8 @@
       "selected": false,
       "size": 337183,
       "sourceSha256Before": "05d07b0efce963a024e414efc48dbb0b432014406e786f4f4449bd7f9083883d",
-      "sourceSha256AfterComparison": "05d07b0efce963a024e414efc48dbb0b432014406e786f4f4449bd7f9083883d"
+      "sourceSha256AfterComparison": "05d07b0efce963a024e414efc48dbb0b432014406e786f4f4449bd7f9083883d",
+      "sha256AfterPublicQa": "05d07b0efce963a024e414efc48dbb0b432014406e786f4f4449bd7f9083883d"
     },
     {
       "name": "Repository 2026-09-28 (d1dac16)",
@@ -78,7 +83,8 @@
       "selected": false,
       "size": 365134,
       "sourceSha256Before": "326a92181e4bcac3e8fb71587b30ab14e873ea806091140a151e8fbd5447252e",
-      "sourceSha256AfterComparison": "326a92181e4bcac3e8fb71587b30ab14e873ea806091140a151e8fbd5447252e"
+      "sourceSha256AfterComparison": "326a92181e4bcac3e8fb71587b30ab14e873ea806091140a151e8fbd5447252e",
+      "sha256AfterPublicQa": "326a92181e4bcac3e8fb71587b30ab14e873ea806091140a151e8fbd5447252e"
     },
     {
       "name": "Repository 2026-09-21 (4a2e361)",
@@ -90,7 +96,8 @@
       "selected": false,
       "size": 345659,
       "sourceSha256Before": "a2860a998f86fd12c5100f70051b945a73a1695e3025229b8bd4f6089c77a59d",
-      "sourceSha256AfterComparison": "a2860a998f86fd12c5100f70051b945a73a1695e3025229b8bd4f6089c77a59d"
+      "sourceSha256AfterComparison": "a2860a998f86fd12c5100f70051b945a73a1695e3025229b8bd4f6089c77a59d",
+      "sha256AfterPublicQa": "a2860a998f86fd12c5100f70051b945a73a1695e3025229b8bd4f6089c77a59d"
     },
     {
       "name": "Repository 2026-09-21 (fee01c1)",
@@ -102,7 +109,8 @@
       "selected": false,
       "size": 345827,
       "sourceSha256Before": "d7eb196d490084e262bbc6c106762ce498de09f4c22a6dbab1ecccfba5062fba",
-      "sourceSha256AfterComparison": "d7eb196d490084e262bbc6c106762ce498de09f4c22a6dbab1ecccfba5062fba"
+      "sourceSha256AfterComparison": "d7eb196d490084e262bbc6c106762ce498de09f4c22a6dbab1ecccfba5062fba",
+      "sha256AfterPublicQa": "d7eb196d490084e262bbc6c106762ce498de09f4c22a6dbab1ecccfba5062fba"
     },
     {
       "name": "Repository 2026-09-21 (a2afe80)",
@@ -114,7 +122,8 @@
       "selected": false,
       "size": 344245,
       "sourceSha256Before": "5eb78f40519ba34fa5f639fc165fe6e214c2917bbf6a678664b257691db8f095",
-      "sourceSha256AfterComparison": "5eb78f40519ba34fa5f639fc165fe6e214c2917bbf6a678664b257691db8f095"
+      "sourceSha256AfterComparison": "5eb78f40519ba34fa5f639fc165fe6e214c2917bbf6a678664b257691db8f095",
+      "sha256AfterPublicQa": "5eb78f40519ba34fa5f639fc165fe6e214c2917bbf6a678664b257691db8f095"
     },
     {
       "name": "Repository 2026-09-21 (8eca2d8)",
@@ -126,7 +135,8 @@
       "selected": false,
       "size": 344162,
       "sourceSha256Before": "65664f0a100b4dac1d3df644331176a3c9c34affdadd6d5c898fb4d933e1102c",
-      "sourceSha256AfterComparison": "65664f0a100b4dac1d3df644331176a3c9c34affdadd6d5c898fb4d933e1102c"
+      "sourceSha256AfterComparison": "65664f0a100b4dac1d3df644331176a3c9c34affdadd6d5c898fb4d933e1102c",
+      "sha256AfterPublicQa": "65664f0a100b4dac1d3df644331176a3c9c34affdadd6d5c898fb4d933e1102c"
     }
   ],
   "comparisonsToSelected": [
