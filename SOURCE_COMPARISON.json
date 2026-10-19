@@ -1,406 +1,1180 @@
 {
-  "selection": "Latest supplied equal-date revision takes priority; reporting date/version used, not mtime",
-  "selectedFile": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_1.xlsx",
+  "selectedFile": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_2.xlsx",
+  "reportDate": "2026-10-18",
+  "selection": "Latest user-supplied third attachment among equal reporting-date/version sources; direct bytes/content inspected. Reporting date and user-provided revision order used, not mtime or numeric suffix alone.",
+  "selectedSha256": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759",
+  "previousPublicSourceSha256": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
   "candidates": [
-    {
-      "name": "Repository historical 12Oct workbook (f985eae)",
-      "reportDate": "2026-10-12",
-      "sha256": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d",
-      "size": 353835,
-      "selected": false
-    },
     {
       "name": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
       "reportDate": "2026-10-18",
+      "version": "v1.0",
       "sha256": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
-      "size": 101974,
       "selected": false,
-      "sha256AfterLocalQa": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
-      "sha256AfterPublicQa": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147"
+      "repositoryCommits": [
+        "4c47d61c23722718c60ae2393efb32b91ba66672"
+      ],
+      "size": 101974,
+      "sourceSha256Before": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
+      "sourceSha256AfterComparison": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
+      "sha256AfterLocalQa": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147"
     },
     {
       "name": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_1.xlsx",
       "reportDate": "2026-10-18",
+      "version": "v1.0",
       "sha256": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
+      "selected": false,
+      "repositoryCommits": [
+        "36fbcc841df12c8f183798fbb8218d51983f9e0c"
+      ],
       "size": 101764,
+      "sourceSha256Before": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
+      "sourceSha256AfterComparison": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
+      "sha256AfterLocalQa": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3"
+    },
+    {
+      "name": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_2.xlsx",
+      "reportDate": "2026-10-18",
+      "version": "v1.0",
+      "sha256": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759",
       "selected": true,
-      "sha256AfterLocalQa": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
-      "sha256AfterPublicQa": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3"
+      "size": 101703,
+      "sourceSha256Before": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759",
+      "sourceSha256AfterComparison": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759",
+      "sha256AfterLocalQa": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759"
+    },
+    {
+      "name": "Repository 2026-10-12 (0095678)",
+      "reportDate": "2026-10-12",
+      "sha256": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d",
+      "repositoryCommits": [
+        "0095678db02027492fd75409c6bf985415e5a579"
+      ],
+      "selected": false,
+      "size": 353835,
+      "sourceSha256Before": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d",
+      "sourceSha256AfterComparison": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d"
+    },
+    {
+      "name": "Repository 2026-10-05 (0bd2cc5)",
+      "reportDate": "2026-10-05",
+      "sha256": "05d07b0efce963a024e414efc48dbb0b432014406e786f4f4449bd7f9083883d",
+      "repositoryCommits": [
+        "0bd2cc58918f9e4dd351d053f1edb825e1643dec"
+      ],
+      "selected": false,
+      "size": 337183,
+      "sourceSha256Before": "05d07b0efce963a024e414efc48dbb0b432014406e786f4f4449bd7f9083883d",
+      "sourceSha256AfterComparison": "05d07b0efce963a024e414efc48dbb0b432014406e786f4f4449bd7f9083883d"
+    },
+    {
+      "name": "Repository 2026-09-28 (d1dac16)",
+      "reportDate": "2026-09-28",
+      "sha256": "326a92181e4bcac3e8fb71587b30ab14e873ea806091140a151e8fbd5447252e",
+      "repositoryCommits": [
+        "d1dac167bb919f33771a49b18e99b12b4f0be37d"
+      ],
+      "selected": false,
+      "size": 365134,
+      "sourceSha256Before": "326a92181e4bcac3e8fb71587b30ab14e873ea806091140a151e8fbd5447252e",
+      "sourceSha256AfterComparison": "326a92181e4bcac3e8fb71587b30ab14e873ea806091140a151e8fbd5447252e"
+    },
+    {
+      "name": "Repository 2026-09-21 (4a2e361)",
+      "reportDate": "2026-09-21",
+      "sha256": "a2860a998f86fd12c5100f70051b945a73a1695e3025229b8bd4f6089c77a59d",
+      "repositoryCommits": [
+        "4a2e361b2aeedb22b734311d8b9a0aef028c0b5a"
+      ],
+      "selected": false,
+      "size": 345659,
+      "sourceSha256Before": "a2860a998f86fd12c5100f70051b945a73a1695e3025229b8bd4f6089c77a59d",
+      "sourceSha256AfterComparison": "a2860a998f86fd12c5100f70051b945a73a1695e3025229b8bd4f6089c77a59d"
+    },
+    {
+      "name": "Repository 2026-09-21 (fee01c1)",
+      "reportDate": "2026-09-21",
+      "sha256": "d7eb196d490084e262bbc6c106762ce498de09f4c22a6dbab1ecccfba5062fba",
+      "repositoryCommits": [
+        "fee01c150201984348cae076bfca5cd7404298bd"
+      ],
+      "selected": false,
+      "size": 345827,
+      "sourceSha256Before": "d7eb196d490084e262bbc6c106762ce498de09f4c22a6dbab1ecccfba5062fba",
+      "sourceSha256AfterComparison": "d7eb196d490084e262bbc6c106762ce498de09f4c22a6dbab1ecccfba5062fba"
+    },
+    {
+      "name": "Repository 2026-09-21 (a2afe80)",
+      "reportDate": "2026-09-21",
+      "sha256": "5eb78f40519ba34fa5f639fc165fe6e214c2917bbf6a678664b257691db8f095",
+      "repositoryCommits": [
+        "a2afe80e1c0e256258211479849642992dc77490"
+      ],
+      "selected": false,
+      "size": 344245,
+      "sourceSha256Before": "5eb78f40519ba34fa5f639fc165fe6e214c2917bbf6a678664b257691db8f095",
+      "sourceSha256AfterComparison": "5eb78f40519ba34fa5f639fc165fe6e214c2917bbf6a678664b257691db8f095"
+    },
+    {
+      "name": "Repository 2026-09-21 (8eca2d8)",
+      "reportDate": "2026-09-21",
+      "sha256": "65664f0a100b4dac1d3df644331176a3c9c34affdadd6d5c898fb4d933e1102c",
+      "repositoryCommits": [
+        "8eca2d8bfafe5a4b324a01940c76b0f513d5514b"
+      ],
+      "selected": false,
+      "size": 344162,
+      "sourceSha256Before": "65664f0a100b4dac1d3df644331176a3c9c34affdadd6d5c898fb4d933e1102c",
+      "sourceSha256AfterComparison": "65664f0a100b4dac1d3df644331176a3c9c34affdadd6d5c898fb4d933e1102c"
     }
   ],
-  "previousPublicSourceSha256": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
-  "byteIdentical": false,
-  "cellValueChanges": [
+  "comparisonsToSelected": [
     {
-      "sheet": "Security",
-      "cell": "K2",
-      "before": "Mike Wang / Robert Moreno / PCI Application Owners / Vanta Administrator / Infrastructure and Security Teams",
-      "after": "Mike Wang's replacement pending / Robert Moreno / PCI Application Owners / Vanta Administrator / Infrastructure and Security Teams"
-    },
-    {
-      "sheet": "Security",
-      "cell": "N2",
-      "before": "Mike Wang email response, Request to Update the IT Security Tab, 12-Oct-2026 PST.",
-      "after": "Mike Wang's replacement pending email response, Request to Update the IT Security Tab, 12-Oct-2026 PST."
-    },
-    {
-      "sheet": "Security",
-      "cell": "K3",
-      "before": "Mike Wang / Robert Moreno / Application Owners / Infrastructure and Security Teams / Finance and Procurement",
-      "after": "Mike Wang's replacement pending / Robert Moreno / Application Owners / Infrastructure and Security Teams / Finance and Procurement"
-    },
-    {
-      "sheet": "Security",
-      "cell": "N3",
-      "before": "Mike Wang email response, Request to Update the IT Security Tab, 12-Oct-2026 PST.",
-      "after": "Mike Wang's replacement pending email response, Request to Update the IT Security Tab, 12-Oct-2026 PST."
-    },
-    {
-      "sheet": "Security",
-      "cell": "K4",
-      "before": "Mike Wang / Robert Moreno / Network and Security Teams / Branch IT Owners",
-      "after": "Mike Wang's replacement pending / Robert Moreno / Network and Security Teams / Branch IT Owners"
-    },
-    {
-      "sheet": "Security",
-      "cell": "N4",
-      "before": "Mike Wang email response, Request to Update the IT Security Tab, 12-Oct-2026 PST.",
-      "after": "Mike Wang's replacement pending email response, Request to Update the IT Security Tab, 12-Oct-2026 PST."
-    },
-    {
-      "sheet": "Security",
-      "cell": "K5",
-      "before": "Mike Wang, Robert",
-      "after": "Mike Wang's replacement pending, Robert"
-    },
-    {
-      "sheet": "Security",
-      "cell": "K10",
-      "before": "Mel Gutierrez / Robert Moreno / Mike Wang / Robotics Team",
-      "after": "Mel Gutierrez / Robert Moreno / Mike Wang's replacement pending / Robotics Team"
-    }
-  ],
-  "cellFormattingChanges": [],
-  "cachedValueChanges": [
-    {
-      "sheet": "Security",
-      "cell": "K2",
-      "before": "Mike Wang / Robert Moreno / PCI Application Owners / Vanta Administrator / Infrastructure and Security Teams",
-      "after": "Mike Wang's replacement pending / Robert Moreno / PCI Application Owners / Vanta Administrator / Infrastructure and Security Teams"
-    },
-    {
-      "sheet": "Security",
-      "cell": "N2",
-      "before": "Mike Wang email response, Request to Update the IT Security Tab, 12-Oct-2026 PST.",
-      "after": "Mike Wang's replacement pending email response, Request to Update the IT Security Tab, 12-Oct-2026 PST."
-    },
-    {
-      "sheet": "Security",
-      "cell": "K3",
-      "before": "Mike Wang / Robert Moreno / Application Owners / Infrastructure and Security Teams / Finance and Procurement",
-      "after": "Mike Wang's replacement pending / Robert Moreno / Application Owners / Infrastructure and Security Teams / Finance and Procurement"
-    },
-    {
-      "sheet": "Security",
-      "cell": "N3",
-      "before": "Mike Wang email response, Request to Update the IT Security Tab, 12-Oct-2026 PST.",
-      "after": "Mike Wang's replacement pending email response, Request to Update the IT Security Tab, 12-Oct-2026 PST."
-    },
-    {
-      "sheet": "Security",
-      "cell": "K4",
-      "before": "Mike Wang / Robert Moreno / Network and Security Teams / Branch IT Owners",
-      "after": "Mike Wang's replacement pending / Robert Moreno / Network and Security Teams / Branch IT Owners"
-    },
-    {
-      "sheet": "Security",
-      "cell": "N4",
-      "before": "Mike Wang email response, Request to Update the IT Security Tab, 12-Oct-2026 PST.",
-      "after": "Mike Wang's replacement pending email response, Request to Update the IT Security Tab, 12-Oct-2026 PST."
-    },
-    {
-      "sheet": "Security",
-      "cell": "K5",
-      "before": "Mike Wang, Robert",
-      "after": "Mike Wang's replacement pending, Robert"
-    },
-    {
-      "sheet": "Security",
-      "cell": "K10",
-      "before": "Mel Gutierrez / Robert Moreno / Mike Wang / Robotics Team",
-      "after": "Mel Gutierrez / Robert Moreno / Mike Wang's replacement pending / Robotics Team"
-    }
-  ],
-  "worksheetStructureChanges": [],
-  "changedZipParts": [
-    {
-      "part": "docProps/core.xml",
-      "beforeSha256": "2209a7edda3e45f311f4d211897826aaf440842f3025aaf219116a94b11749c2",
-      "afterSha256": "cd51817e005481cb3103d72f13375ff936834d57d52890c4e47e16cb23eab1f5"
-    },
-    {
-      "part": "xl/sharedStrings.xml",
-      "beforeSha256": "03122311a864b45462e9b9cf1905819e6ff8741cf29ad7ff105f2125d36229ea",
-      "afterSha256": "734a35ee92eb202e6832b83e92ca359379e92a0a723836a7ddcbdd1ef192d284"
-    },
-    {
-      "part": "xl/styles.xml",
-      "beforeSha256": "1e9e4f3e526758d3f31414efe1f3e03f5170993f2b6d39d97b2955fe56c6ac47",
-      "afterSha256": "bd6d2cbbd4c276abec6c7cffa15823b3df63123f3fd8eeb029fd208631956101"
-    },
-    {
-      "part": "xl/tables/table1.xml",
-      "beforeSha256": "630573bdd41ea5452ebb6506ab4f27032860b241bed64e807196e858b22ca40c",
-      "afterSha256": "0eb5bda17b4bdcafa2bd9dbb5df34411ead3c165d8dd7a05be0e59f659092a15"
-    },
-    {
-      "part": "xl/tables/table2.xml",
-      "beforeSha256": "43ad0a9088edda25340c0e0fdccddde5acb68c97e60cad63cb60b30296936e95",
-      "afterSha256": "1769efe2fb3332b0c8b539f478d4f0d8fc80f148dc3ea1aea66f5ce4099a0834"
-    },
-    {
-      "part": "xl/tables/table3.xml",
-      "beforeSha256": "d021ea481afe24c42a6f6abbb8780f5c8175f760e01a2ab4cf1a7472ad2d2f9b",
-      "afterSha256": "5e0650d30bddb17f1f83a6703185d6045302bf2db29f4c24bc05f099c18cda5c"
-    },
-    {
-      "part": "xl/tables/table4.xml",
-      "beforeSha256": "7b7cc8657c24be805d8ba01d679024027b2cbfa7f0428bd4b256ab25a2154952",
-      "afterSha256": "41f961e1ffaa603709d368ce62058be70bedaf74daf2ac42d5f9af0f9cc7e17e"
-    },
-    {
-      "part": "xl/tables/table6.xml",
-      "beforeSha256": "45f709e23da3b4e95b279e6af3e705216d33e3c128e7b6940612e9e932622804",
-      "afterSha256": "52e91e736d7eaa47f7610827840669968ccb17882d90d2359e6fc3fdd4952b02"
-    },
-    {
-      "part": "xl/workbook.xml",
-      "beforeSha256": "629cde733116d849a0fc91b79da0a394c8f2f4f672d9bff74f2f916b068f9c9e",
-      "afterSha256": "94d8f169a82176a8d69a7684a0469460767f6f98e804fc1b608a809fa64e91ff"
-    },
-    {
-      "part": "xl/worksheets/sheet1.xml",
-      "beforeSha256": "cbf1c159db75d798258ae65bce5e2eb862a30db9d1a6d84474805c8fdf781f43",
-      "afterSha256": "e266b9dc094dc46b232ec6600236a4bd8a9e1e50c327574125651c2a884e1ecb"
-    },
-    {
-      "part": "xl/worksheets/sheet2.xml",
-      "beforeSha256": "11d222c356b852aafa31234a163c9691f914186c834ceddfeb10083990ae763e",
-      "afterSha256": "07e05276747337f16b2fb9cc3941e394c5b2f1c2795c0eac181303fbaf78f1f5"
-    },
-    {
-      "part": "xl/worksheets/sheet3.xml",
-      "beforeSha256": "1e2b4260a58224f3a7df317b5651fb45a9a4b67896d3bc8be22b1d8354d6b656",
-      "afterSha256": "f7524da6d46a625ba7a5a64386a46fdf74e5ea0f2c41aa84119d71c9eb2198a4"
-    },
-    {
-      "part": "xl/worksheets/sheet4.xml",
-      "beforeSha256": "fcffb9e4c9252b5d1e4c8ff10e8c994699721cb8c696e7a3c60543c388fac2d8",
-      "afterSha256": "3887086cf91718b04d4b099e061749f2d5a0e499a343f9991d374ab4c1a11431"
-    },
-    {
-      "part": "xl/worksheets/sheet5.xml",
-      "beforeSha256": "ac9f1b41895e9a24dc89118104d141ca4b789cab5ed36c607b0c5232c0f5bf9e",
-      "afterSha256": "5cecd04b6c433f1857846b217acdec9634892a241221ea095e1980209f50ced2"
-    },
-    {
-      "part": "xl/worksheets/sheet6.xml",
-      "beforeSha256": "8dfd43fdffd09a4511e0d74f5fb78a638ff7180c8831ffa3d0c8da297f84f6f9",
-      "afterSha256": "19dc11cb6baf9c2445d81f302f67b1383c8355091ed695faf3b4311eedd8f89e"
-    },
-    {
-      "part": "xl/worksheets/sheet7.xml",
-      "beforeSha256": "acea55a4a77591db6800987ccdaa75ea6434d937edf7a910f5d668b5d12bc0a0",
-      "afterSha256": "90169f1c54169b375712d18065e4d91606ab2d586466e6f019ab26cdc9a63441"
-    },
-    {
-      "part": "xl/worksheets/sheet8.xml",
-      "beforeSha256": "eeae6fb793ab8fe9ebe2e3dbe1474f242a4dc77c5eeb7d98911a9dc565d3d29f",
-      "afterSha256": "246c0d3356727333fb93802857118907d38a005426e34124bd277c865b945d52"
-    }
-  ],
-  "recordChanges": [
-    {
-      "team": "Security",
-      "row": 2,
-      "project": "PCI DSS Compliance & Payment Data Environment",
-      "changes": {
-        "owner": {
-          "before": "Mike Wang / Robert Moreno / PCI Application Owners / Vanta Administrator / Infrastructure and Security Teams",
-          "after": "Mike Wang's replacement pending / Robert Moreno / PCI Application Owners / Vanta Administrator / Infrastructure and Security Teams"
+      "source": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
+      "sourceSha256": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
+      "byteIdenticalToSelected": false,
+      "sourceRecordCount": 133,
+      "sourceRags": {
+        "Amber": 74,
+        "Green": 56,
+        "Red": 3
+      },
+      "renamedSheets": [
+        {
+          "before": "Security",
+          "after": "IT Security"
+        }
+      ],
+      "valueChangeCount": 15,
+      "directFormattingChangeCount": 0,
+      "formulaChangeCount": 0,
+      "formulaCacheChangeCount": 0,
+      "effectiveRagStyleChangeCount": 0,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 13,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
         },
-        "source": {
-          "before": "Mike Wang email response, Request to Update the IT Security Tab, 12-Oct-2026 PST.",
-          "after": "Mike Wang's replacement pending email response, Request to Update the IT Security Tab, 12-Oct-2026 PST."
-        }
-      }
-    },
-    {
-      "team": "Security",
-      "row": 3,
-      "project": "Web Security",
-      "changes": {
-        "owner": {
-          "before": "Mike Wang / Robert Moreno / Application Owners / Infrastructure and Security Teams / Finance and Procurement",
-          "after": "Mike Wang's replacement pending / Robert Moreno / Application Owners / Infrastructure and Security Teams / Finance and Procurement"
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 2,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
         },
-        "source": {
-          "before": "Mike Wang email response, Request to Update the IT Security Tab, 12-Oct-2026 PST.",
-          "after": "Mike Wang's replacement pending email response, Request to Update the IT Security Tab, 12-Oct-2026 PST."
-        }
-      }
-    },
-    {
-      "team": "Security",
-      "row": 4,
-      "project": "DNS Security",
-      "changes": {
-        "owner": {
-          "before": "Mike Wang / Robert Moreno / Network and Security Teams / Branch IT Owners",
-          "after": "Mike Wang's replacement pending / Robert Moreno / Network and Security Teams / Branch IT Owners"
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
         },
-        "source": {
-          "before": "Mike Wang email response, Request to Update the IT Security Tab, 12-Oct-2026 PST.",
-          "after": "Mike Wang's replacement pending email response, Request to Update the IT Security Tab, 12-Oct-2026 PST."
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
         }
-      }
+      ],
+      "addedRecordCount": 0,
+      "removedRecordCount": 0
     },
     {
-      "team": "Security",
-      "row": 5,
-      "project": "Security Awareness & Incident Response",
-      "changes": {
-        "owner": {
-          "before": "Mike Wang, Robert",
-          "after": "Mike Wang's replacement pending, Robert"
+      "source": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_1.xlsx",
+      "sourceSha256": "4fe46088545543f9fa98fc545f05d1f5f092d8f9010c89a995351634f0a0faa3",
+      "byteIdenticalToSelected": false,
+      "sourceRecordCount": 133,
+      "sourceRags": {
+        "Amber": 74,
+        "Green": 56,
+        "Red": 3
+      },
+      "renamedSheets": [
+        {
+          "before": "Security",
+          "after": "IT Security"
         }
-      }
+      ],
+      "valueChangeCount": 7,
+      "directFormattingChangeCount": 0,
+      "formulaChangeCount": 0,
+      "formulaCacheChangeCount": 0,
+      "effectiveRagStyleChangeCount": 0,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 5,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 2,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        }
+      ],
+      "addedRecordCount": 0,
+      "removedRecordCount": 0,
+      "cellValueChanges": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "cell": "C9",
+          "before": "Authorization Review",
+          "after": "Completed"
+        },
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "cell": "F9",
+          "before": "TBD",
+          "after": "N/A"
+        },
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "cell": "G9",
+          "before": 0.2,
+          "after": 1
+        },
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "cell": "C11",
+          "before": "Security Review / In Progress",
+          "after": "Completed"
+        },
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "cell": "C12",
+          "before": "Submitted / Pending Review",
+          "after": "Completed"
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "cell": "F32",
+          "before": "TBD",
+          "after": "N/A"
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "cell": "G32",
+          "before": 0.6,
+          "after": 1
+        }
+      ],
+      "cellFormattingChanges": [],
+      "formulaChanges": [],
+      "formulaCacheChanges": [],
+      "effectiveRagStyleChanges": [],
+      "changedZipParts": [
+        "docProps/app.xml",
+        "docProps/core.xml",
+        "xl/sharedStrings.xml",
+        "xl/workbook.xml",
+        "xl/worksheets/sheet1.xml",
+        "xl/worksheets/sheet2.xml",
+        "xl/worksheets/sheet3.xml",
+        "xl/worksheets/sheet4.xml",
+        "xl/worksheets/sheet5.xml",
+        "xl/worksheets/sheet6.xml",
+        "xl/worksheets/sheet7.xml",
+        "xl/worksheets/sheet8.xml"
+      ]
     },
     {
-      "team": "Security",
-      "row": 10,
-      "project": "Windows 10 Security Remediation",
-      "changes": {
-        "owner": {
-          "before": "Mel Gutierrez / Robert Moreno / Mike Wang / Robotics Team",
-          "after": "Mel Gutierrez / Robert Moreno / Mike Wang's replacement pending / Robotics Team"
+      "source": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_2.xlsx",
+      "sourceSha256": "e556f16524b5975b9a8a8db9baa1d7daea7d4b49fd74d307ee822e4f87c22759",
+      "byteIdenticalToSelected": true,
+      "sourceRecordCount": 133,
+      "sourceRags": {
+        "Amber": 74,
+        "Green": 56,
+        "Red": 3
+      },
+      "renamedSheets": [],
+      "valueChangeCount": 0,
+      "directFormattingChangeCount": 0,
+      "formulaChangeCount": 0,
+      "formulaCacheChangeCount": 0,
+      "effectiveRagStyleChangeCount": 0,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "IT Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 0,
+          "directFormattingChanges": 0,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
         }
-      }
+      ],
+      "addedRecordCount": 0,
+      "removedRecordCount": 0
+    },
+    {
+      "source": "Repository 2026-10-12 (0095678)",
+      "sourceSha256": "d3b5b52ae2416337da56c1af981ee328aa7fae566f47256a7fb64be2175cba7d",
+      "byteIdenticalToSelected": false,
+      "sourceRecordCount": 128,
+      "sourceRags": {
+        "Amber": 78,
+        "Green": 48,
+        "Red": 2
+      },
+      "renamedSheets": [
+        {
+          "before": "Security",
+          "after": "IT Security"
+        }
+      ],
+      "valueChangeCount": 934,
+      "directFormattingChangeCount": 98890,
+      "formulaChangeCount": 0,
+      "formulaCacheChangeCount": 0,
+      "effectiveRagStyleChangeCount": 72,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 89,
+          "directFormattingChanges": 57,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 596,
+          "directFormattingChanges": 232,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 12,
+          "directFormattingChanges": 3,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 47,
+          "directFormattingChanges": 98333,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 58,
+          "directFormattingChanges": 47,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 45,
+          "directFormattingChanges": 23,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 63,
+          "directFormattingChanges": 55,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 24,
+          "directFormattingChanges": 140,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        }
+      ],
+      "addedRecordCount": 6,
+      "removedRecordCount": 1
+    },
+    {
+      "source": "Repository 2026-10-05 (0bd2cc5)",
+      "sourceSha256": "05d07b0efce963a024e414efc48dbb0b432014406e786f4f4449bd7f9083883d",
+      "byteIdenticalToSelected": false,
+      "sourceRecordCount": 111,
+      "sourceRags": {
+        "Amber": 62,
+        "Green": 47,
+        "Red": 2
+      },
+      "renamedSheets": [
+        {
+          "before": "Security",
+          "after": "IT Security"
+        }
+      ],
+      "valueChangeCount": 1250,
+      "directFormattingChangeCount": 99348,
+      "formulaChangeCount": 2,
+      "formulaCacheChangeCount": 2,
+      "effectiveRagStyleChangeCount": 74,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 113,
+          "directFormattingChanges": 101,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 644,
+          "directFormattingChanges": 339,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 105,
+          "directFormattingChanges": 110,
+          "formulaChanges": 2,
+          "formulaCacheChanges": 2,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 49,
+          "directFormattingChanges": 98417,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 58,
+          "directFormattingChanges": 45,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 95,
+          "directFormattingChanges": 142,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 62,
+          "directFormattingChanges": 64,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 124,
+          "directFormattingChanges": 130,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        }
+      ],
+      "addedRecordCount": 23,
+      "removedRecordCount": 1
+    },
+    {
+      "source": "Repository 2026-09-28 (d1dac16)",
+      "sourceSha256": "326a92181e4bcac3e8fb71587b30ab14e873ea806091140a151e8fbd5447252e",
+      "byteIdenticalToSelected": false,
+      "sourceRecordCount": 91,
+      "sourceRags": {
+        "Amber": 44,
+        "Green": 47
+      },
+      "renamedSheets": [
+        {
+          "before": "Security",
+          "after": "IT Security"
+        }
+      ],
+      "valueChangeCount": 1392,
+      "directFormattingChangeCount": 116142,
+      "formulaChangeCount": 2,
+      "formulaCacheChangeCount": 2,
+      "effectiveRagStyleChangeCount": 41,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 114,
+          "directFormattingChanges": 95,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 691,
+          "directFormattingChanges": 593,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 104,
+          "directFormattingChanges": 110,
+          "formulaChanges": 2,
+          "formulaCacheChanges": 2,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 98,
+          "directFormattingChanges": 114745,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 72,
+          "directFormattingChanges": 126,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 106,
+          "directFormattingChanges": 133,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 84,
+          "directFormattingChanges": 210,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 123,
+          "directFormattingChanges": 130,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": true
+        }
+      ],
+      "addedRecordCount": 43,
+      "removedRecordCount": 1
+    },
+    {
+      "source": "Repository 2026-09-21 (4a2e361)",
+      "sourceSha256": "a2860a998f86fd12c5100f70051b945a73a1695e3025229b8bd4f6089c77a59d",
+      "byteIdenticalToSelected": false,
+      "sourceRecordCount": 86,
+      "sourceRags": {
+        "Amber": 39,
+        "Green": 47
+      },
+      "renamedSheets": [
+        {
+          "before": "Security",
+          "after": "IT Security"
+        }
+      ],
+      "valueChangeCount": 1406,
+      "directFormattingChangeCount": 116184,
+      "formulaChangeCount": 2,
+      "formulaCacheChangeCount": 2,
+      "effectiveRagStyleChangeCount": 40,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 114,
+          "directFormattingChanges": 95,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 703,
+          "directFormattingChanges": 637,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 104,
+          "directFormattingChanges": 110,
+          "formulaChanges": 2,
+          "formulaCacheChanges": 2,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 98,
+          "directFormattingChanges": 114745,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 72,
+          "directFormattingChanges": 126,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 106,
+          "directFormattingChanges": 131,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 85,
+          "directFormattingChanges": 210,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 124,
+          "directFormattingChanges": 130,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        }
+      ],
+      "addedRecordCount": 48,
+      "removedRecordCount": 1
+    },
+    {
+      "source": "Repository 2026-09-21 (fee01c1)",
+      "sourceSha256": "d7eb196d490084e262bbc6c106762ce498de09f4c22a6dbab1ecccfba5062fba",
+      "byteIdenticalToSelected": false,
+      "sourceRecordCount": 86,
+      "sourceRags": {
+        "Amber": 39,
+        "Green": 47
+      },
+      "renamedSheets": [
+        {
+          "before": "Security",
+          "after": "IT Security"
+        }
+      ],
+      "valueChangeCount": 1406,
+      "directFormattingChangeCount": 116184,
+      "formulaChangeCount": 2,
+      "formulaCacheChangeCount": 2,
+      "effectiveRagStyleChangeCount": 40,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 114,
+          "directFormattingChanges": 95,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 703,
+          "directFormattingChanges": 637,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 104,
+          "directFormattingChanges": 110,
+          "formulaChanges": 2,
+          "formulaCacheChanges": 2,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 98,
+          "directFormattingChanges": 114745,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 72,
+          "directFormattingChanges": 126,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 106,
+          "directFormattingChanges": 131,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 85,
+          "directFormattingChanges": 210,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 124,
+          "directFormattingChanges": 130,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        }
+      ],
+      "addedRecordCount": 48,
+      "removedRecordCount": 1
+    },
+    {
+      "source": "Repository 2026-09-21 (a2afe80)",
+      "sourceSha256": "5eb78f40519ba34fa5f639fc165fe6e214c2917bbf6a678664b257691db8f095",
+      "byteIdenticalToSelected": false,
+      "sourceRecordCount": 85,
+      "sourceRags": {
+        "Amber": 38,
+        "Green": 47
+      },
+      "renamedSheets": [
+        {
+          "before": "Security",
+          "after": "IT Security"
+        }
+      ],
+      "valueChangeCount": 1409,
+      "directFormattingChangeCount": 116179,
+      "formulaChangeCount": 2,
+      "formulaCacheChangeCount": 2,
+      "effectiveRagStyleChangeCount": 40,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 114,
+          "directFormattingChanges": 101,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 703,
+          "directFormattingChanges": 626,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 107,
+          "directFormattingChanges": 110,
+          "formulaChanges": 2,
+          "formulaCacheChanges": 2,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 98,
+          "directFormattingChanges": 114745,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 72,
+          "directFormattingChanges": 126,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 106,
+          "directFormattingChanges": 131,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 85,
+          "directFormattingChanges": 210,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 124,
+          "directFormattingChanges": 130,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        }
+      ],
+      "addedRecordCount": 49,
+      "removedRecordCount": 1
+    },
+    {
+      "source": "Repository 2026-09-21 (8eca2d8)",
+      "sourceSha256": "65664f0a100b4dac1d3df644331176a3c9c34affdadd6d5c898fb4d933e1102c",
+      "byteIdenticalToSelected": false,
+      "sourceRecordCount": 85,
+      "sourceRags": {
+        "Amber": 35,
+        "Green": 43,
+        "null": 7
+      },
+      "renamedSheets": [
+        {
+          "before": "Security",
+          "after": "IT Security"
+        }
+      ],
+      "valueChangeCount": 1413,
+      "directFormattingChangeCount": 116179,
+      "formulaChangeCount": 2,
+      "formulaCacheChangeCount": 2,
+      "effectiveRagStyleChangeCount": 40,
+      "sheetComparisons": [
+        {
+          "sheetBefore": "Security",
+          "sheetAfter": "IT Security",
+          "valueChanges": 114,
+          "directFormattingChanges": 101,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Infrastructure & Cloud",
+          "sheetAfter": "Infrastructure & Cloud",
+          "valueChanges": 703,
+          "directFormattingChanges": 626,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "IoT",
+          "sheetAfter": "IoT",
+          "valueChanges": 107,
+          "directFormattingChanges": 110,
+          "formulaChanges": 2,
+          "formulaCacheChanges": 2,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "R&D AI",
+          "sheetAfter": "R&D AI",
+          "valueChanges": 102,
+          "directFormattingChanges": 114745,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "WCS Engineering",
+          "sheetAfter": "WCS Engineering",
+          "valueChanges": 72,
+          "directFormattingChanges": 126,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "Compliance Program",
+          "sheetAfter": "Compliance Program",
+          "valueChanges": 106,
+          "directFormattingChanges": 131,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS.CO Email & Ticketing",
+          "sheetAfter": "UNIS.CO Email & Ticketing",
+          "valueChanges": 85,
+          "directFormattingChanges": 210,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        },
+        {
+          "sheetBefore": "UNIS ITEM- eHub integration",
+          "sheetAfter": "UNIS ITEM- eHub integration",
+          "valueChanges": 124,
+          "directFormattingChanges": 130,
+          "formulaChanges": 0,
+          "formulaCacheChanges": 0,
+          "resolvedConditionalRulesEqual": false
+        }
+      ],
+      "addedRecordCount": 49,
+      "removedRecordCount": 1
     }
   ],
-  "beforeRecords": 133,
-  "afterRecords": 133,
-  "beforeRags": {
+  "selectedRecordCount": 133,
+  "selectedRags": {
     "Amber": 74,
     "Green": 56,
     "Red": 3
-  },
-  "afterRags": {
-    "Amber": 74,
-    "Green": 56,
-    "Red": 3
-  },
-  "renumberedConditionalFormattingRules": 59,
-  "effectiveRagStyleChanges": 0,
-  "historical12Oct": {
-    "records": 128,
-    "rags": {
-      "Amber": 78,
-      "Green": 48,
-      "Red": 2
-    },
-    "comparisonWithSelectedPerSheet": [
-      {
-        "sheet": "Security",
-        "comparisonColumns": "A:N (portfolio fields)",
-        "changedCellValuesByCoordinate": 89,
-        "changedCellFormattingByCoordinate": 57
-      },
-      {
-        "sheet": "Infrastructure & Cloud",
-        "comparisonColumns": "A:N (portfolio fields)",
-        "changedCellValuesByCoordinate": 598,
-        "changedCellFormattingByCoordinate": 232
-      },
-      {
-        "sheet": "IoT",
-        "comparisonColumns": "A:N (portfolio fields)",
-        "changedCellValuesByCoordinate": 12,
-        "changedCellFormattingByCoordinate": 3
-      },
-      {
-        "sheet": "R&D AI",
-        "comparisonColumns": "A:N (portfolio fields)",
-        "changedCellValuesByCoordinate": 47,
-        "changedCellFormattingByCoordinate": 113
-      },
-      {
-        "sheet": "WCS Engineering",
-        "comparisonColumns": "A:N (portfolio fields)",
-        "changedCellValuesByCoordinate": 58,
-        "changedCellFormattingByCoordinate": 47
-      },
-      {
-        "sheet": "Compliance Program",
-        "comparisonColumns": "A:N (portfolio fields)",
-        "changedCellValuesByCoordinate": 45,
-        "changedCellFormattingByCoordinate": 23
-      },
-      {
-        "sheet": "UNIS.CO Email & Ticketing",
-        "comparisonColumns": "A:N (portfolio fields)",
-        "changedCellValuesByCoordinate": 63,
-        "changedCellFormattingByCoordinate": 55
-      },
-      {
-        "sheet": "UNIS ITEM- eHub integration",
-        "comparisonColumns": "A:N (portfolio fields)",
-        "changedCellValuesByCoordinate": 24,
-        "changedCellFormattingByCoordinate": 140
-      }
-    ],
-    "addedRecords": [
-      {
-        "team": "R&D AI",
-        "id": "8",
-        "project": "Dock Vision Forklift In/Out (Single-Camera Demo) \u2013 Ontario"
-      },
-      {
-        "team": "UNIS ITEM- eHub integration",
-        "id": "9",
-        "project": "Vesync Carrier Orchestration Analysis and Pilot Decision"
-      },
-      {
-        "team": "Infrastructure & Cloud",
-        "id": "64",
-        "project": "Tenant Wi-Fi PPSK and VLAN Governance"
-      },
-      {
-        "team": "Infrastructure & Cloud",
-        "id": "63",
-        "project": "Stimson Supermicro Server, DNS & VPN Health Validation"
-      },
-      {
-        "team": "Infrastructure & Cloud",
-        "id": "62",
-        "project": "Hyper-V Capacity, VM Inventory & Legacy Host Remediation"
-      },
-      {
-        "team": "R&D AI",
-        "id": "9",
-        "project": "AGV Inventory Count \u2013 Joliet"
-      }
-    ],
-    "removedRecords": [
-      {
-        "team": "Infrastructure & Cloud",
-        "id": "19",
-        "project": "UNIS.CO Email Transition & Ticketing Integration"
-      }
-    ],
-    "commonRecordsWithChangedEffectiveRagStyles": 72
-  },
-  "conditionalRuleSerializationOrderChanges": 14,
-  "resolvedConditionalFormattingChanges": [],
-  "formattingConclusion": "Direct cell formatting and resolved conditional rules unchanged; differential-style IDs renumbered and duplicate data-bar rules serialized in a different order. Effective RAG styles unchanged for all 133 records."
+  }
 }

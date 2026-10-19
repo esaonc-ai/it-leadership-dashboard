@@ -1,20 +1,20 @@
 Sheet,Cell,Field,Classification,Source value
-Security,F2,finish,TBD,"TBD - after scope, evidence, and control closure"
-Security,F3,finish,TBD,TBD - after cost and impact assessment
-Security,F4,finish,TBD,TBD - management reprioritization required
-Security,E5,start,TBD,TBD
-Security,F5,finish,TBD,TBD
-Security,E8,start,TBD,TBD
-Security,F8,finish,TBD,TBD
-Security,E9,start,TBD,TBD
-Security,F9,finish,TBD,TBD
-Security,E10,start,TBD,TBD
-Security,F10,finish,TBD,TBD
-Security,N11,source,missing,
-Security,E11,start,TBD,TBD
-Security,F11,finish,TBD,TBD
-Security,N12,source,missing,
-Security,F12,finish,TBD,TBD
+IT Security,F2,finish,TBD,"TBD - after scope, evidence, and control closure"
+IT Security,F3,finish,TBD,TBD - after cost and impact assessment
+IT Security,F4,finish,TBD,TBD - management reprioritization required
+IT Security,E5,start,TBD,TBD
+IT Security,F5,finish,TBD,TBD
+IT Security,E8,start,TBD,TBD
+IT Security,F8,finish,TBD,TBD
+IT Security,E9,start,TBD,TBD
+IT Security,F9,finish,N/A,N/A
+IT Security,E10,start,TBD,TBD
+IT Security,F10,finish,TBD,TBD
+IT Security,N11,source,missing,
+IT Security,E11,start,TBD,TBD
+IT Security,F11,finish,TBD,TBD
+IT Security,N12,source,missing,
+IT Security,F12,finish,TBD,TBD
 Infrastructure & Cloud,F2,finish,TBD,"TBD - after equipment, access, rack, power, connectivity, and service-readiness validation"
 Infrastructure & Cloud,F3,finish,TBD,"TBD - after equipment suitability, service requirements, site readiness, and architecture approval"
 Infrastructure & Cloud,F4,finish,TBD,TBD - router delivery and provider activation; current target may slip about one week
@@ -67,7 +67,7 @@ Infrastructure & Cloud,F30,finish,N/A,N/A
 Infrastructure & Cloud,E31,start,TBD,TBD
 Infrastructure & Cloud,F31,finish,N/A,N/A
 Infrastructure & Cloud,E32,start,TBD,TBD
-Infrastructure & Cloud,F32,finish,TBD,TBD
+Infrastructure & Cloud,F32,finish,N/A,N/A
 Infrastructure & Cloud,E33,start,TBD,TBD
 Infrastructure & Cloud,F33,finish,TBD,TBD
 Infrastructure & Cloud,F34,finish,TBD,TBD
