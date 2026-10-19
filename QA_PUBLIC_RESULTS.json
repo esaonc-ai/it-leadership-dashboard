@@ -1,5 +1,128 @@
 {
   "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
   "reportDate": "2026-10-18",
-  "status": "PENDING_DEPLOYMENT_VERIFICATION"
+  "sourceFile": "IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
+  "sourceSha256": "53855338f8ad05aa88b6cdb52a1a084e4d7e52a5dc8e78356aa6412df4d80147",
+  "records": 133,
+  "rags": {
+    "Amber": 74,
+    "Green": 56,
+    "Red": 3
+  },
+  "teamRags": {
+    "Compliance Program": {
+      "Amber": 14,
+      "Red": 2
+    },
+    "Infrastructure & Cloud": {
+      "Amber": 43,
+      "Green": 20
+    },
+    "IoT": {
+      "Green": 5
+    },
+    "R&D AI": {
+      "Green": 9
+    },
+    "Security": {
+      "Amber": 3,
+      "Green": 6
+    },
+    "UNIS ITEM- eHub integration": {
+      "Amber": 9
+    },
+    "UNIS.CO Email & Ticketing": {
+      "Green": 12,
+      "Amber": 2
+    },
+    "WCS Engineering": {
+      "Green": 4,
+      "Amber": 3,
+      "Red": 1
+    }
+  },
+  "teamRagCombinations": [
+    [
+      "Compliance Program",
+      "Red"
+    ],
+    [
+      "Compliance Program",
+      "Amber"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Amber"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Green"
+    ],
+    [
+      "IoT",
+      "Green"
+    ],
+    [
+      "R&D AI",
+      "Green"
+    ],
+    [
+      "Security",
+      "Amber"
+    ],
+    [
+      "Security",
+      "Green"
+    ],
+    [
+      "UNIS ITEM- eHub integration",
+      "Amber"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Amber"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Green"
+    ],
+    [
+      "WCS Engineering",
+      "Red"
+    ],
+    [
+      "WCS Engineering",
+      "Amber"
+    ],
+    [
+      "WCS Engineering",
+      "Green"
+    ]
+  ],
+  "cascadeTransitions": 24,
+  "dropdowns": {
+    "Team": 1,
+    "RAG": 1,
+    "total": 2
+  },
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "passedAssertions": 18212,
+  "browserErrors": [],
+  "failedRequests": [],
+  "offlineDashboard": "PASS",
+  "downloadHashes": "PASS",
+  "status": "PASS",
+  "verifiedAtUtc": "2026-10-19T03:26:43.837030+00:00",
+  "deployedContentCommit": "4c47d61c23722718c60ae2393efb32b91ba66672",
+  "pagesBuild": {
+    "commit": "4c47d61c23722718c60ae2393efb32b91ba66672",
+    "error": {
+      "message": null
+    },
+    "status": "built",
+    "updated_at": "2026-10-19T03:25:32Z"
+  }
 }

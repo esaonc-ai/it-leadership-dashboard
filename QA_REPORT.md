@@ -52,4 +52,8 @@ Python scripts compile; the workbook reader and every inline HTML script pass `n
 
 Local evidence: `qa-local/qa-results.json`, `workbook-audit.json`, `http.json`, `page-snapshot.html`, `page-text.txt`, `desktop.png`, `mobile.png`, `mobile-detail.png`, `dashboard.html`, `public-workbook.xlsx`, `offline-workbook.xlsx`, `mobile-workbook.xlsx`, and uploaded snapshot/download artifacts. Summary: `QA_LOCAL_RESULTS.json`.
 
-Publishing is authorized to the existing `main` branch and existing root-based GitHub Pages configuration. Public verification is pending deployment.
+Published content commit **`4c47d61`** to the existing `main` branch. GitHub Pages built it successfully from the existing repository root. Anonymous public Playwright QA at https://esaonc-ai.github.io/it-leadership-dashboard/ passed **18,212 assertions**, the same complete suite as local QA: 133 records, 14 represented Team/RAG combinations, 24 cascade transitions, every detail, desktop/mobile, source colors, integer percentages, direct/triggered downloads, offline dashboard filtering and workbook extraction. Zero console/page errors and zero failed requests. Original/source/online/offline/mobile workbook SHA-256 values match.
+
+Public evidence: `QA_PUBLIC_RESULTS.json` and `qa-public/qa-results.json`, `deployment-content.json`, `http.json`, `page-snapshot.html`, `page-text.txt`, `desktop.png`, `mobile.png`, `mobile-detail.png`, `dashboard.html`, and all triggered workbook downloads. Screenshots, snapshots and workbook artifacts remain local; only appropriate app/source, scripts and QA summaries are committed.
+
+Temporary verification server was stopped and awaited. Application directory: `/home/user/workspace/it-leadership-dashboard`. Managed preview command from that directory: `python -m http.server 3000 --bind 0.0.0.0` (port 3000, arbitrary Host accepted). No deployment blockers remain; source caveats above remain faithfully represented.
