@@ -42,6 +42,7 @@ def observe(page):
     page.on('pageerror', lambda e: errors.append(str(e)))
     page.on('console', lambda m: errors.append(m.text) if m.type == 'error' else None)
     page.on('requestfailed', lambda r: failures.append({'url': r.url, 'failure': r.failure}))
+    page.on('response', lambda r: failures.append({'url': r.url, 'status': r.status}) if r.status >= 400 else None)
 
 
 try:
@@ -155,11 +156,17 @@ try:
             check(page.locator('#modalTitle').text_content() == r['project'], 'Every source record detail opens')
             detail = page.locator('#detail > div').evaluate_all('ds=>ds.map(d=>({label:d.querySelector("b").textContent,value:d.innerText.slice(d.querySelector("b").innerText.length).trim()}))')
             by_label = {d['label']: d['value'] for d in detail}
-            for label, key in [('Estimated delivery date', 'finish'), ('Start date', 'start'), ('Source / notes', 'source'), ('Owner / DRI', 'owner'), ('Current progress', 'progress'), ('Key risks / blockers', 'risks')]:
+            for label, key in [('Team', 'team'), ('Status', 'status'), ('RAG', 'rag'),
+                               ('Estimated delivery date', 'finish'), ('Start date', 'start'),
+                               ('Core objective', 'objective'), ('Current progress', 'progress'),
+                               ('Key next steps', 'next'), ('Owner / DRI', 'owner'),
+                               ('Key risks / blockers', 'risks'), ('Management attention', 'attention'),
+                               ('Source / notes', 'source')]:
                 check(by_label[label] == (r[key] or 'Not provided'), f'Detail {label}: faithful source or explicit missing state')
             check(by_label['Completion'] == str(r['completion']) + '%', 'Detail whole-number completion')
             badge = page.locator('#detail .badge')
             check(badge.evaluate('(e)=>getComputedStyle(e).backgroundColor') == rgb(r['ragFill']), 'Detail RAG source color')
+            check(badge.evaluate('(e)=>getComputedStyle(e).color') == rgb(r['ragFont'] or '#000000'), 'Detail RAG source font color')
             page.click('#close')
         page.locator('[data-rag-filter="Amber"]').click()
         check(page.locator('#rows tr').count() == totals['Amber'], 'Summary card filtering')
