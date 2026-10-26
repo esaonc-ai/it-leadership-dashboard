@@ -1,70 +1,118 @@
-# IT & Technology Program Leadership Dashboard — 18 October 2026 refresh
+# IT & Technology Program Leadership Dashboard — 26 October 2026 local refresh
 
-## Source choice and comparison
+## Repository and scope
 
-Existing repository `esaonc-ai/it-leadership-dashboard`, `main`, and https://esaonc-ai.github.io/it-leadership-dashboard/ retained. Starting commit: `25ee713`.
+Refreshed the existing checkout `/home/user/workspace/it-leadership-dashboard`, branch `main`, starting at `6fc6adaff019009492e2f7d6864c1f11542a8c56`. Repository `esaonc-ai/it-leadership-dashboard` and public URL https://esaonc-ai.github.io/it-leadership-dashboard/ are retained. Branding remains exactly **IT & Technology Program Leadership Dashboard**. This is a weekly snapshot, with no prior-week records added and no new app/provider.
 
-Selected **IT & Technology Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx**. It is the latest explicitly user-supplied revision at the newest available reporting date/version (**18 October 2026, v1.0**). Selection uses reporting version/date and user submission order, not filesystem mtime or suffix alone. The file was present locally and inspected directly.
+No remote Git operations, push, deployment or workflow dispatch occurred. The local commit is intended for coordinator review and ibisGitTool publication after its resolver step. Public QA for this refresh remains NOT RUN; the historical public results are explicitly labeled in `QA_PUBLIC_RESULTS.json`.
 
-Compared all six supplied equal-date workbooks plus all seven distinct earlier source versions retained in Git (four 21 September revisions, 28 September, 5 October and 12 October): **13 candidates**. `SOURCE_COMPARISON.json` records every hash, cell/formula/cache comparison, direct/effective RAG styles, conditional-rule comparison and per-sheet reconciliation.
+## Source selection, revision comparison and integrity
 
-| Source | Bytes | SHA-256 |
+Searched the workspace/repo for available XLSX files before refresh. The two supplied **26 October 2026 v1.0** workbooks are newer than the existing **18 October 2026** repo workbook. Selected the latest explicitly supplied revision, **IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1.xlsx**, after comparison. Filesystem timestamps and equal file size were not used as proof of equivalence.
+
+| Candidate | Bytes | SHA-256 before and after comparison/QA |
 |---|---:|---|
-| IT & Technology Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx | 101898 | `cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8` |
-| IT_Project_Portfolios_2026_v1.0 (18Oct2026 PST)_4.xlsx | 101863 | `bfa717b9374fa262449994b49b8965b4f1d631e2281795d555950f2d542236ec` |
+| First supplied 26Oct2026 workbook | 76,511 | `0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c` |
+| Latest supplied 26Oct2026 `_1.xlsx` | 76,511 | `0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c` |
+| Previous 18Oct2026 repo workbook, archived locally before refresh | 101,898 | `cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8` |
 
-The new source differs in bytes from `_4.xlsx`, with changes in ZIP parts `docProps/core.xml`, `xl/styles.xml`, `xl/workbook.xml` and table definitions 1/2/3/4/6. **No cell values, formulas, cached results, sheet names, records, dates, percentages, direct cell formats, resolved conditional-rule multisets or effective RAG fill/font styles change.** No weekly histories are merged.
+Both supplied files are **byte-identical**, not merely equal in size. Every ZIP part is identical. An independent semantic comparison also reports zero differences in raw values/types (including whitespace), formulas and cached results, resolved cell font/fill/border/alignment/protection/number formatting, sheet state/dimensions/merged ranges, conditional-formatting metadata and effective RAG cells. Original XML parts also cover themes, extensions, table metadata and any image references. No source workbook was modified or re-saved through an Excel library.
 
-The requested branding is now **IT & Technology Program Leadership Dashboard** in the visible heading, browser title/description, reporting caption, download button and standalone HTML filename (`IT & Technology Program Leadership Dashboard_Weekly.html`). The current source filename is visibly displayed with its literal ampersand, retained in the payload and used for workbook downloads. Local uploads update that filename too; saved offline snapshots retain it. The stable direct URL `Weekly_Leadership_Source_Workbook.xlsx` remains available as a byte-identical copy; source display/download names are separate from that public path.
+Compared with the previous snapshot: 23 ZIP parts differ, 1,723 cell value/type anchors differ, 1,938 cell formatting anchors differ, and 108 effective RAG anchors differ. These are comparisons by sheet name and coordinate; sheet renaming and removal account for many anchors and are not interpreted as independent business changes. Formula/cache values are unchanged. Full comparison: `SOURCE_COMPARISON.json`; reproducible reader: `scripts/compare_workbooks.py`.
 
-Original workbooks are never modified or re-saved through an Excel library. The selected original bytes are copied directly and embedded unchanged in downloaded HTML. All source candidates are hashed before/after comparison and QA.
+The selected bytes are copied directly to `Weekly_Leadership_Source_Workbook.xlsx` and embedded in `index.html`. Its filename, including the ampersand and `_1` suffix, is displayed and used for browser downloads. The direct workbook, desktop download, mobile download, offline download and locally uploaded/offline download all have the selected source SHA above. Both root attachments and the archived previous workbook retain their initial hashes after all QA.
 
-## Record reconciliation and source formatting
+## Full workbook inspection and record reconciliation
 
-| Team | Records | Amber | Green | Red | Included source rows |
+Read all eight worksheets and every cell, including formulas, cached values, styles, banners, orphan fragments and formatted empty cells. All sheets are visible; there are no additional hidden sheets. Each supplied revision has 1,569 populated or styled cells inventoried. IoT headers are on row 3; every other sheet uses row 1. Headers map A:N consistently to identifier, project, status, RAG, start, delivery, completion, objective, progress, next steps, owner, risks, attention and source/notes.
+
+| Source team/sheet | Records | Amber | Green | Red | Included rows |
 |---|---:|---:|---:|---:|---|
 | IT Security | 9 | 3 | 6 | 0 | 2–5, 8–12 |
-| Infrastructure & Cloud | 63 | 43 | 20 | 0 | 2–64 |
+| Infrastructure & Cloud | 10 | 8 | 2 | 0 | 2–11 |
 | IoT | 5 | 0 | 5 | 0 | 4–8 |
 | R&D AI | 9 | 0 | 9 | 0 | 2–10 |
-| WCS Engineering | 8 | 3 | 4 | 1 | 2–9 |
-| Compliance Program | 16 | 14 | 0 | 2 | 2–17 |
-| UNIS.CO Email & Ticketing | 14 | 2 | 12 | 0 | 2–15 |
-| UNIS ITEM- eHub integration | 9 | 9 | 0 | 0 | 2–10 |
-| **Total** | **133** | **74** | **56** | **3** | |
+| WCS Engineering | 9 | 7 | 2 | 0 | 2–10 |
+| IT Compliance Program | 17 | 13 | 0 | 4 | 2–18 |
+| UNIS.CO Email & Ticketing | 16 | 3 | 13 | 0 | 2–17 |
+| UNIS ITEM- eHub integration | 16 | 15 | 1 | 0 | 2–17 |
+| **Total** | **91** | **49** | **38** | **4** | |
 
-All eight worksheets inspected. IoT headers are row 3; all others row 1. All use A:N: identifier A, project B, status C, RAG D, start E, delivery/completion F, percentage G, objective H, progress I, next steps J, owner K, risks L, attention M, notes N. All records with an identifier/project are included, including incomplete optional notes. IT Security rows 6–7 have only D/N fragments without an identifier/project, so no records or reassigned notes are invented. IoT rows 1–2 are banners; R&D AI rows 11–15 contain formatting only.
+Valid records require an identifier and project. Missing optional notes do not remove records: IT Security rows 11/12 and IoT row 8 remain visible. IT Security rows 6/7 contain only RAG/notes fragments and no identifier/project, so they are recorded as orphan source content without inventing records or ownership. IoT banner rows and R&D AI formatting-only rows 11–21 are inventoried without becoming records. The 18 October count of 133 is not imposed.
 
-All 133 percentages are numeric; source precision is retained in the XLSX and dashboard percentages are whole numbers. Source starts: 77 calendar dates, 56 TBD. Delivery/completion values: 4 calendar dates, **102 TBD/qualified TBD, 21 N/A**, 6 text/relative estimates. All N/A values are retained exactly. No blank date cells or invalid ISO date literals. Relative/text values at Infrastructure & Cloud F41, R&D AI F3/F5:F7, WCS Engineering F8 remain unchanged, including WCS's separate October test target and early-December deployment qualification. No calendar dates are inferred from durations or narrative text.
+The source sheet **Compliance Program** is now named **IT Compliance Program**. Infrastructure & Cloud drops from 63 infrastructure records to 10 robotics/WCS records; none of its previous exact project titles remain there. Its rows 2–9 duplicate the corresponding WCS Engineering A:N values, while row 10 is a different equipment-audit revision (30% versus WCS 25%), and row 11 is the forklift-scale workstream. The eHub-named sheet replaces all nine prior shipping/eHub project titles with 16 compliance workstreams. These are material source changes requiring source-owner review; the dashboard preserves the supplied teams/records without restoring, moving, deduplicating or merging prior entries.
 
-Six effective source RAG fill/font combinations remain: 71 Amber with dark amber font, 3 Amber with black font; 42 Green with dark green font, 9 Green with black font, 5 IoT Green with its distinct pale-green style; 3 Red. Rendered badge fill/font, chart segments and KPI strips are checked against raw source XLSX XML independently of Python generation. Unsupported-extension warnings were investigated: extended data bars affect F/G/K, not RAG D; original XML/image bytes remain intact in downloads. No RAG style legend, color-code strings or “Source RAG styles” heading appears in the dashboard.
+### Dates, percentages and effective appearance
 
-## Current source issues, freshly re-audited
+There are **90 numeric completion values and one text completion**: `UNIS ITEM- eHub integration!G8 = TBD`. The text remains visible in table/details, stays out of numeric averages, and its record is retained. The audit previously assumed all completions were numeric; it now explicitly validates text/missing completions. Numeric values display as whole percentages. The default numeric average is **70%**.
 
-- **IoT A2:** still references 23 August and an August roadmap. Weekly reporting date uses the selected 18 October attachment.
-- **IoT N6:** sole worksheet formula/cached error: `_xlfn.DISPIMG` with cached `#NAME?`. Dashboard shows the neutral workbook-image reference; formula/image bytes remain in the original download.
-- **IoT N8; IT Security N11:N12:** notes remain absent. Records remain included; details show “Not provided.”
-- **IT Security D6/N6 and D7/N7:** orphan Green/note fragments remain. They are audited, not counted as workstreams or guessed to belong elsewhere.
-- **Replacement pending wording:** IT Security K2:K5/K10 remains unchanged. Existing replacement-pending owner fields: Infrastructure & Cloud **K2:K3, K5:K6, K8:K9, K11:K17, K19:K20, K34, K58:K61**; Compliance Program **K2, K4, K7, K9:K12, K15:K16**. These remain source statements, not dashboard assignments.
-- **Compliance Program I3/I13:** current text says “Mike Wang's replacement pending left before completing…” technical sections. This awkward narrative is preserved exactly; no interpretation or correction is introduced.
-- **Source status/narrative alignment:** IT Security C9/G9 say Completed/100% while I9/J9/M9 still describe undocumented authorization and required access controls. C11/G11 say Completed/100% while I11/J11/M11 retain account/control actions. C12 says Completed while I12/J12/M12 still describe review/final-acceptance follow-up. Infrastructure & Cloud C32/G32 say Completed/100% while I32/J32/K32/M32 retain work-in-progress, validation and request-owner text. These coexist in the source and are displayed faithfully; no dashboard interpretation replaces them.
-- **Infrastructure & Cloud I64:** still contains the historical QBerg/Qbert password-handling reference, while K64 names Cubework IT Installation Team; both source texts are preserved.
-- **IoT E4:E8 and F8:** TBD; F4:F7 N/A. **IoT D8/G8:** remains Green/20%. Historical Amber/90% is not substituted.
+Start values: **64 calendar dates, 27 TBD**. Delivery values: **3 calendar dates, 74 TBD/qualified TBD, 4 N/A, 10 text/relative estimates**. Calendar dates display as ISO dates with their meaning intact; both source date representations remain unchanged in the downloadable workbook. The three calendar delivery cells are IT Compliance Program F4, eHub F4 (both 2027-01-20) and Email & Ticketing F10 (2026-08-31).
 
-`Source_Field_Gaps.csv` contains exact cells for all date uncertainty/not-applicable values and absent optional fields. Full row mapping, every formula/cache, excluded nonempty rows, styles and extension ranges: `qa-local/technology-revision/workbook-audit.json`.
+Preserved text includes Infrastructure & Cloud and WCS Engineering F4's conditional **04-Dec-2026** onsite target, F6's **5–6-week lead time after signed approval**, F8's separate **31-Oct-2026 test target and early-December deployment**, their differing F10 ongoing/post-peak estimates, and R&D AI F3/F5/F6/F7's **4 weeks / 3–4 weeks / 2 weeks / Ongoing / No ETA**. No report-date arithmetic, inferred deadline, blank replacement date or invented percentage is introduced. All uncertain/date-text cells and missing notes are listed in `Source_Field_Gaps.csv`.
 
-## QA and deployment
+Effective RAG styles are resolved using actual direct formatting plus conditional-rule priority, translated relative formulas and per-property overrides, not a generic RAG palette. Seven fill/font variants occur: 41/5/3 Amber variants, 24/9/5 Green variants, and 4 Red. Badges, chart segments and KPI strips match source styles, including IoT's distinct pale Green and the new Amber font variant. The independently read raw XLSX XML is compared with both embedded data and browser-computed fill/font values for every displayed row/state. No visible style legend, raw color strings or “Source RAG styles” heading appears.
 
-Existing generator, all-sheet audit, independent raw-XML reader and Playwright scripts were inspected for applicability. Every current worksheet retains supported headers/layouts, numeric completion and resolvable RAG rules. The Python audit independently reconciles every worksheet row/field/formula cache; Playwright separately parses original source XLSX XML and effective styles, independently of Python generation.
+Openpyxl warns about unsupported extensions; raw XML inspection shows the extended conditional rules are data bars on F/G/K, not RAG D. The original extension XML is preserved in the exact-byte source downloads. No unsupported RAG rule was ignored.
 
-New checks cover exact heading/browser title/description/download label and filename, visible/embedded source names including ampersands, suggested workbook names online/offline/mobile, and filename retention after uploading a differently named local file and reopening its offline snapshot. Existing comprehensive record/filter/detail/style/date/mobile/offline checks remain in use. No dependencies were added.
+### Images and formula/cache inspection
 
-Python scripts compile, the workbook reader passes `node --check`, and every generated inline script passes `node --check`. This plain static HTML/JavaScript app has no framework build/typecheck step.
+There are **no embedded image/media/drawing/cell-image parts** in either supplied workbook ZIP, and openpyxl finds no sheet image objects. Therefore there is no image to extract and no extracted-image path to report. The only formula is **IoT N6**, `=_xlfn.DISPIMG("ID_BFCB287FF50949ACB47F716BD1E40440",1)`, with cached **#NAME?**. Its referenced image asset is absent. The dashboard uses the neutral note **“Workbook image formula; see original workbook”** rather than claiming an embedded image exists. Formula/cache bytes remain unchanged in the XLSX. Full local evidence includes both complete JSON inventories and `all-cell-content.txt`.
 
-Fresh local QA: **PASS, 19,182 assertions**, zero browser errors, failed requests or HTTP error responses. All 133 records/every field independently reconciled; all 14 available Team/RAG combinations, 24 cascade transitions and resets; every detail/delivery estimate; actual RAG fill/font, chart and KPI colors; integer percentages; empty/search/date/upload states; desktop/mobile; full offline filtering; original workbook bytes online/offline/mobile; current branding/metadata and filename display/download naming. A differently named local upload retains its own ampersand filename in the visible source label and offline snapshot/download. Screenshots visually inspected. Evidence: `qa-local/technology-revision/qa-results.json`, `workbook-audit.json`, `source-caveats.json`, `desktop.png`, `mobile.png`, `mobile-detail.png`, `http.json`, `page-snapshot.html` and downloaded artifacts. Tracked summary: `QA_LOCAL_RESULTS.json`.
+## Source issues: freshly checked cells
 
-Fresh anonymous public QA: **PASS, 19,182 assertions**, zero browser errors, failed requests or HTTP error responses at https://esaonc-ai.github.io/it-leadership-dashboard/. The same comprehensive source-derived suite passed, including current title/metadata, all record fields/details/dates/colors/percentages, every available Team/RAG combination/cascade/reset, desktop/mobile, offline dashboard filters and exact workbook download bytes/names. Public desktop/mobile screenshots were visually inspected. Evidence: `qa-public/technology-revision/qa-results.json`, `http.json`, `page-snapshot.html`, `desktop.png`, `mobile.png`, `mobile-detail.png`, downloaded HTML/workbooks. Tracked summary: `QA_PUBLIC_RESULTS.json`.
+These observations describe the source and are not silently corrected in the dashboard.
 
-Content commit **c2aed00e1db3959490e6f076ea09b6c2f2273fab** was built by Pages at **2026-10-19T05:14:24Z** before public QA; receipt: `qa-public/technology-revision/deployment-content.json`. Final evidence-only commit is verified separately by final Pages status, anonymous Playwright branding/source access, byte-identical published HTML/workbook and current published QA metadata. Receipts: `qa-public/technology-revision/deployment-final.json` and `final-verification.json`; reproducible check: `verify_final.py`. HTML/workbook do not change in that evidence-only commit.
+| Cells | Current finding |
+|---|---|
+| IoT A2 | Still says reporting date **2026-08-23** and cites the 23Aug roadmap. Dashboard weekly date comes from the selected 26Oct attachment. |
+| IoT N6 | Image formula, cached #NAME?, no embedded image asset. |
+| IoT N8; IT Security N11:N12 | Notes absent; all three records are retained and details show “Not provided.” |
+| IT Security D6/N6, D7/N7 | Green/meeting-note fragments without identifier/project. No workstream or note reassignment is invented. |
+| IT Security K2:K5, K10 | Replacement-pending ownership wording remains. |
+| IT Compliance Program K2, K4, K7, K9:K12, K15:K16 | Replacement-pending owner wording remains. The old Infrastructure pending-owner list no longer applies because that sheet's contents changed. |
+| IT Compliance Program I3/I13 | Prior awkward “replacement pending left before completing” wording is **gone**. Current narratives describe Mike's departure, incomplete scoping, the TSC mismatch and pending audit assignment. |
+| Infrastructure & Cloud I64 | **No longer present**: sheet ends at row 11. No QBerg/Qbert reference occurs anywhere in the current workbook. No historical text is added back. |
+| Infrastructure & Cloud B2:N11; WCS Engineering B2:N10 | Robotics/WCS content now appears in Infrastructure & Cloud too. Rows 2–9 are duplicates; equipment-audit row 10 has different completion and narrative revisions. Source grouping and both revisions are retained. |
+| UNIS ITEM- eHub integration B2:N17 | Sheet name indicates eHub, but contents are compliance workstreams. All nine prior shipping/eHub titles are absent. This sheet and IT Compliance Program hold different versions of overlapping work, e.g. GDPR G8/I8 is TBD/not set up versus 48%/Vanta preparation active. |
+| IT Security C2/I2/M2 versus G2 | Narrative reports **59%**, while numeric completion is **60%**. Both remain visible as supplied. |
+| Infrastructure & Cloud and WCS Engineering G8 versus I8/N8 | Numeric completion is **80%**, but narrative/notes say the latest explicit owner-reported completion was **65%** and no revised numeric percentage was supplied. |
+| UNIS.CO Email & Ticketing C17/D17/G17 versus J17/M17 | Completed / Green / 100%, while response-path validation remains in next steps and M17 says **“Keep Amber”** until reply behavior is resolved or accepted. Effective D17 Green is preserved. |
+| IT Security C9/G9 versus I9/J9/M9 | Completed/100%, while ownership, authorization and group-restricted access actions remain documented as open. |
+| IT Security C10/G10 versus I10/J10 | Inventory/Compatibility Review and 100%, while endpoint population is not yet known and export/testing/planning remain in next steps. |
+| IT Security C11/G11 versus I11/J11/M11 | Completed/100%, while dedicated licensed-account and unattended-use controls remain in next steps. |
+| IT Security C12/G12 versus I12/J12/M12 | Completed/100% tasks submitted for initial review, while reviewer follow-up and final acceptance remain tracked. |
+| Infrastructure & Cloud and WCS Engineering C7/G7 versus I7/J7/M7 | Completed/100%, while feature testing, general release and notification wording remain open. The old Infrastructure row-32 example no longer exists. |
+| UNIS.CO Email & Ticketing C5/G5, I5/J5/M5; C7/G7, I7/J7; C8/G8, I8/J8; C9/G9, I9/J9/M9 | Completed/100% coexists with routing/pilot acceptance, delivery validation, account identification or monitoring-confirmation actions. Routine governance-only completed rows are not treated as contradictions. |
+| UNIS ITEM- eHub integration C9/G9 versus I9/J9 | “Not Fully Closed” and 100%, while data inventory review/build actions remain. |
+| IoT H4:H6 versus J4:J6 | Completed objective text coexists with UAT, selection/sizing or procurement next steps. D8/G8 remains Green/20%; all IoT F4:F8 are now TBD. |
+| IT Compliance Program I14/N14; eHub I14/N14 | Compliance narrative refers to pickup on 10/8 while notes cite 11-Sep; the eHub version says “last Thursday.” Dates and relative wording are retained without resolving the chronology. |
 
-All **13 candidate source files** retain initial SHA-256 after comparison/local/public QA. Per-candidate checks are in `SOURCE_COMPARISON.json`. Selected source/download SHA-256: `cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8`. No workbook was modified or re-saved. Browser uploads did not mutate operational systems. The temporary local server was stopped and awaited. No dependencies changed, no separate preview is needed, and no QA failures remain. Remaining limitations are the documented source caveats.
+Detailed source audit, every included row/field, excluded nonempty rows, formulas/caches, warnings and extension ranges: `qa-local/26oct/workbook-audit.json`. Complete values/styles and raw ZIP-part hashes: the `*-inventory.json` files. No source issue is presented as a dashboard-derived change of ownership, deadline, status or RAG.
+
+## Local QA evidence
+
+**PASS — 18,238 Playwright assertions**, Playwright 1.64.0 / Chromium 156.0.8078.4, desktop **1440×1000** and mobile **390×844**, anonymous context with no login cookies. No browser page/console errors, failed network requests or HTTP error responses. Syntax checks pass for every Python script, the XLSX JS reader and every inline script extracted from the final HTML. The app is plain static HTML/JavaScript: no package.json, framework build, lint or typecheck command applies. No application dependency was added or upgraded; the existing environment's Playwright version was installed for Python QA.
+
+The Python audit independently reconciles every record and mapped source cell. Browser expectations separately parse raw source XLSX XML and effective styles, then reconcile every field, visible row, source order, row count, RAG KPI, whole-number share, chart segment/style/count, numeric average, delivery estimate and all record details. The three missing-note records and the text completion have explicit evidence in `QA_LOCAL_RESULTS.json`.
+
+The suite covers the **36-state matrix**: All/8 teams × All/Red/Amber/Green. **26 states are available**, including 14 specific team/RAG pairs; **10 impossible pairs are absent from cascading options**. Every reachable state reconciles visible rows/KPIs to the independent source. All 24 changes from globally selected RAGs into teams verify preservation/reset and rows/KPIs. The filtering suite repeats on the downloaded dashboard with the browser context offline and on mobile. Reset, source-name/branding metadata, search, summary-card filtering, empty panels, keyboard/modal interactions and mobile overflow are checked.
+
+Both browser download buttons are exercised. Suggested filenames preserve the exact source name and current dashboard branding. Source download bytes are verified for direct HTTP, desktop, mobile, offline and a differently named local upload's offline snapshot. The standalone HTML loads via file:// with the context offline, runs all filter/cascade checks and downloads the unchanged XLSX. Local uploads exercise missing reporting week, visible loading/disabled inputs, success, invalid-workbook errors and preservation of the valid snapshot. These are in-browser file operations; no operational-system write tests ran.
+
+Read-only HTTP checks return **200** for the page and workbook; arbitrary preview/deployment Host headers also return 200 and the same HTML bytes. Desktop/mobile screenshots were visually inspected. Evidence remains in ignored `qa-local/26oct/`: `qa-results.json`, `workbook-audit.json`, `desktop.png`, `mobile.png`, `mobile-detail.png`, `http.json`, `host-checks.json`, `page-snapshot.html`, `dashboard.html`, `uploaded-dashboard.html` and downloaded XLSX files. Tracked digest and integrity summary: `QA_LOCAL_RESULTS.json`. Transient screenshots, full source inventories, temporary invalid file and downloaded artifacts are excluded from the commit.
+
+## Existing Pages publishing and handoff
+
+The existing mechanism is **GitHub Pages from `main`, `/` (repository root)**, using GitHub's generated **`pages-build-deployment`** workflow, ID **357658072**, path **`dynamic/pages/pages-build-deployment`**. Its observed jobs are **Jekyll build → upload Pages artifact → report build status → deploy to GitHub Pages**. There is no checked-in workflow, `docs/` app, CNAME change or alternate deployment provider.
+
+Read-only public API receipts show successful run **39203610844**, deployment **7166266769**, branch/ref **main**, starting SHA **6fc6adaff019009492e2f7d6864c1f11542a8c56**. The public HTML is byte-identical to that checkout's root `index.html`; this and the root-only repository tree establish the served source path. Evidence: `qa-local/26oct/pages-readonly-evidence.json`. The Pages settings/build endpoints return anonymous 404, so the root setting is established from published content/workflow evidence, rather than a fresh authenticated settings response. The coordinator must use its resolver to confirm current branch/path settings before publication, as requested.
+
+After review, the coordinator uses **ibisGitTool** to reconcile/push the local commit to this same repository's **main** branch; the existing Pages workflow then handles publication at the unchanged URL. The coordinator should verify the resulting Pages SHA and anonymous HTML/workbook hashes after that publication. No push or deployment has been performed here.
+
+Application directory: **`/home/user/workspace/it-leadership-dashboard`**. Exact managed-preview command, **port 3000**:
+
+```bash
+python -m http.server 3000 --bind 0.0.0.0 --directory /home/user/workspace/it-leadership-dashboard
+```
+
+The temporary local QA server was stopped and awaited before handoff. Source caveats remain for workbook-owner review; local dashboard QA has no outstanding failures.

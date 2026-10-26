@@ -12,7 +12,7 @@ import warnings
 import xml.etree.ElementTree as ET
 from collections import Counter
 from datetime import date, datetime
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -96,16 +96,23 @@ def main():
                 cell = sheet[f"{col}{r}"]
                 value = clean(cell.value)
                 if field == "source" and value.startswith("=_xlfn.DISPIMG("):
-                    value = "Embedded workbook image; view in source workbook"
+                    value = "Workbook image formula; see original workbook"
                 assert record[field] == value, (sheet.title, cell.coordinate, field, record[field], value)
                 if not value:
                     missing.append(cell.coordinate)
                     gaps.append([sheet.title, cell.coordinate, field, "missing", ""])
             raw = sheet[f"G{r}"].value
-            n = Decimal(str(raw).rstrip("%"))
-            if not str(raw).endswith("%") and abs(n) <= 1:
-                n *= 100
-            assert record["completion"] == int(n.quantize(Decimal("1"), rounding=ROUND_HALF_UP))
+            try:
+                n = Decimal(str(raw).rstrip("%"))
+            except InvalidOperation:
+                assert record["completion"] is None
+                assert record["completionSource"] == clean(raw)
+                gaps.append([sheet.title, f"G{r}", "completion", "missing" if raw is None else "source text", clean(raw)])
+            else:
+                if not str(raw).endswith("%") and abs(n) <= 1:
+                    n *= 100
+                assert n.is_finite() and 0 <= n <= 100
+                assert record["completion"] == int(n.quantize(Decimal("1"), rounding=ROUND_HALF_UP))
             for field, col in (("start", "E"), ("finish", "F")):
                 value = sheet[f"{col}{r}"].value
                 kind = date_kind(value)
@@ -117,7 +124,7 @@ def main():
                             "rag": record["rag"], "ragFill": record["ragFill"], "ragFont": record["ragFont"],
                             "startCell": f"E{r}", "start": record["start"], "deliveryCell": f"F{r}",
                             "delivery": record["finish"], "completionCell": f"G{r}",
-                            "completion": record["completion"]})
+                            "completion": record["completion"], "completionSource": record["completionSource"]})
         sheets.append({"team": sheet.title, "state": sheet.sheet_state, "dimensions": sheet.calculate_dimension(),
                        "headerRow": header, "recordRows": rows, "count": len(rows),
                        "rags": dict(Counter(actual[sheet.title, r]["rag"] for r in rows)),

@@ -1,28 +1,28 @@
 {
   "url": "http://127.0.0.1:3000/",
-  "reportDate": "2026-10-18",
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
-  "sourceSha256": "cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8",
+  "reportDate": "2026-10-26",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1.xlsx",
+  "sourceSha256": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
   "dashboardTitle": "IT & Technology Program Leadership Dashboard",
   "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
-  "records": 133,
+  "records": 91,
   "rags": {
-    "Amber": 74,
-    "Green": 56,
-    "Red": 3
+    "Amber": 49,
+    "Green": 38,
+    "Red": 4
   },
   "teamRags": {
-    "Compliance Program": {
-      "Amber": 14,
-      "Red": 2
+    "IT Compliance Program": {
+      "Amber": 13,
+      "Red": 4
     },
     "IT Security": {
       "Amber": 3,
       "Green": 6
     },
     "Infrastructure & Cloud": {
-      "Amber": 43,
-      "Green": 20
+      "Amber": 8,
+      "Green": 2
     },
     "IoT": {
       "Green": 5
@@ -31,25 +31,25 @@
       "Green": 9
     },
     "UNIS ITEM- eHub integration": {
-      "Amber": 9
+      "Amber": 15,
+      "Green": 1
     },
     "UNIS.CO Email & Ticketing": {
-      "Green": 12,
-      "Amber": 2
+      "Green": 13,
+      "Amber": 3
     },
     "WCS Engineering": {
-      "Green": 4,
-      "Amber": 3,
-      "Red": 1
+      "Amber": 7,
+      "Green": 2
     }
   },
   "teamRagCombinations": [
     [
-      "Compliance Program",
+      "IT Compliance Program",
       "Red"
     ],
     [
-      "Compliance Program",
+      "IT Compliance Program",
       "Amber"
     ],
     [
@@ -81,16 +81,16 @@
       "Amber"
     ],
     [
+      "UNIS ITEM- eHub integration",
+      "Green"
+    ],
+    [
       "UNIS.CO Email & Ticketing",
       "Amber"
     ],
     [
       "UNIS.CO Email & Ticketing",
       "Green"
-    ],
-    [
-      "WCS Engineering",
-      "Red"
     ],
     [
       "WCS Engineering",
@@ -102,6 +102,246 @@
     ]
   ],
   "cascadeTransitions": 24,
+  "teamRagMatrix": [
+    {
+      "team": "",
+      "rag": "",
+      "available": true,
+      "records": 91
+    },
+    {
+      "team": "",
+      "rag": "Red",
+      "available": true,
+      "records": 4
+    },
+    {
+      "team": "",
+      "rag": "Amber",
+      "available": true,
+      "records": 49
+    },
+    {
+      "team": "",
+      "rag": "Green",
+      "available": true,
+      "records": 38
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Red",
+      "available": true,
+      "records": 4
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Amber",
+      "available": true,
+      "records": 13
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Green",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "",
+      "available": true,
+      "records": 17
+    },
+    {
+      "team": "IT Security",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Security",
+      "rag": "Amber",
+      "available": true,
+      "records": 3
+    },
+    {
+      "team": "IT Security",
+      "rag": "Green",
+      "available": true,
+      "records": 6
+    },
+    {
+      "team": "IT Security",
+      "rag": "",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Amber",
+      "available": true,
+      "records": 8
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Green",
+      "available": true,
+      "records": 2
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "",
+      "available": true,
+      "records": 10
+    },
+    {
+      "team": "IoT",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Green",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "IoT",
+      "rag": "",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Green",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "R&D AI",
+      "rag": "",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Amber",
+      "available": true,
+      "records": 15
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Green",
+      "available": true,
+      "records": 1
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "",
+      "available": true,
+      "records": 16
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Amber",
+      "available": true,
+      "records": 3
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Green",
+      "available": true,
+      "records": 13
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "",
+      "available": true,
+      "records": 16
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Amber",
+      "available": true,
+      "records": 7
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Green",
+      "available": true,
+      "records": 2
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "",
+      "available": true,
+      "records": 9
+    }
+  ],
+  "unavailableTeamRagCombinations": 10,
+  "missingNotesRecordsRetained": [
+    {
+      "team": "IT Security",
+      "row": 11
+    },
+    {
+      "team": "IT Security",
+      "row": 12
+    },
+    {
+      "team": "IoT",
+      "row": 8
+    }
+  ],
+  "nonNumericCompletionRecords": [
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "cell": "G8",
+      "value": "TBD"
+    }
+  ],
   "dropdowns": {
     "Team": 1,
     "RAG": 1,
@@ -111,12 +351,125 @@
     "1440x1000",
     "390x844"
   ],
-  "passedAssertions": 19182,
+  "passedAssertions": 18238,
   "browserErrors": [],
   "failedRequests": [],
   "offlineDashboard": "PASS",
   "downloadHashes": "PASS",
   "status": "PASS",
-  "verifiedAtUtc": "2026-10-19T05:13:45.820063+00:00",
-  "evidenceDirectory": "qa-local/technology-revision"
+  "effectiveSourceRagVariants": [
+    {
+      "rag": "Amber",
+      "fill": "#FFE699",
+      "font": "#7F6000",
+      "records": 41
+    },
+    {
+      "rag": "Green",
+      "fill": "#C6E0B4",
+      "font": "#006100",
+      "records": 24
+    },
+    {
+      "rag": "Amber",
+      "fill": "#FFE699",
+      "font": "#9C6500",
+      "records": 3
+    },
+    {
+      "rag": "Green",
+      "fill": "#E2F0D9",
+      "font": "#375623",
+      "records": 5
+    },
+    {
+      "rag": "Green",
+      "fill": "#C6E0B4",
+      "font": "#000000",
+      "records": 9
+    },
+    {
+      "rag": "Red",
+      "fill": "#F4CCCC",
+      "font": "#9C0006",
+      "records": 4
+    },
+    {
+      "rag": "Amber",
+      "fill": "#FFE699",
+      "font": "#000000",
+      "records": 5
+    }
+  ],
+  "dateClassifications": {
+    "start": {
+      "calendar": 64,
+      "TBD": 27
+    },
+    "finish": {
+      "TBD": 74,
+      "N/A": 4,
+      "source text / relative estimate": 10,
+      "calendar": 3
+    }
+  },
+  "imageAssetsFound": 0,
+  "sourceImageFormula": {
+    "sheet": "IoT",
+    "cell": "N6",
+    "cachedValue": "#NAME?",
+    "assetPresent": false
+  },
+  "sourceCandidateIntegrity": [
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST).xlsx",
+      "bytes": 76511,
+      "sha256Before": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "sha256AfterQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1.xlsx",
+      "bytes": 76511,
+      "sha256Before": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "sha256AfterQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
+    },
+    {
+      "path": "/home/user/workspace/it-leadership-dashboard/qa-local/26oct/previous-18oct.xlsx",
+      "bytes": 101898,
+      "sha256Before": "cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8",
+      "sha256AfterQA": "cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8"
+    }
+  ],
+  "downloadHashesVerified": {
+    "public-workbook.xlsx": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+    "offline-workbook.xlsx": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+    "mobile-workbook.xlsx": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+    "uploaded-workbook.xlsx": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
+  },
+  "publicCopySha256": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+  "indexSha256": "1eae2b4022a1dcb55dee8cf2be03c6988c4364826964cc889c25ac88c1bfefec",
+  "hostChecks": [
+    {
+      "host": "preview.example.invalid",
+      "status": 200,
+      "sha256": "1eae2b4022a1dcb55dee8cf2be03c6988c4364826964cc889c25ac88c1bfefec"
+    },
+    {
+      "host": "deployment.example.invalid:3000",
+      "status": 200,
+      "sha256": "1eae2b4022a1dcb55dee8cf2be03c6988c4364826964cc889c25ac88c1bfefec"
+    }
+  ],
+  "syntaxChecks": {
+    "python": "PASS",
+    "workbookReader": "PASS",
+    "inlineJavaScript": "PASS",
+    "frameworkBuildTypecheck": "Not applicable: static HTML/JavaScript; no package.json or framework"
+  },
+  "startingCommit": "6fc6adaff019009492e2f7d6864c1f11542a8c56",
+  "publication": "NOT_PUSHED_OR_DEPLOYED; local QA only",
+  "tooling": {
+    "playwright": "1.64.0",
+    "chromium": "156.0.8078.4"
+  }
 }

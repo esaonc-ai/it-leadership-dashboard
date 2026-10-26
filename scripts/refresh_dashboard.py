@@ -194,7 +194,7 @@ def record_from_row(sheet: object, row_number: int) -> dict[str, object] | None:
         "owner": text(owner),
         "risks": text(risks),
         "attention": text(attention),
-        "source": "Embedded workbook image; view in source workbook" if text(source).startswith("=_xlfn.DISPIMG(") else text(source),
+        "source": "Workbook image formula; see original workbook" if text(source).startswith("=_xlfn.DISPIMG(") else text(source),
         "sourceLayout": "shifted" if explicit_rag in SUPPORTED_RAGS and is_percentage_value(values[5]) and not is_percentage_value(values[6]) else "standard",
         "sourceRow": row_number,
     }

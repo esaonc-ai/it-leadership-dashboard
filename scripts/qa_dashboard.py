@@ -25,7 +25,7 @@ source = args.workbook.resolve()
 sha = hashlib.sha256(source.read_bytes()).hexdigest()
 audit = json.loads(args.audit.read_text())
 reader = (Path(__file__).parent / 'workbook_reader.js').read_text()
-errors, checks, failures, combinations, cascade_cases = [], [], [], [], []
+errors, checks, failures, combinations, cascade_cases, filter_matrix = [], [], [], [], [], []
 brand = 'IT & Technology Program Leadership Dashboard'
 dashboard_filename = brand + '_Weekly.html'
 
@@ -123,15 +123,20 @@ try:
                     offset += count / len(subset) * 100
                 check(len(stops) == len(wanted) and all(abs(float(a) - b) < .001 for a, b in zip(stops, wanted)), 'KPI fill proportions')
             numeric = [r['completion'] for r in selected if r['completion'] is not None]
-            check(target.locator('#avg').inner_text() == str(int(sum(numeric) / len(numeric) + .5)) + '%', 'Whole-number average completion')
+            average = str(int(sum(numeric) / len(numeric) + .5)) + '%' if numeric else 'Not provided'
+            check(target.locator('#avg').inner_text() == average, 'Whole-number average of numeric completions only, or explicit unavailable state')
             check(not re.search(r'\b\d+\.\d+%', target.locator('body').inner_text()), 'No visible fractional percentages')
 
         def filters(target=page, record_combinations=False):
             target.click('#clear')
             assert_view(expected, target)
+            if record_combinations:
+                filter_matrix.append({'team': '', 'rag': '', 'available': True, 'records': len(expected)})
             for rag in ('Red', 'Amber', 'Green'):
                 target.select_option('#rag', rag)
                 assert_view([r for r in expected if r['rag'] == rag], target)
+                if record_combinations:
+                    filter_matrix.append({'team': '', 'rag': rag, 'available': True, 'records': sum(r['rag'] == rag for r in expected)})
             target.click('#clear')
             for team in teams:
                 target.select_option('#team', team)
@@ -140,8 +145,13 @@ try:
                 check(set(options) == rags, 'Team cascade includes exactly available RAGs')
                 for rag in ('Red', 'Amber', 'Green'):
                     check((rag in options) == (rag in rags), f'{team}/{rag}: available or unavailable as source dictates')
+                    if record_combinations:
+                        filter_matrix.append({'team': team, 'rag': rag, 'available': rag in options,
+                                              'records': sum(r['team'] == team and r['rag'] == rag for r in expected)})
                 target.select_option('#rag', '')
                 assert_view([r for r in expected if r['team'] == team], target)
+                if record_combinations:
+                    filter_matrix.append({'team': team, 'rag': '', 'available': True, 'records': sum(r['team'] == team for r in expected)})
                 for rag in options:
                     target.select_option('#rag', rag)
                     assert_view([r for r in expected if r['team'] == team and r['rag'] == rag], target)
@@ -155,13 +165,29 @@ try:
                     target.select_option('#rag', rag)
                     target.select_option('#team', team)
                     check(target.locator('#rag').input_value() == (rag if rag in rags else ''), 'Team change preserves applicable RAG and clears unavailable RAG')
+                    assert_view([r for r in expected if r['team'] == team and (rag not in rags or r['rag'] == rag)], target)
                     if record_combinations:
                         cascade_cases.append([team, rag])
             target.click('#clear')
             check(target.locator('#team').input_value() == target.locator('#rag').input_value() == target.locator('#search').input_value() == '', 'Reset clears shared filters/search')
             assert_view(expected, target)
 
+        def uncertain_completion(target):
+            for record in (r for r in expected if r['completion'] is None):
+                target.click('#clear')
+                target.select_option('#team', record['team'])
+                # The current source has one TBD completion with this unique status.
+                target.fill('#search', record['status'])
+                selected = [r for r in expected if r['team'] == record['team'] and
+                            record['status'].lower() in ' '.join(str(v) for v in r.values()).lower()]
+                check(record in selected, 'Uncertain completion is retained by filtering')
+                assert_view(selected, target)
+                check(target.locator(f'tr[data-record-index="{record["index"]}"] td').nth(3).inner_text() == record['completionSource'], 'TBD completion text displayed without inventing a percentage')
+            target.click('#clear')
+
         filters(record_combinations=True)
+        check(len(filter_matrix) == (len(teams) + 1) * 4, 'Exhaustive Team/RAG matrix includes All and unavailable combinations')
+        uncertain_completion(page)
         for r in expected:
             page.locator(f'tr[data-record-index="{r["index"]}"]').click()
             check(page.locator('#modalTitle').text_content() == r['project'], 'Every source record detail opens')
@@ -174,7 +200,8 @@ try:
                                ('Key risks / blockers', 'risks'), ('Management attention', 'attention'),
                                ('Source / notes', 'source')]:
                 check(by_label[label] == (r[key] or 'Not provided'), f'Detail {label}: faithful source or explicit missing state')
-            check(by_label['Completion'] == str(r['completion']) + '%', 'Detail whole-number completion')
+            completion = str(r['completion']) + '%' if r['completion'] is not None else r['completionSource'] or 'Not provided'
+            check(by_label['Completion'] == completion, 'Detail whole-number completion or faithful source text')
             badge = page.locator('#detail .badge')
             check(badge.evaluate('(e)=>getComputedStyle(e).backgroundColor') == rgb(r['ragFill']), 'Detail RAG source color')
             check(badge.evaluate('(e)=>getComputedStyle(e).color') == rgb(r['ragFont'] or '#000000'), 'Detail RAG source font color')
@@ -210,6 +237,7 @@ try:
         offline.goto((out / 'dashboard.html').resolve().as_uri())
         assert_branding(offline, source.name)
         filters(offline)
+        uncertain_completion(offline)
         offline.locator('#rows tr').first.focus()
         offline.keyboard.press('Enter')
         check(offline.locator('#modal').is_visible(), 'Offline keyboard detail interaction')
@@ -259,6 +287,7 @@ try:
         page.set_viewport_size({'width': 390, 'height': 844})
         assert_branding(page, source.name)
         filters()
+        uncertain_completion(page)
         page.screenshot(path=str(out / 'mobile.png'))
         check(page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Mobile page fits viewport; wide table scrolls internally')
         page.locator('#rows tr').first.click()
@@ -278,6 +307,9 @@ try:
                'dashboardTitle': brand, 'dashboardDownloadFilename': dashboard_filename,
                'records': total, 'rags': dict(totals), 'teamRags': team_totals,
                'teamRagCombinations': combinations, 'cascadeTransitions': len(cascade_cases),
+               'teamRagMatrix': filter_matrix, 'unavailableTeamRagCombinations': sum(not c['available'] for c in filter_matrix),
+               'missingNotesRecordsRetained': [{'team': r['team'], 'row': r['sourceRow']} for r in expected if not r['source']],
+               'nonNumericCompletionRecords': [{'team': r['team'], 'cell': 'G' + str(r['sourceRow']), 'value': r['completionSource']} for r in expected if r['completion'] is None],
                'dropdowns': {'Team': 1, 'RAG': 1, 'total': 2}, 'viewports': ['1440x1000', '390x844'],
                'passedAssertions': len(checks), 'browserErrors': errors, 'failedRequests': failures,
                'offlineDashboard': 'PASS', 'downloadHashes': 'PASS', 'status': 'PASS'}

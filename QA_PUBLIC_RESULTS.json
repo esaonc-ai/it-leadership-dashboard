@@ -1,131 +1,137 @@
 {
+  "status": "NOT_RUN_FOR_THIS_REFRESH",
+  "reportDate": "2026-10-26",
+  "reason": "Local refresh only; coordinator owns remote Git and publishing. Historical results below apply only to the previous 18 October deployment.",
   "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
-  "reportDate": "2026-10-18",
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
-  "sourceSha256": "cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8",
-  "dashboardTitle": "IT & Technology Program Leadership Dashboard",
-  "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
-  "records": 133,
-  "rags": {
-    "Amber": 74,
-    "Green": 56,
-    "Red": 3
-  },
-  "teamRags": {
-    "Compliance Program": {
-      "Amber": 14,
-      "Red": 2
+  "historical18OctoberResults": {
+    "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+    "reportDate": "2026-10-18",
+    "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
+    "sourceSha256": "cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8",
+    "dashboardTitle": "IT & Technology Program Leadership Dashboard",
+    "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
+    "records": 133,
+    "rags": {
+      "Amber": 74,
+      "Green": 56,
+      "Red": 3
     },
-    "IT Security": {
-      "Amber": 3,
-      "Green": 6
+    "teamRags": {
+      "Compliance Program": {
+        "Amber": 14,
+        "Red": 2
+      },
+      "IT Security": {
+        "Amber": 3,
+        "Green": 6
+      },
+      "Infrastructure & Cloud": {
+        "Amber": 43,
+        "Green": 20
+      },
+      "IoT": {
+        "Green": 5
+      },
+      "R&D AI": {
+        "Green": 9
+      },
+      "UNIS ITEM- eHub integration": {
+        "Amber": 9
+      },
+      "UNIS.CO Email & Ticketing": {
+        "Green": 12,
+        "Amber": 2
+      },
+      "WCS Engineering": {
+        "Green": 4,
+        "Amber": 3,
+        "Red": 1
+      }
     },
-    "Infrastructure & Cloud": {
-      "Amber": 43,
-      "Green": 20
+    "teamRagCombinations": [
+      [
+        "Compliance Program",
+        "Red"
+      ],
+      [
+        "Compliance Program",
+        "Amber"
+      ],
+      [
+        "IT Security",
+        "Amber"
+      ],
+      [
+        "IT Security",
+        "Green"
+      ],
+      [
+        "Infrastructure & Cloud",
+        "Amber"
+      ],
+      [
+        "Infrastructure & Cloud",
+        "Green"
+      ],
+      [
+        "IoT",
+        "Green"
+      ],
+      [
+        "R&D AI",
+        "Green"
+      ],
+      [
+        "UNIS ITEM- eHub integration",
+        "Amber"
+      ],
+      [
+        "UNIS.CO Email & Ticketing",
+        "Amber"
+      ],
+      [
+        "UNIS.CO Email & Ticketing",
+        "Green"
+      ],
+      [
+        "WCS Engineering",
+        "Red"
+      ],
+      [
+        "WCS Engineering",
+        "Amber"
+      ],
+      [
+        "WCS Engineering",
+        "Green"
+      ]
+    ],
+    "cascadeTransitions": 24,
+    "dropdowns": {
+      "Team": 1,
+      "RAG": 1,
+      "total": 2
     },
-    "IoT": {
-      "Green": 5
-    },
-    "R&D AI": {
-      "Green": 9
-    },
-    "UNIS ITEM- eHub integration": {
-      "Amber": 9
-    },
-    "UNIS.CO Email & Ticketing": {
-      "Green": 12,
-      "Amber": 2
-    },
-    "WCS Engineering": {
-      "Green": 4,
-      "Amber": 3,
-      "Red": 1
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "passedAssertions": 19182,
+    "browserErrors": [],
+    "failedRequests": [],
+    "offlineDashboard": "PASS",
+    "downloadHashes": "PASS",
+    "status": "PASS",
+    "verifiedAtUtc": "2026-10-19T05:15:34.043006+00:00",
+    "evidenceDirectory": "qa-public/technology-revision",
+    "deployedContentCommit": "c2aed00e1db3959490e6f076ea09b6c2f2273fab",
+    "pagesBuild": {
+      "commit": "c2aed00e1db3959490e6f076ea09b6c2f2273fab",
+      "error": {
+        "message": null
+      },
+      "status": "built",
+      "updated_at": "2026-10-19T05:14:24Z"
     }
-  },
-  "teamRagCombinations": [
-    [
-      "Compliance Program",
-      "Red"
-    ],
-    [
-      "Compliance Program",
-      "Amber"
-    ],
-    [
-      "IT Security",
-      "Amber"
-    ],
-    [
-      "IT Security",
-      "Green"
-    ],
-    [
-      "Infrastructure & Cloud",
-      "Amber"
-    ],
-    [
-      "Infrastructure & Cloud",
-      "Green"
-    ],
-    [
-      "IoT",
-      "Green"
-    ],
-    [
-      "R&D AI",
-      "Green"
-    ],
-    [
-      "UNIS ITEM- eHub integration",
-      "Amber"
-    ],
-    [
-      "UNIS.CO Email & Ticketing",
-      "Amber"
-    ],
-    [
-      "UNIS.CO Email & Ticketing",
-      "Green"
-    ],
-    [
-      "WCS Engineering",
-      "Red"
-    ],
-    [
-      "WCS Engineering",
-      "Amber"
-    ],
-    [
-      "WCS Engineering",
-      "Green"
-    ]
-  ],
-  "cascadeTransitions": 24,
-  "dropdowns": {
-    "Team": 1,
-    "RAG": 1,
-    "total": 2
-  },
-  "viewports": [
-    "1440x1000",
-    "390x844"
-  ],
-  "passedAssertions": 19182,
-  "browserErrors": [],
-  "failedRequests": [],
-  "offlineDashboard": "PASS",
-  "downloadHashes": "PASS",
-  "status": "PASS",
-  "verifiedAtUtc": "2026-10-19T05:15:34.043006+00:00",
-  "evidenceDirectory": "qa-public/technology-revision",
-  "deployedContentCommit": "c2aed00e1db3959490e6f076ea09b6c2f2273fab",
-  "pagesBuild": {
-    "commit": "c2aed00e1db3959490e6f076ea09b6c2f2273fab",
-    "error": {
-      "message": null
-    },
-    "status": "built",
-    "updated_at": "2026-10-19T05:14:24Z"
   }
 }

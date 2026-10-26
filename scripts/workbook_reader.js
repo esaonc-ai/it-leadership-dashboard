@@ -42,7 +42,7 @@ function parseWeeklyWorkbook(bytes) {
    if(!value('A'+r)||!value('B'+r))continue;
    let v=Array.from({length:14},(_,c)=>value(letters(c+1)+r)),explicit=v[3],shift=explicit&&numeric(v[5])&&!numeric(v[6]),rag=explicit||(v[2].match(/\b(Red|Amber|Green)\b/i)||[])[1]||null, offset=shift||!explicit?-1:0;
    let [ragFill,ragFont]=rag?effective((explicit?'D':'C')+r):[null,null],src=letters(14+offset)+r;
-   records.push({index:records.length,id:v[0],project:v[1],team:sheet.getAttribute('name'),status:v[2],rag,ragFill,ragFont,start:offset?'':dateValue('E'+r),finish:dateValue(letters(6+offset)+r),completion:percent(v[6+offset]),completionSource:v[6+offset],objective:v[7+offset],progress:v[8+offset],next:v[9+offset],owner:v[10+offset],risks:v[11+offset],attention:v[12+offset],source:(rawCells.has(src)?txt(rawCells.get(src),'f'):'').startsWith('_xlfn.DISPIMG')?'Embedded workbook image; view in source workbook':v[13+offset],sourceRow:r,sourceLayout:shift?'shifted':'standard'});
+   records.push({index:records.length,id:v[0],project:v[1],team:sheet.getAttribute('name'),status:v[2],rag,ragFill,ragFont,start:offset?'':dateValue('E'+r),finish:dateValue(letters(6+offset)+r),completion:percent(v[6+offset]),completionSource:v[6+offset],objective:v[7+offset],progress:v[8+offset],next:v[9+offset],owner:v[10+offset],risks:v[11+offset],attention:v[12+offset],source:(rawCells.has(src)?txt(rawCells.get(src),'f'):'').startsWith('_xlfn.DISPIMG')?'Workbook image formula; see original workbook':v[13+offset],sourceRow:r,sourceLayout:shift?'shifted':'standard'});
   }
  }
  if(!records.length)throw Error('No compatible weekly records found');return records;
