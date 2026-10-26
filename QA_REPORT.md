@@ -1,26 +1,30 @@
-# IT & Technology Program Leadership Dashboard — 26 October 2026 local refresh
+# IT & Technology Program Leadership Dashboard — 26 October 2026 latest attachment (_2) local refresh
 
 ## Repository and scope
 
-Refreshed the existing checkout `/home/user/workspace/it-leadership-dashboard`, branch `main`, starting at `6fc6adaff019009492e2f7d6864c1f11542a8c56`. Repository `esaonc-ai/it-leadership-dashboard` and public URL https://esaonc-ai.github.io/it-leadership-dashboard/ are retained. Branding remains exactly **IT & Technology Program Leadership Dashboard**. This is a weekly snapshot, with no prior-week records added and no new app/provider.
+Refreshed the existing checkout `/home/user/workspace/it-leadership-dashboard`, branch `main`, starting at `1a38e443b5a6dcdf54a828125d471dc201ddd0f0`. Repository `esaonc-ai/it-leadership-dashboard` and public URL https://esaonc-ai.github.io/it-leadership-dashboard/ are retained. Branding remains exactly **IT & Technology Program Leadership Dashboard**. This is a weekly snapshot, with no prior-week records added and no new app/provider.
 
 No remote Git operations, push, deployment or workflow dispatch occurred. The local commit is intended for coordinator review and ibisGitTool publication after its resolver step. Public QA for this refresh remains NOT RUN; the historical public results are explicitly labeled in `QA_PUBLIC_RESULTS.json`.
 
 ## Source selection, revision comparison and integrity
 
-Searched the workspace/repo for available XLSX files before refresh. The two supplied **26 October 2026 v1.0** workbooks are newer than the existing **18 October 2026** repo workbook. Selected the latest explicitly supplied revision, **IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1.xlsx**, after comparison. Filesystem timestamps and equal file size were not used as proof of equivalence.
+Selected **IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2.xlsx**, the newest explicitly supplied revision at the newest available reporting date, **26 October 2026**. Compared it with both earlier same-date uploads. The prior local commit used `_1.xlsx`; it was not published because the coordinator reported ibisGitTool repository-write authorization denied twice, including after secure confirmation. This run performed no remote Git, auth, push, deploy or live retest.
 
 | Candidate | Bytes | SHA-256 before and after comparison/QA |
 |---|---:|---|
 | First supplied 26Oct2026 workbook | 76,511 | `0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c` |
-| Latest supplied 26Oct2026 `_1.xlsx` | 76,511 | `0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c` |
-| Previous 18Oct2026 repo workbook, archived locally before refresh | 101,898 | `cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8` |
+| Earlier 26Oct2026 `_1.xlsx` | 76,511 | `0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c` |
+| **Latest 26Oct2026 `_2.xlsx` — selected** | **76,509** | `d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5` |
 
-Both supplied files are **byte-identical**, not merely equal in size. Every ZIP part is identical. An independent semantic comparison also reports zero differences in raw values/types (including whitespace), formulas and cached results, resolved cell font/fill/border/alignment/protection/number formatting, sheet state/dimensions/merged ranges, conditional-formatting metadata and effective RAG cells. Original XML parts also cover themes, extensions, table metadata and any image references. No source workbook was modified or re-saved through an Excel library.
+The first two uploads remain byte-identical. The new `_2` differs from each in **15 ZIP XML parts**: core properties, styles, workbook metadata, four table definitions and all eight worksheets. Its saved modified timestamp changes from 14:05:15Z to 14:32:25Z; active tab changes from Infrastructure to WCS; WCS saves a different scroll position/selection. Cell-format IDs and differential-style IDs are remapped, the differential-style table shrinks from 147 to 129 entries, and some conditional rules serialize in a different order.
 
-Compared with the previous snapshot: 23 ZIP parts differ, 1,723 cell value/type anchors differ, 1,938 cell formatting anchors differ, and 108 effective RAG anchors differ. These are comparisons by sheet name and coordinate; sheet renaming and removal account for many anchors and are not interpreted as independent business changes. Formula/cache values are unchanged. Full comparison: `SOURCE_COMPARISON.json`; reproducible reader: `scripts/compare_workbooks.py`.
+There are **zero changes** in raw cell values/types (including whitespace), formulas/cached results, resolved direct font/fill/border/alignment/protection/number formatting, or effective RAG appearance. Every conditional rule is compared after resolving its differential style and ordering by actual Excel priority: **zero semantic rule changes**. All four changed table parts also match after resolving differential-style references. The comparison script now records both raw rule references and rules with resolved styles in priority order, so style-ID changes are not mistaken for appearance changes. Full evidence: `SOURCE_COMPARISON.json`, three complete local inventories and `qa-local/26oct-revision2/raw-part-diff.txt`.
 
-The selected bytes are copied directly to `Weekly_Leadership_Source_Workbook.xlsx` and embedded in `index.html`. Its filename, including the ampersand and `_1` suffix, is displayed and used for browser downloads. The direct workbook, desktop download, mobile download, offline download and locally uploaded/offline download all have the selected source SHA above. Both root attachments and the archived previous workbook retain their initial hashes after all QA.
+All eight sheets and all 1,569 populated/styled cells in each supplied revision were read afresh. Prior source issues were rechecked against `_2`, with direct cell evidence in `qa-local/26oct-revision2/source-issue-recheck.json`; every source value remains unchanged from the earlier uploads. The 18 October comparison is historical context retained in prior commit `1a38e44`, not a newly supplied source candidate.
+
+The selected bytes are copied directly to `Weekly_Leadership_Source_Workbook.xlsx` and embedded unchanged in `index.html`. The visible source filename and browser workbook download now use the exact `_2.xlsx` name. All **91 embedded records are identical** to the prior local commit; a new commit is needed to preserve the latest filename and original workbook bytes. No workbook was modified or re-saved through an Excel library. All three supplied sources retain their initial hashes after QA.
+
+The direct HTTP workbook, desktop download, mobile download, offline download and locally uploaded/offline download all have selected SHA-256 **d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5**. The original formula/cache content and all extended formatting XML remain intact in the downloads.
 
 ## Full workbook inspection and record reconciliation
 
@@ -56,11 +60,11 @@ Openpyxl warns about unsupported extensions; raw XML inspection shows the extend
 
 ### Images and formula/cache inspection
 
-There are **no embedded image/media/drawing/cell-image parts** in either supplied workbook ZIP, and openpyxl finds no sheet image objects. Therefore there is no image to extract and no extracted-image path to report. The only formula is **IoT N6**, `=_xlfn.DISPIMG("ID_BFCB287FF50949ACB47F716BD1E40440",1)`, with cached **#NAME?**. Its referenced image asset is absent. The dashboard uses the neutral note **“Workbook image formula; see original workbook”** rather than claiming an embedded image exists. Formula/cache bytes remain unchanged in the XLSX. Full local evidence includes both complete JSON inventories and `all-cell-content.txt`.
+There are **no embedded image/media/drawing/cell-image parts** in any of the three supplied workbook ZIPs, and openpyxl finds no sheet image objects. Therefore there is no image to extract and no extracted-image path to report. The only formula is **IoT N6**, `=_xlfn.DISPIMG("ID_BFCB287FF50949ACB47F716BD1E40440",1)`, with cached **#NAME?**. Its referenced image asset is absent. The dashboard uses the neutral note **“Workbook image formula; see original workbook”** rather than claiming an embedded image exists. Formula/cache bytes remain unchanged in the XLSX. Full local evidence includes both complete JSON inventories and `all-cell-content.txt`.
 
 ## Source issues: freshly checked cells
 
-These observations describe the source and are not silently corrected in the dashboard.
+These observations were rechecked against the latest `_2.xlsx` cells and cached values. All remain unchanged; none is silently corrected in the dashboard.
 
 | Cells | Current finding |
 |---|---|
@@ -87,11 +91,11 @@ These observations describe the source and are not silently corrected in the das
 | IoT H4:H6 versus J4:J6 | Completed objective text coexists with UAT, selection/sizing or procurement next steps. D8/G8 remains Green/20%; all IoT F4:F8 are now TBD. |
 | IT Compliance Program I14/N14; eHub I14/N14 | Compliance narrative refers to pickup on 10/8 while notes cite 11-Sep; the eHub version says “last Thursday.” Dates and relative wording are retained without resolving the chronology. |
 
-Detailed source audit, every included row/field, excluded nonempty rows, formulas/caches, warnings and extension ranges: `qa-local/26oct/workbook-audit.json`. Complete values/styles and raw ZIP-part hashes: the `*-inventory.json` files. No source issue is presented as a dashboard-derived change of ownership, deadline, status or RAG.
+Detailed source audit, every included row/field, excluded nonempty rows, formulas/caches, warnings and extension ranges: `qa-local/26oct-revision2/workbook-audit.json`. Complete values/styles and raw ZIP-part hashes: the `*-inventory.json` files. No source issue is presented as a dashboard-derived change of ownership, deadline, status or RAG.
 
 ## Local QA evidence
 
-**PASS — 18,238 Playwright assertions**, Playwright 1.64.0 / Chromium 156.0.8078.4, desktop **1440×1000** and mobile **390×844**, anonymous context with no login cookies. No browser page/console errors, failed network requests or HTTP error responses. Syntax checks pass for every Python script, the XLSX JS reader and every inline script extracted from the final HTML. The app is plain static HTML/JavaScript: no package.json, framework build, lint or typecheck command applies. No application dependency was added or upgraded; the existing environment's Playwright version was installed for Python QA.
+**PASS — 18,238 Playwright assertions**, Playwright 1.64.0 / Chromium 156.0.8078.4, desktop **1440×1000** and mobile **390×844**, anonymous context with no login cookies. No browser page/console errors, failed network requests or HTTP error responses. Syntax checks pass for every Python script, the XLSX JS reader and every inline script extracted from the final HTML. The app is plain static HTML/JavaScript: no package.json, framework build, lint or typecheck command applies. No dependency was installed or upgraded for this revision; existing Playwright tooling was reused.
 
 The Python audit independently reconciles every record and mapped source cell. Browser expectations separately parse raw source XLSX XML and effective styles, then reconcile every field, visible row, source order, row count, RAG KPI, whole-number share, chart segment/style/count, numeric average, delivery estimate and all record details. The three missing-note records and the text completion have explicit evidence in `QA_LOCAL_RESULTS.json`.
 
@@ -99,15 +103,15 @@ The suite covers the **36-state matrix**: All/8 teams × All/Red/Amber/Green. **
 
 Both browser download buttons are exercised. Suggested filenames preserve the exact source name and current dashboard branding. Source download bytes are verified for direct HTTP, desktop, mobile, offline and a differently named local upload's offline snapshot. The standalone HTML loads via file:// with the context offline, runs all filter/cascade checks and downloads the unchanged XLSX. Local uploads exercise missing reporting week, visible loading/disabled inputs, success, invalid-workbook errors and preservation of the valid snapshot. These are in-browser file operations; no operational-system write tests ran.
 
-Read-only HTTP checks return **200** for the page and workbook; arbitrary preview/deployment Host headers also return 200 and the same HTML bytes. Desktop/mobile screenshots were visually inspected. Evidence remains in ignored `qa-local/26oct/`: `qa-results.json`, `workbook-audit.json`, `desktop.png`, `mobile.png`, `mobile-detail.png`, `http.json`, `host-checks.json`, `page-snapshot.html`, `dashboard.html`, `uploaded-dashboard.html` and downloaded XLSX files. Tracked digest and integrity summary: `QA_LOCAL_RESULTS.json`. Transient screenshots, full source inventories, temporary invalid file and downloaded artifacts are excluded from the commit.
+Read-only HTTP checks return **200** for the page and workbook; arbitrary preview/deployment Host headers also return 200 and the same HTML bytes. Desktop/mobile screenshots were visually inspected. Evidence remains in ignored `qa-local/26oct-revision2/`: `qa-results.json`, `workbook-audit.json`, `desktop.png`, `mobile.png`, `mobile-detail.png`, `http.json`, `host-checks.json`, `page-snapshot.html`, `dashboard.html`, `uploaded-dashboard.html` and downloaded XLSX files. Tracked digest and integrity summary: `QA_LOCAL_RESULTS.json`. Transient screenshots, full source inventories, temporary invalid file and downloaded artifacts are excluded from the commit.
 
 ## Existing Pages publishing and handoff
 
 The existing mechanism is **GitHub Pages from `main`, `/` (repository root)**, using GitHub's generated **`pages-build-deployment`** workflow, ID **357658072**, path **`dynamic/pages/pages-build-deployment`**. Its observed jobs are **Jekyll build → upload Pages artifact → report build status → deploy to GitHub Pages**. There is no checked-in workflow, `docs/` app, CNAME change or alternate deployment provider.
 
-Read-only public API receipts show successful run **39203610844**, deployment **7166266769**, branch/ref **main**, starting SHA **6fc6adaff019009492e2f7d6864c1f11542a8c56**. The public HTML is byte-identical to that checkout's root `index.html`; this and the root-only repository tree establish the served source path. Evidence: `qa-local/26oct/pages-readonly-evidence.json`. The Pages settings/build endpoints return anonymous 404, so the root setting is established from published content/workflow evidence, rather than a fresh authenticated settings response. The coordinator must use its resolver to confirm current branch/path settings before publication, as requested.
+Previously captured read-only public API receipts show successful run **39203610844**, deployment **7166266769**, branch/ref **main**, starting SHA **6fc6adaff019009492e2f7d6864c1f11542a8c56**. At that historical check, public HTML was byte-identical to the original checkout's root `index.html`; this and the root-only repository tree established the served source path. This latest refresh was not checked against the live site as if deployed. Evidence: `qa-local/26oct/pages-readonly-evidence.json` (historical receipt from the previous local refresh; not re-fetched). The historical anonymous Pages settings/build requests returned 404, so the root setting is established from published content/workflow evidence, rather than a fresh authenticated settings response. The coordinator must use its resolver to confirm current branch/path settings before publication, as requested.
 
-After review, the coordinator uses **ibisGitTool** to reconcile/push the local commit to this same repository's **main** branch; the existing Pages workflow then handles publication at the unchanged URL. The coordinator should verify the resulting Pages SHA and anonymous HTML/workbook hashes after that publication. No push or deployment has been performed here.
+After review, the coordinator uses **ibisGitTool** to reconcile/push the local commit to this same repository's **main** branch; the existing Pages workflow then handles publication at the unchanged URL. The coordinator should verify the resulting Pages SHA and anonymous HTML/workbook hashes after that publication. No push or deployment has been performed here. The authorization blocker remains for the coordinator; local content/QA is ready for its resolver and push retry, subject to the documented source-owner caveats.
 
 Application directory: **`/home/user/workspace/it-leadership-dashboard`**. Exact managed-preview command, **port 3000**:
 

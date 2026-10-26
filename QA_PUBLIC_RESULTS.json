@@ -1,7 +1,7 @@
 {
   "status": "NOT_RUN_FOR_THIS_REFRESH",
   "reportDate": "2026-10-26",
-  "reason": "Local refresh only; coordinator owns remote Git and publishing. Historical results below apply only to the previous 18 October deployment.",
+  "reason": "Latest _2 revision verified locally only. Coordinator reported repository-write authorization denied twice for the earlier local revision; no remote Git, auth, push, deployment or live retest attempted for this revision. Historical results below apply only to the previous 18 October deployment.",
   "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
   "historical18OctoberResults": {
     "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
@@ -133,5 +133,7 @@
       "status": "built",
       "updated_at": "2026-10-19T05:14:24Z"
     }
-  }
+  },
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2.xlsx",
+  "sourceSha256": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
 }

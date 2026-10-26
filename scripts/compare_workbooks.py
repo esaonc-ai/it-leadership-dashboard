@@ -32,6 +32,12 @@ def raw_value(value):
     return {"isoDateTime": value.isoformat()} if isinstance(value, (date, datetime)) else value
 
 
+def resolved_rule(rule):
+    node = copy(rule).to_tree()
+    node.attrib.pop("dxfId", None)
+    return {"rule": ET.tostring(node, encoding="unicode"), "differentialStyle": xml(rule.dxf)}
+
+
 def inventory(path, output):
     original = path.read_bytes()
     with warnings.catch_warnings(record=True) as caught:
@@ -62,7 +68,8 @@ def inventory(path, output):
             "state": sheet.sheet_state, "dimensions": sheet.calculate_dimension(),
             "mergedRanges": str(sheet.merged_cells),
             "conditionalFormatting": [
-                {"ranges": str(cf.sqref), "rules": [xml(r) for r in rules]}
+                {"ranges": str(cf.sqref), "rules": [xml(r) for r in rules],
+                 "resolvedRules": [resolved_rule(r) for r in sorted(rules, key=lambda r: r.priority)]}
                 for cf, rules in sheet.conditional_formatting._cf_rules.items()
             ],
             "rowDimensions": {str(k): dict(v) for k, v in sheet.row_dimensions.items()},
@@ -107,12 +114,16 @@ def compare(a, b):
     formulas = lambda x: {k: (v["rawValue"], v["rawCachedValue"], v["cachedType"])
                           for k, v in x["cells"].items() if v["type"] == "f"}
     formats = lambda x: {k: (v["style"], v["numberFormat"]) for k, v in x["cells"].items()}
+    conditional = lambda x: {sheet: [{"ranges": cf["ranges"], "rules": cf["resolvedRules"]}
+                                    for cf in meta["conditionalFormatting"]]
+                             for sheet, meta in x["sheetMetadata"].items()}
     return {
         "differentZipParts": differences(a["zipParts"], b["zipParts"]),
         "differentValuesAndTypes": differences(values(a), values(b)),
         "differentFormulasAndCaches": differences(formulas(a), formulas(b)),
         "differentCellFormatting": differences(formats(a), formats(b)),
         "differentSheetMetadataAndConditionalFormatting": differences(a["sheetMetadata"], b["sheetMetadata"]),
+        "differentResolvedConditionalFormatting": differences(conditional(a), conditional(b)),
         "differentEffectiveRagCells": differences(a["effectiveRag"], b["effectiveRag"]),
     }
 
