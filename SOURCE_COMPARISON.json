@@ -1,8 +1,8 @@
 {
-  "selection": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+  "selection": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
   "reportDate": "2026-10-26",
-  "reason": "Latest explicitly supplied _4 revision at newest available reporting date; all five same-date uploads compared without modifying originals.",
-  "startingCommit": "bfbc8d5d6e725d6900702be56e9db99c407791d7",
+  "reason": "Latest explicitly supplied _5 revision at newest available reporting date; all six same-date uploads compared without modifying originals.",
+  "startingCommit": "1a2b75fa7d3fc02035aeab74e555341498fdf246",
   "candidates": [
     {
       "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST).xlsx",
@@ -66,7 +66,7 @@
         "Conditional Formatting extension is not supported and will be removed",
         "Unknown extension is not supported and will be removed"
       ],
-      "fullInventory": "qa-local/26oct-revision4/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)-inventory.json",
+      "fullInventory": "qa-local/26oct-revision5/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)-inventory.json",
       "sha256AfterQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
     },
     {
@@ -131,7 +131,7 @@
         "Conditional Formatting extension is not supported and will be removed",
         "Unknown extension is not supported and will be removed"
       ],
-      "fullInventory": "qa-local/26oct-revision4/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1-inventory.json",
+      "fullInventory": "qa-local/26oct-revision5/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1-inventory.json",
       "sha256AfterQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
     },
     {
@@ -196,7 +196,7 @@
         "Conditional Formatting extension is not supported and will be removed",
         "Unknown extension is not supported and will be removed"
       ],
-      "fullInventory": "qa-local/26oct-revision4/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2-inventory.json",
+      "fullInventory": "qa-local/26oct-revision5/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2-inventory.json",
       "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
     },
     {
@@ -261,7 +261,7 @@
         "Conditional Formatting extension is not supported and will be removed",
         "Unknown extension is not supported and will be removed"
       ],
-      "fullInventory": "qa-local/26oct-revision4/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_3-inventory.json",
+      "fullInventory": "qa-local/26oct-revision5/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_3-inventory.json",
       "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
     },
     {
@@ -326,14 +326,79 @@
         "Conditional Formatting extension is not supported and will be removed",
         "Unknown extension is not supported and will be removed"
       ],
-      "fullInventory": "qa-local/26oct-revision4/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4-inventory.json",
+      "fullInventory": "qa-local/26oct-revision5/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4-inventory.json",
+      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
+      "bytes": 76509,
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterComparison": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "allCellsRead": 1569,
+      "sheets": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ],
+      "records": 91,
+      "rags": {
+        "Amber": 49,
+        "Green": 38,
+        "Red": 4
+      },
+      "teamRags": {
+        "IT Security": {
+          "Amber": 3,
+          "Green": 6
+        },
+        "Infrastructure & Cloud": {
+          "Amber": 8,
+          "Green": 2
+        },
+        "IoT": {
+          "Green": 5
+        },
+        "R&D AI": {
+          "Green": 9
+        },
+        "WCS Engineering": {
+          "Amber": 7,
+          "Green": 2
+        },
+        "IT Compliance Program": {
+          "Amber": 13,
+          "Red": 4
+        },
+        "UNIS.CO Email & Ticketing": {
+          "Green": 13,
+          "Amber": 3
+        },
+        "UNIS ITEM- eHub integration": {
+          "Amber": 15,
+          "Green": 1
+        }
+      },
+      "imageParts": [],
+      "imageFormulaReferences": {
+        "IoT!N6": "=_xlfn.DISPIMG(\"ID_BFCB287FF50949ACB47F716BD1E40440\",1)"
+      },
+      "readerWarnings": [
+        "Conditional Formatting extension is not supported and will be removed",
+        "Unknown extension is not supported and will be removed"
+      ],
+      "fullInventory": "qa-local/26oct-revision5/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5-inventory.json",
       "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
     }
   ],
   "comparisonsToLatest": [
     {
       "earlier": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST).xlsx",
-      "latest": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+      "latest": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
       "byteEqual": false,
       "differentZipParts": [
         "docProps/core.xml",
@@ -370,7 +435,7 @@
     },
     {
       "earlier": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1.xlsx",
-      "latest": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+      "latest": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
       "byteEqual": false,
       "differentZipParts": [
         "docProps/core.xml",
@@ -407,7 +472,7 @@
     },
     {
       "earlier": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2.xlsx",
-      "latest": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+      "latest": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
       "byteEqual": true,
       "differentZipParts": [],
       "differentValuesAndTypes": [],
@@ -419,7 +484,19 @@
     },
     {
       "earlier": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_3.xlsx",
-      "latest": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+      "latest": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
+      "byteEqual": true,
+      "differentZipParts": [],
+      "differentValuesAndTypes": [],
+      "differentFormulasAndCaches": [],
+      "differentCellFormatting": [],
+      "differentSheetMetadataAndConditionalFormatting": [],
+      "differentResolvedConditionalFormatting": [],
+      "differentEffectiveRagCells": []
+    },
+    {
+      "earlier": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+      "latest": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
       "byteEqual": true,
       "differentZipParts": [],
       "differentValuesAndTypes": [],
