@@ -1,28 +1,32 @@
-# IT & Technology Program Leadership Dashboard — 26 October 2026 latest attachment (_2) local refresh
+# IT & Technology Program Leadership Dashboard — 26 October 2026 latest attachment (_4) local refresh
 
 ## Repository and scope
 
-Refreshed the existing checkout `/home/user/workspace/it-leadership-dashboard`, branch `main`, starting at `1a38e443b5a6dcdf54a828125d471dc201ddd0f0`. Repository `esaonc-ai/it-leadership-dashboard` and public URL https://esaonc-ai.github.io/it-leadership-dashboard/ are retained. Branding remains exactly **IT & Technology Program Leadership Dashboard**. This is a weekly snapshot, with no prior-week records added and no new app/provider.
+Refreshed the existing checkout `/home/user/workspace/it-leadership-dashboard`, branch `main`, starting at `bfbc8d5d6e725d6900702be56e9db99c407791d7`. Repository `esaonc-ai/it-leadership-dashboard` and public URL https://esaonc-ai.github.io/it-leadership-dashboard/ are retained. Branding remains exactly **IT & Technology Program Leadership Dashboard**. This is a weekly snapshot, with no prior-week records added and no new app/provider.
 
 No remote Git operations, push, deployment or workflow dispatch occurred. The local commit is intended for coordinator review and ibisGitTool publication after its resolver step. Public QA for this refresh remains NOT RUN; the historical public results are explicitly labeled in `QA_PUBLIC_RESULTS.json`.
 
 ## Source selection, revision comparison and integrity
 
-Selected **IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2.xlsx**, the newest explicitly supplied revision at the newest available reporting date, **26 October 2026**. Compared it with both earlier same-date uploads. The prior local commit used `_1.xlsx`; it was not published because the coordinator reported ibisGitTool repository-write authorization denied twice, including after secure confirmation. This run performed no remote Git, auth, push, deploy or live retest.
+Selected **IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx**, the newest explicitly supplied revision at the newest available reporting date, **26 October 2026**. Inventoried all workbook files in the workspace/repo and compared all five supplied same-date originals. Ignored QA-generated downloads as source candidates. The interrupted `_3` attempt left only an uncommitted comparison report; the starting dashboard still selected `_2`. This refresh selects `_4` and preserves its exact supplied download filename.
 
 | Candidate | Bytes | SHA-256 before and after comparison/QA |
 |---|---:|---|
 | First supplied 26Oct2026 workbook | 76,511 | `0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c` |
-| Earlier 26Oct2026 `_1.xlsx` | 76,511 | `0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c` |
-| **Latest 26Oct2026 `_2.xlsx` — selected** | **76,509** | `d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5` |
+| Earlier `_1.xlsx` | 76,511 | `0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c` |
+| Earlier `_2.xlsx` | 76,509 | `d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5` |
+| Earlier `_3.xlsx` | 76,509 | `d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5` |
+| **Latest `_4.xlsx` — selected** | **76,509** | `d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5` |
 
-The first two uploads remain byte-identical. The new `_2` differs from each in **15 ZIP XML parts**: core properties, styles, workbook metadata, four table definitions and all eight worksheets. Its saved modified timestamp changes from 14:05:15Z to 14:32:25Z; active tab changes from Infrastructure to WCS; WCS saves a different scroll position/selection. Cell-format IDs and differential-style IDs are remapped, the differential-style table shrinks from 147 to 129 entries, and some conditional rules serialize in a different order.
+**`_4`, `_3` and `_2` are byte-identical.** The first upload and `_1` are also byte-identical to one another. Comparing `_4` with either of those first two finds **15 changed ZIP XML parts**: core properties, styles, workbook metadata, four table definitions and all eight worksheets. These differences carry forward the metadata, style-reference remapping and conditional-rule serialization changes already inspected for `_2`; the previously recorded raw XML diff remains at `qa-local/26oct-revision2/raw-part-diff.txt`.
 
-There are **zero changes** in raw cell values/types (including whitespace), formulas/cached results, resolved direct font/fill/border/alignment/protection/number formatting, or effective RAG appearance. Every conditional rule is compared after resolving its differential style and ordering by actual Excel priority: **zero semantic rule changes**. All four changed table parts also match after resolving differential-style references. The comparison script now records both raw rule references and rules with resolved styles in priority order, so style-ID changes are not mistaken for appearance changes. Full evidence: `SOURCE_COMPARISON.json`, three complete local inventories and `qa-local/26oct-revision2/raw-part-diff.txt`.
+Fresh comparison finds **zero differences** across all five sources in raw cell values/types (including whitespace), formulas and cached results, resolved direct font/fill/border/alignment/protection/number formatting, priority-ordered conditional rules with resolved differential styles, or effective RAG appearance. No business data changed in the latest upload. Full current comparison: `SOURCE_COMPARISON.json`; five complete cell/style/ZIP inventories are in `qa-local/26oct-revision4/`.
 
-All eight sheets and all 1,569 populated/styled cells in each supplied revision were read afresh. Prior source issues were rechecked against `_2`, with direct cell evidence in `qa-local/26oct-revision2/source-issue-recheck.json`; every source value remains unchanged from the earlier uploads. The 18 October comparison is historical context retained in prior commit `1a38e44`, not a newly supplied source candidate.
+All eight sheets and all 1,569 populated/styled cells in each revision were read. Source findings were freshly extracted from `_4`, including cached formula values, into `qa-local/26oct-revision4/source-issue-recheck.json`; complete cell content is in `all-cell-content.txt`. The 18 October comparison is historical context retained in commit `1a38e44`, not a newly supplied source candidate.
 
-The selected bytes are copied directly to `Weekly_Leadership_Source_Workbook.xlsx` and embedded unchanged in `index.html`. The visible source filename and browser workbook download now use the exact `_2.xlsx` name. All **91 embedded records are identical** to the prior local commit; a new commit is needed to preserve the latest filename and original workbook bytes. No workbook was modified or re-saved through an Excel library. All three supplied sources retain their initial hashes after QA.
+The selected bytes are copied directly to `Weekly_Leadership_Source_Workbook.xlsx` and embedded unchanged in `index.html`. All **91 records are identical** to the starting local commit; only the supplied filename changes in the dashboard. Refresh generation is byte-idempotent. No uploaded original was modified or re-saved through an Excel library; **all five initial hashes remain unchanged after QA**.
+
+The user's permission to change the source workbook is acknowledged. No specific factual corrections were supplied, so conflicting statuses/percentages, sheet groupings, ownership and date narratives remain exactly as uploaded for user decisions. Permission alone is not treated as an instruction to guess business facts.
 
 The direct HTTP workbook, desktop download, mobile download, offline download and locally uploaded/offline download all have selected SHA-256 **d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5**. The original formula/cache content and all extended formatting XML remain intact in the downloads.
 
@@ -60,17 +64,16 @@ Openpyxl warns about unsupported extensions; raw XML inspection shows the extend
 
 ### Images and formula/cache inspection
 
-There are **no embedded image/media/drawing/cell-image parts** in any of the three supplied workbook ZIPs, and openpyxl finds no sheet image objects. Therefore there is no image to extract and no extracted-image path to report. The only formula is **IoT N6**, `=_xlfn.DISPIMG("ID_BFCB287FF50949ACB47F716BD1E40440",1)`, with cached **#NAME?**. Its referenced image asset is absent. The dashboard uses the neutral note **“Workbook image formula; see original workbook”** rather than claiming an embedded image exists. Formula/cache bytes remain unchanged in the XLSX. Full local evidence includes both complete JSON inventories and `all-cell-content.txt`.
+There are **no embedded image/media/drawing/cell-image parts** in any of the five supplied workbook ZIPs, and openpyxl finds no sheet image objects. Therefore there is no image to extract and no extracted-image path to report. The only formula is **IoT N6**, `=_xlfn.DISPIMG("ID_BFCB287FF50949ACB47F716BD1E40440",1)`, with cached **#NAME?**. Its referenced image asset is absent. The dashboard uses the neutral note **“Workbook image formula; see original workbook”** rather than claiming an embedded image exists. Formula/cache bytes remain unchanged in the XLSX. Full local evidence includes five complete JSON inventories and `all-cell-content.txt`.
 
-## Source issues: freshly checked cells
+## Source issues requiring source-owner decisions: freshly checked cells
 
-These observations were rechecked against the latest `_2.xlsx` cells and cached values. All remain unchanged; none is silently corrected in the dashboard.
+These observations were rechecked against the latest `_4.xlsx` cells and cached values. All remain unchanged; none is silently corrected in the dashboard.
 
 | Cells | Current finding |
 |---|---|
 | IoT A2 | Still says reporting date **2026-08-23** and cites the 23Aug roadmap. Dashboard weekly date comes from the selected 26Oct attachment. |
 | IoT N6 | Image formula, cached #NAME?, no embedded image asset. |
-| IoT N8; IT Security N11:N12 | Notes absent; all three records are retained and details show “Not provided.” |
 | IT Security D6/N6, D7/N7 | Green/meeting-note fragments without identifier/project. No workstream or note reassignment is invented. |
 | IT Security K2:K5, K10 | Replacement-pending ownership wording remains. |
 | IT Compliance Program K2, K4, K7, K9:K12, K15:K16 | Replacement-pending owner wording remains. The old Infrastructure pending-owner list no longer applies because that sheet's contents changed. |
@@ -91,7 +94,9 @@ These observations were rechecked against the latest `_2.xlsx` cells and cached 
 | IoT H4:H6 versus J4:J6 | Completed objective text coexists with UAT, selection/sizing or procurement next steps. D8/G8 remains Green/20%; all IoT F4:F8 are now TBD. |
 | IT Compliance Program I14/N14; eHub I14/N14 | Compliance narrative refers to pickup on 10/8 while notes cite 11-Sep; the eHub version says “last Thursday.” Dates and relative wording are retained without resolving the chronology. |
 
-Detailed source audit, every included row/field, excluded nonempty rows, formulas/caches, warnings and extension ranges: `qa-local/26oct-revision2/workbook-audit.json`. Complete values/styles and raw ZIP-part hashes: the `*-inventory.json` files. No source issue is presented as a dashboard-derived change of ownership, deadline, status or RAG.
+**Blank optional fields:** `IoT!N8` and `IT Security!N11:N12` have no notes. These are not contradictory business facts; all three records are retained and details show “Not provided.” `UNIS ITEM- eHub integration!G8` contains the explicit text `TBD`, which remains text and is excluded from numeric averages.
+
+Detailed source audit, every included row/field, excluded nonempty rows, formulas/caches, warnings and extension ranges: `qa-local/26oct-revision4/workbook-audit.json`. Complete values/styles and raw ZIP-part hashes: the `*-inventory.json` files. No source issue is presented as a dashboard-derived change of ownership, deadline, status or RAG.
 
 ## Local QA evidence
 
@@ -103,7 +108,7 @@ The suite covers the **36-state matrix**: All/8 teams × All/Red/Amber/Green. **
 
 Both browser download buttons are exercised. Suggested filenames preserve the exact source name and current dashboard branding. Source download bytes are verified for direct HTTP, desktop, mobile, offline and a differently named local upload's offline snapshot. The standalone HTML loads via file:// with the context offline, runs all filter/cascade checks and downloads the unchanged XLSX. Local uploads exercise missing reporting week, visible loading/disabled inputs, success, invalid-workbook errors and preservation of the valid snapshot. These are in-browser file operations; no operational-system write tests ran.
 
-Read-only HTTP checks return **200** for the page and workbook; arbitrary preview/deployment Host headers also return 200 and the same HTML bytes. Desktop/mobile screenshots were visually inspected. Evidence remains in ignored `qa-local/26oct-revision2/`: `qa-results.json`, `workbook-audit.json`, `desktop.png`, `mobile.png`, `mobile-detail.png`, `http.json`, `host-checks.json`, `page-snapshot.html`, `dashboard.html`, `uploaded-dashboard.html` and downloaded XLSX files. Tracked digest and integrity summary: `QA_LOCAL_RESULTS.json`. Transient screenshots, full source inventories, temporary invalid file and downloaded artifacts are excluded from the commit.
+Read-only HTTP checks return **200** for the page and workbook; arbitrary preview/deployment Host headers also return 200 and the same HTML bytes. Desktop/mobile screenshots were visually inspected. Evidence remains in ignored `qa-local/26oct-revision4/`: `qa-results.json`, `workbook-audit.json`, `desktop.png`, `mobile.png`, `mobile-detail.png`, `http.json`, `host-checks.json`, `page-snapshot.html`, `dashboard.html`, `uploaded-dashboard.html` and downloaded XLSX files. Tracked digest and integrity summary: `QA_LOCAL_RESULTS.json`. Transient screenshots, full source inventories, temporary invalid file and downloaded artifacts are excluded from the commit.
 
 ## Existing Pages publishing and handoff
 

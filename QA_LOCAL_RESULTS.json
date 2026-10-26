@@ -1,7 +1,7 @@
 {
   "url": "http://127.0.0.1:3000/",
   "reportDate": "2026-10-26",
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2.xlsx",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
   "sourceSha256": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
   "dashboardTitle": "IT & Technology Program Leadership Dashboard",
   "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
@@ -438,26 +438,38 @@
       "bytes": 76509,
       "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
       "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_3.xlsx",
+      "bytes": 76509,
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+      "bytes": 76509,
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
     }
   ],
   "downloadHashesVerified": {
-    "public-workbook.xlsx": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
     "offline-workbook.xlsx": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+    "uploaded-workbook.xlsx": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
     "mobile-workbook.xlsx": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-    "uploaded-workbook.xlsx": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    "public-workbook.xlsx": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
   },
   "publicCopySha256": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-  "indexSha256": "ed8ea50fbb0430f35f2805ccebca3ed54e56827b8718c405cce30c3ab3f77ac1",
+  "indexSha256": "a292b00f3cc5ddbe1877b02a9174c205b647771a10446c60cd2f993faeb7f539",
   "hostChecks": [
     {
       "host": "preview.example.invalid",
       "status": 200,
-      "sha256": "ed8ea50fbb0430f35f2805ccebca3ed54e56827b8718c405cce30c3ab3f77ac1"
+      "sha256": "a292b00f3cc5ddbe1877b02a9174c205b647771a10446c60cd2f993faeb7f539"
     },
     {
       "host": "deployment.example.invalid:3000",
       "status": 200,
-      "sha256": "ed8ea50fbb0430f35f2805ccebca3ed54e56827b8718c405cce30c3ab3f77ac1"
+      "sha256": "a292b00f3cc5ddbe1877b02a9174c205b647771a10446c60cd2f993faeb7f539"
     }
   ],
   "syntaxChecks": {
@@ -470,9 +482,17 @@
     "playwright": "1.64.0",
     "chromium": "156.0.8078.4"
   },
-  "startingCommit": "1a38e443b5a6dcdf54a828125d471dc201ddd0f0",
-  "publication": "NOT_PUSHED_OR_DEPLOYED; local QA only; prior coordinator write-authorization denial not retried",
-  "evidenceDirectory": "qa-local/26oct-revision2",
+  "startingCommit": "bfbc8d5d6e725d6900702be56e9db99c407791d7",
+  "publication": "NOT_PUSHED_OR_DEPLOYED; local QA only; coordinator handles remote authorization and publishing",
+  "evidenceDirectory": "qa-local/26oct-revision4",
   "temporaryServerStopped": true,
-  "recordsIdenticalToPriorLocalCommit": true
+  "recordsIdenticalToPriorLocalCommit": true,
+  "refreshByteIdempotent": true,
+  "sourceSelection": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+  "sourceCorrections": "No factual corrections specified; ambiguous business facts preserved pending user decisions",
+  "downloadedDashboardArtifacts": {
+    "dashboard.html": "e76929cb03da68c756b0465006cce7eb17e7bb802ab368d5776a76b84d9e90c8",
+    "uploaded-dashboard.html": "3476517ad396227b3c2bc205f35cee52007e0d128211962a9c5045fade7ec2a9"
+  },
+  "downloadedDashboardEmbeddedSourceHashVerified": true
 }
