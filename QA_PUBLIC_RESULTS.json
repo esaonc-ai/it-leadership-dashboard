@@ -1,7 +1,7 @@
 {
   "status": "NOT_RUN_FOR_THIS_REFRESH",
   "reportDate": "2026-10-26",
-  "reason": "Prepared _5 refresh verified locally only and remains unpublished. A separate read-only anonymous HTTP/browser check observed the existing 18 October live snapshot, not the prepared refresh. No remote Git, auth, push or deployment attempted; coordinator handles authorization.",
+  "reason": "Prepared _6 refresh verified locally only and remains unpublished. A separate read-only anonymous HTTP/browser check observed the existing 18 October live snapshot, not the prepared refresh. No remote Git, auth, push or deployment attempted; coordinator handles authorization.",
   "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
   "historical18OctoberResults": {
     "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
@@ -134,11 +134,11 @@
       "updated_at": "2026-10-19T05:14:24Z"
     }
   },
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
-  "sourceSha256": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_6.xlsx",
+  "sourceSha256": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
   "currentLiveObservation": {
     "scope": "READ_ONLY_CURRENT_LIVE_SNAPSHOT; not QA of unpublished prepared refresh",
-    "checkedAtUtc": "2026-10-26T15:18:23.942056+00:00",
+    "checkedAtUtc": "2026-10-27T07:12:35.730028+00:00",
     "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
     "httpStatus": 200,
     "htmlSha256": "b4b894aec1802d9a92edc2343721117f60647904444863135e5567b5c0d9803e",
@@ -156,11 +156,10 @@
       "date": "2026-10-18",
       "records": 133,
       "rows": 133,
-      "heading": "IT & Technology Program Leadership Dashboard",
-      "metadata": "133 valid workbook records shown of 133. Weekly-only view."
+      "heading": "IT & Technology Program Leadership Dashboard"
     },
     "browserErrors": [],
     "anonymous": true,
-    "evidenceDirectory": "qa-local/26oct-revision5"
+    "evidenceDirectory": "qa-local/26oct-revision6"
   }
 }

@@ -7,6 +7,7 @@ No workbook is ever saved through openpyxl.
 import argparse
 import hashlib
 import json
+import posixpath
 import warnings
 from collections import Counter
 from copy import copy
@@ -81,6 +82,26 @@ def inventory(path, output):
                 effective[key] = source_style(sheet["D" + str(record["sourceRow"])])
     with ZipFile(path) as archive:
         parts = {name: digest(archive.read(name)) for name in archive.namelist()}
+        # Preserve extension rules that openpyxl cannot represent. Their GUIDs
+        # link the standard and extended rules; compare behavior without GUIDs.
+        rels = ET.fromstring(archive.read("xl/_rels/workbook.xml.rels"))
+        targets = {r.get("Id"): r.get("Target") for r in rels}
+        workbook_xml = ET.fromstring(archive.read("xl/workbook.xml"))
+        ns = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+        rel_ns = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
+        ext_ns = "{http://schemas.microsoft.com/office/spreadsheetml/2009/9/main}"
+        for sheet in workbook_xml.find(ns + "sheets"):
+            target = targets[sheet.get(rel_ns + "id")]
+            part = target.lstrip("/") if target.startswith("/") else posixpath.normpath("xl/" + target)
+            nodes = ET.fromstring(archive.read(part)).iter(ext_ns + "conditionalFormatting")
+            extensions = []
+            for node in nodes:
+                raw = ET.tostring(node, encoding="unicode")
+                normalized = ET.fromstring(raw)
+                for rule in normalized.iter(ext_ns + "cfRule"):
+                    rule.attrib.pop("id", None)
+                extensions.append({"rawXml": raw, "semanticXml": ET.tostring(normalized, encoding="unicode")})
+            sheet_meta[sheet.get("name")]["extendedConditionalFormatting"] = extensions
         images = []
         for name in archive.namelist():
             if name.startswith("xl/media/"):
@@ -124,6 +145,10 @@ def compare(a, b):
         "differentCellFormatting": differences(formats(a), formats(b)),
         "differentSheetMetadataAndConditionalFormatting": differences(a["sheetMetadata"], b["sheetMetadata"]),
         "differentResolvedConditionalFormatting": differences(conditional(a), conditional(b)),
+        "differentExtendedConditionalFormatting": differences(
+            {s: [r["semanticXml"] for r in m.get("extendedConditionalFormatting", [])] for s, m in a["sheetMetadata"].items()},
+            {s: [r["semanticXml"] for r in m.get("extendedConditionalFormatting", [])] for s, m in b["sheetMetadata"].items()},
+        ),
         "differentEffectiveRagCells": differences(a["effectiveRag"], b["effectiveRag"]),
     }
 
