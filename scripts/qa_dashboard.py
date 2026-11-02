@@ -95,6 +95,7 @@ try:
             check(len(rendered) == len(selected), 'Filtered row count')
             for v, r in zip(rendered, selected):
                 check(v['index'] == r['index'], 'Source row order and index')
+                check(v['cells'][1] == r['team'], 'Table retains exact full worksheet name')
                 check(v['rag'] == r['rag'], 'Canonical source RAG label')
                 check(v['fill'] == rgb(r['ragFill']), 'Rendered badge fill equals effective source XLSX fill')
                 check(v['font'] == rgb(r['ragFont'] or '#000000'), 'Rendered badge font equals effective source XLSX font')
@@ -127,9 +128,18 @@ try:
             check(target.locator('#avg').inner_text() == average, 'Whole-number average of numeric completions only, or explicit unavailable state')
             check(not re.search(r'\b\d+\.\d+%', target.locator('body').inner_text()), 'No visible fractional percentages')
 
+        def assert_team_names(target):
+            options = target.locator('#team option').evaluate_all('opts=>opts.filter(o=>o.value).map(o=>({value:o.value,label:o.textContent}))')
+            check({o['value'] for o in options} == set(teams), 'Team options include every source worksheet')
+            check(all(o['label'] == o['value'] for o in options), 'Team option labels retain full worksheet names')
+            chart = target.locator('.bar-label').evaluate_all('labels=>labels.map(e=>({name:e.textContent,clipped:e.scrollWidth>e.clientWidth+1||e.scrollHeight>e.clientHeight+1}))')
+            check({x['name'] for x in chart} == set(teams), 'Chart includes exact full worksheet names')
+            check(not any(x['clipped'] for x in chart), 'Chart worksheet names wrap without clipping')
+
         def filters(target=page, record_combinations=False):
             target.click('#clear')
             assert_view(expected, target)
+            assert_team_names(target)
             if record_combinations:
                 filter_matrix.append({'team': '', 'rag': '', 'available': True, 'records': len(expected)})
             for rag in ('Red', 'Amber', 'Green'):
@@ -140,6 +150,8 @@ try:
             target.click('#clear')
             for team in teams:
                 target.select_option('#team', team)
+                label = target.locator('#team').evaluate('e=>{const c=document.createElement("canvas").getContext("2d"),s=getComputedStyle(e);c.font=s.font;return {text:e.selectedOptions[0].textContent,required:c.measureText(e.selectedOptions[0].textContent).width+parseFloat(s.paddingLeft)+parseFloat(s.paddingRight)+20,width:e.clientWidth}}')
+                check(label['text'] == team and label['required'] <= label['width'] + 1, 'Selected full worksheet name fits dropdown')
                 options = target.locator('#rag option').evaluate_all('opts=>opts.map(o=>o.value).filter(Boolean)')
                 rags = {r['rag'] for r in expected if r['team'] == team}
                 check(set(options) == rags, 'Team cascade includes exactly available RAGs')

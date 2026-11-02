@@ -1,0 +1,662 @@
+{
+  "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+  "reportDate": "2026-10-26",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_6.xlsx",
+  "sourceSha256": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+  "dashboardTitle": "IT & Technology Program Leadership Dashboard",
+  "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
+  "records": 144,
+  "rags": {
+    "Amber": 79,
+    "Green": 55,
+    "Red": 10
+  },
+  "teamRags": {
+    "IT Compliance Program": {
+      "Amber": 13,
+      "Red": 4
+    },
+    "IT Security": {
+      "Amber": 3,
+      "Green": 6
+    },
+    "Infrastructure & Cloud": {
+      "Amber": 46,
+      "Green": 18,
+      "Red": 6
+    },
+    "IoT": {
+      "Green": 5
+    },
+    "R&D AI": {
+      "Green": 9
+    },
+    "UNIS ITEM- eHub integration": {
+      "Amber": 9
+    },
+    "UNIS.CO Email & Ticketing": {
+      "Green": 13,
+      "Amber": 3
+    },
+    "WCS Engineering": {
+      "Green": 4,
+      "Amber": 5
+    }
+  },
+  "teamRagCombinations": [
+    [
+      "IT Compliance Program",
+      "Red"
+    ],
+    [
+      "IT Compliance Program",
+      "Amber"
+    ],
+    [
+      "IT Security",
+      "Amber"
+    ],
+    [
+      "IT Security",
+      "Green"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Red"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Amber"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Green"
+    ],
+    [
+      "IoT",
+      "Green"
+    ],
+    [
+      "R&D AI",
+      "Green"
+    ],
+    [
+      "UNIS ITEM- eHub integration",
+      "Amber"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Amber"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Green"
+    ],
+    [
+      "WCS Engineering",
+      "Amber"
+    ],
+    [
+      "WCS Engineering",
+      "Green"
+    ]
+  ],
+  "cascadeTransitions": 24,
+  "teamRagMatrix": [
+    {
+      "team": "",
+      "rag": "",
+      "available": true,
+      "records": 144
+    },
+    {
+      "team": "",
+      "rag": "Red",
+      "available": true,
+      "records": 10
+    },
+    {
+      "team": "",
+      "rag": "Amber",
+      "available": true,
+      "records": 79
+    },
+    {
+      "team": "",
+      "rag": "Green",
+      "available": true,
+      "records": 55
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Red",
+      "available": true,
+      "records": 4
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Amber",
+      "available": true,
+      "records": 13
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Green",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "",
+      "available": true,
+      "records": 17
+    },
+    {
+      "team": "IT Security",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Security",
+      "rag": "Amber",
+      "available": true,
+      "records": 3
+    },
+    {
+      "team": "IT Security",
+      "rag": "Green",
+      "available": true,
+      "records": 6
+    },
+    {
+      "team": "IT Security",
+      "rag": "",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Red",
+      "available": true,
+      "records": 6
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Amber",
+      "available": true,
+      "records": 46
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Green",
+      "available": true,
+      "records": 18
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "",
+      "available": true,
+      "records": 70
+    },
+    {
+      "team": "IoT",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Green",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "IoT",
+      "rag": "",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Green",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "R&D AI",
+      "rag": "",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Amber",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Green",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Amber",
+      "available": true,
+      "records": 3
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Green",
+      "available": true,
+      "records": 13
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "",
+      "available": true,
+      "records": 16
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Amber",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Green",
+      "available": true,
+      "records": 4
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "",
+      "available": true,
+      "records": 9
+    }
+  ],
+  "unavailableTeamRagCombinations": 10,
+  "missingNotesRecordsRetained": [
+    {
+      "team": "IT Security",
+      "row": 11
+    },
+    {
+      "team": "IT Security",
+      "row": 12
+    },
+    {
+      "team": "IoT",
+      "row": 8
+    }
+  ],
+  "nonNumericCompletionRecords": [],
+  "dropdowns": {
+    "Team": 1,
+    "RAG": 1,
+    "total": 2
+  },
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "passedAssertions": 25934,
+  "browserErrors": [],
+  "failedRequests": [],
+  "offlineDashboard": "PASS",
+  "downloadHashes": "PASS",
+  "status": "PASS",
+  "verifiedAtUtc": "2026-10-27T07:21:06.895410+00:00",
+  "deployedContentCommit": "9250e6b50dfa7137a4c4f74e49d106eec9282330",
+  "publicationReceipt": {
+    "attempt": 2,
+    "checkedAtUtc": "2026-10-27T07:19:26.343741+00:00",
+    "status": 200,
+    "publishedHtmlSha256": "56438cda12441fbb289251ecd4c287dae8efbcc42513739212d0937ef336e704",
+    "committedHtmlSha256": "56438cda12441fbb289251ecd4c287dae8efbcc42513739212d0937ef336e704",
+    "htmlByteEqual": true,
+    "reportDate": "2026-10-26",
+    "records": 144,
+    "rags": {
+      "Amber": 79,
+      "Green": 55,
+      "Red": 10
+    },
+    "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_6.xlsx",
+    "sourceSha256": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+    "canonicalHtmlByteEqual": true,
+    "workbookHttpStatus": 200,
+    "workbookSha256": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+    "workbookByteEqual": true,
+    "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+    "publicationStatus": "EXACT_COMMITTED_ARTIFACT_PUBLISHED"
+  },
+  "pagesWorkflow": {
+    "id": 40466318754,
+    "name": "pages build and deployment",
+    "head_sha": "9250e6b50dfa7137a4c4f74e49d106eec9282330",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/esaonc-ai/it-leadership-dashboard/actions/runs/40466318754",
+    "created_at": "2026-10-27T07:18:19Z",
+    "updated_at": "2026-10-27T07:19:16Z"
+  },
+  "evidenceDirectory": "qa-public/26oct-revision6",
+  "downloadHashesVerified": {
+    "mobile-workbook.xlsx": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+    "offline-workbook.xlsx": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+    "public-workbook.xlsx": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+    "published-workbook.xlsx": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+    "uploaded-workbook.xlsx": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc"
+  },
+  "downloadedDashboardArtifacts": {
+    "dashboard.html": "1a0de216042cf77343499c9c50e68a7039af7d6208af1b5dfd301030b0930824",
+    "uploaded-dashboard.html": "937cbced1e37867f1b09e7a7d8f34d343dfc55fa49ed9c056e3c776f39b5e205"
+  },
+  "downloadedDashboardByteEqualLocalVerifiedSnapshot": true,
+  "downloadedDashboardEmbeddedSourceBytesEqual": true,
+  "sourceCandidateIntegrity": [
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST).xlsx",
+      "sha256Before": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "sha256AfterLiveQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1.xlsx",
+      "sha256Before": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "sha256AfterLiveQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2.xlsx",
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterLiveQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_3.xlsx",
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterLiveQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterLiveQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterLiveQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_6.xlsx",
+      "sha256Before": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+      "sha256AfterLiveQA": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc"
+    }
+  ],
+  "finalPublishedHtmlSha256": "56438cda12441fbb289251ecd4c287dae8efbcc42513739212d0937ef336e704",
+  "publishedHtmlByteEqualCommittedHtml": true,
+  "dashboardAndSourceLocallyUnchanged": true,
+  "dateClassifications": {
+    "start": {
+      "calendar": 89,
+      "TBD": 55
+    },
+    "finish": {
+      "TBD": 115,
+      "N/A": 16,
+      "calendar": 3,
+      "source text / relative estimate": 10
+    }
+  },
+  "effectiveSourceRagVariants": [
+    {
+      "rag": "Amber",
+      "fill": "#FFE699",
+      "font": "#7F6000",
+      "records": 76
+    },
+    {
+      "rag": "Green",
+      "fill": "#C6E0B4",
+      "font": "#006100",
+      "records": 41
+    },
+    {
+      "rag": "Red",
+      "fill": "#F4CCCC",
+      "font": "#9C0006",
+      "records": 10
+    },
+    {
+      "rag": "Green",
+      "fill": "#E2F0D9",
+      "font": "#375623",
+      "records": 5
+    },
+    {
+      "rag": "Green",
+      "fill": "#C6E0B4",
+      "font": "#000000",
+      "records": 9
+    },
+    {
+      "rag": "Amber",
+      "fill": "#FFE699",
+      "font": "#9C6500",
+      "records": 2
+    },
+    {
+      "rag": "Amber",
+      "fill": "#FFE699",
+      "font": "#000000",
+      "records": 1
+    }
+  ],
+  "tooling": {
+    "playwright": "1.64.0",
+    "chromium": "156.0.8078.4"
+  },
+  "liveOperations": "Read-only GET requests and in-browser interactions. Local file upload validation transforms only the isolated browser snapshot; no service writes or deployment operations.",
+  "blockers": [],
+  "historical18OctoberResults": {
+    "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+    "reportDate": "2026-10-18",
+    "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
+    "sourceSha256": "cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8",
+    "dashboardTitle": "IT & Technology Program Leadership Dashboard",
+    "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
+    "records": 133,
+    "rags": {
+      "Amber": 74,
+      "Green": 56,
+      "Red": 3
+    },
+    "teamRags": {
+      "Compliance Program": {
+        "Amber": 14,
+        "Red": 2
+      },
+      "IT Security": {
+        "Amber": 3,
+        "Green": 6
+      },
+      "Infrastructure & Cloud": {
+        "Amber": 43,
+        "Green": 20
+      },
+      "IoT": {
+        "Green": 5
+      },
+      "R&D AI": {
+        "Green": 9
+      },
+      "UNIS ITEM- eHub integration": {
+        "Amber": 9
+      },
+      "UNIS.CO Email & Ticketing": {
+        "Green": 12,
+        "Amber": 2
+      },
+      "WCS Engineering": {
+        "Green": 4,
+        "Amber": 3,
+        "Red": 1
+      }
+    },
+    "teamRagCombinations": [
+      [
+        "Compliance Program",
+        "Red"
+      ],
+      [
+        "Compliance Program",
+        "Amber"
+      ],
+      [
+        "IT Security",
+        "Amber"
+      ],
+      [
+        "IT Security",
+        "Green"
+      ],
+      [
+        "Infrastructure & Cloud",
+        "Amber"
+      ],
+      [
+        "Infrastructure & Cloud",
+        "Green"
+      ],
+      [
+        "IoT",
+        "Green"
+      ],
+      [
+        "R&D AI",
+        "Green"
+      ],
+      [
+        "UNIS ITEM- eHub integration",
+        "Amber"
+      ],
+      [
+        "UNIS.CO Email & Ticketing",
+        "Amber"
+      ],
+      [
+        "UNIS.CO Email & Ticketing",
+        "Green"
+      ],
+      [
+        "WCS Engineering",
+        "Red"
+      ],
+      [
+        "WCS Engineering",
+        "Amber"
+      ],
+      [
+        "WCS Engineering",
+        "Green"
+      ]
+    ],
+    "cascadeTransitions": 24,
+    "dropdowns": {
+      "Team": 1,
+      "RAG": 1,
+      "total": 2
+    },
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "passedAssertions": 19182,
+    "browserErrors": [],
+    "failedRequests": [],
+    "offlineDashboard": "PASS",
+    "downloadHashes": "PASS",
+    "status": "PASS",
+    "verifiedAtUtc": "2026-10-19T05:15:34.043006+00:00",
+    "evidenceDirectory": "qa-public/technology-revision",
+    "deployedContentCommit": "c2aed00e1db3959490e6f076ea09b6c2f2273fab",
+    "pagesBuild": {
+      "commit": "c2aed00e1db3959490e6f076ea09b6c2f2273fab",
+      "error": {
+        "message": null
+      },
+      "status": "built",
+      "updated_at": "2026-10-19T05:14:24Z"
+    }
+  },
+  "prePublication18OctoberObservation": {
+    "scope": "READ_ONLY_CURRENT_LIVE_SNAPSHOT; not QA of unpublished prepared refresh",
+    "checkedAtUtc": "2026-10-27T07:12:35.730028+00:00",
+    "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+    "httpStatus": 200,
+    "htmlSha256": "b4b894aec1802d9a92edc2343721117f60647904444863135e5567b5c0d9803e",
+    "reportDate": "2026-10-18",
+    "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (18Oct2026 PST).xlsx",
+    "sourceSha256": "cf6bda618321f23e59385d07743728f76295d58d81263e94fe8e8cb0b54987e8",
+    "records": 133,
+    "rags": {
+      "Amber": 74,
+      "Green": 56,
+      "Red": 3
+    },
+    "browserCheck": "PASS_READ_ONLY_CURRENT_LIVE_SNAPSHOT",
+    "browser": {
+      "date": "2026-10-18",
+      "records": 133,
+      "rows": 133,
+      "heading": "IT & Technology Program Leadership Dashboard"
+    },
+    "browserErrors": [],
+    "anonymous": true,
+    "evidenceDirectory": "qa-local/26oct-revision6"
+  }
+}

@@ -7,7 +7,7 @@ IT Security,F5,finish,TBD,TBD
 IT Security,E8,start,TBD,TBD
 IT Security,F8,finish,TBD,TBD
 IT Security,E9,start,TBD,TBD
-IT Security,F9,finish,N/A,N/A
+IT Security,F9,finish,TBD,TBD
 IT Security,E10,start,TBD,TBD
 IT Security,F10,finish,TBD,TBD
 IT Security,N11,source,missing,
@@ -17,18 +17,18 @@ IT Security,N12,source,missing,
 IT Security,F12,finish,TBD,TBD
 Infrastructure & Cloud,F2,finish,TBD,"TBD - after equipment, access, rack, power, connectivity, and service-readiness validation"
 Infrastructure & Cloud,F3,finish,TBD,"TBD - after equipment suitability, service requirements, site readiness, and architecture approval"
-Infrastructure & Cloud,F4,finish,TBD,TBD - router delivery and provider activation; current target may slip about one week
+Infrastructure & Cloud,F4,finish,TBD,TBD - IT technician connection and operational acceptance expected week of 02-Nov-2026
 Infrastructure & Cloud,E5,start,TBD,TBD
 Infrastructure & Cloud,F5,finish,TBD,TBD
 Infrastructure & Cloud,E6,start,TBD,TBD
 Infrastructure & Cloud,F6,finish,N/A,N/A
 Infrastructure & Cloud,E7,start,TBD,TBD
-Infrastructure & Cloud,F7,finish,TBD,TBD - by site and carrier confirmation
+Infrastructure & Cloud,F7,finish,TBD,"TBD - by site, carrier, billing, and equipment-return confirmation"
 Infrastructure & Cloud,E8,start,TBD,TBD
 Infrastructure & Cloud,F8,finish,TBD,TBD
 Infrastructure & Cloud,E9,start,TBD,TBD
 Infrastructure & Cloud,E10,start,TBD,TBD
-Infrastructure & Cloud,F10,finish,TBD,TBD - after controlled coverage testing and office assessment
+Infrastructure & Cloud,F10,finish,TBD,"TBD - after onsite assessment, coverage testing, and approved installation schedule"
 Infrastructure & Cloud,E11,start,TBD,TBD
 Infrastructure & Cloud,F11,finish,N/A,N/A
 Infrastructure & Cloud,E12,start,TBD,TBD
@@ -50,7 +50,6 @@ Infrastructure & Cloud,F19,finish,N/A,N/A
 Infrastructure & Cloud,E20,start,TBD,TBD
 Infrastructure & Cloud,F20,finish,N/A,N/A
 Infrastructure & Cloud,F21,finish,TBD,TBD - after stability validation
-Infrastructure & Cloud,F22,finish,N/A,N/A
 Infrastructure & Cloud,F23,finish,TBD,"TBD - after remaining wiring, upgrades, scanner tests, and Operations acceptance"
 Infrastructure & Cloud,F24,finish,TBD,TBD - after application diagnosis and remaining network work
 Infrastructure & Cloud,F25,finish,TBD,TBD
@@ -58,7 +57,7 @@ Infrastructure & Cloud,E26,start,TBD,TBD
 Infrastructure & Cloud,F26,finish,TBD,TBD
 Infrastructure & Cloud,E27,start,TBD,TBD
 Infrastructure & Cloud,F27,finish,TBD,TBD - after physical and billing reconciliation
-Infrastructure & Cloud,F28,finish,TBD,TBD - after placement and facilities confirmation
+Infrastructure & Cloud,F28,finish,TBD,"TBD - after destination, power, cooling, maintenance-window, and migration approval"
 Infrastructure & Cloud,E29,start,TBD,TBD
 Infrastructure & Cloud,F29,finish,TBD,TBD - after technical and business-owner approval
 Infrastructure & Cloud,E30,start,TBD,TBD
@@ -70,8 +69,8 @@ Infrastructure & Cloud,F32,finish,TBD,TBD
 Infrastructure & Cloud,E33,start,TBD,TBD
 Infrastructure & Cloud,F33,finish,TBD,TBD - after initiative scope and ownership are confirmed
 Infrastructure & Cloud,F34,finish,TBD,TBD
-Infrastructure & Cloud,F35,finish,TBD,TBD - quoted installation duration is five days after authorized start
-Infrastructure & Cloud,F36,finish,TBD,TBD - after Cubework schedule and acceptance
+Infrastructure & Cloud,F35,finish,TBD,TBD - after written cooling approval and vendor commitments
+Infrastructure & Cloud,F36,finish,TBD,TBD - after Steve approval and contractor schedule
 Infrastructure & Cloud,E37,start,TBD,TBD
 Infrastructure & Cloud,F37,finish,TBD,TBD - after map publication and validation
 Infrastructure & Cloud,E38,start,TBD,TBD
@@ -96,11 +95,11 @@ Infrastructure & Cloud,E49,start,TBD,TBD
 Infrastructure & Cloud,F49,finish,TBD,TBD - after Cox confirmation and billing closure
 Infrastructure & Cloud,F50,finish,TBD,TBD
 Infrastructure & Cloud,F51,finish,TBD,TBD
-Infrastructure & Cloud,F52,finish,TBD,TBD - before migration and procurement approval
-Infrastructure & Cloud,F53,finish,TBD,TBD - before placement approval
+Infrastructure & Cloud,F52,finish,TBD,TBD - after data-center power upgrade assessment and approval
+Infrastructure & Cloud,F53,finish,TBD,"TBD - after LAX ticket, quotation, provisioning, and acceptance"
 Infrastructure & Cloud,F54,finish,TBD,TBD - aligned to approved Walnut and LAX readiness dates
 Infrastructure & Cloud,F55,finish,TBD,TBD - after Walnut and LAX readiness approval
-Infrastructure & Cloud,F56,finish,TBD,TBD - after camera and YMS acceptance
+Infrastructure & Cloud,F56,finish,TBD,"TBD - after camera installation, YMS validation, and Operations acceptance"
 Infrastructure & Cloud,F57,finish,TBD,TBD - estimated end of following week for BP receipt
 Infrastructure & Cloud,F58,finish,TBD,TBD
 Infrastructure & Cloud,F59,finish,TBD,TBD
@@ -110,12 +109,19 @@ Infrastructure & Cloud,F62,finish,TBD,TBD - before BP migration or legacy-host w
 Infrastructure & Cloud,F63,finish,TBD,TBD - before relocation and legacy workload move
 Infrastructure & Cloud,F64,finish,TBD,TBD - after root-cause and recovery validation
 Infrastructure & Cloud,F65,finish,TBD,"TBD - pending onsite response, power checks, and diagnosis"
-Infrastructure & Cloud,F66,finish,TBD,"TBD - after equipment identification, assessment, and monitoring review"
+Infrastructure & Cloud,F66,finish,TBD,TBD - replacement and electrical-inspection schedule to be confirmed
 Infrastructure & Cloud,F67,finish,TBD,TBD - pending user feedback and further diagnosis
 Infrastructure & Cloud,F68,finish,TBD,TBD - pending recurrence evidence and diagnosis
 Infrastructure & Cloud,F69,finish,TBD,TBD - after ownership review and documented target dates
 Infrastructure & Cloud,F70,finish,TBD,TBD - after approval and parts availability
-Infrastructure & Cloud,F71,finish,source text / relative estimate,2026-10-30 estimated Memphis delivery
+Infrastructure & Cloud,F71,finish,TBD,TBD - after Transportation provides tracking and Memphis confirms receipt
+Infrastructure & Cloud,F72,finish,TBD,TBD - after remaining replacements and recovery-pilot decision
+Infrastructure & Cloud,F73,finish,TBD,TBD - after scope and maintenance-window approval
+Infrastructure & Cloud,F74,finish,TBD,TBD - after joint development and network review
+Infrastructure & Cloud,F75,finish,TBD,"TBD - after user evidence, reproduction, and fault isolation"
+Infrastructure & Cloud,F76,finish,TBD,TBD - after monitoring period and recurrence review
+Infrastructure & Cloud,F77,finish,TBD,TBD - no confirmed delivery date
+Infrastructure & Cloud,F78,finish,TBD,TBD - planned start 02-Nov-2026 subject to scope confirmation
 IoT,E4,start,TBD,TBD
 IoT,F4,finish,TBD,TBD
 IoT,E5,start,TBD,TBD
@@ -142,7 +148,7 @@ R&D AI,F7,finish,source text / relative estimate,Ongoing / No ETA
 R&D AI,E8,start,TBD,TBD
 R&D AI,F8,finish,TBD,TBD
 R&D AI,E9,start,TBD,TBD
-R&D AI,F9,finish,TBD,TBD
+R&D AI,F9,finish,source text / relative estimate,Completed
 R&D AI,E10,start,TBD,TBD
 R&D AI,F10,finish,TBD,TBD
 WCS Engineering,E2,start,TBD,TBD
@@ -156,45 +162,41 @@ WCS Engineering,F7,finish,N/A,N/A
 WCS Engineering,F8,finish,source text / relative estimate,WCS test target: 31-Oct-2026; U.S. arrival and deployment / commissioning remain planned for early Dec-2026
 WCS Engineering,F9,finish,TBD,"TBD - after proposal review, diagnostic decision, approval, and coordinated maintenance window"
 WCS Engineering,F10,finish,source text / relative estimate,Ongoing - peak-season issue response and visit-based audits now; broader audit and preventive-maintenance schedule after peak season
+WCS Engineering,F11,finish,source text / relative estimate,Ongoing - peak-season issue response and onsite audits now; broader audit and preventive-maintenance schedule after peak season
+WCS Engineering,F12,finish,TBD,"TBD - after asset assessment, receiving-site confirmation, approval, transfer, calibration, and operational acceptance"
 IT Compliance Program,E2,start,TBD,TBD
-IT Compliance Program,F2,finish,TBD,TBD
-IT Compliance Program,F3,finish,TBD,TBD - after scoping approval and audit assignment
-IT Compliance Program,F5,finish,TBD,TBD - before scoping form submission
-IT Compliance Program,F6,finish,TBD,TBD - aligned with approved TSC scope
+IT Compliance Program,F2,finish,TBD,"TBD - after scope, ownership and external-dependency review"
+IT Compliance Program,F3,finish,TBD,"TBD - after validated questionnaire, approved scope, authorized signature and confirmed submission owner"
+IT Compliance Program,F5,finish,TBD,TBD - before questionnaire approval and submission
+IT Compliance Program,F6,finish,TBD,"TBD - after the outstanding task list, evidence needs, owners, blockers and schedule impact are confirmed"
 IT Compliance Program,F7,finish,TBD,TBD
 IT Compliance Program,F8,finish,TBD,"TBD - after pricing, readiness, and separate engagement approval"
 IT Compliance Program,F9,finish,TBD,TBD
 IT Compliance Program,F10,finish,TBD,TBD
 IT Compliance Program,F11,finish,TBD,TBD
 IT Compliance Program,F12,finish,TBD,TBD
-IT Compliance Program,F13,finish,TBD,TBD - after validated scoping submission and assignment
+IT Compliance Program,F13,finish,TBD,"TBD - after questionnaire validation, signature, submission and written auditor assignment"
 IT Compliance Program,F14,finish,TBD,TBD (3-4 weeks)
 IT Compliance Program,E15,start,TBD,TBD
 IT Compliance Program,F15,finish,TBD,TBD
 IT Compliance Program,F16,finish,TBD,TBD - after legal review and signed Change Order
-IT Compliance Program,F17,finish,TBD,TBD - before Dec-2026 renewal approval
+IT Compliance Program,F17,finish,TBD,TBD - before questionnaire submission and Dec-2026 renewal approval
 IT Compliance Program,F18,finish,TBD,TBD - before Dec-2026 contract expiration
 UNIS.CO Email & Ticketing,F2,finish,TBD,TBD - ongoing governance
 UNIS.CO Email & Ticketing,F3,finish,TBD,TBD
 UNIS.CO Email & Ticketing,F4,finish,TBD,TBD
-UNIS.CO Email & Ticketing,F5,finish,TBD,TBD - after routing and pilot acceptance
+UNIS.CO Email & Ticketing,F5,finish,source text / relative estimate,Completed - Phase 1 original scope
 UNIS.CO Email & Ticketing,F6,finish,TBD,TBD - after Phase II roster approval
 UNIS.CO Email & Ticketing,F7,finish,TBD,TBD
 UNIS.CO Email & Ticketing,F8,finish,TBD,TBD
 UNIS.CO Email & Ticketing,F9,finish,TBD,TBD
-UNIS.CO Email & Ticketing,F11,finish,TBD,TBD - after operational acceptance
-UNIS.CO Email & Ticketing,F12,finish,TBD,TBD - before broader mail enforcement
+UNIS.CO Email & Ticketing,F11,finish,source text / relative estimate,Completed - formal Phase 1 sign-off issued
+UNIS.CO Email & Ticketing,F12,finish,TBD,TBD - before broader PH-US direct-email enforcement
 UNIS.CO Email & Ticketing,F13,finish,TBD,TBD
 UNIS.CO Email & Ticketing,F14,finish,TBD,TBD - after user acceptance
-UNIS.CO Email & Ticketing,F15,finish,TBD,TBD - after approved pilot
+UNIS.CO Email & Ticketing,F15,finish,TBD,"TBD - after approved scope, mapping, contingency, pilot and change authorization"
 UNIS.CO Email & Ticketing,F16,finish,TBD,"TBD - after scope, roster, and dependency approval"
 UNIS.CO Email & Ticketing,F17,finish,N/A,N/A
-UNIS ITEM- eHub integration,F2,finish,TBD,"TBD - after TSP and Vesync validation, approved pilot execution, and acceptance review"
-UNIS ITEM- eHub integration,F3,finish,TBD,"TBD - pending TSP response, savings reconciliation, commercial validation, and pilot decision"
-UNIS ITEM- eHub integration,F4,finish,TBD,TBD - after technical validation
-UNIS ITEM- eHub integration,F5,finish,TBD,TBD - before pilot activation
-UNIS ITEM- eHub integration,F6,finish,TBD,TBD - before high-value shipment pilot
-UNIS ITEM- eHub integration,F7,finish,TBD,TBD - aligned with pilot
-UNIS ITEM- eHub integration,F8,finish,TBD,TBD - during pilot readiness
-UNIS ITEM- eHub integration,F9,finish,TBD,TBD - after platform and account confirmation
+UNIS ITEM- eHub integration,F2,finish,TBD,"TBD - after Vesync validation, governance alignment, approved pilot execution, and acceptance review"
 UNIS ITEM- eHub integration,F10,finish,TBD,TBD - after Vesync pilot decision
+UNIS ITEM- eHub integration,F11,finish,TBD,TBD - after Stacy aligns with Jeff and Gene
