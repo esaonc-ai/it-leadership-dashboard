@@ -1,34 +1,38 @@
 # Live QA — IT & Technology Program Leadership Dashboard
 
-**PASS — 30 October 2026 snapshot published and verified at 2026-11-02T18:37:23.642168+00:00.**
+**PASS — latest filename revision published and verified at 2026-11-02T18:53:23.986369+00:00.**
 
 Existing public URL: https://esaonc-ai.github.io/it-leadership-dashboard/
-Verified content commit: **7658d77a11f348eaa9816fa4a94957069129a0f2**
-Pages workflow [41501843400](https://github.com/esaonc-ai/it-leadership-dashboard/actions/runs/41501843400): **completed / success** for this exact SHA. Existing GitHub Pages **main / repository root /**, public branding and URL remain unchanged.
 
-The first anonymous HTTP check served the old 26 October / 144-record artifact. On attempt **2**, at **2026-11-02T18:35:14.670712+00:00**, canonical and cache-bypassed HTML plus the direct workbook all matched committed bytes. Polling was bounded to six attempts with 25-second intervals and stopped on success. This PASS is based on actual published content and browser tests, not push completion alone. The coordinator pushed; this run performed no remote Git, authentication, deployment, workflow dispatch or alternate hosting.
+Verified content commit: **7d121d0b89dc5df99f6e06522f0f9168b94bc82a**. Pages workflow [41504376302](https://github.com/esaonc-ai/it-leadership-dashboard/actions/runs/41504376302) **completed / success** for this exact SHA. Existing GitHub Pages **main / repository root /**, public branding and URL remain unchanged. Coordinator pushed; this verification performed no remote Git, authentication, deployment, workflow dispatch or alternate hosting.
 
-## Live snapshot and artifact integrity
+## Publication and exact artifacts
 
-**Reporting week: 30 October 2026. 154 records — 77 Amber / 73 Green / 4 Red.** All eight exact worksheet names and full source rows are retained, including duplicate identifiers and optional blanks. No prior-week data is merged.
+Bounded polling allowed six attempts with 25-second intervals. Attempt 1 still served the previous committed HTML while workbook bytes already matched; attempt **2** at **2026-11-02T18:51:35.015240+00:00** confirmed canonical HTML, cache-bypassed HTML and direct workbook matched latest committed bytes. Polling stopped on success. This PASS follows verified publication and live browser tests, not push confirmation alone.
 
-Source: **IT & Technology Project_Portfolios_2026_v1.0 (30Oct2026 PST).xlsx**. Published HTML equals committed `index.html` byte-for-byte, SHA-256 **`a76625a20b6e3ed05c74c18940da0ddf1d60f147366f47526da4a3c5468e0019`**. Verified both canonical/cache-bypassed HTTP responses and separate clean desktop/mobile browser response bodies. Page and workbook HTTP status **200**.
+**Reporting week 30 October 2026 — 154 records: 77 Amber / 73 Green / 4 Red.** Latest source filename **IT & Technology Project_Portfolios_2026_v1.0 (Week of 30Oct2026 PST).xlsx** appears correctly in dashboard source metadata and actual browser workbook downloads, including mobile and offline. Exact heading **IT & Technology Program Leadership Dashboard**, weekly-only scope and all eight full worksheet labels are retained.
 
-Direct HTTP, committed source, uploaded original and real browser desktop/mobile/offline workbook downloads are byte-identical, SHA-256 **`91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada`**. Both real download buttons preserve their original/branded suggested filenames and show download feedback. The desktop standalone HTML download SHA-256 **`b4cb1088600cb1a4bc0ecaec3eb70cc576a0075125236b0081b22ec5229fafb7`** also equals the prior locally verified dashboard download. Mobile dashboard SHA-256 **`e75c092f6ff6953266ab8d0b59fe2de380737f10821b2df3222bd9ac69300484`**; these are serialized browser snapshots rather than the served index, and are validated by offline content/behavior and exact extracted workbook bytes.
+Published HTML is byte-identical to `7d121d0b89dc5df99f6e06522f0f9168b94bc82a:index.html`, SHA-256 **`524a66fd804253c8f050c1b3a9901433e1ae6e3b56c5092eb18a4164a3acf2b1`**. Both canonical/cache-bypassed HTTP responses and independent clean desktop/mobile browser response bodies match. Page and direct workbook HTTP status 200.
 
-Downloaded desktop and mobile dashboards operate via file:// with networking disabled: correct date/count, filters, applicable options/reset, details and original workbook download. All eight supplied original hashes remain unchanged. Local dashboard and workbook still equal the verified content commit. No workbook or dashboard code was modified during live QA.
+Original uploaded source, committed/public workbook, direct HTTP and real browser desktop/mobile/offline source downloads are byte-identical, SHA-256 **`91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada`**. Both real download buttons return proper filenames and show visible feedback. The source XLSX is unchanged from the previous upload; the published HTML and its filename metadata are verified against the new commit.
 
-## Browser and reconciliation evidence
+Desktop dashboard download SHA-256 **`c8b7124c869b5bda6a6b313b5e75d87b972338bba25cffcd5294c3f201d84b0e`** equals the separately verified local dashboard download. Mobile standalone dashboard SHA-256 **`9dff48ddeac34433d90d219a9d3b6efbd26aada53d786759dd2c477fcb265f49`**. Browser snapshot HTML is serialized separately from served HTML; behavior and exact embedded workbook bytes are verified rather than assuming snapshot bytes equal index.html. Both downloaded dashboards work via file:// with networking disabled, retaining the latest source filename, week, all 154 records, filtering, details and exact source download.
 
-**32,065 exhaustive Playwright assertions PASS**, plus separate clean anonymous desktop and mobile contexts verifying committed response bytes, date/count/hash and mobile dashboard download/offline operation. Desktop **1440×1000**, mobile **390×844**, no login cookies. **Zero page/console errors, failed requests or HTTP error responses.** Screenshots visually inspected, including full worksheet chart labels and selected longest team label. No live implementation or publication blockers remain.
+All **nine uploaded originals** remain unchanged; local dashboard/workbook still equal the verified published commit. No application code or workbook was changed during validation.
 
-Fresh read-only Python source audit plus independently parsed raw XLSX values/XML/styles reconcile all 154 records, worksheet/source-row keys/order, every detail field, estimated delivery dates/text, numeric completions, KPI counts/shares/average, chart counts/proportions and effective direct/conditional RAG font/fill. Whole numeric percentages display correctly; this source has no text completion, while TBD/N/A/qualified and relative date estimates remain source-faithful. Branding and weekly-only scope pass. No style legend, Source RAG styles heading or raw color strings appear.
+## Live anonymous end-to-end coverage
 
-All **36 TEAM/RAG states** covered: **27 reachable**, **15 specific team/RAG pairs**, **9 unavailable pairs excluded from options**. All **24 cascading transitions** verify applicable selection preservation or reset and resulting source rows/KPIs. Filter suite repeats desktop, mobile and offline. Precisely **one TEAM and one RAG dropdown** throughout. Exact worksheet labels in options, selected dropdown, chart and table remain readable. Search, summary-card filters, reset, empty state, every record's details, keyboard controls and mobile page overflow checks pass.
+**32,065 exhaustive Playwright assertions PASS**, plus separate clean anonymous desktop/mobile contexts verifying exact response bytes, filename/date/count/source hash and mobile dashboard download/offline operation. Viewports **1440×1000** and **390×844**, no login cookies. **Zero page/console errors, failed requests or HTTP error responses.** Desktop/mobile screenshots, selected longest team label and chart worksheet labels were visually inspected. No implementation or publication blocker remains.
 
-Both source/dashboard downloads and visible feedback pass. Browser-only local file tests also verify missing-week validation, loading/disabled controls, success, invalid-file errors and preservation of the last valid in-memory snapshot. These operations change only isolated local browser state, send no service writes and do not publish. No operational system was mutated; public network access was read-only. No preview server was started.
+Fresh independent Python workbook audit and separate raw XLSX browser parsing reconcile all 154 source rows, row order/source keys (including duplicate identifiers), every detail field, table fields, estimated delivery dates/text, whole-number completion, KPI totals/shares/average, chart counts/proportions and effective direct/conditional RAG font/fill styles. Numeric percentages remain whole; qualified TBD/N/A/relative date text remains faithful. Current source has 154 numeric completions and no text completion. Optional blanks remain included. No RAG style legend, Source RAG styles heading or visible raw color strings.
 
-## Remaining source-owner findings — current 30 October workbook
+All **36 TEAM/RAG states** covered: **27 reachable**, **15 specific team/RAG pairs**, **9 unavailable pairs excluded from options**. All **24 cascade transitions** verify applicable selection preservation or reset and resulting source rows/KPIs. Suite repeats desktop, mobile and offline. Precisely **one TEAM and one RAG dropdown** throughout. Exact full worksheet names fit options, selected dropdowns, chart labels and table rows. Search/card filters, clear/reset, empty states, every record detail, keyboard interaction and mobile page overflow checks pass.
+
+Both real browser downloads preserve original/branded suggested filenames and visible feedback. Browser-only local file validation tests cover missing week, async loading/disabled controls, success, invalid-file error and retention of last valid in-memory snapshot. These modify isolated browser state only, send no service writes and do not publish. Supplemental network receipts show read-only GET requests. No live operational mutation test or preview server was run. No dependencies were changed; no syntax/build rerun was necessary for report-only updates.
+
+## Remaining source-owner findings — latest attachment
+
+Fresh source audit and exact all-cell inventories re-establish these findings from the latest attachment. Since its bytes/cells are identical, no issue is newly resolved by this upload. Ambiguous facts are preserved for owner decisions.
 
 These were rechecked from the **30 October file**, not carried forward from prior reports. They remain as supplied pending owner decisions.
 
@@ -60,8 +64,9 @@ These were rechecked from the **30 October file**, not carried forward from prio
 Fresh issue evidence: `qa-local/30oct/source-issue-recheck.json`; full values/caches: `all-cell-content.txt`; every included field/excluded nonempty row: `workbook-audit.json`.
 
 
-## Evidence and local report state
 
-Updated downloadable report: **LIVE_QA_REPORT.md**; machine summary **QA_PUBLIC_RESULTS.json**. Full ignored evidence **qa-local/live-30oct/** includes publication HTTP/hash receipts, public workflow receipt, fresh independent source audit, exhaustive results, separate anonymous-context results, screenshots and exact downloaded artifacts. Prior local QA remains in **qa-local/30oct/** and QA_LOCAL_RESULTS.json.
+## Evidence and report state
 
-The prior successful 26 October live report and results remain byte-for-byte preserved under **reports/26oct-2026/** with the existing hash manifest. Report-only updates to LIVE_QA_REPORT.md, QA_PUBLIC_RESULTS.json, QA_REPORT.md and README.md remain **local and uncommitted**; published content commit is still **7658d77a11f348eaa9816fa4a94957069129a0f2**. No dashboard/source modification or additional push is needed for this PASS.
+Current report: **LIVE_QA_REPORT.md**; machine summary **QA_PUBLIC_RESULTS.json**. Full ignored evidence **qa-local/live-30oct-latest-filename/** includes HTTP/hash publication receipts, successful workflow receipt, fresh independent audit, full matrix/results, clean-context receipts, screenshots and exact downloaded artifacts. Local refresh evidence remains under qa-local/30oct-latest-revision/.
+
+Prior successful live report/results and all associated report files remain byte-for-byte preserved under **reports/30oct-2026-published/** with its existing hash manifest. Older 26 October history remains under reports/26oct-2026/. Report-only changes to **LIVE_QA_REPORT.md, QA_PUBLIC_RESULTS.json, QA_REPORT.md and README.md** remain **local and uncommitted**. Content commit stays **7d121d0b89dc5df99f6e06522f0f9168b94bc82a**. No app/source fix or additional coordinator push is required for this PASS.

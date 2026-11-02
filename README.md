@@ -1,26 +1,28 @@
 # IT & Technology Program Leadership Dashboard
 
-Existing app/repo: `esaonc-ai/it-leadership-dashboard`, `main`, https://esaonc-ai.github.io/it-leadership-dashboard/. Exact branding and existing design retained; static HTML/JavaScript, no framework dependencies.
+Existing app/repo `esaonc-ai/it-leadership-dashboard`, main, https://esaonc-ai.github.io/it-leadership-dashboard/. Same public branding/layout and GitHub Pages main/root, no alternate app or host.
 
-Latest source **IT & Technology Project_Portfolios_2026_v1.0 (Week of 30Oct2026 PST).xlsx**, reporting week **30 October 2026**. Complete comparison proves it is **byte-identical** to the previously published `(30Oct2026 PST).xlsx`: **154 records — 77 Amber / 73 Green / 4 Red**, same sheets/cells/caches/styles/conditional formatting. Only embedded **sourceFile** metadata changes so visible source label and actual workbook download use the latest supplied filename. Exact source bytes remain SHA-256 **`91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada`**; all nine originals unchanged.
+Latest attachment **IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST).xlsx** is **byte-identical** to both 30Oct uploads, SHA-256 **`91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada`**. Per explicit user instruction for identical uploads, corrected dashboard reporting week to **25 October 2026** and source/download filename accordingly. **154 records: 77 Amber / 73 Green / 4 Red** unchanged. Only sourceFile/reportDate metadata changes; source bytes, app code, records, dates/styles and all 10 originals unchanged. This is not a historical rollback.
 
-Weekly-only reporting preserves every valid source row, duplicate identifiers, optional blanks, whole percentages, source text/date estimates and effective RAG styles. Precisely one TEAM and one RAG dropdown cascade/reset applicable options. Full worksheet names remain readable desktop/mobile; no style legend/raw color strings. Exact original workbook and self-contained offline dashboard downloads retained. No business facts corrected. Current anchored source findings and comparison: [QA_REPORT.md](QA_REPORT.md), `SOURCE_COMPARISON.json`.
+**Internal chronology caveat:** unchanged source has 30Oct task/closure evidence (Infrastructure I22/eHub I3), as of 01Nov Infrastructure I4 and 02Nov WCS I8, plus stale 23Aug IoT A2 banner. The 25Oct label is supplied correction only; internal source dates are preserved and not asserted to be as of 25Oct. Full exact anchors/current business source concerns: [QA_REPORT.md](QA_REPORT.md). No facts guessed or corrected.
 
-**32,065 local Playwright assertions PASS**, all source rows/fields/KPIs/colors/dates, all 36 filter states / 24 cascade transitions, desktop/mobile names, downloads/hash/offline and feedback/error states. Zero console/request errors. Python/JS syntax passes; no framework build/typecheck applicable or dependency upgrade. [QA_LOCAL_RESULTS.json](QA_LOCAL_RESULTS.json), full ignored evidence `qa-local/30oct-latest-revision/`.
+Weekly-only, all valid rows/duplicate IDs/optional blanks, whole percentages/TBD, source-faithful delivery dates, effective conditional RAG colors, exactly one TEAM and one RAG cascading dropdown, full worksheet names desktop/mobile, no style legend/raw color strings and exact XLSX/offline HTML downloads preserved.
 
-Latest filename update remains **local and unpublished**. Previous successful **30Oct / 154** live evidence for commit `7658d77a11f348eaa9816fa4a94957069129a0f2` and old source filename is preserved byte-for-byte in [reports/30oct-2026-published/LIVE_QA_REPORT.md](reports/30oct-2026-published/LIVE_QA_REPORT.md); root LIVE_QA_REPORT.md remains unchanged. `QA_PUBLIC_RESULTS.json` distinguishes last live PASS from current local QA. No fresh live check is claimed. Existing GitHub Pages **main / root /** mechanism unchanged; coordinator owns resolver, ibisGitTool push and post-publication QA. No remote Git/auth/push/deploy in this run.
+**32,065 local Playwright assertions PASS**, full source row/field/KPI/color/date reconciliation, all 36 filter states / 24 cascades, desktop/mobile, new reporting label/filename, real downloads/hash/offline/console checks. Zero console/request failures; syntax passes; no framework build/typecheck applies or dependencies changed. [QA_LOCAL_RESULTS.json](QA_LOCAL_RESULTS.json), full ignored evidence qa-local/25oct-attachment-audit/.
 
-Application directory `/home/user/workspace/it-leadership-dashboard`; managed preview command, port **3000**:
+**25Oct label correction is local/unpublished.** No fresh live check claimed. Last live PASS: commit `7d121d0b89dc5df99f6e06522f0f9168b94bc82a`, 30Oct / 154 records and previous filename. Report-only dirty evidence from that live QA preserved byte-for-byte under reports/30oct-2026-filename-published/ with hashes; root LIVE_QA_REPORT.md remains historical evidence. QA_PUBLIC_RESULTS.json separates prior live PASS from current local QA. Coordinator owns resolver/push/post-publication verification. No remote Git/auth/push/deploy in this run.
+
+Application directory `/home/user/workspace/it-leadership-dashboard`; optional managed preview, port **3000**:
 
 ```bash
 python -m http.server 3000 --bind 0.0.0.0 --directory /home/user/workspace/it-leadership-dashboard
 ```
 
-Temporary QA server stopped and awaited. Re-run with existing tooling from app directory:
+Temporary QA server stopped and awaited. Existing tooling from application directory:
 
 ```bash
-python scripts/audit_workbook.py '/path/to/weekly.xlsx' --output qa-local/30oct-latest-revision
-python scripts/qa_dashboard.py http://127.0.0.1:3000/ --workbook '/path/to/weekly.xlsx' --report-date 2026-10-30 --audit qa-local/30oct-latest-revision/workbook-audit.json --output qa-local/30oct-latest-revision
+python scripts/audit_workbook.py '/path/to/weekly.xlsx' --output qa-local/25oct-attachment-audit
+python scripts/qa_dashboard.py http://127.0.0.1:3000/ --workbook '/path/to/weekly.xlsx' --report-date 2026-10-25 --audit qa-local/25oct-attachment-audit/workbook-audit.json --output qa-local/25oct-attachment-audit
 python -m py_compile scripts/*.py
 node --check scripts/workbook_reader.js
 ```
