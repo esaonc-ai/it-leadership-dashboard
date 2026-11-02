@@ -1,22 +1,27 @@
 {
-  "status": "NOT_RUN_FOR_THIS_REFRESH",
+  "status": "NOT_RUN_FOR_THIS_FILENAME_REVISION",
   "reportDate": "2026-10-30",
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (30Oct2026 PST).xlsx",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 30Oct2026 PST).xlsx",
   "sourceSha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
   "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
-  "reason": "30 October refresh verified locally and not pushed/deployed. No live QA claimed for this revision. Preserved prior 26 October deployed PASS separately; no remote Git/auth/publish run here.",
-  "historical26OctoberResults": {
+  "reason": "New attachment is byte-identical to the live-verified source; updated embedded source filename and suggested workbook filename are local and unpublished. Current run performed local QA only. Historical live snapshot PASS is separate and applies to prior source filename/HTML.",
+  "currentLocalIndexSha256": "524a66fd804253c8f050c1b3a9901433e1ae6e3b56c5092eb18a4164a3acf2b1",
+  "historical30OctoberResults": {
     "status": "PASS",
-    "deployedContentCommit": "9250e6b50dfa7137a4c4f74e49d106eec9282330",
-    "verifiedAtUtc": "2026-10-27T07:21:06.895410+00:00",
-    "records": 144,
+    "deployedContentCommit": "7658d77a11f348eaa9816fa4a94957069129a0f2",
+    "verifiedAtUtc": "2026-11-02T18:37:23.642168+00:00",
+    "records": 154,
     "rags": {
-      "Amber": 79,
-      "Green": 55,
-      "Red": 10
+      "Red": 4,
+      "Amber": 77,
+      "Green": 73
     },
-    "passedAssertions": 25934,
-    "reportPath": "reports/26oct-2026/LIVE_QA_REPORT.md",
-    "resultsPath": "reports/26oct-2026/QA_PUBLIC_RESULTS.json"
-  }
+    "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (30Oct2026 PST).xlsx",
+    "sourceSha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+    "indexSha256": "a76625a20b6e3ed05c74c18940da0ddf1d60f147366f47526da4a3c5468e0019",
+    "passedAssertions": 32065,
+    "reportPath": "reports/30oct-2026-published/LIVE_QA_REPORT.md",
+    "resultsPath": "reports/30oct-2026-published/QA_PUBLIC_RESULTS.json"
+  },
+  "freshLiveChecksThisRun": false
 }
