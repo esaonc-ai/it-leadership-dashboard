@@ -1,0 +1,28 @@
+{
+  "status": "NOT_RUN_FOR_25OCT_LABEL_CORRECTION",
+  "reportDate": "2026-10-25",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST).xlsx",
+  "sourceSha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+  "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+  "currentLocalIndexSha256": "cbbb47e80a4ea00da88b4467b4e228e7c92895d575ccb897509f05f3edc6ccc3",
+  "reason": "Byte-identical source with explicit user-authorized reporting-label correction30Oct to25Oct. This revision is local and unpublished; no live check performed this run.",
+  "historical30OctoberResults": {
+    "status": "PASS",
+    "deployedContentCommit": "7d121d0b89dc5df99f6e06522f0f9168b94bc82a",
+    "verifiedAtUtc": "2026-11-02T18:53:23.986369+00:00",
+    "records": 154,
+    "rags": {
+      "Red": 4,
+      "Amber": 77,
+      "Green": 73
+    },
+    "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 30Oct2026 PST).xlsx",
+    "reportDate": "2026-10-30",
+    "indexSha256": "524a66fd804253c8f050c1b3a9901433e1ae6e3b56c5092eb18a4164a3acf2b1",
+    "sourceSha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+    "passedAssertions": 32065,
+    "reportPath": "reports/30oct-2026-filename-published/LIVE_QA_REPORT.md",
+    "resultsPath": "reports/30oct-2026-filename-published/QA_PUBLIC_RESULTS.json"
+  },
+  "freshLiveChecksThisRun": false
+}

@@ -1,0 +1,547 @@
+{
+  "selection": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST).xlsx",
+  "reportDate": "2026-10-25",
+  "previousReportDate": "2026-10-30",
+  "startingCommit": "7d121d0b89dc5df99f6e06522f0f9168b94bc82a",
+  "decision": "LABEL_ONLY_CORRECTION_AUTHORIZED: newest supplied 25Oct attachment is byte-identical to both 30Oct sources. Apply supplied filename/week correction per explicit user rule; no older business snapshot or rollback. Internal source dates remain unchanged.",
+  "sameWeekByteEqual": true,
+  "sameDateCandidates25October": 1,
+  "appPayloadChangedFields": [
+    "reportDate",
+    "sourceFile"
+  ],
+  "recordsAndAppCodeUnchanged": true,
+  "latestAttachment": {
+    "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST).xlsx",
+    "bytes": 116484,
+    "sha256Before": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+    "sha256AfterComparison": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+    "allCellsRead": 2311,
+    "sheets": [
+      "IT Security",
+      "Infrastructure & Cloud",
+      "IoT",
+      "R&D AI",
+      "WCS Engineering",
+      "IT Compliance Program",
+      "UNIS.CO Email & Ticketing",
+      "UNIS ITEM- eHub integration"
+    ],
+    "records": 154,
+    "rags": {
+      "Red": 4,
+      "Amber": 77,
+      "Green": 73
+    },
+    "teamRags": {
+      "IT Security": {
+        "Red": 1,
+        "Amber": 2,
+        "Green": 6
+      },
+      "Infrastructure & Cloud": {
+        "Amber": 49,
+        "Green": 28
+      },
+      "IoT": {
+        "Green": 5
+      },
+      "R&D AI": {
+        "Green": 9
+      },
+      "WCS Engineering": {
+        "Green": 4,
+        "Amber": 7
+      },
+      "IT Compliance Program": {
+        "Amber": 14,
+        "Red": 3
+      },
+      "UNIS.CO Email & Ticketing": {
+        "Green": 14,
+        "Amber": 2
+      },
+      "UNIS ITEM- eHub integration": {
+        "Amber": 3,
+        "Green": 7
+      }
+    },
+    "imageParts": [],
+    "imageFormulaReferences": {
+      "IoT!N6": "=_xlfn.DISPIMG(\"ID_BFCB287FF50949ACB47F716BD1E40440\",1)"
+    },
+    "readerWarnings": [
+      "Conditional Formatting extension is not supported and will be removed",
+      "Unknown extension is not supported and will be removed"
+    ],
+    "fullInventory": "qa-local/25oct-attachment-audit/IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST)-inventory.json"
+  },
+  "sourceCandidateIntegrity": [
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST).xlsx",
+      "bytes": 76511,
+      "sha256Before": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "sha256AfterAudit": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "sha256AfterQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1.xlsx",
+      "bytes": 76511,
+      "sha256Before": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "sha256AfterAudit": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "sha256AfterQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2.xlsx",
+      "bytes": 76509,
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterAudit": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_3.xlsx",
+      "bytes": 76509,
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterAudit": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+      "bytes": 76509,
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterAudit": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
+      "bytes": 76509,
+      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterAudit": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_6.xlsx",
+      "bytes": 106925,
+      "sha256Before": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+      "sha256AfterAudit": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+      "sha256AfterQA": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (30Oct2026 PST).xlsx",
+      "bytes": 116484,
+      "sha256Before": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+      "sha256AfterAudit": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+      "sha256AfterQA": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST).xlsx",
+      "bytes": 116484,
+      "sha256Before": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+      "sha256AfterAudit": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+      "sha256AfterQA": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 30Oct2026 PST).xlsx",
+      "bytes": 116484,
+      "sha256Before": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+      "sha256AfterAudit": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+      "sha256AfterQA": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada"
+    }
+  ],
+  "workspaceComparisons": [
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST).xlsx",
+      "bytes": 76511,
+      "sha256": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "records": 91,
+      "rags": {
+        "Amber": 49,
+        "Green": 38,
+        "Red": 4
+      },
+      "byteEqualToAttachment": false,
+      "differenceCounts": {
+        "differentZipParts": 22,
+        "differentValuesAndTypes": 1491,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 1906,
+        "differentSheetMetadataAndConditionalFormatting": 8,
+        "differentResolvedConditionalFormatting": 5,
+        "differentExtendedConditionalFormatting": 3,
+        "differentEffectiveRagCells": 93
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1.xlsx",
+      "bytes": 76511,
+      "sha256": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
+      "records": 91,
+      "rags": {
+        "Amber": 49,
+        "Green": 38,
+        "Red": 4
+      },
+      "byteEqualToAttachment": false,
+      "differenceCounts": {
+        "differentZipParts": 22,
+        "differentValuesAndTypes": 1491,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 1906,
+        "differentSheetMetadataAndConditionalFormatting": 8,
+        "differentResolvedConditionalFormatting": 5,
+        "differentExtendedConditionalFormatting": 3,
+        "differentEffectiveRagCells": 93
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2.xlsx",
+      "bytes": 76509,
+      "sha256": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "records": 91,
+      "rags": {
+        "Amber": 49,
+        "Green": 38,
+        "Red": 4
+      },
+      "byteEqualToAttachment": false,
+      "differenceCounts": {
+        "differentZipParts": 22,
+        "differentValuesAndTypes": 1491,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 1906,
+        "differentSheetMetadataAndConditionalFormatting": 8,
+        "differentResolvedConditionalFormatting": 5,
+        "differentExtendedConditionalFormatting": 3,
+        "differentEffectiveRagCells": 93
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_3.xlsx",
+      "bytes": 76509,
+      "sha256": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "records": 91,
+      "rags": {
+        "Amber": 49,
+        "Green": 38,
+        "Red": 4
+      },
+      "byteEqualToAttachment": false,
+      "differenceCounts": {
+        "differentZipParts": 22,
+        "differentValuesAndTypes": 1491,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 1906,
+        "differentSheetMetadataAndConditionalFormatting": 8,
+        "differentResolvedConditionalFormatting": 5,
+        "differentExtendedConditionalFormatting": 3,
+        "differentEffectiveRagCells": 93
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
+      "bytes": 76509,
+      "sha256": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "records": 91,
+      "rags": {
+        "Amber": 49,
+        "Green": 38,
+        "Red": 4
+      },
+      "byteEqualToAttachment": false,
+      "differenceCounts": {
+        "differentZipParts": 22,
+        "differentValuesAndTypes": 1491,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 1906,
+        "differentSheetMetadataAndConditionalFormatting": 8,
+        "differentResolvedConditionalFormatting": 5,
+        "differentExtendedConditionalFormatting": 3,
+        "differentEffectiveRagCells": 93
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
+      "bytes": 76509,
+      "sha256": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
+      "records": 91,
+      "rags": {
+        "Amber": 49,
+        "Green": 38,
+        "Red": 4
+      },
+      "byteEqualToAttachment": false,
+      "differenceCounts": {
+        "differentZipParts": 22,
+        "differentValuesAndTypes": 1491,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 1906,
+        "differentSheetMetadataAndConditionalFormatting": 8,
+        "differentResolvedConditionalFormatting": 5,
+        "differentExtendedConditionalFormatting": 3,
+        "differentEffectiveRagCells": 93
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_6.xlsx",
+      "bytes": 106925,
+      "sha256": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+      "records": 144,
+      "rags": {
+        "Amber": 79,
+        "Green": 55,
+        "Red": 10
+      },
+      "byteEqualToAttachment": false,
+      "differenceCounts": {
+        "differentZipParts": 22,
+        "differentValuesAndTypes": 548,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 785,
+        "differentSheetMetadataAndConditionalFormatting": 8,
+        "differentResolvedConditionalFormatting": 3,
+        "differentExtendedConditionalFormatting": 0,
+        "differentEffectiveRagCells": 41
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (30Oct2026 PST).xlsx",
+      "bytes": 116484,
+      "sha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+      "records": 154,
+      "rags": {
+        "Red": 4,
+        "Amber": 77,
+        "Green": 73
+      },
+      "byteEqualToAttachment": true,
+      "differenceCounts": {
+        "differentZipParts": 0,
+        "differentValuesAndTypes": 0,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 0,
+        "differentSheetMetadataAndConditionalFormatting": 0,
+        "differentResolvedConditionalFormatting": 0,
+        "differentExtendedConditionalFormatting": 0,
+        "differentEffectiveRagCells": 0
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST).xlsx",
+      "bytes": 116484,
+      "sha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+      "records": 154,
+      "rags": {
+        "Red": 4,
+        "Amber": 77,
+        "Green": 73
+      },
+      "byteEqualToAttachment": true,
+      "differenceCounts": {
+        "differentZipParts": 0,
+        "differentValuesAndTypes": 0,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 0,
+        "differentSheetMetadataAndConditionalFormatting": 0,
+        "differentResolvedConditionalFormatting": 0,
+        "differentExtendedConditionalFormatting": 0,
+        "differentEffectiveRagCells": 0
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 30Oct2026 PST).xlsx",
+      "bytes": 116484,
+      "sha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+      "records": 154,
+      "rags": {
+        "Red": 4,
+        "Amber": 77,
+        "Green": 73
+      },
+      "byteEqualToAttachment": true,
+      "differenceCounts": {
+        "differentZipParts": 0,
+        "differentValuesAndTypes": 0,
+        "differentFormulasAndCaches": 0,
+        "differentCellFormatting": 0,
+        "differentSheetMetadataAndConditionalFormatting": 0,
+        "differentResolvedConditionalFormatting": 0,
+        "differentExtendedConditionalFormatting": 0,
+        "differentEffectiveRagCells": 0
+      },
+      "sheetNames": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ]
+    }
+  ],
+  "internalDateEvidence": {
+    "dateLabelMentions": {
+      "Infrastructure & Cloud!N7": "Project Updates as of November 1st email; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!N10": "Buena Park IT Relocation Readiness Status and Next Steps email, 29-Oct-2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!F22": "2026-10-30",
+      "Infrastructure & Cloud!I22": "Mahan replaced the Gateway-Pro at 2131 Willow with a new device on 30-Oct-2026 and upgraded the uplink from RJ45 to 10G SFP+. The site was reported fully operational. The replacement addresses the internet-recovery issue reported after power interruptions.",
+      "Infrastructure & Cloud!N22": "RE: Follow-Up: Affected USG Gateways and Replacement Priorities email, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!N28": "Buena Park IT Relocation Readiness Status and Next Steps email, 29-Oct-2026; Walnut Server Room Cleanup and Switch Upgrades email, 30-Oct-2026; meeting notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!I35": "The power-panel upgrade has ITEM and Cubework approval. Jorge\u2019s cooling vendor recommends a 2-ton ductless mini-split HVAC unit rated at 24,000 BTU, quoted at $2,820.05. The 30-Oct meeting and 29-Oct relocation update state that Steve\u2019s written approval is still pending. Vendor start and completion dates, final rack placement, UPS load, and room acceptance are not confirmed.",
+      "Infrastructure & Cloud!N35": "Buena Park IT Relocation Readiness Status and Next Steps email, 29-Oct-2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST; vendor quote: 2-ton 24,000 BTU mini-split at $2,820.05.",
+      "Infrastructure & Cloud!I36": "Jorge provided a cooling scope and quote for a 2-ton, 24,000 BTU ductless mini-split at $2,820.05. Stacy requested formal approval from Steve, who owns the cooling system. Mahan emailed the request and was awaiting a response as of the 30-Oct meeting. No contractor start or completion date is confirmed.",
+      "Infrastructure & Cloud!N36": "Buena Park IT Relocation Readiness Status and Next Steps email, 29-Oct-2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!N52": "Buena Park IT Relocation Readiness Status and Next Steps email, 29-Oct-2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!N53": "Buena Park IT Relocation Readiness Status and Next Steps email, 29-Oct-2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!I56": "Two wireless bridges were previously installed. David reported on 30-Oct that Heacock camera installation is continuing, but no completion percentage, remaining camera count, final endpoint inventory, stream validation, YMS transaction evidence, or completion date was provided.",
+      "Infrastructure & Cloud!N56": "IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST; previous Heacock bridge readiness record.",
+      "Infrastructure & Cloud!N66": "RE: Follow-Up: Affected USG Gateways and Replacement Priorities email, 29-30 Oct 2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!I71": "The earlier target was Memphis delivery on 30-Oct-2026. In the 30-Oct meeting, David reported that Transportation had not yet provided the shipment PRO number, preventing Jane\u2019s team from tracking the delivery. Confirmed delivery, receiver, shipment condition, completeness, and battery-handling evidence are not documented.",
+      "Infrastructure & Cloud!N71": "IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST; previous Memphis AGV shipment record.",
+      "Infrastructure & Cloud!I72": "Jerimar identified three affected USG Pro sites on firmware 4.4.57: Navigation has persistent adoption failure despite reset; City Park and Willow fail to restore internet automatically after power interruptions. Willow was replaced on 30-Oct and its uplink upgraded to 10G SFP+. Navigation and City Park remain open. A MoFi, UPS, and smart-plug recovery concept was discussed but not approved. Lincoln is currently stable and remains under observation.",
+      "Infrastructure & Cloud!N72": "RE: Follow-Up: Affected USG Gateways and Replacement Priorities email, 29-30 Oct 2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!E73": "2026-10-30",
+      "Infrastructure & Cloud!N73": "RE: Walnut Server Room Cleanup, Switch Upgrades email, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!E74": "2026-10-30",
+      "Infrastructure & Cloud!N74": "IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!E75": "2026-10-30",
+      "Infrastructure & Cloud!N75": "IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST; Ticket 26450.",
+      "Infrastructure & Cloud!E76": "2026-10-30",
+      "Infrastructure & Cloud!N76": "IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!E77": "2026-10-30",
+      "Infrastructure & Cloud!N77": "IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "Infrastructure & Cloud!E78": "2026-10-30",
+      "Infrastructure & Cloud!N78": "Buena Park IT Relocation Readiness Status and Next Steps email, 29-Oct-2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST.",
+      "WCS Engineering!F4": "Target: 04-Dec-2026 onsite closeout, subject to 30-Oct receipt, travel approval, four-week execution, testing, and acceptance",
+      "WCS Engineering!I4": "David provided an estimated Memphis delivery date of 30-Oct-2026. Jane approved the revised schedule and UF-Ops cost allocation for 4550 Quality Dr., confirmed operator support, and stated that the later deployment will not affect Black Friday volume. Abhijeet submitted an ExpressPro travel request for 09-Nov through 04-Dec. Wi-Fi bandwidth, coverage, roaming, and AGV requirements must be checked before deployment and monitored during testing. The planned four-week sequence covers software and localization, reflector/mapping decisions, mechanical and camera-barcode work, network validation, full-system testing, training, acceptance, and handover.",
+      "WCS Engineering!J4": "Confirm truck pickup, tracking, 30-Oct delivery, receipt inspection, and missing/damaged-item resolution. Stacy to approve the ExpressPro travel request. Abhijeet to finalize dated milestones, installation/testing windows, 16\u201320 Nov support, Thanksgiving-week coverage, operator schedule, and contingency. Network team to baseline bandwidth, coverage, roaming, utilization, and AGV performance before and during tests. Inspect and audit all other WCS, robotic, and automation equipment at Memphis during the visit. Pause or adjust testing if warehouse operations are affected.",
+      "WCS Engineering!N11": "Equipment Management email thread, 22\u201324-Oct-2026 PST; management direction from Stacy Nguyen and confirmation from Neil Zhou. Forklift Weight Scale in Heacock email, 25-Oct-2026 PST.",
+      "WCS Engineering!E12": "2026-10-25",
+      "WCS Engineering!N12": "Forklift Weight Scale in Heacock email from Neil Zhou, 25-Oct-2026 PST: scale built in Fontana, currently at Heacock, not needed by Heacock management, and proposed for transfer and reuse; Abhijeet identified as the detailed-information contact.",
+      "UNIS ITEM- eHub integration!I2": "TSP reviewed the eHub analysis and advised Kennedy and Katie on 30-Oct-2026 that it would not move forward at this time. TSP may reconnect if future needs become a better fit. Vesync validation and pilot approval remain pending. Jody advised that Jeff Davidson has taken over the eHub sales and partnership relationship and leads the weekly meetings. Jody remains involved for implementation support. Stacy confirmed that Robert should continue handling IT-related matters, join eHub calls when invited, and receive updates shared through Jody and Stacy.",
+      "UNIS ITEM- eHub integration!N2": "eHub/TSP Introductory Call email thread: TSP declined on 30-Oct-2026 after reviewing the analysis. Stacy Nguyen chat, 30-Oct-2026 PST: Jeff Davidson owns sales and partnership; Robert remains responsible for IT matters; Jody supports implementation and information flow. Previous source: Vesync Carrier Orchestration Report received 09-Oct-2026.",
+      "UNIS ITEM- eHub integration!F3": "2026-10-30",
+      "UNIS ITEM- eHub integration!I3": "TSP confirmed on 30-Oct-2026 that it reviewed the analysis internally and decided not to move forward at this time. TSP thanked eHub for the analysis and solution review and indicated it may reconnect if future needs are a better fit. No pilot, commercial commitment, or savings realization will proceed under the current opportunity.",
+      "UNIS ITEM- eHub integration!M3": "Close the TSP business-case workstream as of 30-Oct-2026. Do not report the modeled 21% savings as committed or realized benefits.",
+      "UNIS ITEM- eHub integration!N3": "eHub/TSP Introductory Call email thread: TSP declined to move forward on 30-Oct-2026 after internal review.",
+      "UNIS ITEM- eHub integration!F4": "2026-10-30",
+      "UNIS ITEM- eHub integration!I4": "The workflow requirement was discussed but not demonstrated. TSP\u2019s 30-Oct-2026 decision not to proceed removes the current need for an end-to-end demonstration or user acceptance test.",
+      "UNIS ITEM- eHub integration!N4": "eHub/TSP Introductory Call email thread; TSP decision dated 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!F5": "2026-10-30",
+      "UNIS ITEM- eHub integration!I5": "USPS and UPS funding options were discussed, but TSP did not select an account, payment, credit, invoicing, or reconciliation model. The customer declined to proceed on 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!N5": "eHub/TSP Introductory Call email thread; TSP decision dated 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!F6": "2026-10-30",
+      "UNIS ITEM- eHub integration!I6": "Claims support and declared-value capabilities were discussed, but coverage terms and procedures were not finalized. TSP declined to proceed on 30-Oct-2026, so no high-value shipment pilot will occur.",
+      "UNIS ITEM- eHub integration!N6": "eHub/TSP Introductory Call email thread; TSP decision dated 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!F7": "2026-10-30",
+      "UNIS ITEM- eHub integration!I7": "eHub demonstrated analytics, but TSP users were not provisioned and KPI definitions were not approved. TSP declined to proceed on 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!N7": "eHub/TSP Introductory Call email thread; TSP decision dated 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!F8": "2026-10-30",
+      "UNIS ITEM- eHub integration!I8": "Adjustment monitoring was demonstrated, but TSP did not establish a baseline, threshold, review cadence, dispute workflow, scale validation, or corrective-action process. The customer declined to proceed on 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!N8": "eHub/TSP Introductory Call email thread; TSP decision dated 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!F9": "2026-10-30",
+      "UNIS ITEM- eHub integration!I9": "Potential FedEx and other account reporting was discussed, but the platform, owner, connector, credentials, history, security, and reconciliation requirements were not confirmed. TSP declined to proceed on 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!N9": "eHub/TSP Introductory Call email thread; TSP decision dated 30-Oct-2026.",
+      "UNIS ITEM- eHub integration!E11": "2026-10-30",
+      "UNIS ITEM- eHub integration!N11": "Stacy Nguyen chat screenshots, 30-Oct-2026 PST; Jody ownership update relayed to Robert."
+    },
+    "selectedMixedChronology": {
+      "IoT!A2": "Team Lead: Yabin Liu | Reporting Date: 2026-08-23 PST | Source: IT_Project_Roadmap_Consolidated_2026_v1.0 (23Aug2026 PST)",
+      "Infrastructure & Cloud!I4": "AT&T installed the 100 Mbps circuit on 24-Sep-2026. As of 01-Nov, the carrier installation is complete and an IT technician is expected the following week to complete the site connection. Final firewall, routing, Wi-Fi, application, performance, and user acceptance evidence is not yet recorded.",
+      "WCS Engineering!I8": "Brant confirmed on 02-Nov-2026 that the Shelf-to-Person AGV WCS remains under development and explicitly directed that the completion percentage stay the same. RCS demo testing remains complete. No evidence was provided that the end-of-October WCS test was completed, so the test milestone is treated as unconfirmed and the portfolio remains at 65%."
+    }
+  },
+  "fullEvidenceDirectory": "qa-local/25oct-attachment-audit",
+  "verifiedAtUtc": "2026-11-02T19:00:44.098866+00:00"
+}

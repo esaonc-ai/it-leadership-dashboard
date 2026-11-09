@@ -2,6 +2,7 @@
 """Anonymous browser QA against independently read source XLSX cells and XML styles."""
 import argparse
 import base64
+import csv
 import hashlib
 import json
 import re
@@ -83,6 +84,7 @@ try:
         totals = Counter(r['rag'] for r in expected)
         check(dict(totals) == audit['rags'], 'RAG counts reconciled to worksheet audit')
         teams = sorted(set(r['team'] for r in expected))
+        global_rags = [rag for rag in ('Red', 'Amber', 'Green') if totals[rag]]
         team_totals = {team: dict(Counter(r['rag'] for r in expected if r['team'] == team)) for team in teams}
         check(team_totals == {s['team']: s['rags'] for s in audit['sheets']}, 'Per-sheet reconciliation')
         body = page.locator('body').inner_text()
@@ -126,7 +128,7 @@ try:
             numeric = [r['completion'] for r in selected if r['completion'] is not None]
             average = str(int(sum(numeric) / len(numeric) + .5)) + '%' if numeric else 'Not provided'
             check(target.locator('#avg').inner_text() == average, 'Whole-number average of numeric completions only, or explicit unavailable state')
-            check(not re.search(r'\b\d+\.\d+%', target.locator('body').inner_text()), 'No visible fractional percentages')
+            check(not re.search(r'\b\d+\.\d+%', target.locator('#cards').inner_text() + target.locator('#avg').inner_text()), 'No fractional calculated percentages; source narratives retained verbatim')
 
         def assert_team_names(target):
             options = target.locator('#team option').evaluate_all('opts=>opts.filter(o=>o.value).map(o=>({value:o.value,label:o.textContent}))')
@@ -142,11 +144,15 @@ try:
             assert_team_names(target)
             if record_combinations:
                 filter_matrix.append({'team': '', 'rag': '', 'available': True, 'records': len(expected)})
-            for rag in ('Red', 'Amber', 'Green'):
+            options = target.locator('#rag option').evaluate_all('opts=>opts.map(o=>o.value).filter(Boolean)')
+            check(options == global_rags, 'Global RAG options contain exactly source values, excluding absent Red')
+            for rag in global_rags:
                 target.select_option('#rag', rag)
                 assert_view([r for r in expected if r['rag'] == rag], target)
                 if record_combinations:
                     filter_matrix.append({'team': '', 'rag': rag, 'available': True, 'records': sum(r['rag'] == rag for r in expected)})
+            if record_combinations:
+                filter_matrix.extend({'team': '', 'rag': rag, 'available': False, 'records': 0} for rag in ('Red', 'Amber', 'Green') if rag not in global_rags)
             target.click('#clear')
             for team in teams:
                 target.select_option('#team', team)
@@ -172,7 +178,7 @@ try:
             # Exercise every Team transition from each globally selected RAG.
             for team in teams:
                 rags = {r['rag'] for r in expected if r['team'] == team}
-                for rag in ('Red', 'Amber', 'Green'):
+                for rag in global_rags:
                     target.click('#clear')
                     target.select_option('#rag', rag)
                     target.select_option('#team', team)
@@ -183,6 +189,25 @@ try:
             target.click('#clear')
             check(target.locator('#team').input_value() == target.locator('#rag').input_value() == target.locator('#search').input_value() == '', 'Reset clears shared filters/search')
             assert_view(expected, target)
+
+        def csv_download(target, selected, filename):
+            with target.expect_download() as dl:
+                target.click('#downloadCsv')
+            check(dl.value.suggested_filename == f'IT_Technology_Portfolio_{args.report_date}.csv', 'CSV filename retains reporting week')
+            dl.value.save_as(out / filename)
+            with (out / filename).open(encoding='utf-8-sig', newline='') as handle:
+                rows = list(csv.DictReader(handle))
+            check(len(rows) == len(selected), 'CSV includes exactly filtered rows, including duplicates')
+            fields = {'Identifier':'id', 'Source row':'sourceRow', 'Workstream':'project', 'Team':'team',
+                      'RAG':'rag', 'Status':'status', 'Start date':'start', 'Estimated delivery date':'finish',
+                      'Core objective':'objective', 'Current progress':'progress', 'Key next steps':'next',
+                      'Owner / DRI':'owner', 'Key risks / blockers':'risks', 'Management attention':'attention', 'Source / notes':'source'}
+            for row, record in zip(rows, selected):
+                for label, key in fields.items():
+                    check(row[label] == str(record[key] if record[key] is not None else ''), f'CSV {label}: faithful source value')
+                completion = str(record['completion']) + '%' if record['completion'] is not None else record['completionSource']
+                check(row['Completion'] == completion, 'CSV whole-number completion or exact source text')
+            check('Download started:' in target.locator('#statusMessage').inner_text(), 'CSV visible download feedback')
 
         def uncertain_completion(target):
             for record in (r for r in expected if r['completion'] is None):
@@ -199,6 +224,11 @@ try:
 
         filters(record_combinations=True)
         check(len(filter_matrix) == (len(teams) + 1) * 4, 'Exhaustive Team/RAG matrix includes All and unavailable combinations')
+        csv_download(page, expected, 'all-records.csv')
+        page.select_option('#team', 'WCS Engineering')
+        page.select_option('#rag', 'Amber')
+        csv_download(page, [r for r in expected if r['team'] == 'WCS Engineering' and r['rag'] == 'Amber'], 'filtered-records.csv')
+        page.click('#clear')
         uncertain_completion(page)
         for r in expected:
             page.locator(f'tr[data-record-index="{r["index"]}"]').click()
@@ -224,6 +254,7 @@ try:
         page.fill('#search', '__NO_MATCH_QA_9351__')
         check(page.locator('#rows tr').count() == 0 and page.locator('#empty').is_visible(), 'Visible no-results state')
         check(not page.locator('#cards').is_visible() and not page.locator('.grid').is_visible() and not page.locator('table').is_visible(), 'Empty panels suppressed')
+        csv_download(page, [], 'empty-records.csv')
         page.click('#clear')
         page.fill('#search', 'Yabin Liu')
         check(page.locator('#rows tr').count() == sum('yabin liu' in ' '.join(str(v) for v in r.values()).lower() for r in expected), 'Read-only owner search')
@@ -249,6 +280,7 @@ try:
         offline.goto((out / 'dashboard.html').resolve().as_uri())
         assert_branding(offline, source.name)
         filters(offline)
+        csv_download(offline, expected, 'offline-records.csv')
         uncertain_completion(offline)
         offline.locator('#rows tr').first.focus()
         offline.keyboard.press('Enter')
@@ -299,6 +331,7 @@ try:
         page.set_viewport_size({'width': 390, 'height': 844})
         assert_branding(page, source.name)
         filters()
+        csv_download(page, expected, 'mobile-records.csv')
         uncertain_completion(page)
         page.screenshot(path=str(out / 'mobile.png'))
         check(page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Mobile page fits viewport; wide table scrolls internally')
@@ -324,7 +357,7 @@ try:
                'nonNumericCompletionRecords': [{'team': r['team'], 'cell': 'G' + str(r['sourceRow']), 'value': r['completionSource']} for r in expected if r['completion'] is None],
                'dropdowns': {'Team': 1, 'RAG': 1, 'total': 2}, 'viewports': ['1440x1000', '390x844'],
                'passedAssertions': len(checks), 'browserErrors': errors, 'failedRequests': failures,
-               'offlineDashboard': 'PASS', 'downloadHashes': 'PASS', 'status': 'PASS'}
+               'offlineDashboard': 'PASS', 'downloadHashes': 'PASS', 'csvDownloads': 'PASS', 'status': 'PASS'}
     (out / 'qa-results.json').write_text(json.dumps(summary, indent=2))
     print(json.dumps(summary, indent=2))
 except Exception as error:

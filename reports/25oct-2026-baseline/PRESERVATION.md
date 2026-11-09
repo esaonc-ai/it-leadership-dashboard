@@ -1,0 +1,1 @@
+Prior checkout reports preserved byte-for-byte before the 01Nov refresh. The saved README and public QA results describe their historical state, not current publication. See preserved-report-hashes.json. The baseline HTML and workbook were separately fetched read-only this run and matched checkout bytes.

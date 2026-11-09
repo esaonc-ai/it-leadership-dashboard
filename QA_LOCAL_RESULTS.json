@@ -1,28 +1,26 @@
 {
   "url": "http://127.0.0.1:3000/",
-  "reportDate": "2026-10-25",
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST).xlsx",
-  "sourceSha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
+  "reportDate": "2026-11-01",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx",
+  "sourceSha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
   "dashboardTitle": "IT & Technology Program Leadership Dashboard",
   "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
-  "records": 154,
+  "records": 164,
   "rags": {
-    "Red": 4,
-    "Amber": 77,
-    "Green": 73
+    "Amber": 89,
+    "Green": 75
   },
   "teamRags": {
     "IT Compliance Program": {
-      "Amber": 14,
-      "Red": 3
+      "Amber": 13,
+      "Green": 4
     },
     "IT Security": {
-      "Red": 1,
-      "Amber": 2,
-      "Green": 6
+      "Amber": 4,
+      "Green": 5
     },
     "Infrastructure & Cloud": {
-      "Amber": 49,
+      "Amber": 59,
       "Green": 28
     },
     "IoT": {
@@ -40,22 +38,18 @@
       "Amber": 2
     },
     "WCS Engineering": {
-      "Green": 4,
-      "Amber": 7
+      "Green": 3,
+      "Amber": 8
     }
   },
   "teamRagCombinations": [
     [
       "IT Compliance Program",
-      "Red"
-    ],
-    [
-      "IT Compliance Program",
       "Amber"
     ],
     [
-      "IT Security",
-      "Red"
+      "IT Compliance Program",
+      "Green"
     ],
     [
       "IT Security",
@@ -106,49 +100,49 @@
       "Green"
     ]
   ],
-  "cascadeTransitions": 24,
+  "cascadeTransitions": 16,
   "teamRagMatrix": [
     {
       "team": "",
       "rag": "",
       "available": true,
-      "records": 154
-    },
-    {
-      "team": "",
-      "rag": "Red",
-      "available": true,
-      "records": 4
+      "records": 164
     },
     {
       "team": "",
       "rag": "Amber",
       "available": true,
-      "records": 77
+      "records": 89
     },
     {
       "team": "",
       "rag": "Green",
       "available": true,
-      "records": 73
+      "records": 75
     },
     {
-      "team": "IT Compliance Program",
+      "team": "",
       "rag": "Red",
-      "available": true,
-      "records": 3
-    },
-    {
-      "team": "IT Compliance Program",
-      "rag": "Amber",
-      "available": true,
-      "records": 14
-    },
-    {
-      "team": "IT Compliance Program",
-      "rag": "Green",
       "available": false,
       "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Amber",
+      "available": true,
+      "records": 13
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Green",
+      "available": true,
+      "records": 4
     },
     {
       "team": "IT Compliance Program",
@@ -159,20 +153,20 @@
     {
       "team": "IT Security",
       "rag": "Red",
-      "available": true,
-      "records": 1
+      "available": false,
+      "records": 0
     },
     {
       "team": "IT Security",
       "rag": "Amber",
       "available": true,
-      "records": 2
+      "records": 4
     },
     {
       "team": "IT Security",
       "rag": "Green",
       "available": true,
-      "records": 6
+      "records": 5
     },
     {
       "team": "IT Security",
@@ -190,7 +184,7 @@
       "team": "Infrastructure & Cloud",
       "rag": "Amber",
       "available": true,
-      "records": 49
+      "records": 59
     },
     {
       "team": "Infrastructure & Cloud",
@@ -202,7 +196,7 @@
       "team": "Infrastructure & Cloud",
       "rag": "",
       "available": true,
-      "records": 77
+      "records": 87
     },
     {
       "team": "IoT",
@@ -310,13 +304,13 @@
       "team": "WCS Engineering",
       "rag": "Amber",
       "available": true,
-      "records": 7
+      "records": 8
     },
     {
       "team": "WCS Engineering",
       "rag": "Green",
       "available": true,
-      "records": 4
+      "records": 3
     },
     {
       "team": "WCS Engineering",
@@ -325,16 +319,8 @@
       "records": 11
     }
   ],
-  "unavailableTeamRagCombinations": 9,
+  "unavailableTeamRagCombinations": 11,
   "missingNotesRecordsRetained": [
-    {
-      "team": "IT Security",
-      "row": 11
-    },
-    {
-      "team": "IT Security",
-      "row": 12
-    },
     {
       "team": "IoT",
       "row": 8
@@ -350,204 +336,19 @@
     "1440x1000",
     "390x844"
   ],
-  "passedAssertions": 32065,
+  "passedAssertions": 38172,
   "browserErrors": [],
   "failedRequests": [],
   "offlineDashboard": "PASS",
   "downloadHashes": "PASS",
+  "csvDownloads": "PASS",
   "status": "PASS",
-  "verifiedAtUtc": "2026-11-02T19:00:44.098866+00:00",
-  "effectiveSourceRagVariants": [
-    {
-      "rag": "Red",
-      "fill": "#F4CCCC",
-      "font": "#9C0006",
-      "records": 4
-    },
-    {
-      "rag": "Amber",
-      "fill": "#FFE699",
-      "font": "#7F6000",
-      "records": 59
-    },
-    {
-      "rag": "Green",
-      "fill": "#C6E0B4",
-      "font": "#006100",
-      "records": 59
-    },
-    {
-      "rag": "Amber",
-      "fill": "#FFE699",
-      "font": "#9C6500",
-      "records": 17
-    },
-    {
-      "rag": "Green",
-      "fill": "#E2F0D9",
-      "font": "#375623",
-      "records": 5
-    },
-    {
-      "rag": "Green",
-      "fill": "#C6E0B4",
-      "font": "#000000",
-      "records": 9
-    },
-    {
-      "rag": "Amber",
-      "fill": "#FFE699",
-      "font": "#000000",
-      "records": 1
-    }
-  ],
-  "dateClassifications": {
-    "start": {
-      "calendar": 99,
-      "TBD": 55
-    },
-    "finish": {
-      "TBD": 116,
-      "N/A": 14,
-      "calendar": 11,
-      "source text / relative estimate": 13
-    }
-  },
-  "imageAssetsFound": 0,
-  "sourceImageFormula": {
-    "sheet": "IoT",
-    "cell": "N6",
-    "cachedValue": "#NAME?",
-    "assetPresent": false
-  },
-  "sourceCandidateIntegrity": [
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST).xlsx",
-      "bytes": 76511,
-      "sha256Before": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
-      "sha256AfterAudit": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
-      "sha256AfterQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_1.xlsx",
-      "bytes": 76511,
-      "sha256Before": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
-      "sha256AfterAudit": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c",
-      "sha256AfterQA": "0a9a5517d6d29304d894b840e197eb562314ac29327d304090e591dec759227c"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_2.xlsx",
-      "bytes": 76509,
-      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-      "sha256AfterAudit": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_3.xlsx",
-      "bytes": 76509,
-      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-      "sha256AfterAudit": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_4.xlsx",
-      "bytes": 76509,
-      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-      "sha256AfterAudit": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_5.xlsx",
-      "bytes": 76509,
-      "sha256Before": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-      "sha256AfterAudit": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5",
-      "sha256AfterQA": "d7b84baae22203c06aa7e9bdc98a8dd57fb3c9e9524bfa5f206e4578546606a5"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST)_6.xlsx",
-      "bytes": 106925,
-      "sha256Before": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
-      "sha256AfterAudit": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
-      "sha256AfterQA": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (30Oct2026 PST).xlsx",
-      "bytes": 116484,
-      "sha256Before": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-      "sha256AfterAudit": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-      "sha256AfterQA": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST).xlsx",
-      "bytes": 116484,
-      "sha256Before": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-      "sha256AfterAudit": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-      "sha256AfterQA": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 30Oct2026 PST).xlsx",
-      "bytes": 116484,
-      "sha256Before": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-      "sha256AfterAudit": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-      "sha256AfterQA": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada"
-    }
-  ],
-  "downloadHashesVerified": {
-    "public-workbook.xlsx": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-    "mobile-workbook.xlsx": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-    "offline-workbook.xlsx": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-    "uploaded-workbook.xlsx": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada"
-  },
-  "publicCopySha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-  "indexSha256": "cbbb47e80a4ea00da88b4467b4e228e7c92895d575ccb897509f05f3edc6ccc3",
-  "hostChecks": [
-    {
-      "host": "preview.example.invalid",
-      "status": 200,
-      "sha256": "cbbb47e80a4ea00da88b4467b4e228e7c92895d575ccb897509f05f3edc6ccc3"
-    },
-    {
-      "host": "deployment.example.invalid:3000",
-      "status": 200,
-      "sha256": "cbbb47e80a4ea00da88b4467b4e228e7c92895d575ccb897509f05f3edc6ccc3"
-    }
-  ],
-  "syntaxChecks": {
-    "python": "PASS",
-    "workbookReader": "PASS",
-    "inlineJavaScript": "PASS",
-    "frameworkBuildTypecheck": "Not applicable: static HTML/JavaScript; no package.json or framework"
-  },
-  "tooling": {
-    "playwright": "1.64.0",
-    "chromium": "156.0.8078.4"
-  },
-  "startingCommit": "7d121d0b89dc5df99f6e06522f0f9168b94bc82a",
-  "publication": "NOT_PUSHED_OR_DEPLOYED: 25Oct reporting-label correction locally verified; previous 30Oct live PASS preserved separately.",
-  "evidenceDirectory": "qa-local/25oct-attachment-audit",
-  "temporaryServerStopped": true,
-  "recordsIdenticalToPriorLocalCommit": true,
-  "refreshByteIdempotent": true,
-  "sourceSelection": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 25Oct2026 PST).xlsx",
-  "sourceCorrections": "Only dashboard sourceFile and reportDate metadata corrected per latest attachment; no workbook business facts or internal dates changed.",
-  "worksheetNames": {
-    "exactSourceLabels": "PASS",
-    "selectedDropdownFitsDesktopMobileOffline": "PASS",
-    "chartLabelsWrapWithoutClipping": "PASS",
-    "tableTeamLabels": "PASS"
-  },
-  "numericCompletionCount": 154,
-  "downloadedDashboardArtifacts": {
-    "dashboard.html": "2a8319d3ccf97bc3f71267ff5654d648a2a874e09959f2f3926ed0d6b95b429d",
-    "uploaded-dashboard.html": "905bb1f8db558134f3fd1aada642b756a5258b7411ebb37a3e7dad9484b427ca"
-  },
-  "downloadedDashboardEmbeddedSourceHashVerified": true,
-  "appPayloadChangedFields": [
-    "sourceFile",
-    "reportDate"
-  ],
-  "sameWeekRevisionByteEqual": true,
-  "historicalPublishedEvidence": "reports/30oct-2026-filename-published/LIVE_QA_REPORT.md",
-  "internalDatesUnchanged": true,
-  "internalDateMismatch": "Label25Oct retains actual updates30Oct (InfrastructureI22,eHubI3),01Nov(InfrastructureI4),02Nov(WCSI8), and stale23AugIoTA2."
+  "verifiedAtUtc": "2026-11-09T19:37:19.525466+00:00",
+  "scope": "Local refreshed 01Nov snapshot only; unpublished. Public baseline read-only comparison is separate.",
+  "syntaxChecks": "PASS: Python compile, workbook-reader JS and every extracted inline JS node --check",
+  "frameworkBuildLintTypecheck": "Not applicable: existing standalone HTML/JS app has no package.json/framework/compiler/linter configuration.",
+  "arbitraryHost": "PASS: HTTP 200, response byte-identical to index.html",
+  "refreshIdempotence": "PASS: regeneration preserved exact index.html bytes",
+  "temporaryServer": "Stopped and awaited; port 3000 closed",
+  "sourceIssueEvidence": "SOURCE_ISSUES.json"
 }
