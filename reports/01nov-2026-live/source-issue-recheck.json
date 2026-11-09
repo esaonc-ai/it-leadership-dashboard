@@ -1,0 +1,16 @@
+{
+  "sourceSha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+  "checkedAtUtc": "2026-11-09T19:44:49.729685+00:00",
+  "checkedFindingCount": 43,
+  "checkedDistinctCellCount": 153,
+  "allExactValuesAndCachesMatch": true,
+  "downloadHashes": {
+    "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+    "direct-public-workbook.xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+    "public-workbook.xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+    "offline-workbook.xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+    "uploaded-workbook.xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+    "mobile-workbook.xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467"
+  },
+  "status": "PASS"
+}

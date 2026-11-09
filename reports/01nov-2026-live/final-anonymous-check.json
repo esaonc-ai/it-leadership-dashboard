@@ -1,0 +1,15 @@
+{
+  "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+  "verifiedAtUtc": "2026-11-09T19:44:50.671879+00:00",
+  "status": 200,
+  "htmlSha256": "472153819ac872aff8854f7a33955b3ed78a28642ad992b7957095c567b6ee79",
+  "noCookies": true,
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://esaonc-ai.github.io/it-leadership-dashboard/"
+    }
+  ],
+  "pageErrors": [],
+  "result": "PASS"
+}

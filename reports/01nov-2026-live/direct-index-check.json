@@ -1,0 +1,31 @@
+{
+  "url": "https://esaonc-ai.github.io/it-leadership-dashboard/index.html",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "447668",
+    "Server": "GitHub.com",
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Mon, 09 Nov 2026 19:43:32 GMT",
+    "Access-Control-Allow-Origin": "*",
+    "Strict-Transport-Security": "max-age=31556952",
+    "ETag": "\"6af22264-6d4b4\"",
+    "expires": "Mon, 09 Nov 2026 19:54:49 GMT",
+    "Cache-Control": "max-age=600",
+    "x-proxy-cache": "MISS",
+    "X-GitHub-Request-Id": "A8AC:2B3422:C872:157AD:6AF222B1",
+    "x-github-edge-region": "westus2",
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Date": "Mon, 09 Nov 2026 19:44:49 GMT",
+    "Via": "1.1 varnish",
+    "X-Served-By": "cache-bfi-kbfi7400047-BFI",
+    "X-Cache": "MISS",
+    "X-Cache-Hits": "0",
+    "X-Timer": "S1794253490.547821,VS0,VE151",
+    "Vary": "Accept-Encoding",
+    "X-Fastly-Request-ID": "9a219e8e2783f51cd2a520952edf181cf2862eeb"
+  },
+  "sha256": "472153819ac872aff8854f7a33955b3ed78a28642ad992b7957095c567b6ee79",
+  "verifiedAtUtc": "2026-11-09T19:44:49.728739+00:00"
+}
