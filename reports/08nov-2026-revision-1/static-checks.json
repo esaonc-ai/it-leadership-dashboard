@@ -1,0 +1,8 @@
+{
+  "pythonCompile": "PASS",
+  "jsSyntax": "PASS, reader and all three inline scripts",
+  "ragRegressionTests": 4,
+  "refreshIdempotence": "PASS",
+  "cssUnchangedFromBaseline": true,
+  "arbitraryHostExactBytes": "PASS"
+}

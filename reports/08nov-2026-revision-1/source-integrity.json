@@ -1,0 +1,24 @@
+{
+  "verifiedAtUtc": "2026-11-16T23:31:23.056866+00:00",
+  "sourceUntouched": true,
+  "sourceBytes": 126410,
+  "workbookHashes": {
+    "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+    "Weekly_Leadership_Source_Workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+    "qa-local/08nov-2026-revision-1/public-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+    "qa-local/08nov-2026-revision-1/mobile-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+    "qa-local/08nov-2026-revision-1/offline-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+    "qa-local/08nov-2026-revision-1/uploaded-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+    "qa-local/08nov-2026-revision-1/fresh-mobile-offline-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550"
+  },
+  "embeddedWorkbookSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+  "originalAttachmentHashesBeforeAfterMatch": {
+    "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+    "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+    "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550"
+  },
+  "priorRootReportsPreservedAndHashVerified": true,
+  "indexHtmlSha256": "891324979ee9e91f9304fde3a55c0bef57e52976df5db9f6cec4b9fa17b6df20",
+  "downloadedOfflineHtmlSha256": "f211bb274b1564056092a96ae7851cceda63d218d9d13625f148e6c7746a5be1",
+  "serverStoppedAndPort3000Closed": true
+}

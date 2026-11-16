@@ -1,7 +1,7 @@
 {
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
-  "sourceSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
-  "method": "Fresh read-only full-cell/formula-cache/raw-ZIP audit; source review candidates and explicit reviewer assessments remain distinct from actual RAG cells. No source changes.",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx",
+  "sourceSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+  "method": "Fresh read-only inventory of every cell, formula/cache, ZIP metadata and conditional format; all 227 previously anchored values/caches independently rechecked unchanged against the new upload. Three revised WCS RAG conflicts added. Source review candidates, explicit reviewer assessments and optional/context observations remain distinct from actual RAG cells; no source changes.",
   "findings": [
     {
       "category": "RAG cell versus management directive",
@@ -1270,6 +1270,120 @@
           "cachedValue": ""
         }
       }
+    },
+    {
+      "category": "Same-week revision RAG versus management directive",
+      "summary": "D7 changed Amber to Green in latest upload; M7 still explicitly directs Amber. Display the actual Green cell and retain the directive without guessing a correction.",
+      "cells": {
+        "WCS Engineering!B7": {
+          "value": "Visitor Management System – Heacock",
+          "cachedValue": "Visitor Management System – Heacock"
+        },
+        "WCS Engineering!C7": {
+          "value": "Approved and ready for deployment / production use and site acceptance pending",
+          "cachedValue": "Approved and ready for deployment / production use and site acceptance pending"
+        },
+        "WCS Engineering!D7": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "WCS Engineering!G7": {
+          "value": "0.95",
+          "cachedValue": "0.95"
+        },
+        "WCS Engineering!I7": {
+          "value": "Anuj reported the system ready for deployment. Stacy approved the changes, and Robert raised no concerns during review. The initial rollout can use the existing printer; a dedicated badge printer may be considered after actual usage is assessed.",
+          "cachedValue": "Anuj reported the system ready for deployment. Stacy approved the changes, and Robert raised no concerns during review. The initial rollout can use the existing printer; a dedicated badge printer may be considered after actual usage is assessed."
+        },
+        "WCS Engineering!J7": {
+          "value": "Deploy using the existing printer. Validate visitor check-in, badge output, notification wording, staff handling of exceptions, and user acceptance. Record initial defects and determine whether a dedicated printer is justified.",
+          "cachedValue": "Deploy using the existing printer. Validate visitor check-in, badge output, notification wording, staff handling of exceptions, and user acceptance. Record initial defects and determine whether a dedicated printer is justified."
+        },
+        "WCS Engineering!M7": {
+          "value": "Keep Amber at 95% until production deployment and site acceptance are documented. Consider a dedicated printer only after the initial operating need is verified.",
+          "cachedValue": "Keep Amber at 95% until production deployment and site acceptance are documented. Consider a dedicated printer only after the initial operating need is verified."
+        },
+        "WCS Engineering!N7": {
+          "value": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST.",
+          "cachedValue": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST."
+        }
+      }
+    },
+    {
+      "category": "Same-week revision RAG versus management directive",
+      "summary": "D8 changed Amber to Green in latest upload; M8 still explicitly directs Amber. Display the actual Green cell and retain the directive without guessing a correction.",
+      "cells": {
+        "WCS Engineering!B8": {
+          "value": "Shelf-to-Person AGV Project",
+          "cachedValue": "Shelf-to-Person AGV Project"
+        },
+        "WCS Engineering!C8": {
+          "value": "RCS demo testing complete / WMS-WCS testing approximately 80% complete; remaining testing and business acceptance open",
+          "cachedValue": "RCS demo testing complete / WMS-WCS testing approximately 80% complete; remaining testing and business acceptance open"
+        },
+        "WCS Engineering!D8": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "WCS Engineering!G8": {
+          "value": "0.85",
+          "cachedValue": "0.85"
+        },
+        "WCS Engineering!I8": {
+          "value": "The checkpoint reported testing at approximately 80%. Progress slowed while the WMS team supported another project. No major technical issue was reported, but remaining functional testing and acceptance are still outstanding. Team support is expected during the week of 09-Nov.",
+          "cachedValue": "The checkpoint reported testing at approximately 80%. Progress slowed while the WMS team supported another project. No major technical issue was reported, but remaining functional testing and acceptance are still outstanding. Team support is expected during the week of 09-Nov."
+        },
+        "WCS Engineering!J8": {
+          "value": "Confirm the resumed testing schedule, remaining functions, defect list, technical owners, business acceptance owner, and evidence required for completion. Update the percentage only from verified test results and reassess shipment and commissioning dates after testing.",
+          "cachedValue": "Confirm the resumed testing schedule, remaining functions, defect list, technical owners, business acceptance owner, and evidence required for completion. Update the percentage only from verified test results and reassess shipment and commissioning dates after testing."
+        },
+        "WCS Engineering!M8": {
+          "value": "Keep Amber at the corrected 80%. Require documented test results, defect closure, and business acceptance before increasing completion or confirming deployment dates.",
+          "cachedValue": "Keep Amber at the corrected 80%. Require documented test results, defect closure, and business acceptance before increasing completion or confirming deployment dates."
+        },
+        "WCS Engineering!N8": {
+          "value": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST: testing reported approximately 80% complete.",
+          "cachedValue": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST: testing reported approximately 80% complete."
+        }
+      }
+    },
+    {
+      "category": "Same-week revision RAG versus management directive",
+      "summary": "D11 changed Amber to Green in latest upload; M11 still explicitly directs Amber. Display the actual Green cell and retain the directive without guessing a correction.",
+      "cells": {
+        "WCS Engineering!B11": {
+          "value": "Equipment Management System (EMS)",
+          "cachedValue": "Equipment Management System (EMS)"
+        },
+        "WCS Engineering!C11": {
+          "value": "Approved and nearing deployment / platform review, domain, support model, and initial records pending",
+          "cachedValue": "Approved and nearing deployment / platform review, domain, support model, and initial records pending"
+        },
+        "WCS Engineering!D11": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "WCS Engineering!G11": {
+          "value": "0.9",
+          "cachedValue": "0.9"
+        },
+        "WCS Engineering!I11": {
+          "value": "Stacy reviewed and approved the platform. Anuj is preparing rollout, Vincent will support deployment, and Abhijeet is expected to capture Memphis equipment data. Domain preference and initial site records still require confirmation.",
+          "cachedValue": "Stacy reviewed and approved the platform. Anuj is preparing rollout, Vincent will support deployment, and Abhijeet is expected to capture Memphis equipment data. Domain preference and initial site records still require confirmation."
+        },
+        "WCS Engineering!J11": {
+          "value": "Anuj: share the platform for final review and confirm rollout steps. Vincent: confirm deployment support. Stacy: confirm domain preference. Abhijeet: load or capture Memphis data during the onsite visit. Add initial Heacock and Buena Park records and assign site owners to maintain data quality.",
+          "cachedValue": "Anuj: share the platform for final review and confirm rollout steps. Vincent: confirm deployment support. Stacy: confirm domain preference. Abhijeet: load or capture Memphis data during the onsite visit. Add initial Heacock and Buena Park records and assign site owners to maintain data quality."
+        },
+        "WCS Engineering!M11": {
+          "value": "Keep Amber at 90% until the platform is deployed, accessible, populated with initial records, and assigned to accountable site owners. Use a structured offline list if deployment slips.",
+          "cachedValue": "Keep Amber at 90% until the platform is deployed, accessible, populated with initial records, and assigned to accountable site owners. Use a structured offline list if deployment slips."
+        },
+        "WCS Engineering!N11": {
+          "value": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST.",
+          "cachedValue": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST."
+        }
+      }
     }
   ],
   "resolvedOrChangedPriorFindings": [
@@ -1277,7 +1391,7 @@
     "Security C5/G5, C7/G7, C8/G8, C9/G9 now explicitly unverified/text; old unsupported 100% closure claims removed.",
     "Security C6 now distinguishes completed pilot from pending administrator MFA; 90% remains, so prior full-rollout closure wording conflict is clarified.",
     "Infrastructure rows 5/6/11/12/40 now have unverified completion text and explicit open status, removing prior unsupported numeric closure claims.",
-    "WCS D7 is now Amber, matching M7; prior Green-versus-Amber mismatch resolved.",
+    "WCS D7 resolution in original 08Nov is reversed: latest upload changes D7 back to Green while M7 still directs Amber. D8/D11 likewise changed Amber to Green while M8/M11 still direct Amber.",
     "Infrastructure C30/N30 explicitly limit 100% to HTTPS restoration milestone and retain follow-up; no longer report that follow-up alone contradicts restoration.",
     "IoT A2 regressed from prior 06Nov to stale 23Aug; not resolved in current source.",
     "WCS G8 is now 85% while C/I/M/N retain 80%; prior consistent 80% is not carried forward as current proof.",
@@ -1303,5 +1417,11 @@
       ]
     ]
   },
-  "imageParts": []
+  "imageParts": [],
+  "sameWeekPriorAnchorRecheck": {
+    "anchorsRechecked": 227,
+    "changedPreviouslyAnchoredValues": [],
+    "newFindings": 3,
+    "newlyResolvedSourceIssues": 0
+  }
 }

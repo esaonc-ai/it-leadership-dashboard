@@ -1,0 +1,11 @@
+{
+  "url": "http://127.0.0.1:3000/",
+  "status": 200,
+  "headers": {
+    "content-length": "516528",
+    "content-type": "text/html",
+    "date": "Mon, 16 Nov 2026 23:28:29 GMT",
+    "last-modified": "Mon, 16 Nov 2026 23:28:13 GMT",
+    "server": "SimpleHTTP/0.6 Python/3.11.6"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "WCS Engineering!D11": {
+    "previousValue": "Amber",
+    "currentValue": "Green",
+    "previousEffectiveStyle": [
+      "#FFE699",
+      "#7F6000"
+    ],
+    "currentEffectiveStyle": [
+      "#C6E0B4",
+      "#006100"
+    ]
+  },
+  "WCS Engineering!D7": {
+    "previousValue": "Amber",
+    "currentValue": "Green",
+    "previousEffectiveStyle": [
+      "#FFE699",
+      "#7F6000"
+    ],
+    "currentEffectiveStyle": [
+      "#C6E0B4",
+      "#006100"
+    ]
+  },
+  "WCS Engineering!D8": {
+    "previousValue": "Amber",
+    "currentValue": "Green",
+    "previousEffectiveStyle": [
+      "#FFE699",
+      "#7F6000"
+    ],
+    "currentEffectiveStyle": [
+      "#C6E0B4",
+      "#006100"
+    ]
+  }
+}

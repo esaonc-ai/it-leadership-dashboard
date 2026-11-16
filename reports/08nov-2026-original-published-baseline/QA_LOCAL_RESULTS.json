@@ -1,0 +1,421 @@
+{
+  "url": "http://127.0.0.1:3000/",
+  "reportDate": "2026-11-08",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
+  "sourceSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+  "dashboardTitle": "IT & Technology Program Leadership Dashboard",
+  "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
+  "records": 179,
+  "rags": {
+    "Green": 91,
+    "Amber": 88
+  },
+  "teamRags": {
+    "IT Compliance Program": {
+      "Green": 5,
+      "Amber": 12
+    },
+    "IT Security": {
+      "Green": 12,
+      "Amber": 1
+    },
+    "Infrastructure & Cloud": {
+      "Amber": 61,
+      "Green": 37
+    },
+    "IoT": {
+      "Green": 5
+    },
+    "R&D AI": {
+      "Green": 9
+    },
+    "UNIS ITEM- eHub integration": {
+      "Amber": 3,
+      "Green": 7
+    },
+    "UNIS.CO Email & Ticketing": {
+      "Green": 14,
+      "Amber": 2
+    },
+    "WCS Engineering": {
+      "Green": 2,
+      "Amber": 9
+    }
+  },
+  "teamRagCombinations": [
+    [
+      "IT Compliance Program",
+      "Amber"
+    ],
+    [
+      "IT Compliance Program",
+      "Green"
+    ],
+    [
+      "IT Security",
+      "Amber"
+    ],
+    [
+      "IT Security",
+      "Green"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Amber"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Green"
+    ],
+    [
+      "IoT",
+      "Green"
+    ],
+    [
+      "R&D AI",
+      "Green"
+    ],
+    [
+      "UNIS ITEM- eHub integration",
+      "Amber"
+    ],
+    [
+      "UNIS ITEM- eHub integration",
+      "Green"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Amber"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Green"
+    ],
+    [
+      "WCS Engineering",
+      "Amber"
+    ],
+    [
+      "WCS Engineering",
+      "Green"
+    ]
+  ],
+  "cascadeTransitions": 16,
+  "teamRagMatrix": [
+    {
+      "team": "",
+      "rag": "",
+      "available": true,
+      "records": 179
+    },
+    {
+      "team": "",
+      "rag": "Amber",
+      "available": true,
+      "records": 88
+    },
+    {
+      "team": "",
+      "rag": "Green",
+      "available": true,
+      "records": 91
+    },
+    {
+      "team": "",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Amber",
+      "available": true,
+      "records": 12
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Green",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "",
+      "available": true,
+      "records": 17
+    },
+    {
+      "team": "IT Security",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Security",
+      "rag": "Amber",
+      "available": true,
+      "records": 1
+    },
+    {
+      "team": "IT Security",
+      "rag": "Green",
+      "available": true,
+      "records": 12
+    },
+    {
+      "team": "IT Security",
+      "rag": "",
+      "available": true,
+      "records": 13
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Amber",
+      "available": true,
+      "records": 61
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Green",
+      "available": true,
+      "records": 37
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "",
+      "available": true,
+      "records": 98
+    },
+    {
+      "team": "IoT",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Green",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "IoT",
+      "rag": "",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Green",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "R&D AI",
+      "rag": "",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Amber",
+      "available": true,
+      "records": 3
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Green",
+      "available": true,
+      "records": 7
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "",
+      "available": true,
+      "records": 10
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Amber",
+      "available": true,
+      "records": 2
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Green",
+      "available": true,
+      "records": 14
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "",
+      "available": true,
+      "records": 16
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Amber",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Green",
+      "available": true,
+      "records": 2
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "",
+      "available": true,
+      "records": 11
+    }
+  ],
+  "unavailableTeamRagCombinations": 11,
+  "missingNotesRecordsRetained": [
+    {
+      "team": "IoT",
+      "row": 9
+    }
+  ],
+  "nonNumericCompletionRecords": [
+    {
+      "team": "IT Security",
+      "cell": "G5",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G7",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G8",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G9",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G11",
+      "value": "Not quantified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G13",
+      "value": "Not quantified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G14",
+      "value": "Not quantified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G5",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G6",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G11",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G12",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G40",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G65",
+      "value": "Not verified"
+    }
+  ],
+  "dropdowns": {
+    "Team": 1,
+    "RAG": 1,
+    "total": 2
+  },
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "passedAssertions": 42275,
+  "browserErrors": [],
+  "failedRequests": [],
+  "offlineDashboard": "PASS",
+  "downloadHashes": "PASS",
+  "csvDownloads": "PASS",
+  "status": "PASS",
+  "verifiedAtUtc": "2026-11-16T23:10:34.144985+00:00",
+  "scope": "Local 08Nov refresh only, unpublished; read-only live baseline comparison separately recorded.",
+  "syntaxChecks": "PASS: Python compile, workbook-reader JS and all extracted inline scripts",
+  "targetedRegressionTests": "PASS: 4 tests for exact case-insensitive equality, nonmatch, conditional-rule translation/stop priority, prior SEARCH behavior and fail-closed unsupported expressions",
+  "frameworkBuildLintTypecheck": "Not applicable: existing standalone HTML/JavaScript repository, no package.json/framework/compiler/linter configuration",
+  "arbitraryHost": "PASS: HTTP 200 with exact HTML bytes",
+  "refreshIdempotence": "PASS: byte-identical repeated regeneration",
+  "temporaryServer": "Stopped and awaited; port 3000 closed",
+  "sourceIssueEvidence": "SOURCE_ISSUES.json"
+}

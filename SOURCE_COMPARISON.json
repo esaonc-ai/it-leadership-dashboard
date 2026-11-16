@@ -1,114 +1,10 @@
 {
-  "selection": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
+  "selection": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx",
   "reportDate": "2026-11-08",
-  "previousReportDate": "2026-11-01",
-  "reason": "Newest original attachment by weekly filename. Exactly one 08Nov original exists; no same-date alternative discovered. All available XLSX files hashed; prior QA downloads/fixtures distinguished from uploads.",
-  "sameDateCandidates": 1,
-  "sameDateByteEqual": null,
-  "discovery": [
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "uploaded original"
-    },
-    {
-      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
-      "bytes": 126350,
-      "sha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
-      "role": "uploaded original"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/Weekly_Leadership_Source_Workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-local/01nov-2026/offline-workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-local/01nov-2026/invalid.xlsx",
-      "bytes": 14,
-      "sha256": "2f66dc481a54c04e20e01bf7a084eb9f2b95f856219a0f1607b9df45294cc47c",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-local/01nov-2026/uploaded-workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-local/01nov-2026/live-baseline-workbook.xlsx",
-      "bytes": 116484,
-      "sha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-local/01nov-2026/mobile-workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-local/01nov-2026/previous-25oct.xlsx",
-      "bytes": 116484,
-      "sha256": "91513727651ec6c4fcad0ff8b107d56ea89aae02e420229f48dc26050e710ada",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-local/01nov-2026/public-workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-local/08nov-2026/previous-01nov.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-public/01nov-2026/offline-workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-public/01nov-2026/invalid.xlsx",
-      "bytes": 14,
-      "sha256": "2f66dc481a54c04e20e01bf7a084eb9f2b95f856219a0f1607b9df45294cc47c",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-public/01nov-2026/uploaded-workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-public/01nov-2026/mobile-workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-public/01nov-2026/public-workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    },
-    {
-      "path": "/home/user/workspace/it-leadership-dashboard/qa-public/01nov-2026/direct-public-workbook.xlsx",
-      "bytes": 115853,
-      "sha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-      "role": "repository source or prior QA copy/synthetic invalid fixture"
-    }
-  ],
+  "previousReportDate": "2026-11-08",
+  "reason": "Newest available week is 08Nov; latest supplied _1 upload selected as current same-week revision after byte and full semantic/style comparison. Earlier 01Nov source also inventoried. QA copies and invalid fixtures are not original uploads.",
+  "sameDateCandidates": 2,
+  "sameDateByteEqual": false,
   "candidates": [
     {
       "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx",
@@ -171,7 +67,7 @@
         "Conditional Formatting extension is not supported and will be removed",
         "Unknown extension is not supported and will be removed"
       ],
-      "fullInventory": "qa-local/08nov-2026/IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST)-inventory.json"
+      "fullInventory": "qa-local/08nov-2026-revision-1/IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST)-inventory.json"
     },
     {
       "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
@@ -234,10 +130,125 @@
         "Conditional Formatting extension is not supported and will be removed",
         "Unknown extension is not supported and will be removed"
       ],
-      "fullInventory": "qa-local/08nov-2026/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)-inventory.json"
+      "fullInventory": "qa-local/08nov-2026-revision-1/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)-inventory.json"
+    },
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx",
+      "bytes": 126410,
+      "sha256Before": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+      "sha256AfterComparison": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+      "allCellsRead": 2648,
+      "sheets": [
+        "IT Security",
+        "Infrastructure & Cloud",
+        "IoT",
+        "R&D AI",
+        "WCS Engineering",
+        "IT Compliance Program",
+        "UNIS.CO Email & Ticketing",
+        "UNIS ITEM- eHub integration"
+      ],
+      "records": 179,
+      "rags": {
+        "Green": 94,
+        "Amber": 85
+      },
+      "teamRags": {
+        "IT Security": {
+          "Green": 12,
+          "Amber": 1
+        },
+        "Infrastructure & Cloud": {
+          "Amber": 61,
+          "Green": 37
+        },
+        "IoT": {
+          "Green": 5
+        },
+        "R&D AI": {
+          "Green": 9
+        },
+        "WCS Engineering": {
+          "Green": 5,
+          "Amber": 6
+        },
+        "IT Compliance Program": {
+          "Green": 5,
+          "Amber": 12
+        },
+        "UNIS.CO Email & Ticketing": {
+          "Green": 14,
+          "Amber": 2
+        },
+        "UNIS ITEM- eHub integration": {
+          "Amber": 3,
+          "Green": 7
+        }
+      },
+      "imageParts": [],
+      "imageFormulaReferences": {
+        "IoT!N6": "=_xlfn.DISPIMG(\"ID_BFCB287FF50949ACB47F716BD1E40440\",1)"
+      },
+      "readerWarnings": [
+        "Conditional Formatting extension is not supported and will be removed",
+        "Unknown extension is not supported and will be removed"
+      ],
+      "fullInventory": "qa-local/08nov-2026-revision-1/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1-inventory.json"
     }
   ],
-  "previousSnapshotComparison": {
+  "sameDateComparison": {
+    "differentZipParts": [
+      "docProps/core.xml",
+      "xl/drawings/vmlDrawing1.vml",
+      "xl/styles.xml",
+      "xl/tables/table1.xml",
+      "xl/tables/table2.xml",
+      "xl/tables/table3.xml",
+      "xl/tables/table4.xml",
+      "xl/workbook.xml",
+      "xl/worksheets/sheet1.xml",
+      "xl/worksheets/sheet2.xml",
+      "xl/worksheets/sheet3.xml",
+      "xl/worksheets/sheet4.xml",
+      "xl/worksheets/sheet5.xml",
+      "xl/worksheets/sheet6.xml",
+      "xl/worksheets/sheet7.xml",
+      "xl/worksheets/sheet8.xml"
+    ],
+    "differentValuesAndTypes": [
+      "WCS Engineering!D11",
+      "WCS Engineering!D7",
+      "WCS Engineering!D8"
+    ],
+    "differentFormulasAndCaches": [],
+    "differentCellFormatting": [
+      "WCS Engineering!D11",
+      "WCS Engineering!D7",
+      "WCS Engineering!D8"
+    ],
+    "differentSheetMetadataAndConditionalFormatting": [
+      "IT Compliance Program",
+      "IT Security",
+      "Infrastructure & Cloud",
+      "IoT",
+      "R&D AI",
+      "UNIS ITEM- eHub integration",
+      "UNIS.CO Email & Ticketing",
+      "WCS Engineering"
+    ],
+    "differentResolvedConditionalFormatting": [
+      "IT Compliance Program",
+      "IoT",
+      "WCS Engineering"
+    ],
+    "differentExtendedConditionalFormatting": [],
+    "differentEffectiveRagCells": [
+      "WCS Engineering!D11",
+      "WCS Engineering!D7",
+      "WCS Engineering!D8"
+    ]
+  },
+  "olderWeekComparison": {
     "differentZipParts": [
       "[Content_Types].xml",
       "docProps/core.xml",
@@ -876,7 +887,8 @@
       "R&D AI!N6",
       "R&D AI!N9",
       "WCS Engineering!C4",
-      "WCS Engineering!D7",
+      "WCS Engineering!D11",
+      "WCS Engineering!D8",
       "WCS Engineering!G12",
       "WCS Engineering!G8",
       "WCS Engineering!I4",
@@ -2768,44 +2780,46 @@
       "IoT!D7",
       "IoT!D8",
       "IoT!D9",
-      "WCS Engineering!D7"
+      "WCS Engineering!D11",
+      "WCS Engineering!D8"
     ]
   },
   "baseline": {
-    "commit": "fd56b34ebbfbf018ff19dae6a60d36584acc2edd",
-    "contentCommit": "832566659d7670543e2a851d588c3d82de49a436",
+    "commit": "f72f9f1d6af79f1d6e567c1b524d90f880a032f6",
+    "contentCommit": "1a1183e8f2817179ebc95eb806a419ec4b512b78",
     "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
-    "verifiedAtUtc": "2026-11-16T23:09:23.321886+00:00",
-    "htmlSha256": "472153819ac872aff8854f7a33955b3ed78a28642ad992b7957095c567b6ee79",
-    "liveMatchesCommittedCheckout": true,
-    "liveReportDate": "2026-11-01",
-    "records": 164,
-    "sourceSha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-    "directWorkbookSha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+    "verifiedAtUtc": "2026-11-16T23:26:39.969996+00:00",
+    "htmlSha256": "1caa8b104c9043abbe73547c44df096c738fd5d7a27b2f6f864ac05096c7a1b1",
+    "liveMatchesCheckout": true,
+    "reportDate": "2026-11-08",
+    "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
+    "records": 179,
+    "sourceSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+    "directWorkbookSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
     "headers": {
       "Connection": "close",
-      "Content-Length": "447668",
+      "Content-Length": "516446",
       "Server": "GitHub.com",
       "Content-Type": "text/html; charset=utf-8",
-      "Last-Modified": "Mon, 09 Nov 2026 19:47:57 GMT",
+      "Last-Modified": "Mon, 16 Nov 2026 23:21:25 GMT",
       "Access-Control-Allow-Origin": "*",
       "Strict-Transport-Security": "max-age=31556952",
-      "ETag": "\"6af2236d-6d4b4\"",
-      "expires": "Mon, 16 Nov 2026 23:19:23 GMT",
+      "ETag": "\"6afb8ff5-7e15e\"",
+      "expires": "Mon, 16 Nov 2026 23:36:39 GMT",
       "Cache-Control": "max-age=600",
       "x-proxy-cache": "MISS",
-      "X-GitHub-Request-Id": "93B2:28D395:214F2:2FCA5:6AFB8D22",
+      "X-GitHub-Request-Id": "472A:BF871:1F89B:2E913:6AFB912F",
       "x-github-edge-region": "westus2",
       "Accept-Ranges": "bytes",
       "Age": "0",
-      "Date": "Mon, 16 Nov 2026 23:09:23 GMT",
+      "Date": "Mon, 16 Nov 2026 23:26:39 GMT",
       "Via": "1.1 varnish",
-      "X-Served-By": "cache-bfi-kbfi7400082-BFI",
+      "X-Served-By": "cache-bfi-kbfi7400028-BFI",
       "X-Cache": "MISS",
       "X-Cache-Hits": "0",
-      "X-Timer": "S1794870563.976624,VS0,VE119",
+      "X-Timer": "S1794871600.641403,VS0,VE104",
       "Vary": "Accept-Encoding",
-      "X-Fastly-Request-ID": "41d679577d0b421f65414b27183d6317bacab711"
+      "X-Fastly-Request-ID": "c4d16202e4a4cc34ff420d6d23f1b0e7da55941d"
     }
   }
 }

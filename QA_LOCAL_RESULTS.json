@@ -1,14 +1,14 @@
 {
   "url": "http://127.0.0.1:3000/",
   "reportDate": "2026-11-08",
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
-  "sourceSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx",
+  "sourceSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
   "dashboardTitle": "IT & Technology Program Leadership Dashboard",
   "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
   "records": 179,
   "rags": {
-    "Green": 91,
-    "Amber": 88
+    "Green": 94,
+    "Amber": 85
   },
   "teamRags": {
     "IT Compliance Program": {
@@ -38,8 +38,8 @@
       "Amber": 2
     },
     "WCS Engineering": {
-      "Green": 2,
-      "Amber": 9
+      "Green": 5,
+      "Amber": 6
     }
   },
   "teamRagCombinations": [
@@ -112,13 +112,13 @@
       "team": "",
       "rag": "Amber",
       "available": true,
-      "records": 88
+      "records": 85
     },
     {
       "team": "",
       "rag": "Green",
       "available": true,
-      "records": 91
+      "records": 94
     },
     {
       "team": "",
@@ -304,13 +304,13 @@
       "team": "WCS Engineering",
       "rag": "Amber",
       "available": true,
-      "records": 9
+      "records": 6
     },
     {
       "team": "WCS Engineering",
       "rag": "Green",
       "available": true,
-      "records": 2
+      "records": 5
     },
     {
       "team": "WCS Engineering",
@@ -402,20 +402,27 @@
     "1440x1000",
     "390x844"
   ],
-  "passedAssertions": 42275,
+  "passedAssertions": 42227,
   "browserErrors": [],
   "failedRequests": [],
   "offlineDashboard": "PASS",
   "downloadHashes": "PASS",
   "csvDownloads": "PASS",
   "status": "PASS",
-  "verifiedAtUtc": "2026-11-16T23:10:34.144985+00:00",
-  "scope": "Local 08Nov refresh only, unpublished; read-only live baseline comparison separately recorded.",
-  "syntaxChecks": "PASS: Python compile, workbook-reader JS and all extracted inline scripts",
-  "targetedRegressionTests": "PASS: 4 tests for exact case-insensitive equality, nonmatch, conditional-rule translation/stop priority, prior SEARCH behavior and fail-closed unsupported expressions",
-  "frameworkBuildLintTypecheck": "Not applicable: existing standalone HTML/JavaScript repository, no package.json/framework/compiler/linter configuration",
-  "arbitraryHost": "PASS: HTTP 200 with exact HTML bytes",
-  "refreshIdempotence": "PASS: byte-identical repeated regeneration",
+  "verifiedAtUtc": "2026-11-16T23:29:05.021684+00:00",
+  "scope": "Local rerun for latest same-week 08Nov revision _1; unpublished. Public baseline separately observed, not new revision verification.",
+  "freshMobileAssertions": 5640,
+  "combinedBrowserAssertions": 47867,
+  "staticChecks": {
+    "pythonCompile": "PASS",
+    "jsSyntax": "PASS, reader and all three inline scripts",
+    "ragRegressionTests": 4,
+    "refreshIdempotence": "PASS",
+    "cssUnchangedFromBaseline": true,
+    "arbitraryHostExactBytes": "PASS"
+  },
+  "frameworkBuildLintTypecheck": "Not applicable: standalone static HTML/JS with no package.json, build compiler or configured linter; Python and all JS syntax checks performed.",
   "temporaryServer": "Stopped and awaited; port 3000 closed",
+  "priorRootReports": "reports/08nov-2026-original-published-baseline/",
   "sourceIssueEvidence": "SOURCE_ISSUES.json"
 }
