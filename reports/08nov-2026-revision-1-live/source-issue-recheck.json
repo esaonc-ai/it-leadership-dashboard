@@ -1,0 +1,15 @@
+{
+  "sourceSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+  "checkedAtUtc": "2026-11-16T23:35:33.718530+00:00",
+  "findingAndObservationCount": 63,
+  "distinctSourceCells": 231,
+  "anchorOccurrences": 251,
+  "allValuesAndCachesMatch": true,
+  "entireSerializedInventoryMatchesLocalRevision": true,
+  "originalAttachmentHashesUnchanged": {
+    "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+    "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+    "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550"
+  },
+  "status": "PASS"
+}

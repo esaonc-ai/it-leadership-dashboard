@@ -1,47 +1,613 @@
 {
-  "status": "NOT_RUN_FOR_08NOV_REVISION_1",
-  "reportDate": "2026-11-08",
-  "sourceSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
   "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
-  "reason": "Local revision only. Coordinator must push, then request live end-to-end verification. Successful prior publication verifies the original attachment only.",
-  "readOnlyBaselineThisRun": {
-    "commit": "f72f9f1d6af79f1d6e567c1b524d90f880a032f6",
-    "contentCommit": "1a1183e8f2817179ebc95eb806a419ec4b512b78",
+  "reportDate": "2026-11-08",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx",
+  "sourceSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+  "dashboardTitle": "IT & Technology Program Leadership Dashboard",
+  "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
+  "records": 179,
+  "rags": {
+    "Green": 94,
+    "Amber": 85
+  },
+  "teamRags": {
+    "IT Compliance Program": {
+      "Green": 5,
+      "Amber": 12
+    },
+    "IT Security": {
+      "Green": 12,
+      "Amber": 1
+    },
+    "Infrastructure & Cloud": {
+      "Amber": 61,
+      "Green": 37
+    },
+    "IoT": {
+      "Green": 5
+    },
+    "R&D AI": {
+      "Green": 9
+    },
+    "UNIS ITEM- eHub integration": {
+      "Amber": 3,
+      "Green": 7
+    },
+    "UNIS.CO Email & Ticketing": {
+      "Green": 14,
+      "Amber": 2
+    },
+    "WCS Engineering": {
+      "Green": 5,
+      "Amber": 6
+    }
+  },
+  "teamRagCombinations": [
+    [
+      "IT Compliance Program",
+      "Amber"
+    ],
+    [
+      "IT Compliance Program",
+      "Green"
+    ],
+    [
+      "IT Security",
+      "Amber"
+    ],
+    [
+      "IT Security",
+      "Green"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Amber"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Green"
+    ],
+    [
+      "IoT",
+      "Green"
+    ],
+    [
+      "R&D AI",
+      "Green"
+    ],
+    [
+      "UNIS ITEM- eHub integration",
+      "Amber"
+    ],
+    [
+      "UNIS ITEM- eHub integration",
+      "Green"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Amber"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Green"
+    ],
+    [
+      "WCS Engineering",
+      "Amber"
+    ],
+    [
+      "WCS Engineering",
+      "Green"
+    ]
+  ],
+  "cascadeTransitions": 16,
+  "teamRagMatrix": [
+    {
+      "team": "",
+      "rag": "",
+      "available": true,
+      "records": 179
+    },
+    {
+      "team": "",
+      "rag": "Amber",
+      "available": true,
+      "records": 85
+    },
+    {
+      "team": "",
+      "rag": "Green",
+      "available": true,
+      "records": 94
+    },
+    {
+      "team": "",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Amber",
+      "available": true,
+      "records": 12
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Green",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "",
+      "available": true,
+      "records": 17
+    },
+    {
+      "team": "IT Security",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Security",
+      "rag": "Amber",
+      "available": true,
+      "records": 1
+    },
+    {
+      "team": "IT Security",
+      "rag": "Green",
+      "available": true,
+      "records": 12
+    },
+    {
+      "team": "IT Security",
+      "rag": "",
+      "available": true,
+      "records": 13
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Amber",
+      "available": true,
+      "records": 61
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Green",
+      "available": true,
+      "records": 37
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "",
+      "available": true,
+      "records": 98
+    },
+    {
+      "team": "IoT",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Green",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "IoT",
+      "rag": "",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Green",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "R&D AI",
+      "rag": "",
+      "available": true,
+      "records": 9
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Amber",
+      "available": true,
+      "records": 3
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Green",
+      "available": true,
+      "records": 7
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "",
+      "available": true,
+      "records": 10
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Amber",
+      "available": true,
+      "records": 2
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Green",
+      "available": true,
+      "records": 14
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "",
+      "available": true,
+      "records": 16
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Amber",
+      "available": true,
+      "records": 6
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Green",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "",
+      "available": true,
+      "records": 11
+    }
+  ],
+  "unavailableTeamRagCombinations": 11,
+  "missingNotesRecordsRetained": [
+    {
+      "team": "IoT",
+      "row": 9
+    }
+  ],
+  "nonNumericCompletionRecords": [
+    {
+      "team": "IT Security",
+      "cell": "G5",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G7",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G8",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G9",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G11",
+      "value": "Not quantified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G13",
+      "value": "Not quantified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G14",
+      "value": "Not quantified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G5",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G6",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G11",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G12",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G40",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G65",
+      "value": "Not verified"
+    }
+  ],
+  "dropdowns": {
+    "Team": 1,
+    "RAG": 1,
+    "total": 2
+  },
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "passedAssertions": 42227,
+  "browserErrors": [],
+  "failedRequests": [],
+  "offlineDashboard": "PASS",
+  "downloadHashes": "PASS",
+  "csvDownloads": "PASS",
+  "status": "PASS",
+  "publicationVerified": true,
+  "deployedContentCommit": "3b8e6fe2f814e81bbd638f66bbccef7456b86ccf",
+  "verifiedAtUtc": "2026-11-16T23:36:09.626538+00:00",
+  "firstRevisionObservedAtUtc": "2026-11-16T23:35:04.997459+00:00",
+  "finalFreshMobileVerifiedAtUtc": "2026-11-16T23:36:20.003329+00:00",
+  "reportCompletedAtUtc": "2026-11-16T23:38:00.594420+00:00",
+  "publicHtmlSha256": "891324979ee9e91f9304fde3a55c0bef57e52976df5db9f6cec4b9fa17b6df20",
+  "freshMobileSupplementalAssertions": 5640,
+  "combinedPassedAssertions": 47867,
+  "publicationCheck": {
+    "attempt": 2,
+    "observedAtUtc": "2026-11-16T23:35:04.997459+00:00",
     "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
-    "verifiedAtUtc": "2026-11-16T23:26:39.969996+00:00",
-    "htmlSha256": "1caa8b104c9043abbe73547c44df096c738fd5d7a27b2f6f864ac05096c7a1b1",
-    "liveMatchesCheckout": true,
-    "reportDate": "2026-11-08",
-    "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
-    "records": 179,
-    "sourceSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
-    "directWorkbookSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+    "finalUrl": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+    "status": 200,
     "headers": {
       "Connection": "close",
-      "Content-Length": "516446",
+      "Content-Length": "516528",
       "Server": "GitHub.com",
       "Content-Type": "text/html; charset=utf-8",
-      "Last-Modified": "Mon, 16 Nov 2026 23:21:25 GMT",
+      "Last-Modified": "Mon, 16 Nov 2026 23:34:53 GMT",
       "Access-Control-Allow-Origin": "*",
       "Strict-Transport-Security": "max-age=31556952",
-      "ETag": "\"6afb8ff5-7e15e\"",
-      "expires": "Mon, 16 Nov 2026 23:36:39 GMT",
+      "ETag": "\"6afb931d-7e1b0\"",
+      "expires": "Mon, 16 Nov 2026 23:45:04 GMT",
       "Cache-Control": "max-age=600",
       "x-proxy-cache": "MISS",
-      "X-GitHub-Request-Id": "472A:BF871:1F89B:2E913:6AFB912F",
+      "X-GitHub-Request-Id": "9D12:8EF67:1FC7B:2F142:6AFB9328",
       "x-github-edge-region": "westus2",
       "Accept-Ranges": "bytes",
       "Age": "0",
-      "Date": "Mon, 16 Nov 2026 23:26:39 GMT",
+      "Date": "Mon, 16 Nov 2026 23:35:04 GMT",
       "Via": "1.1 varnish",
-      "X-Served-By": "cache-bfi-kbfi7400028-BFI",
+      "X-Served-By": "cache-bfi-kbfi7400026-BFI",
       "X-Cache": "MISS",
       "X-Cache-Hits": "0",
-      "X-Timer": "S1794871600.641403,VS0,VE104",
+      "X-Timer": "S1794872105.860271,VS0,VE95",
       "Vary": "Accept-Encoding",
-      "X-Fastly-Request-ID": "c4d16202e4a4cc34ff420d6d23f1b0e7da55941d"
-    }
+      "X-Fastly-Request-ID": "631a2ec5cb98cbce9dd188ddc86c2eba34a722af"
+    },
+    "reportDate": "2026-11-08",
+    "records": 179,
+    "rags": {
+      "Green": 94,
+      "Amber": 85
+    },
+    "sourceSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+    "htmlSha256": "891324979ee9e91f9304fde3a55c0bef57e52976df5db9f6cec4b9fa17b6df20",
+    "matchesPushedCheckout": true,
+    "expectedContentCommit": "3b8e6fe2f814e81bbd638f66bbccef7456b86ccf",
+    "publication": "PASS"
   },
-  "priorLiveResults": "reports/08nov-2026-original-published-baseline/QA_PUBLIC_RESULTS.json",
-  "priorLiveReport": "reports/08nov-2026-original-published-baseline/LIVE_QA_REPORT.md"
+  "directPublicChecks": {
+    "status": "PASS",
+    "authentication": "None; anonymous urllib GETs with no credentials or cookies",
+    "checks": [
+      {
+        "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+        "finalUrl": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+        "status": 200,
+        "verifiedAtUtc": "2026-11-16T23:35:55.114145+00:00",
+        "headers": {
+          "Connection": "close",
+          "Content-Length": "516528",
+          "Server": "GitHub.com",
+          "Content-Type": "text/html; charset=utf-8",
+          "Last-Modified": "Mon, 16 Nov 2026 23:34:53 GMT",
+          "Access-Control-Allow-Origin": "*",
+          "Strict-Transport-Security": "max-age=31556952",
+          "ETag": "\"6afb931d-7e1b0\"",
+          "expires": "Mon, 16 Nov 2026 23:45:04 GMT",
+          "Cache-Control": "max-age=600",
+          "x-proxy-cache": "MISS",
+          "X-GitHub-Request-Id": "9D12:8EF67:1FC7B:2F142:6AFB9328",
+          "x-github-edge-region": "westus2",
+          "Accept-Ranges": "bytes",
+          "Date": "Mon, 16 Nov 2026 23:35:55 GMT",
+          "Via": "1.1 varnish",
+          "Age": "50",
+          "X-Served-By": "cache-bfi-kbfi7400098-BFI",
+          "X-Cache": "HIT",
+          "X-Cache-Hits": "1",
+          "X-Timer": "S1794872155.069828,VS0,VE3",
+          "Vary": "Accept-Encoding",
+          "X-Fastly-Request-ID": "edb870304128d14012c72192647a1ca2df606065"
+        },
+        "bytes": 516528,
+        "sha256": "891324979ee9e91f9304fde3a55c0bef57e52976df5db9f6cec4b9fa17b6df20"
+      },
+      {
+        "url": "https://esaonc-ai.github.io/it-leadership-dashboard/index.html",
+        "finalUrl": "https://esaonc-ai.github.io/it-leadership-dashboard/index.html",
+        "status": 200,
+        "verifiedAtUtc": "2026-11-16T23:35:55.341173+00:00",
+        "headers": {
+          "Connection": "close",
+          "Content-Length": "516528",
+          "Server": "GitHub.com",
+          "Content-Type": "text/html; charset=utf-8",
+          "Last-Modified": "Mon, 16 Nov 2026 23:34:53 GMT",
+          "Access-Control-Allow-Origin": "*",
+          "Strict-Transport-Security": "max-age=31556952",
+          "ETag": "\"6afb931d-7e1b0\"",
+          "expires": "Mon, 16 Nov 2026 23:45:55 GMT",
+          "Cache-Control": "max-age=600",
+          "x-proxy-cache": "MISS",
+          "X-GitHub-Request-Id": "E598:1C8B12:22621:31B43:6AFB935A",
+          "x-github-edge-region": "westus2",
+          "Accept-Ranges": "bytes",
+          "Age": "0",
+          "Date": "Mon, 16 Nov 2026 23:35:55 GMT",
+          "Via": "1.1 varnish",
+          "X-Served-By": "cache-bfi-kbfi7400114-BFI",
+          "X-Cache": "MISS",
+          "X-Cache-Hits": "0",
+          "X-Timer": "S1794872155.175574,VS0,VE121",
+          "Vary": "Accept-Encoding",
+          "X-Fastly-Request-ID": "549db935811bd8f42a3d1a79eb79b483427eb28b"
+        },
+        "bytes": 516528,
+        "sha256": "891324979ee9e91f9304fde3a55c0bef57e52976df5db9f6cec4b9fa17b6df20"
+      },
+      {
+        "url": "https://esaonc-ai.github.io/it-leadership-dashboard/Weekly_Leadership_Source_Workbook.xlsx",
+        "finalUrl": "https://esaonc-ai.github.io/it-leadership-dashboard/Weekly_Leadership_Source_Workbook.xlsx",
+        "status": 200,
+        "verifiedAtUtc": "2026-11-16T23:35:55.522212+00:00",
+        "headers": {
+          "Connection": "close",
+          "Content-Length": "126410",
+          "Server": "GitHub.com",
+          "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "Last-Modified": "Mon, 16 Nov 2026 23:34:53 GMT",
+          "Access-Control-Allow-Origin": "*",
+          "Strict-Transport-Security": "max-age=31556952",
+          "ETag": "\"6afb931d-1edca\"",
+          "expires": "Mon, 16 Nov 2026 23:45:55 GMT",
+          "Cache-Control": "max-age=600",
+          "x-proxy-cache": "MISS",
+          "X-GitHub-Request-Id": "DB6E:2705BD:208B0:2FE1B:6AFB935B",
+          "x-github-edge-region": "westus2",
+          "Accept-Ranges": "bytes",
+          "Age": "0",
+          "Date": "Mon, 16 Nov 2026 23:35:55 GMT",
+          "Via": "1.1 varnish",
+          "X-Served-By": "cache-bfi-kbfi7400027-BFI",
+          "X-Cache": "MISS",
+          "X-Cache-Hits": "0",
+          "X-Timer": "S1794872155.402008,VS0,VE99",
+          "Vary": "Accept-Encoding",
+          "X-Fastly-Request-ID": "411b2ec31a2406fc7f23e73247e597f3cdfe9cbc"
+        },
+        "bytes": 126410,
+        "sha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550"
+      }
+    ]
+  },
+  "sourceIssueRecheck": {
+    "sourceSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+    "checkedAtUtc": "2026-11-16T23:35:33.718530+00:00",
+    "findingAndObservationCount": 63,
+    "distinctSourceCells": 231,
+    "anchorOccurrences": 251,
+    "allValuesAndCachesMatch": true,
+    "entireSerializedInventoryMatchesLocalRevision": true,
+    "originalAttachmentHashesUnchanged": {
+      "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+      "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+      "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550"
+    },
+    "status": "PASS"
+  },
+  "downloadIntegrity": {
+    "verifiedAtUtc": "2026-11-16T23:38:00.594420+00:00",
+    "hashes": {
+      "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+      "Weekly_Leadership_Source_Workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+      "qa-public/08nov-2026-revision-1/direct-public-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+      "qa-public/08nov-2026-revision-1/public-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+      "qa-public/08nov-2026-revision-1/offline-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+      "qa-public/08nov-2026-revision-1/mobile-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+      "qa-public/08nov-2026-revision-1/uploaded-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+      "qa-public/08nov-2026-revision-1/fresh-mobile-offline-workbook.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550"
+    },
+    "embeddedPublicWorkbookSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+    "allByteIdenticalToUntouchedOriginal": true,
+    "allOriginalAttachmentsUnchanged": {
+      "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+      "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+      "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550"
+    },
+    "downloadedDashboardOfflineTests": "PASS desktop and separate fresh mobile offline context",
+    "status": "PASS"
+  },
+  "liveEvidenceDirectory": "reports/08nov-2026-revision-1-live/",
+  "rawEvidenceDirectory": "qa-public/08nov-2026-revision-1/",
+  "standaloneReport": "/home/user/workspace/Portfolio_Dashboard_QA_and_Source_Issues_08Nov2026_Revision_1.md",
+  "applicationOrSourceOrTestCodeChangesThisRun": false,
+  "remoteGitOperationsThisRun": false,
+  "additionalPreviewServerStarted": false,
+  "authentication": "Fresh anonymous desktop context; independent fresh mobile context and separate mobile offline context; no login, credentials or stored session"
 }
