@@ -1,0 +1,1 @@
+Root reports from fd56b34 preserved byte-for-byte before the 08Nov refresh. Historical local and public results retain original scope and dates; see preserved-report-hashes.json. Existing reports/01nov-2026/ and reports/01nov-2026-live/ are also preserved. Current 08Nov publication remains pending.

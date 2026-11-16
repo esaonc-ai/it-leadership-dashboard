@@ -1,27 +1,27 @@
 {
   "url": "http://127.0.0.1:3000/",
-  "reportDate": "2026-11-01",
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx",
-  "sourceSha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+  "reportDate": "2026-11-08",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
+  "sourceSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
   "dashboardTitle": "IT & Technology Program Leadership Dashboard",
   "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
-  "records": 164,
+  "records": 179,
   "rags": {
-    "Amber": 89,
-    "Green": 75
+    "Green": 91,
+    "Amber": 88
   },
   "teamRags": {
     "IT Compliance Program": {
-      "Amber": 13,
-      "Green": 4
+      "Green": 5,
+      "Amber": 12
     },
     "IT Security": {
-      "Amber": 4,
-      "Green": 5
+      "Green": 12,
+      "Amber": 1
     },
     "Infrastructure & Cloud": {
-      "Amber": 59,
-      "Green": 28
+      "Amber": 61,
+      "Green": 37
     },
     "IoT": {
       "Green": 5
@@ -38,8 +38,8 @@
       "Amber": 2
     },
     "WCS Engineering": {
-      "Green": 3,
-      "Amber": 8
+      "Green": 2,
+      "Amber": 9
     }
   },
   "teamRagCombinations": [
@@ -106,19 +106,19 @@
       "team": "",
       "rag": "",
       "available": true,
-      "records": 164
+      "records": 179
     },
     {
       "team": "",
       "rag": "Amber",
       "available": true,
-      "records": 89
+      "records": 88
     },
     {
       "team": "",
       "rag": "Green",
       "available": true,
-      "records": 75
+      "records": 91
     },
     {
       "team": "",
@@ -136,13 +136,13 @@
       "team": "IT Compliance Program",
       "rag": "Amber",
       "available": true,
-      "records": 13
+      "records": 12
     },
     {
       "team": "IT Compliance Program",
       "rag": "Green",
       "available": true,
-      "records": 4
+      "records": 5
     },
     {
       "team": "IT Compliance Program",
@@ -160,19 +160,19 @@
       "team": "IT Security",
       "rag": "Amber",
       "available": true,
-      "records": 4
+      "records": 1
     },
     {
       "team": "IT Security",
       "rag": "Green",
       "available": true,
-      "records": 5
+      "records": 12
     },
     {
       "team": "IT Security",
       "rag": "",
       "available": true,
-      "records": 9
+      "records": 13
     },
     {
       "team": "Infrastructure & Cloud",
@@ -184,19 +184,19 @@
       "team": "Infrastructure & Cloud",
       "rag": "Amber",
       "available": true,
-      "records": 59
+      "records": 61
     },
     {
       "team": "Infrastructure & Cloud",
       "rag": "Green",
       "available": true,
-      "records": 28
+      "records": 37
     },
     {
       "team": "Infrastructure & Cloud",
       "rag": "",
       "available": true,
-      "records": 87
+      "records": 98
     },
     {
       "team": "IoT",
@@ -304,13 +304,13 @@
       "team": "WCS Engineering",
       "rag": "Amber",
       "available": true,
-      "records": 8
+      "records": 9
     },
     {
       "team": "WCS Engineering",
       "rag": "Green",
       "available": true,
-      "records": 3
+      "records": 2
     },
     {
       "team": "WCS Engineering",
@@ -323,10 +323,76 @@
   "missingNotesRecordsRetained": [
     {
       "team": "IoT",
-      "row": 8
+      "row": 9
     }
   ],
-  "nonNumericCompletionRecords": [],
+  "nonNumericCompletionRecords": [
+    {
+      "team": "IT Security",
+      "cell": "G5",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G7",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G8",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G9",
+      "value": "Not verified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G11",
+      "value": "Not quantified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G13",
+      "value": "Not quantified"
+    },
+    {
+      "team": "IT Security",
+      "cell": "G14",
+      "value": "Not quantified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G5",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G6",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G11",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G12",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G40",
+      "value": "Not verified"
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "cell": "G65",
+      "value": "Not verified"
+    }
+  ],
   "dropdowns": {
     "Team": 1,
     "RAG": 1,
@@ -336,19 +402,20 @@
     "1440x1000",
     "390x844"
   ],
-  "passedAssertions": 38172,
+  "passedAssertions": 42275,
   "browserErrors": [],
   "failedRequests": [],
   "offlineDashboard": "PASS",
   "downloadHashes": "PASS",
   "csvDownloads": "PASS",
   "status": "PASS",
-  "verifiedAtUtc": "2026-11-09T19:37:19.525466+00:00",
-  "scope": "Local refreshed 01Nov snapshot only; unpublished. Public baseline read-only comparison is separate.",
-  "syntaxChecks": "PASS: Python compile, workbook-reader JS and every extracted inline JS node --check",
-  "frameworkBuildLintTypecheck": "Not applicable: existing standalone HTML/JS app has no package.json/framework/compiler/linter configuration.",
-  "arbitraryHost": "PASS: HTTP 200, response byte-identical to index.html",
-  "refreshIdempotence": "PASS: regeneration preserved exact index.html bytes",
+  "verifiedAtUtc": "2026-11-16T23:10:34.144985+00:00",
+  "scope": "Local 08Nov refresh only, unpublished; read-only live baseline comparison separately recorded.",
+  "syntaxChecks": "PASS: Python compile, workbook-reader JS and all extracted inline scripts",
+  "targetedRegressionTests": "PASS: 4 tests for exact case-insensitive equality, nonmatch, conditional-rule translation/stop priority, prior SEARCH behavior and fail-closed unsupported expressions",
+  "frameworkBuildLintTypecheck": "Not applicable: existing standalone HTML/JavaScript repository, no package.json/framework/compiler/linter configuration",
+  "arbitraryHost": "PASS: HTTP 200 with exact HTML bytes",
+  "refreshIdempotence": "PASS: byte-identical repeated regeneration",
   "temporaryServer": "Stopped and awaited; port 3000 closed",
   "sourceIssueEvidence": "SOURCE_ISSUES.json"
 }

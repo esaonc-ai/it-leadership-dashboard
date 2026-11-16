@@ -79,13 +79,17 @@ def rag_from_status(status: str) -> str | None:
 
 
 def evaluate_expression(formula: str, sheet: object) -> bool:
-    """Strict subset of Excel boolean SEARCH expressions; fail closed."""
+    """Strict subset of Excel boolean SEARCH and text equality; fail closed."""
     token = re.compile(r'ISNUMBER\(SEARCH\("([^"]*)",(\$?[A-Z]+\$?\d+)\)\)')
     formula = token.sub(lambda m: "True" if m[1].casefold() in text(sheet[m[2].replace("$", "")].value).casefold() else "False", formula)
     formula = re.sub(r'(\$?[A-Z]+\$?\d+)<>""', lambda m: "True" if text(sheet[m[1].replace("$", "")].value) else "False", formula)
     def parse(value):
         if value in ("True", "False"):
             return value == "True"
+        equality = re.fullmatch(r'(\$?[A-Z]+\$?\d+)="((?:[^"]|"")*)"', value)
+        if equality:
+            actual = text(sheet[equality[1].replace("$", "")].value)
+            return actual.casefold() == equality[2].replace('""', '"').casefold()
         m = re.fullmatch(r"(OR|AND|NOT)\((.*)\)", value)
         if not m:
             raise ValueError(f"Unsupported RAG expression: {value}")

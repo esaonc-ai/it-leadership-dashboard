@@ -1,11 +1,29 @@
 {
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx",
-  "sourceSha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
-  "method": "Fresh read-only cell, formula-cache and raw ZIP audit; neutral review candidates do not assert a corrected RAG or scope. Original workbook is authoritative.",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST).xlsx",
+  "sourceSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+  "method": "Fresh read-only full-cell/formula-cache/raw-ZIP audit; source review candidates and explicit reviewer assessments remain distinct from actual RAG cells. No source changes.",
   "findings": [
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D23 retains source RAG while M23 directs Amber; dashboard follows D23.",
+      "category": "RAG cell versus management directive",
+      "summary": "D4 retains source RAG; M4 explicitly directs Amber. No override inferred.",
+      "cells": {
+        "Infrastructure & Cloud!D4": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "Infrastructure & Cloud!M4": {
+          "value": "Keep Amber until the circuit passes end-to-end testing and the displaced Production Avenue billing action is closed.",
+          "cachedValue": "Keep Amber until the circuit passes end-to-end testing and the displaced Production Avenue billing action is closed."
+        },
+        "Infrastructure & Cloud!N4": {
+          "value": "Project Updates as of 08-Nov-2026; IT Infrastructure and Project Planning Meeting Notes. | Update evidence: S3. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied.",
+          "cachedValue": "Project Updates as of 08-Nov-2026; IT Infrastructure and Project Planning Meeting Notes. | Update evidence: S3. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus management directive",
+      "summary": "D23 retains source RAG; M23 explicitly directs Amber. No override inferred.",
       "cells": {
         "Infrastructure & Cloud!D23": {
           "value": "Green",
@@ -14,12 +32,16 @@
         "Infrastructure & Cloud!M23": {
           "value": "Maintain Amber until all active stations are validated on wired LAN, priority hardware is remediated, scanner/Wi-Fi testing is complete, and Operations signs off. Require IT review before new floor equipment is deployed.",
           "cachedValue": "Maintain Amber until all active stations are validated on wired LAN, priority hardware is remediated, scanner/Wi-Fi testing is complete, and Operations signs off. Require IT review before new floor equipment is deployed."
+        },
+        "Infrastructure & Cloud!N23": {
+          "value": "Joliet Network, Wi-Fi & Workstation Assessment email thread, latest 16-Oct-2026 PST. | Overlap: #23; retain source history; do not sum as independent scope. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied.",
+          "cachedValue": "Joliet Network, Wi-Fi & Workstation Assessment email thread, latest 16-Oct-2026 PST. | Overlap: #23; retain source history; do not sum as independent scope. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D24 retains source RAG while M24 directs Amber; dashboard follows D24.",
+      "category": "RAG cell versus management directive",
+      "summary": "D24 retains source RAG; M24 explicitly directs Amber. No override inferred.",
       "cells": {
         "Infrastructure & Cloud!D24": {
           "value": "Green",
@@ -28,12 +50,34 @@
         "Infrastructure & Cloud!M24": {
           "value": "Maintain Amber until the fault domain is confirmed, remaining work is dated and completed, and Operations accepts performance.",
           "cachedValue": "Maintain Amber until the fault domain is confirmed, remaining work is dated and completed, and Operations accepts performance."
+        },
+        "Infrastructure & Cloud!N24": {
+          "value": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #22; retain source history; do not sum as independent scope. | Update evidence: S4. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied.",
+          "cachedValue": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #22; retain source history; do not sum as independent scope. | Update evidence: S4. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D38 retains source RAG while M38 directs Amber; dashboard follows D38.",
+      "category": "RAG cell versus management directive",
+      "summary": "D27 retains source RAG; M27 explicitly directs Amber. No override inferred.",
+      "cells": {
+        "Infrastructure & Cloud!D27": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "Infrastructure & Cloud!M27": {
+          "value": "Keep Amber until the physical inventory, tracker, carrier records, and billing are reconciled.",
+          "cachedValue": "Keep Amber until the physical inventory, tracker, carrier records, and billing are reconciled."
+        },
+        "Infrastructure & Cloud!N27": {
+          "value": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #25; retain source history; do not sum as independent scope. | Review: no newer directly applicable evidence in the six supplied references; baseline facts not independently revalidated. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied.",
+          "cachedValue": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #25; retain source history; do not sum as independent scope. | Review: no newer directly applicable evidence in the six supplied references; baseline facts not independently revalidated. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus management directive",
+      "summary": "D38 retains source RAG; M38 explicitly directs Amber. No override inferred.",
       "cells": {
         "Infrastructure & Cloud!D38": {
           "value": "Green",
@@ -42,12 +86,16 @@
         "Infrastructure & Cloud!M38": {
           "value": "Keep Amber until controller-to-map reconciliation and documented coverage testing are complete.",
           "cachedValue": "Keep Amber until controller-to-map reconciliation and documented coverage testing are complete."
+        },
+        "Infrastructure & Cloud!N38": {
+          "value": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #36; retain source history; do not sum as independent scope. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied.",
+          "cachedValue": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #36; retain source history; do not sum as independent scope. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D56 retains source RAG while M56 directs Amber; dashboard follows D56.",
+      "category": "RAG cell versus management directive",
+      "summary": "D56 retains source RAG; M56 explicitly directs Amber. No override inferred.",
       "cells": {
         "Infrastructure & Cloud!D56": {
           "value": "Green",
@@ -56,54 +104,34 @@
         "Infrastructure & Cloud!M56": {
           "value": "Keep Amber until the remaining installation scope, test evidence, and Operations acceptance are recorded.",
           "cachedValue": "Keep Amber until the remaining installation scope, test evidence, and Operations acceptance are recorded."
+        },
+        "Infrastructure & Cloud!N56": {
+          "value": "IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST; previous Heacock bridge readiness record. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied.",
+          "cachedValue": "IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST; previous Heacock bridge readiness record. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D36 retains source RAG while M36 directs Red; dashboard follows D36.",
+      "category": "RAG cell versus management directive",
+      "summary": "D36 retains source RAG; M36 explicitly directs Red. No override inferred.",
       "cells": {
         "Infrastructure & Cloud!D36": {
           "value": "Amber",
           "cachedValue": "Amber"
         },
         "Infrastructure & Cloud!M36": {
-          "value": "Maintain Red until written approval, scheduled installation, commissioning results, and temperature acceptance are documented.",
-          "cachedValue": "Maintain Red until written approval, scheduled installation, commissioning results, and temperature acceptance are documented."
-        }
-      }
-    },
-    {
-      "category": "Conflicting RAG directive",
-      "summary": "D53 retains source RAG while M53 directs Red; dashboard follows D53.",
-      "cells": {
-        "Infrastructure & Cloud!D53": {
-          "value": "Amber",
-          "cachedValue": "Amber"
+          "value": "Maintain Red until written approval, scheduled installation, commissioning results, and temperature acceptance are documented. 13-Nov context: Walnut server-hosting role remains undecided and migration-related internet upgrade is on hold; confirm approved site scope before committing move-related spend or outages.",
+          "cachedValue": "Maintain Red until written approval, scheduled installation, commissioning results, and temperature acceptance are documented. 13-Nov context: Walnut server-hosting role remains undecided and migration-related internet upgrade is on hold; confirm approved site scope before committing move-related spend or outages."
         },
-        "Infrastructure & Cloud!M53": {
-          "value": "Maintain Red until resilient power is approved, installed and tested.",
-          "cachedValue": "Maintain Red until resilient power is approved, installed and tested."
+        "Infrastructure & Cloud!N36": {
+          "value": "Buena Park IT Relocation Readiness Status and Next Steps email, 29-Oct-2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST. | Update evidence: S2, S5, S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | RAG aligned to the existing explicit Red management instruction.",
+          "cachedValue": "Buena Park IT Relocation Readiness Status and Next Steps email, 29-Oct-2026; IT Infrastructure and Network Meeting Notes, 30-Oct-2026 PST. | Update evidence: S2, S5, S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | RAG aligned to the existing explicit Red management instruction."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D55 retains source RAG while M55 directs Red; dashboard follows D55.",
-      "cells": {
-        "Infrastructure & Cloud!D55": {
-          "value": "Amber",
-          "cachedValue": "Amber"
-        },
-        "Infrastructure & Cloud!M55": {
-          "value": "Red until placement and facilities gates are approved. Require technical and business acceptance before each cutover.",
-          "cachedValue": "Red until placement and facilities gates are approved. Require technical and business acceptance before each cutover."
-        }
-      }
-    },
-    {
-      "category": "Conflicting RAG directive",
-      "summary": "D62 retains source RAG while M62 directs Red; dashboard follows D62.",
+      "category": "RAG cell versus management directive",
+      "summary": "D62 retains source RAG; M62 explicitly directs Red. No override inferred.",
       "cells": {
         "Infrastructure & Cloud!D62": {
           "value": "Amber",
@@ -112,12 +140,16 @@
         "Infrastructure & Cloud!M62": {
           "value": "Red until critical workload capacity and legacy-host risk are contained. Require measured peak-capacity evidence, backup validation, approved target host, migration plan, and post-change testing before relocation.",
           "cachedValue": "Red until critical workload capacity and legacy-host risk are contained. Require measured peak-capacity evidence, backup validation, approved target host, migration plan, and post-change testing before relocation."
+        },
+        "Infrastructure & Cloud!N62": {
+          "value": "IT Network Team Meeting Notes, 16-Oct-2026 PST; BP Relocation Notes, 13-Oct-2026 PST. | Overlap: #62; retain source history; do not sum as independent scope. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | RAG aligned to the existing explicit Red management instruction.",
+          "cachedValue": "IT Network Team Meeting Notes, 16-Oct-2026 PST; BP Relocation Notes, 13-Oct-2026 PST. | Overlap: #62; retain source history; do not sum as independent scope. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | RAG aligned to the existing explicit Red management instruction."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D63 retains source RAG while M63 directs Red; dashboard follows D63.",
+      "category": "RAG cell versus management directive",
+      "summary": "D63 retains source RAG; M63 explicitly directs Red. No override inferred.",
       "cells": {
         "Infrastructure & Cloud!D63": {
           "value": "Amber",
@@ -126,12 +158,16 @@
         "Infrastructure & Cloud!M63": {
           "value": "Maintain Red until critical workload capacity, backup, restore, target placement, and legacy-host risks are controlled.",
           "cachedValue": "Maintain Red until critical workload capacity, backup, restore, target placement, and legacy-host risks are controlled."
+        },
+        "Infrastructure & Cloud!N63": {
+          "value": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #61; retain source history; do not sum as independent scope. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | RAG aligned to the existing explicit Red management instruction.",
+          "cachedValue": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #61; retain source history; do not sum as independent scope. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | RAG aligned to the existing explicit Red management instruction."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D64 retains source RAG while M64 directs Red; dashboard follows D64.",
+      "category": "RAG cell versus management directive",
+      "summary": "D64 retains source RAG; M64 explicitly directs Red. No override inferred.",
       "cells": {
         "Infrastructure & Cloud!D64": {
           "value": "Amber",
@@ -140,26 +176,16 @@
         "Infrastructure & Cloud!M64": {
           "value": "Maintain Red until root cause or risk containment, recovery evidence, and the hosting recommendation are approved.",
           "cachedValue": "Maintain Red until root cause or risk containment, recovery evidence, and the hosting recommendation are approved."
-        }
-      }
-    },
-    {
-      "category": "Conflicting RAG directive",
-      "summary": "D7 retains source RAG while M7 directs Amber; dashboard follows D7.",
-      "cells": {
-        "WCS Engineering!D7": {
-          "value": "Green",
-          "cachedValue": "Green"
         },
-        "WCS Engineering!M7": {
-          "value": "Keep Amber at 95% until production deployment and site acceptance are documented. Consider a dedicated printer only after the initial operating need is verified.",
-          "cachedValue": "Keep Amber at 95% until production deployment and site acceptance are documented. Consider a dedicated printer only after the initial operating need is verified."
+        "Infrastructure & Cloud!N64": {
+          "value": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | RAG aligned to the existing explicit Red management instruction.",
+          "cachedValue": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | RAG aligned to the existing explicit Red management instruction."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D5 retains source RAG while M5 directs Amber; dashboard follows D5.",
+      "category": "RAG cell versus management directive",
+      "summary": "D5 retains source RAG; M5 explicitly directs Amber. No override inferred.",
       "cells": {
         "IT Compliance Program!D5": {
           "value": "Green",
@@ -168,12 +194,16 @@
         "IT Compliance Program!M5": {
           "value": "Keep the workstream Amber until Johanson completes scope review and any discrepancies are assigned and resolved.",
           "cachedValue": "Keep the workstream Amber until Johanson completes scope review and any discrepancies are assigned and resolved."
+        },
+        "IT Compliance Program!N5": {
+          "value": "UNIS SOC 2 Type I Audit Scoping Form submission and audit-team assignment update, 06-09 Nov 2026 PST.",
+          "cachedValue": "UNIS SOC 2 Type I Audit Scoping Form submission and audit-team assignment update, 06-09 Nov 2026 PST."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D6 retains source RAG while M6 directs Amber; dashboard follows D6.",
+      "category": "RAG cell versus management directive",
+      "summary": "D6 retains source RAG; M6 explicitly directs Amber. No override inferred.",
       "cells": {
         "UNIS.CO Email & Ticketing!D6": {
           "value": "Green",
@@ -182,12 +212,16 @@
         "UNIS.CO Email & Ticketing!M6": {
           "value": "Keep this row Amber until the Phase II population, dependencies, retention rules, and rollout sequence are approved.",
           "cachedValue": "Keep this row Amber until the Phase II population, dependencies, retention rules, and rollout sequence are approved."
+        },
+        "UNIS.CO Email & Ticketing!N6": {
+          "value": "Re: Unis.co Account Migration Phase II thread, updated through 19-Oct-2026 PST.",
+          "cachedValue": "Re: Unis.co Account Migration Phase II thread, updated through 19-Oct-2026 PST."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D12 retains source RAG while M12 directs Amber; dashboard follows D12.",
+      "category": "RAG cell versus management directive",
+      "summary": "D12 retains source RAG; M12 explicitly directs Amber. No override inferred.",
       "cells": {
         "UNIS.CO Email & Ticketing!D12": {
           "value": "Green",
@@ -196,12 +230,16 @@
         "UNIS.CO Email & Ticketing!M12": {
           "value": "Keep Amber and block broader mail enforcement until the fallback is approved, communicated, and tested. Do not reopen Phase 1 for this follow-on dependency.",
           "cachedValue": "Keep Amber and block broader mail enforcement until the fallback is approved, communicated, and tested. Do not reopen Phase 1 for this follow-on dependency."
+        },
+        "UNIS.CO Email & Ticketing!N12": {
+          "value": "Unis.co Account Migration PH Operations email workflow and Phase 1 sign-off thread; urgent-request fallback remains a follow-on requirement.",
+          "cachedValue": "Unis.co Account Migration PH Operations email workflow and Phase 1 sign-off thread; urgent-request fallback remains a follow-on requirement."
         }
       }
     },
     {
-      "category": "Conflicting RAG directive",
-      "summary": "D17 retains source RAG while M17 directs Amber; dashboard follows D17.",
+      "category": "RAG cell versus management directive",
+      "summary": "D17 retains source RAG; M17 explicitly directs Amber. No override inferred.",
       "cells": {
         "UNIS.CO Email & Ticketing!D17": {
           "value": "Green",
@@ -210,24 +248,200 @@
         "UNIS.CO Email & Ticketing!M17": {
           "value": "Keep Amber until the reply behavior is resolved or formally accepted, end-to-end calendar tests pass, and operating guidance is published.",
           "cachedValue": "Keep Amber until the reply behavior is resolved or formally accepted, end-to-end calendar tests pass, and operating guidance is published."
+        },
+        "UNIS.CO Email & Ticketing!N17": {
+          "value": "Re: Teams Meeting Invites to External Customers thread, updated through 20-Oct-2026 PST.",
+          "cachedValue": "Re: Teams Meeting Invites to External Customers thread, updated through 20-Oct-2026 PST."
         }
       }
     },
     {
-      "category": "Conflicting closure and RAG",
-      "summary": "Completed/Green/100% coexists with an offline IDF and Red leadership directive.",
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Amber; M labels a reviewer assessment Red, which is preserved as source narrative rather than substituted for the actual RAG cell.",
+      "cells": {
+        "Infrastructure & Cloud!D28": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M28": {
+          "value": "Reviewer Red: key placement, ownership and readiness gates are unresolved. Leadership must confirm destinations and authorization before execution; the six nearby systems are not an approved LAX inventory.",
+          "cachedValue": "Reviewer Red: key placement, ownership and readiness gates are unresolved. Leadership must confirm destinations and authorization before execution; the six nearby systems are not an approved LAX inventory."
+        },
+        "Infrastructure & Cloud!N28": {
+          "value": "IT Infrastructure Team Checkpoint, 06-Nov-2026 PST; IT Infrastructure and Project Planning Meeting Notes. | Update evidence: S2, S4, S5. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "IT Infrastructure Team Checkpoint, 06-Nov-2026 PST; IT Infrastructure and Project Planning Meeting Notes. | Update evidence: S2, S4, S5. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Amber; M labels a reviewer assessment Red, which is preserved as source narrative rather than substituted for the actual RAG cell.",
+      "cells": {
+        "Infrastructure & Cloud!D41": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M41": {
+          "value": "Reviewer Red: permanent service remains inactive despite order closure. Obtain activation evidence and preserve temporary connectivity; do not declare the transition complete.",
+          "cachedValue": "Reviewer Red: permanent service remains inactive despite order closure. Obtain activation evidence and preserve temporary connectivity; do not declare the transition complete."
+        },
+        "Infrastructure & Cloud!N41": {
+          "value": "Project Updates as of 08-Nov-2026. | Update evidence: S3. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Project Updates as of 08-Nov-2026. | Update evidence: S3. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Amber; M labels a reviewer assessment Red, which is preserved as source narrative rather than substituted for the actual RAG cell.",
+      "cells": {
+        "Infrastructure & Cloud!D53": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M53": {
+          "value": "Reviewer Red: migration remains gated on approved, installed and tested resilient power. Quoted $1,500/month replaces current rack-power cost (not incremental); supplier says PDUs included, no costs beyond quote/two engineering hours. No signed order, completed installation or full change-order attachment is present.",
+          "cachedValue": "Reviewer Red: migration remains gated on approved, installed and tested resilient power. Quoted $1,500/month replaces current rack-power cost (not incremental); supplier says PDUs included, no costs beyond quote/two engineering hours. No signed order, completed installation or full change-order attachment is present."
+        },
+        "Infrastructure & Cloud!N53": {
+          "value": "IT Infrastructure Team Checkpoint, 06-Nov-2026 PST. | Update evidence: S7. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "IT Infrastructure Team Checkpoint, 06-Nov-2026 PST. | Update evidence: S7. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Amber; M labels a reviewer assessment Red, which is preserved as source narrative rather than substituted for the actual RAG cell.",
+      "cells": {
+        "Infrastructure & Cloud!D54": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M54": {
+          "value": "Reviewer Red: placement and facilities gates block a reliable migration baseline. Records #53/#54 overlap and must not be summed as independent delivery; percentage reconciliation requires owner-approved scope.",
+          "cachedValue": "Reviewer Red: placement and facilities gates block a reliable migration baseline. Records #53/#54 overlap and must not be summed as independent delivery; percentage reconciliation requires owner-approved scope."
+        },
+        "Infrastructure & Cloud!N54": {
+          "value": "BP Relocation Notes, 13-Oct-2026 PST; IT Network Team Meeting Notes, 16-Oct-2026 PST; IT Infrastructure Update email, 14-Oct-2026 PST. | Overlap: #54; retain source history; do not sum as independent scope. | Update evidence: S2, S5. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "BP Relocation Notes, 13-Oct-2026 PST; IT Network Team Meeting Notes, 16-Oct-2026 PST; IT Infrastructure Update email, 14-Oct-2026 PST. | Overlap: #54; retain source history; do not sum as independent scope. | Update evidence: S2, S5. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Amber; M labels a reviewer assessment Red, which is preserved as source narrative rather than substituted for the actual RAG cell.",
+      "cells": {
+        "Infrastructure & Cloud!D55": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M55": {
+          "value": "Reviewer Red: placement and facilities gates block a reliable migration baseline. Records #53/#54 overlap and must not be summed as independent delivery; percentage reconciliation requires owner-approved scope.",
+          "cachedValue": "Reviewer Red: placement and facilities gates block a reliable migration baseline. Records #53/#54 overlap and must not be summed as independent delivery; percentage reconciliation requires owner-approved scope."
+        },
+        "Infrastructure & Cloud!N55": {
+          "value": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #53; retain source history; do not sum as independent scope. | Update evidence: S2, S5. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "October 21 Project Follow-Up: Relocation Decisions, Site Status, and Next Steps. | Overlap: #53; retain source history; do not sum as independent scope. | Update evidence: S2, S5. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Amber; M labels a reviewer assessment Red, which is preserved as source narrative rather than substituted for the actual RAG cell.",
+      "cells": {
+        "Infrastructure & Cloud!D89": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M89": {
+          "value": "Reviewer Red: prioritize ticket/ETA and onsite escalation; no user complaint is not evidence of no outage.",
+          "cachedValue": "Reviewer Red: prioritize ticket/ETA and onsite escalation; no user complaint is not evidence of no outage."
+        },
+        "Infrastructure & Cloud!N89": {
+          "value": "Evidence: S3, S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Evidence: S3, S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Amber; M labels a reviewer assessment Red, which is preserved as source narrative rather than substituted for the actual RAG cell.",
+      "cells": {
+        "Infrastructure & Cloud!D90": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M90": {
+          "value": "Reviewer Red for active connectivity loss; confirm operational impact and recovery before closure.",
+          "cachedValue": "Reviewer Red for active connectivity loss; confirm operational impact and recovery before closure."
+        },
+        "Infrastructure & Cloud!N90": {
+          "value": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Amber; M labels a reviewer assessment Red, which is preserved as source narrative rather than substituted for the actual RAG cell.",
+      "cells": {
+        "Infrastructure & Cloud!D94": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M94": {
+          "value": "Reviewer Red for potentially material unresolved access risk, not a declaration of a confirmed breach. Track containment and permission evidence separately from migration.",
+          "cachedValue": "Reviewer Red for potentially material unresolved access risk, not a declaration of a confirmed breach. Track containment and permission evidence separately from migration."
+        },
+        "Infrastructure & Cloud!N94": {
+          "value": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Green while M explicitly describes an Amber reviewer assessment/evidence gap; no failed control or corrected RAG is inferred.",
+      "cells": {
+        "IT Security!D11": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "IT Security!M11": {
+          "value": "Confirm merchant data and authorized signer promptly; secure 30-Nov release plan and assigned handoff owner ahead of 31-Dec requirement. Amber is reviewer assessment of open dependencies.",
+          "cachedValue": "Confirm merchant data and authorized signer promptly; secure 30-Nov release plan and assigned handoff owner ahead of 31-Dec requirement. Amber is reviewer assessment of open dependencies."
+        }
+      }
+    },
+    {
+      "category": "RAG cell versus reviewer assessment",
+      "summary": "D is Green while M explicitly describes an Amber reviewer assessment/evidence gap; no failed control or corrected RAG is inferred.",
+      "cells": {
+        "IT Security!D14": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "IT Security!M14": {
+          "value": "Obtain accessible supporting reports and confirm suitability for the signed assessment. Amber is reviewer evidence-gap assessment, not a claim that testing failed.",
+          "cachedValue": "Obtain accessible supporting reports and confirm suitability for the signed assessment. Amber is reviewer evidence-gap assessment, not a claim that testing failed."
+        }
+      }
+    },
+    {
+      "category": "Partly resolved prior finding",
+      "summary": "C/G now explicitly say unresolved/unverified; prior Completed/100% is gone. D remains Green while I says offline and M says Red.",
       "cells": {
         "Infrastructure & Cloud!C65": {
-          "value": "Completed",
-          "cachedValue": "Completed"
+          "value": "Outage unresolved in baseline / onsite diagnosis and restoration unverified",
+          "cachedValue": "Outage unresolved in baseline / onsite diagnosis and restoration unverified"
         },
         "Infrastructure & Cloud!D65": {
           "value": "Green",
           "cachedValue": "Green"
         },
         "Infrastructure & Cloud!G65": {
-          "value": "1",
-          "cachedValue": "1"
+          "value": "Not verified",
+          "cachedValue": "Not verified"
         },
         "Infrastructure & Cloud!I65": {
           "value": "IDF 1 at 250 Vista Boulevard, Sparks, Nevada remains offline. A power issue is suspected but has not been confirmed. The onsite contact had not responded, so equipment and electrical checks could not be completed.",
@@ -240,172 +454,20 @@
         "Infrastructure & Cloud!M65": {
           "value": "Red and leadership-visible until onsite access, diagnosis, restoration, and root-cause documentation are complete. Escalate the onsite-response delay and coordinate with Facilities when power issues are identified.",
           "cachedValue": "Red and leadership-visible until onsite access, diagnosis, restoration, and root-cause documentation are complete. Escalate the onsite-response delay and coordinate with Facilities when power issues are identified."
+        },
+        "Infrastructure & Cloud!N65": {
+          "value": "Infrastructure meeting follow-up, updated 23-Oct-2026 PST. | Update evidence: S1. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Infrastructure meeting follow-up, updated 23-Oct-2026 PST. | Update evidence: S1. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
         }
       }
     },
     {
-      "category": "Conflicting closure",
-      "summary": "Completed/Green/100% coexists with failed remote desktop and pending troubleshooting.",
-      "cells": {
-        "Infrastructure & Cloud!C31": {
-          "value": "Completed",
-          "cachedValue": "Completed"
-        },
-        "Infrastructure & Cloud!D31": {
-          "value": "Green",
-          "cachedValue": "Green"
-        },
-        "Infrastructure & Cloud!G31": {
-          "value": "1",
-          "cachedValue": "1"
-        },
-        "Infrastructure & Cloud!I31": {
-          "value": "Armin cannot connect. Two agent reinstall attempts did not resolve the issue; Billy offered to troubleshoot.",
-          "cachedValue": "Armin cannot connect. Two agent reinstall attempts did not resolve the issue; Billy offered to troubleshoot."
-        },
-        "Infrastructure & Cloud!J31": {
-          "value": "Billy and Armin to check the connection, agent health, and access path; verify a successful session.",
-          "cachedValue": "Billy and Armin to check the connection, agent health, and access path; verify a successful session."
-        }
-      }
-    },
-    {
-      "category": "Conflicting closure",
-      "summary": "Completed at 60%; progress and migration acceptance remain open.",
-      "cells": {
-        "Infrastructure & Cloud!C32": {
-          "value": "Completed",
-          "cachedValue": "Completed"
-        },
-        "Infrastructure & Cloud!G32": {
-          "value": "0.6",
-          "cachedValue": "0.6"
-        },
-        "Infrastructure & Cloud!I32": {
-          "value": "Mahan reported work in progress with no blocker; requestor, supporting team, and technical requirements were unclear.",
-          "cachedValue": "Mahan reported work in progress with no blocker; requestor, supporting team, and technical requirements were unclear."
-        },
-        "Infrastructure & Cloud!J32": {
-          "value": "Confirm request owner, image source, VM host and acceptance test; complete and validate the migration.",
-          "cachedValue": "Confirm request owner, image source, VM host and acceptance test; complete and validate the migration."
-        },
-        "Infrastructure & Cloud!M32": {
-          "value": "Assign the request owner and agree on acceptance criteria.",
-          "cachedValue": "Assign the request owner and agree on acceptance criteria."
-        }
-      }
-    },
-    {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
-      "cells": {
-        "Infrastructure & Cloud!C5": {
-          "value": "Completed",
-          "cachedValue": "Completed"
-        },
-        "Infrastructure & Cloud!G5": {
-          "value": "1",
-          "cachedValue": "1"
-        },
-        "Infrastructure & Cloud!I5": {
-          "value": "Phase 2 overall design direction is OK.",
-          "cachedValue": "Phase 2 overall design direction is OK."
-        },
-        "Infrastructure & Cloud!J5": {
-          "value": "Complete the initial network plan using the standard template.",
-          "cachedValue": "Complete the initial network plan using the standard template."
-        },
-        "Infrastructure & Cloud!M5": {
-          "value": "Initial review must be completed first.",
-          "cachedValue": "Initial review must be completed first."
-        }
-      }
-    },
-    {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
-      "cells": {
-        "Infrastructure & Cloud!C6": {
-          "value": "Completed",
-          "cachedValue": "Completed"
-        },
-        "Infrastructure & Cloud!G6": {
-          "value": "1",
-          "cachedValue": "1"
-        },
-        "Infrastructure & Cloud!I6": {
-          "value": "Phase 2 planning underway.",
-          "cachedValue": "Phase 2 planning underway."
-        },
-        "Infrastructure & Cloud!J6": {
-          "value": "Complete heatmap and final connectivity / port mapping.",
-          "cachedValue": "Complete heatmap and final connectivity / port mapping."
-        },
-        "Infrastructure & Cloud!M6": {
-          "value": "Manage together with new-site network design.",
-          "cachedValue": "Manage together with new-site network design."
-        }
-      }
-    },
-    {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
-      "cells": {
-        "Infrastructure & Cloud!C11": {
-          "value": "Completed",
-          "cachedValue": "Completed"
-        },
-        "Infrastructure & Cloud!G11": {
-          "value": "1",
-          "cachedValue": "1"
-        },
-        "Infrastructure & Cloud!I11": {
-          "value": "Skylink/satellite discussed; availability/performance need validation and prior Atlanta experience was mixed.",
-          "cachedValue": "Skylink/satellite discussed; availability/performance need validation and prior Atlanta experience was mixed."
-        },
-        "Infrastructure & Cloud!J11": {
-          "value": "First validate two AT&T gateways; evaluate Skylink only if additional capacity is required.",
-          "cachedValue": "First validate two AT&T gateways; evaluate Skylink only if additional capacity is required."
-        },
-        "Infrastructure & Cloud!M11": {
-          "value": "Decision only if AT&T capacity is insufficient.",
-          "cachedValue": "Decision only if AT&T capacity is insufficient."
-        }
-      }
-    },
-    {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
-      "cells": {
-        "Infrastructure & Cloud!C12": {
-          "value": "Completed",
-          "cachedValue": "Completed"
-        },
-        "Infrastructure & Cloud!G12": {
-          "value": "1",
-          "cachedValue": "1"
-        },
-        "Infrastructure & Cloud!I12": {
-          "value": "Potential over-broad camera visibility for company-credential users; HikCentral/domain synchronization has missing users and permission-sync issues.",
-          "cachedValue": "Potential over-broad camera visibility for company-credential users; HikCentral/domain synchronization has missing users and permission-sync issues."
-        },
-        "Infrastructure & Cloud!J12": {
-          "value": "Validate exposure, correct access controls/domain sync, and provide remediation timing.",
-          "cachedValue": "Validate exposure, correct access controls/domain sync, and provide remediation timing."
-        },
-        "Infrastructure & Cloud!M12": {
-          "value": "Confirm owner, remediation ETA, and temporary access restrictions if needed.",
-          "cachedValue": "Confirm owner, remediation ETA, and temporary access restrictions if needed."
-        }
-      }
-    },
-    {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "category": "Numeric completion versus unresolved work",
+      "summary": "G remains 100% despite C/I/J describing unstarted, unresolved or open work. N describes lack of later closure evidence; no completion correction guessed.",
       "cells": {
         "Infrastructure & Cloud!C14": {
-          "value": "Completed",
-          "cachedValue": "Completed"
+          "value": "Not started per baseline / room maintenance window pending",
+          "cachedValue": "Not started per baseline / room maintenance window pending"
         },
         "Infrastructure & Cloud!G14": {
           "value": "1",
@@ -422,94 +484,80 @@
         "Infrastructure & Cloud!M14": {
           "value": "Local office assistance may be needed to reserve the room.",
           "cachedValue": "Local office assistance may be needed to reserve the room."
+        },
+        "Infrastructure & Cloud!N14": {
+          "value": "8/19 status update | Update evidence: S1. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence.",
+          "cachedValue": "8/19 status update | Update evidence: S1. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence."
         }
       }
     },
     {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
-      "cells": {
-        "Infrastructure & Cloud!C15": {
-          "value": "Completed",
-          "cachedValue": "Completed"
-        },
-        "Infrastructure & Cloud!G15": {
-          "value": "1",
-          "cachedValue": "1"
-        },
-        "Infrastructure & Cloud!I15": {
-          "value": "Temporary hotspot moved to MDF; UniFi devices should be online. Field work paused while resources support Douglasville.",
-          "cachedValue": "Temporary hotspot moved to MDF; UniFi devices should be online. Field work paused while resources support Douglasville."
-        },
-        "Infrastructure & Cloud!J15": {
-          "value": "Monitor temporary connectivity; resume after Douglasville decommission.",
-          "cachedValue": "Monitor temporary connectivity; resume after Douglasville decommission."
-        },
-        "Infrastructure & Cloud!M15": {
-          "value": "No immediate escalation.",
-          "cachedValue": "No immediate escalation."
-        }
-      }
-    },
-    {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "category": "Numeric completion versus unresolved work",
+      "summary": "G remains 100% despite C/I/J describing unstarted, unresolved or open work. N describes lack of later closure evidence; no completion correction guessed.",
       "cells": {
         "Infrastructure & Cloud!C17": {
-          "value": "Completed",
-          "cachedValue": "Completed"
+          "value": "Migration work remains open / placement decision pending",
+          "cachedValue": "Migration work remains open / placement decision pending"
         },
         "Infrastructure & Cloud!G17": {
           "value": "1",
           "cachedValue": "1"
         },
         "Infrastructure & Cloud!I17": {
-          "value": "No broader outstanding firewall initiative; remaining work is primarily Walnut server/DMZ migration.",
-          "cachedValue": "No broader outstanding firewall initiative; remaining work is primarily Walnut server/DMZ migration."
+          "value": "13-Nov: Walnut is not confirmed as a destination for Buena Park servers; reliability review and departmental move decisions are pending. The baseline also described remaining Walnut server/DMZ migration, contradicting Completed/100%. No migration closure evidence supplied.",
+          "cachedValue": "13-Nov: Walnut is not confirmed as a destination for Buena Park servers; reliability review and departmental move decisions are pending. The baseline also described remaining Walnut server/DMZ migration, contradicting Completed/100%. No migration closure evidence supplied."
         },
         "Infrastructure & Cloud!J17": {
-          "value": "Complete migration and validate final configuration.",
-          "cachedValue": "Complete migration and validate final configuration."
+          "value": "Confirm the scope of remaining server/DMZ work separately from the new Buena Park destination decision. Obtain owner-approved placement, power/cooling/UPS and application readiness, then schedule and validate any authorized migration.",
+          "cachedValue": "Confirm the scope of remaining server/DMZ work separately from the new Buena Park destination decision. Obtain owner-approved placement, power/cooling/UPS and application readiness, then schedule and validate any authorized migration."
         },
         "Infrastructure & Cloud!M17": {
-          "value": "Confirm closure criteria.",
-          "cachedValue": "Confirm closure criteria."
+          "value": "Do not equate prior Walnut work with approval to host Buena Park production systems.",
+          "cachedValue": "Do not equate prior Walnut work with approval to host Buena Park production systems."
+        },
+        "Infrastructure & Cloud!N17": {
+          "value": "8/19 status update | Update evidence: S1, S2, S5. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence.",
+          "cachedValue": "8/19 status update | Update evidence: S1, S2, S5. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence."
         }
       }
     },
     {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "category": "Numeric completion versus unresolved work",
+      "summary": "G remains 100% despite C/I/J describing unstarted, unresolved or open work. N describes lack of later closure evidence; no completion correction guessed.",
       "cells": {
         "Infrastructure & Cloud!C19": {
-          "value": "Completed",
-          "cachedValue": "Completed"
+          "value": "Network optimization and capacity assessment open / migration-related internet upgrade on hold",
+          "cachedValue": "Network optimization and capacity assessment open / migration-related internet upgrade on hold"
         },
         "Infrastructure & Cloud!G19": {
           "value": "1",
           "cachedValue": "1"
         },
         "Infrastructure & Cloud!I19": {
-          "value": "Conduct a comprehensive network optimization for Walnut Data Center, including:\nCable management and rack organization\nReplacement of non-standard/outdated switches\nVLAN and IP address planning and optimization\nCCTV / camera network optimization\nImprove network performance, manageability, and scalability\nEnhance network troubleshooting efficiency and security",
-          "cachedValue": "Conduct a comprehensive network optimization for Walnut Data Center, including:\nCable management and rack organization\nReplacement of non-standard/outdated switches\nVLAN and IP address planning and optimization\nCCTV / camera network optimization\nImprove network performance, manageability, and scalability\nEnhance network troubleshooting efficiency and security"
+          "value": "13-Nov: Walnut’s role as a destination for Buena Park servers remains undecided; leadership raised reliability concerns. Robert requested upgrade pricing as an option only. Frontier 200 Mbps has peaked at times; OneRing 250 Mbps may have spare capacity. No circuit upgrade or server-hosting approval is evidenced. Prior optimization tasks are a roadmap, not completed implementation.",
+          "cachedValue": "13-Nov: Walnut’s role as a destination for Buena Park servers remains undecided; leadership raised reliability concerns. Robert requested upgrade pricing as an option only. Frontier 200 Mbps has peaked at times; OneRing 250 Mbps may have spare capacity. No circuit upgrade or server-hosting approval is evidenced. Prior optimization tasks are a roadmap, not completed implementation."
         },
         "Infrastructure & Cloud!J19": {
-          "value": "Evaluate existing network, devices, and rack conditions; define optimization plan\nOrganize and standardize data center cabling\nReplace non-standard switches and configure new devices\nReplan VLANs and IP addressing for efficiency and manageability\nOptimize camera VLANs, PoE, and bandwidth allocation\nUpdate network topology, IP plan, and SOPs; validate optimization results\nPlan production-grade deployment and multi-region expansion",
-          "cachedValue": "Evaluate existing network, devices, and rack conditions; define optimization plan\nOrganize and standardize data center cabling\nReplace non-standard switches and configure new devices\nReplan VLANs and IP addressing for efficiency and manageability\nOptimize camera VLANs, PoE, and bandwidth allocation\nUpdate network topology, IP plan, and SOPs; validate optimization results\nPlan production-grade deployment and multi-region expansion"
+          "value": "Erik: resend 500 Mbps, 1 Gbps and 2 Gbps pricing and lead times. Robert: coordinate Jerimar’s traffic review across both circuits. Keep the migration-related upgrade on hold until Walnut’s role and reliability are reviewed. Separately confirm the approved VLAN, switch, cabling and camera optimization scope.",
+          "cachedValue": "Erik: resend 500 Mbps, 1 Gbps and 2 Gbps pricing and lead times. Robert: coordinate Jerimar’s traffic review across both circuits. Keep the migration-related upgrade on hold until Walnut’s role and reliability are reviewed. Separately confirm the approved VLAN, switch, cabling and camera optimization scope."
         },
         "Infrastructure & Cloud!M19": {
-          "value": "Priority: N/A; Target: Q2",
-          "cachedValue": "Priority: N/A; Target: Q2"
+          "value": "Do not authorize a Walnut upgrade or assume it is the primary server destination without a recorded decision. Original 100% is unsupported by the task-based narrative.",
+          "cachedValue": "Do not authorize a Walnut upgrade or assume it is the primary server destination without a recorded decision. Original 100% is unsupported by the task-based narrative."
+        },
+        "Infrastructure & Cloud!N19": {
+          "value": "Uploaded IT_Project_Roadmap_2026.xlsx | Update evidence: S2, S3, S5. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence.",
+          "cachedValue": "Uploaded IT_Project_Roadmap_2026.xlsx | Update evidence: S2, S3, S5. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence."
         }
       }
     },
     {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "category": "Numeric completion versus unresolved work",
+      "summary": "G remains 100% despite C/I/J describing unstarted, unresolved or open work. N describes lack of later closure evidence; no completion correction guessed.",
       "cells": {
         "Infrastructure & Cloud!C20": {
-          "value": "Completed",
-          "cachedValue": "Completed"
+          "value": "Awaiting complete SFTP requirements and approval complete",
+          "cachedValue": "Awaiting complete SFTP requirements and approval complete"
         },
         "Infrastructure & Cloud!G20": {
           "value": "1",
@@ -526,168 +574,444 @@
         "Infrastructure & Cloud!M20": {
           "value": "Require written requirements and security approval before configuration.",
           "cachedValue": "Require written requirements and security approval before configuration."
+        },
+        "Infrastructure & Cloud!N20": {
+          "value": "IT Network Team Meeting Notes, 11-Sep-2026 PST | Update evidence: S1. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence.",
+          "cachedValue": "IT Network Team Meeting Notes, 11-Sep-2026 PST | Update evidence: S1. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence."
         }
       }
     },
     {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "category": "Numeric completion versus unresolved work",
+      "summary": "G remains 100% despite C/I/J describing unstarted, unresolved or open work. N describes lack of later closure evidence; no completion correction guessed.",
       "cells": {
-        "Infrastructure & Cloud!C30": {
+        "Infrastructure & Cloud!C31": {
+          "value": "Remote desktop unavailable / troubleshooting and successful-session test complete",
+          "cachedValue": "Remote desktop unavailable / troubleshooting and successful-session test complete"
+        },
+        "Infrastructure & Cloud!G31": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I31": {
+          "value": "Armin cannot connect. Two agent reinstall attempts did not resolve the issue; Billy offered to troubleshoot.",
+          "cachedValue": "Armin cannot connect. Two agent reinstall attempts did not resolve the issue; Billy offered to troubleshoot."
+        },
+        "Infrastructure & Cloud!J31": {
+          "value": "Billy and Armin to check the connection, agent health, and access path; verify a successful session.",
+          "cachedValue": "Billy and Armin to check the connection, agent health, and access path; verify a successful session."
+        },
+        "Infrastructure & Cloud!M31": {
+          "value": "Track the troubleshooting result and escalate if specialist support is needed.",
+          "cachedValue": "Track the troubleshooting result and escalate if specialist support is needed."
+        },
+        "Infrastructure & Cloud!N31": {
+          "value": "IT daily standup notes provided Sep 27, 2026; meeting date not specified. | Update evidence: S1. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence.",
+          "cachedValue": "IT daily standup notes provided Sep 27, 2026; meeting date not specified. | Update evidence: S1. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Corrected internally contradictory completion/status; no later closure evidence."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus unresolved work",
+      "summary": "G remains 100% despite C/I/J describing unstarted, unresolved or open work. N describes lack of later closure evidence; no completion correction guessed.",
+      "cells": {
+        "Infrastructure & Cloud!C32": {
+          "value": "Image-to-VM work in progress / owner and acceptance complete",
+          "cachedValue": "Image-to-VM work in progress / owner and acceptance complete"
+        },
+        "Infrastructure & Cloud!G32": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I32": {
+          "value": "Mahan reported work in progress with no blocker; requestor, supporting team, and technical requirements were unclear.",
+          "cachedValue": "Mahan reported work in progress with no blocker; requestor, supporting team, and technical requirements were unclear."
+        },
+        "Infrastructure & Cloud!J32": {
+          "value": "Confirm request owner, image source, VM host and acceptance test; complete and validate the migration.",
+          "cachedValue": "Confirm request owner, image source, VM host and acceptance test; complete and validate the migration."
+        },
+        "Infrastructure & Cloud!M32": {
+          "value": "Assign the request owner and agree on acceptance criteria.",
+          "cachedValue": "Assign the request owner and agree on acceptance criteria."
+        },
+        "Infrastructure & Cloud!N32": {
+          "value": "IT daily standup notes provided Sep 27, 2026; meeting date not specified. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Corrected internally contradictory completion/status; no later closure evidence.",
+          "cachedValue": "IT daily standup notes provided Sep 27, 2026; meeting date not specified. | Update evidence: S1. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied. | Corrected internally contradictory completion/status; no later closure evidence."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review",
+      "summary": "Completed/100% retained despite follow-up and no significant update; scope acceptance is not demonstrated in supplied row.",
+      "cells": {
+        "Infrastructure & Cloud!C16": {
           "value": "Completed",
           "cachedValue": "Completed"
         },
-        "Infrastructure & Cloud!G30": {
+        "Infrastructure & Cloud!G16": {
           "value": "1",
           "cachedValue": "1"
         },
-        "Infrastructure & Cloud!I30": {
-          "value": "Jerimar restored HTTPS by restarting the affected services; sustained stability was not confirmed.",
-          "cachedValue": "Jerimar restored HTTPS by restarting the affected services; sustained stability was not confirmed."
+        "Infrastructure & Cloud!I16": {
+          "value": "No significant update received; lower priority than Willow/Douglasville.",
+          "cachedValue": "No significant update received; lower priority than Willow/Douglasville."
         },
-        "Infrastructure & Cloud!J30": {
-          "value": "Check website availability and logs; record cause and close the ticket if stable.",
-          "cachedValue": "Check website availability and logs; record cause and close the ticket if stable."
+        "Infrastructure & Cloud!J16": {
+          "value": "David to follow up with Apple Business after higher-priority field activities.",
+          "cachedValue": "David to follow up with Apple Business after higher-priority field activities."
         },
-        "Infrastructure & Cloud!M30": {
-          "value": "Escalate only if service or logs show a recurrence.",
-          "cachedValue": "Escalate only if service or logs show a recurrence."
+        "Infrastructure & Cloud!N16": {
+          "value": "8/19 status update | Review: no newer directly applicable evidence in the six supplied references; baseline facts not independently revalidated. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied.",
+          "cachedValue": "8/19 status update | Review: no newer directly applicable evidence in the six supplied references; baseline facts not independently revalidated. | Completion: baseline estimate retained, not independently verified; no correction list or earned-progress measure supplied."
         }
       }
     },
     {
-      "category": "Scope/closure review candidate",
-      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
       "cells": {
-        "Infrastructure & Cloud!C40": {
-          "value": "Completed",
-          "cachedValue": "Completed"
+        "Infrastructure & Cloud!C89": {
+          "value": "Frontier 300 Mbps down / carrier ticket and restoration ETA pending",
+          "cachedValue": "Frontier 300 Mbps down / carrier ticket and restoration ETA pending"
         },
-        "Infrastructure & Cloud!G40": {
-          "value": "1",
-          "cachedValue": "1"
+        "Infrastructure & Cloud!G89": {
+          "value": "0.6",
+          "cachedValue": "0.6"
         },
-        "Infrastructure & Cloud!I40": {
-          "value": "Help Desk needs confirmation of the China Level 2 schedule and application coverage. Separate tickets report nonworking phone numbers; the fault domain across 3CX, Twilio, or another service is not yet confirmed. Primary contacts have limited availability.",
-          "cachedValue": "Help Desk needs confirmation of the China Level 2 schedule and application coverage. Separate tickets report nonworking phone numbers; the fault domain across 3CX, Twilio, or another service is not yet confirmed. Primary contacts have limited availability."
+        "Infrastructure & Cloud!I89": {
+          "value": "13-Nov ISP note: 300 Mbps Frontier circuit down. Checkpoint still showed site offline; local contact had not responded. No user complaint/support ticket had been reported during that call; scope and business impact remain unconfirmed.",
+          "cachedValue": "13-Nov ISP note: 300 Mbps Frontier circuit down. Checkpoint still showed site offline; local contact had not responded. No user complaint/support ticket had been reported during that call; scope and business impact remain unconfirmed."
         },
-        "Infrastructure & Cloud!J40": {
-          "value": "Billy to review Stacy's support schedule and confirm contacts and scope. Post the phone-number issue in the existing 3CX/Twilio WeChat group, secure backup support, identify the failing service, and document resolution and escalation steps.",
-          "cachedValue": "Billy to review Stacy's support schedule and confirm contacts and scope. Post the phone-number issue in the existing 3CX/Twilio WeChat group, secure backup support, identify the failing service, and document resolution and escalation steps."
+        "Infrastructure & Cloud!N89": {
+          "value": "Evidence: S3, S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Evidence: S3, S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C90": {
+          "value": "Guard shack offline / suspected UBB alignment being adjusted",
+          "cachedValue": "Guard shack offline / suspected UBB alignment being adjusted"
         },
-        "Infrastructure & Cloud!M40": {
-          "value": "Confirm primary and backup contacts, coverage hours, supported applications, and the escalation standard.",
-          "cachedValue": "Confirm primary and backup contacts, coverage hours, supported applications, and the escalation standard."
+        "Infrastructure & Cloud!G90": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I90": {
+          "value": "13-Nov: Jerimar reached site security. Main-building UBB alignment suspected; security was adjusting toward a green indicator during the call. Link and guard-shack recovery not verified.",
+          "cachedValue": "13-Nov: Jerimar reached site security. Main-building UBB alignment suspected; security was adjusting toward a green indicator during the call. Link and guard-shack recovery not verified."
+        },
+        "Infrastructure & Cloud!N90": {
+          "value": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C91": {
+          "value": "Troubleshooting pending Rob response / connection and failure mode unconfirmed",
+          "cachedValue": "Troubleshooting pending Rob response / connection and failure mode unconfirmed"
+        },
+        "Infrastructure & Cloud!G91": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I91": {
+          "value": "Reported intermittent FortiClient drops affect Rob/others. Rob is not in expected VPN group. Mahan says this I3PL workflow commonly operates without VPN, so VPN causality is unconfirmed. Jerimar’s contact was unanswered at checkpoint; latest email prioritizes follow-up.",
+          "cachedValue": "Reported intermittent FortiClient drops affect Rob/others. Rob is not in expected VPN group. Mahan says this I3PL workflow commonly operates without VPN, so VPN causality is unconfirmed. Jerimar’s contact was unanswered at checkpoint; latest email prioritizes follow-up."
+        },
+        "Infrastructure & Cloud!N91": {
+          "value": "Evidence: S4, S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S4, S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C92": {
+          "value": "Source and destination identified / copy, permissions and user acceptance unverified",
+          "cachedValue": "Source and destination identified / copy, permissions and user acceptance unverified"
+        },
+        "Infrastructure & Cloud!G92": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I92": {
+          "value": "Mahan identified source I3PL Contracts & Rates folder and SharePoint destination. Copy completion and pilot readiness are not confirmed. Latest Robert request asks for business-owner file/permission checks and Rob workflow test.",
+          "cachedValue": "Mahan identified source I3PL Contracts & Rates folder and SharePoint destination. Copy completion and pilot readiness are not confirmed. Latest Robert request asks for business-owner file/permission checks and Rob workflow test."
+        },
+        "Infrastructure & Cloud!N92": {
+          "value": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C93": {
+          "value": "Assessment requested / full migration scope, capacity, costs and timeline not approved",
+          "cachedValue": "Assessment requested / full migration scope, capacity, costs and timeline not approved"
+        },
+        "Infrastructure & Cloud!G93": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I93": {
+          "value": "13-Nov: Stacy relayed Tom’s requirement to inventory Samba and SharePoint capacity and prioritize actively used folders. Some data may be over ten years old. No storage totals, capacity figures, approved full-migration plan or delivery estimate supplied.",
+          "cachedValue": "13-Nov: Stacy relayed Tom’s requirement to inventory Samba and SharePoint capacity and prioritize actively used folders. Some data may be over ten years old. No storage totals, capacity figures, approved full-migration plan or delivery estimate supplied."
+        },
+        "Infrastructure & Cloud!N93": {
+          "value": "Evidence: S5, S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S5, S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C94": {
+          "value": "Reported exposure unverified / effective access and evidence review pending",
+          "cachedValue": "Reported exposure unverified / effective access and evidence review pending"
+        },
+        "Infrastructure & Cloud!G94": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I94": {
+          "value": "David Augustine reported agents/scripts may expose company files. Quoted audit summary reports Everyone Full at BAA share level but NTFS permissions unreadable. This does not prove effective folder access or public exposure. Audit report mentioned in history is not attached to supplied MSG.",
+          "cachedValue": "David Augustine reported agents/scripts may expose company files. Quoted audit summary reports Everyone Full at BAA share level but NTFS permissions unreadable. This does not prove effective folder access or public exposure. Audit report mentioned in history is not attached to supplied MSG."
+        },
+        "Infrastructure & Cloud!N94": {
+          "value": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C95": {
+          "value": "Tom’s device-access direction issued / feasibility, testing and implementation pending",
+          "cachedValue": "Tom’s device-access direction issued / feasibility, testing and implementation pending"
+        },
+        "Infrastructure & Cloud!G95": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I95": {
+          "value": "Stacy relayed Tom’s direction: company-managed devices use Intune + MFA (zero-trust direction); personal devices use VPN with Conditional Access. Weeks to test/implement were communicated; no approved finish date or rollout completion supplied.",
+          "cachedValue": "Stacy relayed Tom’s direction: company-managed devices use Intune + MFA (zero-trust direction); personal devices use VPN with Conditional Access. Weeks to test/implement were communicated; no approved finish date or rollout completion supplied."
+        },
+        "Infrastructure & Cloud!N95": {
+          "value": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C96": {
+          "value": "Current coverage considered manageable / pipeline-based resource assessment pending",
+          "cachedValue": "Current coverage considered manageable / pipeline-based resource assessment pending"
+        },
+        "Infrastructure & Cloud!G96": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I96": {
+          "value": "Checkpoint identifies Manila network coverage via Jerimar and a vacant former systems-administrator role; Davao help desk and rotating China night support continue. Team considered current coverage manageable; no new position approved.",
+          "cachedValue": "Checkpoint identifies Manila network coverage via Jerimar and a vacant former systems-administrator role; Davao help desk and rotating China night support continue. Team considered current coverage manageable; no new position approved."
+        },
+        "Infrastructure & Cloud!N96": {
+          "value": "Evidence: S4, S5. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S4, S5. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C97": {
+          "value": "White-page symptom reported / cause and resolution unconfirmed",
+          "cachedValue": "White-page symptom reported / cause and resolution unconfirmed"
+        },
+        "Infrastructure & Cloud!G97": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I97": {
+          "value": "13-Nov checkpoint: participant reported a blank white Teams page in the ITEM phone/app environment the previous day. User/device details, cause and resolution were not confirmed.",
+          "cachedValue": "13-Nov checkpoint: participant reported a blank white Teams page in the ITEM phone/app environment the previous day. User/device details, cause and resolution were not confirmed."
+        },
+        "Infrastructure & Cloud!N97": {
+          "value": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C98": {
+          "value": "Confirmed-retired device records being removed / accurate offline counts pending",
+          "cachedValue": "Confirmed-retired device records being removed / accurate offline counts pending"
+        },
+        "Infrastructure & Cloud!G98": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I98": {
+          "value": "Jerimar is removing records only for equipment he knows was physically removed. Many sites estimated at one to three offline devices; Buena Park highest. Exact counts unavailable.",
+          "cachedValue": "Jerimar is removing records only for equipment he knows was physically removed. Many sites estimated at one to three offline devices; Buena Park highest. Exact counts unavailable."
+        },
+        "Infrastructure & Cloud!N98": {
+          "value": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        }
+      }
+    },
+    {
+      "category": "Numeric completion versus source caveat",
+      "summary": "G is 60% while N explicitly says completion is not quantifiable from supplied evidence. Retain numeric cell and caveat.",
+      "cells": {
+        "Infrastructure & Cloud!C99": {
+          "value": "Final billing open / verification pending",
+          "cachedValue": "Final billing open / verification pending"
+        },
+        "Infrastructure & Cloud!G99": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I99": {
+          "value": "13-Nov ISP note lists Northampton, PA with final billing open. No address, carrier, invoice total or evidence equating it to 175 Cesanek is supplied.",
+          "cachedValue": "13-Nov ISP note lists Northampton, PA with final billing open. No address, carrier, invoice total or evidence equating it to 175 Cesanek is supplied."
+        },
+        "Infrastructure & Cloud!N99": {
+          "value": "Evidence: S3. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S3. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        }
+      }
+    },
+    {
+      "category": "Conflicting percentage",
+      "summary": "G is 80%; I and N explicitly retain/correct PCI DSS v4.0.1 completion to 59%. Do not conflate with separately scoped Security measures.",
+      "cells": {
+        "IT Compliance Program!C2": {
+          "value": "PCI DSS v4.0.1 implementation active / SAQ-D Merchant questionnaire due 13-Nov-2026",
+          "cachedValue": "PCI DSS v4.0.1 implementation active / SAQ-D Merchant questionnaire due 13-Nov-2026"
+        },
+        "IT Compliance Program!G2": {
+          "value": "0.8",
+          "cachedValue": "0.8"
+        },
+        "IT Compliance Program!I2": {
+          "value": "Qingmin Li is the technical liaison and has taken over implementation leadership from Mike Wang. Vanta was upgraded to PCI DSS v4.0.1, reducing measured completion from approximately 95% to 59% because the framework added requirements. About 110 Vanta tasks remain, largely unevaluated or unassigned. ATSEC consulting and ASV external vulnerability-scanning services are purchased; PCI applications are protected by WAF.",
+          "cachedValue": "Qingmin Li is the technical liaison and has taken over implementation leadership from Mike Wang. Vanta was upgraded to PCI DSS v4.0.1, reducing measured completion from approximately 95% to 59% because the framework added requirements. About 110 Vanta tasks remain, largely unevaluated or unassigned. ATSEC consulting and ASV external vulnerability-scanning services are purchased; PCI applications are protected by WAF."
+        },
+        "IT Compliance Program!M2": {
+          "value": "Leadership visibility is required on high-risk Vanta items, named owners, committed closure dates, penetration-testing readiness, and the criteria for final PCI DSS sign-off.",
+          "cachedValue": "Leadership visibility is required on high-risk Vanta items, named owners, committed closure dates, penetration-testing readiness, and the criteria for final PCI DSS sign-off."
+        },
+        "IT Compliance Program!N2": {
+          "value": "PCI DSS Project: Points of Contact and Updates, received 09-Nov-2026 PST. Completion corrected to 59% after PCI DSS v4.0.1 framework upgrade.",
+          "cachedValue": "PCI DSS Project: Points of Contact and Updates, received 09-Nov-2026 PST. Completion corrected to 59% after PCI DSS v4.0.1 framework upgrade."
+        }
+      }
+    },
+    {
+      "category": "Conflicting percentage",
+      "summary": "G is 85%; M still directs 80%. Row 8 also retains approximately 80% in C/I/N.",
+      "cells": {
+        "WCS Engineering!C8": {
+          "value": "RCS demo testing complete / WMS-WCS testing approximately 80% complete; remaining testing and business acceptance open",
+          "cachedValue": "RCS demo testing complete / WMS-WCS testing approximately 80% complete; remaining testing and business acceptance open"
+        },
+        "WCS Engineering!G8": {
+          "value": "0.85",
+          "cachedValue": "0.85"
+        },
+        "WCS Engineering!I8": {
+          "value": "The checkpoint reported testing at approximately 80%. Progress slowed while the WMS team supported another project. No major technical issue was reported, but remaining functional testing and acceptance are still outstanding. Team support is expected during the week of 09-Nov.",
+          "cachedValue": "The checkpoint reported testing at approximately 80%. Progress slowed while the WMS team supported another project. No major technical issue was reported, but remaining functional testing and acceptance are still outstanding. Team support is expected during the week of 09-Nov."
+        },
+        "WCS Engineering!M8": {
+          "value": "Keep Amber at the corrected 80%. Require documented test results, defect closure, and business acceptance before increasing completion or confirming deployment dates.",
+          "cachedValue": "Keep Amber at the corrected 80%. Require documented test results, defect closure, and business acceptance before increasing completion or confirming deployment dates."
+        },
+        "WCS Engineering!N8": {
+          "value": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST: testing reported approximately 80% complete.",
+          "cachedValue": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST: testing reported approximately 80% complete."
+        }
+      }
+    },
+    {
+      "category": "Conflicting percentage",
+      "summary": "G is 85%; M still directs 80%. Row 8 also retains approximately 80% in C/I/N.",
+      "cells": {
+        "WCS Engineering!C12": {
+          "value": "Transferred to Buena Park / receipt, installation, use, and additional-unit status pending",
+          "cachedValue": "Transferred to Buena Park / receipt, installation, use, and additional-unit status pending"
+        },
+        "WCS Engineering!G12": {
+          "value": "0.85",
+          "cachedValue": "0.85"
+        },
+        "WCS Engineering!I12": {
+          "value": "Anuj and Abhijeet removed the scale from an unused Heacock forklift and sent it to Rahul in Buena Park. The physical transfer is complete. Approximately five or six additional units were reportedly ordered, but quantity, delivery status, installation, calibration, and actual use remain unconfirmed.",
+          "cachedValue": "Anuj and Abhijeet removed the scale from an unused Heacock forklift and sent it to Rahul in Buena Park. The physical transfer is complete. Approximately five or six additional units were reportedly ordered, but quantity, delivery status, installation, calibration, and actual use remain unconfirmed."
+        },
+        "WCS Engineering!M12": {
+          "value": "Keep Amber at 80% until receipt, installation, calibration, actual use, and asset records are confirmed. Verify the business need before deploying additional units.",
+          "cachedValue": "Keep Amber at 80% until receipt, installation, calibration, actual use, and asset records are confirmed. Verify the business need before deploying additional units."
+        },
+        "WCS Engineering!N12": {
+          "value": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST.",
+          "cachedValue": "WCS Robotics & Automation Checkpoint 06-Nov-2026 PST."
+        }
+      }
+    },
+    {
+      "category": "Fence/acceptance review",
+      "summary": "I proposes a cardboard fence while F calls for permanent yellow fence before testing; clarify approved scope before claiming acceptance.",
+      "cells": {
+        "WCS Engineering!F4": {
+          "value": "Target: 04-Dec-2026 closeout; permanent yellow fence required before 24-Nov testing",
+          "cachedValue": "Target: 04-Dec-2026 closeout; permanent yellow fence required before 24-Nov testing"
+        },
+        "WCS Engineering!I4": {
+          "value": "New AGV Firmware testing is in-progress. So, far the results for new firmware are not good. Talking to Hermes supplier and trying to improve the firmware so that it works in dynamic environemnt. Afor the yellow fence, Jane said they are going to build a cardboard fence this week.",
+          "cachedValue": "New AGV Firmware testing is in-progress. So, far the results for new firmware are not good. Talking to Hermes supplier and trying to improve the firmware so that it works in dynamic environemnt. Afor the yellow fence, Jane said they are going to build a cardboard fence this week."
+        },
+        "WCS Engineering!J4": {
+          "value": "Push Hermes supplier to improve the new firmware. Start hardware modifications of the AGV for QR code-Camera solution implementation.",
+          "cachedValue": "Push Hermes supplier to improve the new firmware. Start hardware modifications of the AGV for QR code-Camera solution implementation."
+        },
+        "WCS Engineering!M4": {
+          "value": "Keep Amber at 75% until the delivered equipment passes inspection and the fence, installation, network, testing, training, and acceptance gates are completed. Escalate immediately if the 24-Nov fence deadline is at risk.",
+          "cachedValue": "Keep Amber at 75% until the delivered equipment passes inspection and the fence, installation, network, testing, training, and acceptance gates are completed. Escalate immediately if the 24-Nov fence deadline is at risk."
         }
       }
     },
     {
       "category": "Scope/percentage review",
-      "summary": "Pilot Testing - Completed at 90% while pilot completion and administrator MFA design remain open.",
-      "cells": {
-        "IT Security!C6": {
-          "value": "Pilot Testing - Completed",
-          "cachedValue": "Pilot Testing - Completed"
-        },
-        "IT Security!G6": {
-          "value": "0.9",
-          "cachedValue": "0.9"
-        },
-        "IT Security!I6": {
-          "value": "VPN MFA documentation is complete and pilot users have been added; administrator MFA through Microsoft remains under investigation.",
-          "cachedValue": "VPN MFA documentation is complete and pilot users have been added; administrator MFA through Microsoft remains under investigation."
-        },
-        "IT Security!J6": {
-          "value": "Complete pilot testing and implement the approved administrator MFA method.",
-          "cachedValue": "Complete pilot testing and implement the approved administrator MFA method."
-        },
-        "IT Security!M6": {
-          "value": "Confirm method and rollout date.",
-          "cachedValue": "Confirm method and rollout date."
-        }
-      }
-    },
-    {
-      "category": "Scope/percentage review",
-      "summary": "Authorization Review - Completed/100% while ownership and authorization are undocumented.",
-      "cells": {
-        "IT Security!C7": {
-          "value": "Authorization Review - Completed",
-          "cachedValue": "Authorization Review - Completed"
-        },
-        "IT Security!G7": {
-          "value": "1",
-          "cachedValue": "1"
-        },
-        "IT Security!I7": {
-          "value": "The request covers migration from AWS to ITEM and management of assigned Raspberry Pi and robotics devices; ownership and authorization are not yet documented.",
-          "cachedValue": "The request covers migration from AWS to ITEM and management of assigned Raspberry Pi and robotics devices; ownership and authorization are not yet documented."
-        },
-        "IT Security!J7": {
-          "value": "Identify named users, approved activities, approving authority, and the exact device group; configure group-restricted access.",
-          "cachedValue": "Identify named users, approved activities, approving authority, and the exact device group; configure group-restricted access."
-        },
-        "IT Security!M7": {
-          "value": "Do not grant unrestricted access; require an approved access matrix.",
-          "cachedValue": "Do not grant unrestricted access; require an approved access matrix."
-        }
-      }
-    },
-    {
-      "category": "Scope/percentage review",
-      "summary": "Inventory / Compatibility Review at 100% while endpoint population is unknown.",
-      "cells": {
-        "IT Security!C8": {
-          "value": "Inventory / Compatibility Review",
-          "cachedValue": "Inventory / Compatibility Review"
-        },
-        "IT Security!G8": {
-          "value": "1",
-          "cachedValue": "1"
-        },
-        "IT Security!I8": {
-          "value": "The endpoint population is not yet known; Mel can export the inventory from the current remote-management platform.",
-          "cachedValue": "The endpoint population is not yet known; Mel can export the inventory from the current remote-management platform."
-        },
-        "IT Security!J8": {
-          "value": "Export inventory, test application compatibility, prioritize endpoints, and approve phased upgrade or replacement.",
-          "cachedValue": "Export inventory, test application compatibility, prioritize endpoints, and approve phased upgrade or replacement."
-        },
-        "IT Security!M8": {
-          "value": "Review risk-ranked inventory and remediation plan.",
-          "cachedValue": "Review risk-ranked inventory and remediation plan."
-        }
-      }
-    },
-    {
-      "category": "Scope/percentage review",
-      "summary": "Security Review - Completed/100% while dedicated account and endpoint controls require approval.",
-      "cells": {
-        "IT Security!C9": {
-          "value": "Security Review - Completed",
-          "cachedValue": "Security Review - Completed"
-        },
-        "IT Security!G9": {
-          "value": "1",
-          "cachedValue": "1"
-        },
-        "IT Security!I9": {
-          "value": "SBW1153 was removed from the domain and currently uses a passwordless local UNIS account.",
-          "cachedValue": "SBW1153 was removed from the domain and currently uses a passwordless local UNIS account."
-        },
-        "IT Security!J9": {
-          "value": "Create a dedicated licensed Microsoft account; document device ID, location, owner, users, configuration, and support ticket; apply unattended-use controls.",
-          "cachedValue": "Create a dedicated licensed Microsoft account; document device ID, location, owner, users, configuration, and support ticket; apply unattended-use controls."
-        },
-        "IT Security!M9": {
-          "value": "Approve the dedicated-account and endpoint-control design.",
-          "cachedValue": "Approve the dedicated-account and endpoint-control design."
-        }
-      }
-    },
-    {
-      "category": "Scope/percentage review",
-      "summary": "100% alongside UAT, sizing or procurement next steps; completed scope is not clarified.",
+      "summary": "100% coexists with UAT, sizing or procurement next steps; owner should clarify completed scope.",
       "cells": {
         "IoT!G4": {
           "value": "1",
@@ -709,7 +1033,7 @@
     },
     {
       "category": "Scope/percentage review",
-      "summary": "100% alongside UAT, sizing or procurement next steps; completed scope is not clarified.",
+      "summary": "100% coexists with UAT, sizing or procurement next steps; owner should clarify completed scope.",
       "cells": {
         "IoT!G5": {
           "value": "1",
@@ -731,7 +1055,7 @@
     },
     {
       "category": "Scope/percentage review",
-      "summary": "100% alongside UAT, sizing or procurement next steps; completed scope is not clarified.",
+      "summary": "100% coexists with UAT, sizing or procurement next steps; owner should clarify completed scope.",
       "cells": {
         "IoT!G6": {
           "value": "1",
@@ -753,7 +1077,7 @@
     },
     {
       "category": "Formula error",
-      "summary": "DISPIMG cached #NAME?; workbook ZIP contains no xl/media image parts.",
+      "summary": "DISPIMG cached #NAME?; no xl/media image asset is included in workbook ZIP.",
       "cells": {
         "IoT!N6": {
           "value": "=_xlfn.DISPIMG(\"ID_BFCB287FF50949ACB47F716BD1E40440\",1)",
@@ -762,8 +1086,18 @@
       }
     },
     {
+      "category": "Returned stale reporting banner",
+      "summary": "Banner again reports 23-Aug-2026, cites 30Oct roadmap; prior 01Nov source banner said 06Nov. Keep supplied 08Nov dashboard label and original cell unchanged.",
+      "cells": {
+        "IoT!A2": {
+          "value": "Team Lead: Yabin Liu | Reporting Date: 2026-08-23 PST | Source: IT_Project_Roadmap_Consolidated_2026_v1.0 (30Oct2026 PST)",
+          "cachedValue": "Team Lead: Yabin Liu | Reporting Date: 2026-08-23 PST | Source: IT_Project_Roadmap_Consolidated_2026_v1.0 (30Oct2026 PST)"
+        }
+      }
+    },
+    {
       "category": "Chronology review",
-      "summary": "Pickup narrative is 10/8; source note is 11-Sep. Relative certificate timing remains as supplied.",
+      "summary": "Pickup described as 10/8 but source note dated 11-Sep; relative certificate timing unchanged.",
       "cells": {
         "IT Compliance Program!I14": {
           "value": "The vendor collected UNIS and ITEM equipment on Thursday (10/8); certificates are expected three to four weeks after pickup.",
@@ -776,30 +1110,76 @@
       }
     },
     {
-      "category": "Ownership gap",
-      "summary": "Replacement-pending ownership is present in current source; no owner guessed.",
+      "category": "Unresolved provenance reference",
+      "summary": "These notes point to Infrastructure Review for S-source filenames; no worksheet named Infrastructure Review exists among the eight supplied tabs. External review documents are not present in the supplied workbook.",
       "cells": {
-        "IT Security!K2": {
-          "value": "Pendig replacement for Mike Wang, Robert",
-          "cachedValue": "Pendig replacement for Mike Wang, Robert"
+        "Infrastructure & Cloud!N89": {
+          "value": "Evidence: S3, S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Evidence: S3, S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
         },
-        "IT Security!K3": {
-          "value": "Pendig replacement for Mike Wang, Robert",
-          "cachedValue": "Pendig replacement for Mike Wang, Robert"
+        "Infrastructure & Cloud!N90": {
+          "value": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
         },
-        "IT Security!K4": {
-          "value": "Pendig replacement for Mike Wang, Robert",
-          "cachedValue": "Pendig replacement for Mike Wang, Robert"
+        "Infrastructure & Cloud!N91": {
+          "value": "Evidence: S4, S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S4, S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
         },
-        "IT Security!K5": {
-          "value": "Pendig replacement for Mike Wang, Robert",
-          "cachedValue": "Pendig replacement for Mike Wang, Robert"
+        "Infrastructure & Cloud!N92": {
+          "value": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        },
+        "Infrastructure & Cloud!N93": {
+          "value": "Evidence: S5, S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S5, S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        },
+        "Infrastructure & Cloud!N94": {
+          "value": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity.",
+          "cachedValue": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log. | Red is reviewer risk assessment, not a quoted confirmed incident severity."
+        },
+        "Infrastructure & Cloud!N95": {
+          "value": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S6. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        },
+        "Infrastructure & Cloud!N96": {
+          "value": "Evidence: S4, S5. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S4, S5. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        },
+        "Infrastructure & Cloud!N97": {
+          "value": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        },
+        "Infrastructure & Cloud!N98": {
+          "value": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S4. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
+        },
+        "Infrastructure & Cloud!N99": {
+          "value": "Evidence: S3. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log.",
+          "cachedValue": "Evidence: S3. See Infrastructure Review for source filenames. | Completion: not quantifiable from supplied evidence; original value (if any) retained in review/log."
         }
       }
     },
     {
       "category": "Ownership gap",
-      "summary": "Replacement-pending ownership is present in current source; no owner guessed.",
+      "summary": "Current source retains replacement-pending ownership; no owner invented.",
+      "cells": {
+        "IT Security!K3": {
+          "value": "Robert Moreno / replacement for Mike Wang not confirmed for this workstream",
+          "cachedValue": "Robert Moreno / replacement for Mike Wang not confirmed for this workstream"
+        },
+        "IT Security!K4": {
+          "value": "Robert Moreno / replacement for Mike Wang not confirmed for this workstream",
+          "cachedValue": "Robert Moreno / replacement for Mike Wang not confirmed for this workstream"
+        },
+        "IT Security!K5": {
+          "value": "Robert Moreno / replacement for Mike Wang not confirmed for this workstream",
+          "cachedValue": "Robert Moreno / replacement for Mike Wang not confirmed for this workstream"
+        }
+      }
+    },
+    {
+      "category": "Ownership gap",
+      "summary": "Current source retains replacement-pending ownership; no owner invented.",
       "cells": {
         "IT Compliance Program!K4": {
           "value": "Robert Moreno / Stacy Nguyen / Adam Gentner / Johanson Audit and Accounting Teams / Mike Wang's replacement pending / Legal / Vanta Administrator",
@@ -836,53 +1216,72 @@
       }
     },
     {
-      "category": "Reporting-label context",
-      "summary": "Attachment is labeled week of 01Nov; IoT banner is 06Nov, not the prior stale August banner.",
+      "category": "Reporting label / later source updates",
+      "summary": "Weekly attachment labeled 08Nov includes explicit 13Nov actual updates and a 16Nov email chain. Dashboard preserves supplied label without asserting an as-of-08Nov cutoff.",
       "cells": {
-        "IoT!A2": {
-          "value": "Team Lead: Yabin Liu | Reporting Date: 2026-11-06 PST | Source: IT_Project_Roadmap_Consolidated_2026_v1.0 (06Nov2026 PST)",
-          "cachedValue": "Team Lead: Yabin Liu | Reporting Date: 2026-11-06 PST | Source: IT_Project_Roadmap_Consolidated_2026_v1.0 (06Nov2026 PST)"
+        "Infrastructure & Cloud!I28": {
+          "value": "13-Nov: meeting canceled while awaiting Marco Ma’s inventory feedback and confirmation of which departments move, where and when. David Augustine identified six systems to keep near his department; destination is unconfirmed. Transcript records direction to place production servers that cannot tolerate downtime at LAX, subject to inventory, capacity and commercial gates. Walnut is not confirmed as the main destination. Resume at the next Thursday checkpoint (as stated; date not explicitly given).",
+          "cachedValue": "13-Nov: meeting canceled while awaiting Marco Ma’s inventory feedback and confirmation of which departments move, where and when. David Augustine identified six systems to keep near his department; destination is unconfirmed. Transcript records direction to place production servers that cannot tolerate downtime at LAX, subject to inventory, capacity and commercial gates. Walnut is not confirmed as the main destination. Resume at the next Thursday checkpoint (as stated; date not explicitly given)."
+        },
+        "Infrastructure & Cloud!I53": {
+          "value": "13-Nov supplier clarification: existing 120 V / 20 A A/B PDUs visually read about 8 A each; readings are repeatable snapshots, not Maximo data (facility does not use Maximo). One surviving existing feed would carry about 16 A; two added servers (~467 W / ~3.9 A at existing voltage) bring this to about 20 A. Proposed 208 V / 30 A circuits are single-phase, 24 A usable continuous per feed; supplier recommends <=12 A per feed in balanced operation for failover. Supplier states either upgraded feed can carry projected load and recommends retaining the upgrade; monitored PDUs provided.",
+          "cachedValue": "13-Nov supplier clarification: existing 120 V / 20 A A/B PDUs visually read about 8 A each; readings are repeatable snapshots, not Maximo data (facility does not use Maximo). One surviving existing feed would carry about 16 A; two added servers (~467 W / ~3.9 A at existing voltage) bring this to about 20 A. Proposed 208 V / 30 A circuits are single-phase, 24 A usable continuous per feed; supplier recommends <=12 A per feed in balanced operation for failover. Supplier states either upgraded feed can carry projected load and recommends retaining the upgrade; monitored PDUs provided."
+        },
+        "Infrastructure & Cloud!I89": {
+          "value": "13-Nov ISP note: 300 Mbps Frontier circuit down. Checkpoint still showed site offline; local contact had not responded. No user complaint/support ticket had been reported during that call; scope and business impact remain unconfirmed.",
+          "cachedValue": "13-Nov ISP note: 300 Mbps Frontier circuit down. Checkpoint still showed site offline; local contact had not responded. No user complaint/support ticket had been reported during that call; scope and business impact remain unconfirmed."
         }
       }
     },
     {
-      "category": "Reporting-label context",
-      "summary": "Source includes an explicit 08-Nov actual update and a 06Nov completion. Preserve dates without asserting an as-of-01Nov cutoff.",
+      "category": "Reporting label / later source updates",
+      "summary": "16-Nov chain is explicit in PCI/SAQ-D current progress.",
       "cells": {
-        "Infrastructure & Cloud!I7": {
-          "value": "As of 08-Nov: Charleston 1701 is escalated to level 3 for final installation; Atlanta 6150 awaits final network connection; Spectrum is connected at St. Johns while AT&T MPOE relocation awaits a date; Cornerway shared 1G is installed and awaits IT activation. Multiple disconnects, credits, equipment returns and relocations remain open.",
-          "cachedValue": "As of 08-Nov: Charleston 1701 is escalated to level 3 for final installation; Atlanta 6150 awaits final network connection; Spectrum is connected at St. Johns while AT&T MPOE relocation awaits a date; Cornerway shared 1G is installed and awaits IT activation. Multiple disconnects, credits, equipment returns and relocations remain open."
+        "IT Security!I11": {
+          "value": "ATSEC received and reviewed the draft last week per 16-Nov chain; only company name, DBA and mailing address remain to confirm. No SAQ-D answer changes currently identified. Robert proposed 30-Nov signed release; ATSEC prerequisite dates and release confirmation are outstanding. Victor confirms Linker needs the completed SAQ-D, with no separate external acceptance beyond Linker.",
+          "cachedValue": "ATSEC received and reviewed the draft last week per 16-Nov chain; only company name, DBA and mailing address remain to confirm. No SAQ-D answer changes currently identified. Robert proposed 30-Nov signed release; ATSEC prerequisite dates and release confirmation are outstanding. Victor confirms Linker needs the completed SAQ-D, with no separate external acceptance beyond Linker."
+        }
+      }
+    },
+    {
+      "category": "Orphan cell",
+      "summary": "D8 is Green but A8/B8 are blank; no record or reassignment is invented. All five valid IoT rows remain.",
+      "cells": {
+        "IoT!A8": {
+          "value": "",
+          "cachedValue": ""
         },
-        "Infrastructure & Cloud!F76": {
-          "value": "2026-11-06",
-          "cachedValue": "2026-11-06"
+        "IoT!B8": {
+          "value": "",
+          "cachedValue": ""
         },
-        "Infrastructure & Cloud!I76": {
-          "value": "Armin resolved the Microsoft 365 licensing issue after troubleshooting with the user and Microsoft. The cause was identified as an internal issue, and no additional concern was raised.",
-          "cachedValue": "Armin resolved the Microsoft 365 licensing issue after troubleshooting with the user and Microsoft. The cause was identified as an internal issue, and no additional concern was raised."
+        "IoT!D8": {
+          "value": "Green",
+          "cachedValue": "Green"
         }
       }
     },
     {
       "category": "Optional blank",
-      "summary": "Optional source/notes is blank; valid record remains included.",
+      "summary": "Optional source note blank, valid Yard Management record retained (moved from prior row 8 to row 9).",
       "cells": {
-        "IoT!N8": {
+        "IoT!N9": {
           "value": "",
           "cachedValue": ""
         }
       }
     }
   ],
-  "resolvedPriorFindings": [
-    "Prior Security D2/G2 versus 59% narratives no longer present: current PCI scope-review row is Amber/30%.",
-    "IoT A2 now reports 06Nov2026 instead of 23Aug2026.",
-    "WCS I8/G8/M8/N8 consistently report approximately 80%; prior 65% narrative removed.",
-    "WCS C5/D5/G5 now acknowledge unresolved robot work at Amber/70%, replacing Green/100% resolved claim.",
-    "Infrastructure C33/G33 now explicitly unclear scope at 35%; no Completed claim.",
-    "Identifiers are unique within each current worksheet; prior duplicate IDs no longer present.",
-    "Prior IT Security orphan rows are now valid identified records; no orphan notes excluded.",
-    "Prior blank IT Security notes no longer present."
+  "resolvedOrChangedPriorFindings": [
+    "Infrastructure C65/G65 now explicitly unresolved and Not verified; old Completed/100% removed, but Green versus Red/offline conflict remains.",
+    "Security C5/G5, C7/G7, C8/G8, C9/G9 now explicitly unverified/text; old unsupported 100% closure claims removed.",
+    "Security C6 now distinguishes completed pilot from pending administrator MFA; 90% remains, so prior full-rollout closure wording conflict is clarified.",
+    "Infrastructure rows 5/6/11/12/40 now have unverified completion text and explicit open status, removing prior unsupported numeric closure claims.",
+    "WCS D7 is now Amber, matching M7; prior Green-versus-Amber mismatch resolved.",
+    "Infrastructure C30/N30 explicitly limit 100% to HTTPS restoration milestone and retain follow-up; no longer report that follow-up alone contradicts restoration.",
+    "IoT A2 regressed from prior 06Nov to stale 23Aug; not resolved in current source.",
+    "WCS G8 is now 85% while C/I/M/N retain 80%; prior consistent 80% is not carried forward as current proof.",
+    "No duplicate IDs within current worksheets. Repeated project rows remain valid and retained."
   ],
   "retainedRepeatedProjects": {
     "Infrastructure & Cloud": [

@@ -1,0 +1,908 @@
+{
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 01Nov2026 PST).xlsx",
+  "sourceSha256": "04d0a8be91c203387eb6d27bf2543eab822772f07407e9769254d68b06620467",
+  "method": "Fresh read-only cell, formula-cache and raw ZIP audit; neutral review candidates do not assert a corrected RAG or scope. Original workbook is authoritative.",
+  "findings": [
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D23 retains source RAG while M23 directs Amber; dashboard follows D23.",
+      "cells": {
+        "Infrastructure & Cloud!D23": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "Infrastructure & Cloud!M23": {
+          "value": "Maintain Amber until all active stations are validated on wired LAN, priority hardware is remediated, scanner/Wi-Fi testing is complete, and Operations signs off. Require IT review before new floor equipment is deployed.",
+          "cachedValue": "Maintain Amber until all active stations are validated on wired LAN, priority hardware is remediated, scanner/Wi-Fi testing is complete, and Operations signs off. Require IT review before new floor equipment is deployed."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D24 retains source RAG while M24 directs Amber; dashboard follows D24.",
+      "cells": {
+        "Infrastructure & Cloud!D24": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "Infrastructure & Cloud!M24": {
+          "value": "Maintain Amber until the fault domain is confirmed, remaining work is dated and completed, and Operations accepts performance.",
+          "cachedValue": "Maintain Amber until the fault domain is confirmed, remaining work is dated and completed, and Operations accepts performance."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D38 retains source RAG while M38 directs Amber; dashboard follows D38.",
+      "cells": {
+        "Infrastructure & Cloud!D38": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "Infrastructure & Cloud!M38": {
+          "value": "Keep Amber until controller-to-map reconciliation and documented coverage testing are complete.",
+          "cachedValue": "Keep Amber until controller-to-map reconciliation and documented coverage testing are complete."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D56 retains source RAG while M56 directs Amber; dashboard follows D56.",
+      "cells": {
+        "Infrastructure & Cloud!D56": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "Infrastructure & Cloud!M56": {
+          "value": "Keep Amber until the remaining installation scope, test evidence, and Operations acceptance are recorded.",
+          "cachedValue": "Keep Amber until the remaining installation scope, test evidence, and Operations acceptance are recorded."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D36 retains source RAG while M36 directs Red; dashboard follows D36.",
+      "cells": {
+        "Infrastructure & Cloud!D36": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M36": {
+          "value": "Maintain Red until written approval, scheduled installation, commissioning results, and temperature acceptance are documented.",
+          "cachedValue": "Maintain Red until written approval, scheduled installation, commissioning results, and temperature acceptance are documented."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D53 retains source RAG while M53 directs Red; dashboard follows D53.",
+      "cells": {
+        "Infrastructure & Cloud!D53": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M53": {
+          "value": "Maintain Red until resilient power is approved, installed and tested.",
+          "cachedValue": "Maintain Red until resilient power is approved, installed and tested."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D55 retains source RAG while M55 directs Red; dashboard follows D55.",
+      "cells": {
+        "Infrastructure & Cloud!D55": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M55": {
+          "value": "Red until placement and facilities gates are approved. Require technical and business acceptance before each cutover.",
+          "cachedValue": "Red until placement and facilities gates are approved. Require technical and business acceptance before each cutover."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D62 retains source RAG while M62 directs Red; dashboard follows D62.",
+      "cells": {
+        "Infrastructure & Cloud!D62": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M62": {
+          "value": "Red until critical workload capacity and legacy-host risk are contained. Require measured peak-capacity evidence, backup validation, approved target host, migration plan, and post-change testing before relocation.",
+          "cachedValue": "Red until critical workload capacity and legacy-host risk are contained. Require measured peak-capacity evidence, backup validation, approved target host, migration plan, and post-change testing before relocation."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D63 retains source RAG while M63 directs Red; dashboard follows D63.",
+      "cells": {
+        "Infrastructure & Cloud!D63": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M63": {
+          "value": "Maintain Red until critical workload capacity, backup, restore, target placement, and legacy-host risks are controlled.",
+          "cachedValue": "Maintain Red until critical workload capacity, backup, restore, target placement, and legacy-host risks are controlled."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D64 retains source RAG while M64 directs Red; dashboard follows D64.",
+      "cells": {
+        "Infrastructure & Cloud!D64": {
+          "value": "Amber",
+          "cachedValue": "Amber"
+        },
+        "Infrastructure & Cloud!M64": {
+          "value": "Maintain Red until root cause or risk containment, recovery evidence, and the hosting recommendation are approved.",
+          "cachedValue": "Maintain Red until root cause or risk containment, recovery evidence, and the hosting recommendation are approved."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D7 retains source RAG while M7 directs Amber; dashboard follows D7.",
+      "cells": {
+        "WCS Engineering!D7": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "WCS Engineering!M7": {
+          "value": "Keep Amber at 95% until production deployment and site acceptance are documented. Consider a dedicated printer only after the initial operating need is verified.",
+          "cachedValue": "Keep Amber at 95% until production deployment and site acceptance are documented. Consider a dedicated printer only after the initial operating need is verified."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D5 retains source RAG while M5 directs Amber; dashboard follows D5.",
+      "cells": {
+        "IT Compliance Program!D5": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "IT Compliance Program!M5": {
+          "value": "Keep the workstream Amber until Johanson completes scope review and any discrepancies are assigned and resolved.",
+          "cachedValue": "Keep the workstream Amber until Johanson completes scope review and any discrepancies are assigned and resolved."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D6 retains source RAG while M6 directs Amber; dashboard follows D6.",
+      "cells": {
+        "UNIS.CO Email & Ticketing!D6": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "UNIS.CO Email & Ticketing!M6": {
+          "value": "Keep this row Amber until the Phase II population, dependencies, retention rules, and rollout sequence are approved.",
+          "cachedValue": "Keep this row Amber until the Phase II population, dependencies, retention rules, and rollout sequence are approved."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D12 retains source RAG while M12 directs Amber; dashboard follows D12.",
+      "cells": {
+        "UNIS.CO Email & Ticketing!D12": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "UNIS.CO Email & Ticketing!M12": {
+          "value": "Keep Amber and block broader mail enforcement until the fallback is approved, communicated, and tested. Do not reopen Phase 1 for this follow-on dependency.",
+          "cachedValue": "Keep Amber and block broader mail enforcement until the fallback is approved, communicated, and tested. Do not reopen Phase 1 for this follow-on dependency."
+        }
+      }
+    },
+    {
+      "category": "Conflicting RAG directive",
+      "summary": "D17 retains source RAG while M17 directs Amber; dashboard follows D17.",
+      "cells": {
+        "UNIS.CO Email & Ticketing!D17": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "UNIS.CO Email & Ticketing!M17": {
+          "value": "Keep Amber until the reply behavior is resolved or formally accepted, end-to-end calendar tests pass, and operating guidance is published.",
+          "cachedValue": "Keep Amber until the reply behavior is resolved or formally accepted, end-to-end calendar tests pass, and operating guidance is published."
+        }
+      }
+    },
+    {
+      "category": "Conflicting closure and RAG",
+      "summary": "Completed/Green/100% coexists with an offline IDF and Red leadership directive.",
+      "cells": {
+        "Infrastructure & Cloud!C65": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!D65": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "Infrastructure & Cloud!G65": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I65": {
+          "value": "IDF 1 at 250 Vista Boulevard, Sparks, Nevada remains offline. A power issue is suspected but has not been confirmed. The onsite contact had not responded, so equipment and electrical checks could not be completed.",
+          "cachedValue": "IDF 1 at 250 Vista Boulevard, Sparks, Nevada remains offline. A power issue is suspected but has not been confirmed. The onsite contact had not responded, so equipment and electrical checks could not be completed."
+        },
+        "Infrastructure & Cloud!J65": {
+          "value": "Jerimar to continue follow-up with the onsite contact; verify site power, breaker and outlet condition, UPS status, switch and power-supply indicators, uplink, cabling, and equipment health; engage Facilities or an electrician if an electrical issue is confirmed; document restoration and monitoring evidence.",
+          "cachedValue": "Jerimar to continue follow-up with the onsite contact; verify site power, breaker and outlet condition, UPS status, switch and power-supply indicators, uplink, cabling, and equipment health; engage Facilities or an electrician if an electrical issue is confirmed; document restoration and monitoring evidence."
+        },
+        "Infrastructure & Cloud!M65": {
+          "value": "Red and leadership-visible until onsite access, diagnosis, restoration, and root-cause documentation are complete. Escalate the onsite-response delay and coordinate with Facilities when power issues are identified.",
+          "cachedValue": "Red and leadership-visible until onsite access, diagnosis, restoration, and root-cause documentation are complete. Escalate the onsite-response delay and coordinate with Facilities when power issues are identified."
+        }
+      }
+    },
+    {
+      "category": "Conflicting closure",
+      "summary": "Completed/Green/100% coexists with failed remote desktop and pending troubleshooting.",
+      "cells": {
+        "Infrastructure & Cloud!C31": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!D31": {
+          "value": "Green",
+          "cachedValue": "Green"
+        },
+        "Infrastructure & Cloud!G31": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I31": {
+          "value": "Armin cannot connect. Two agent reinstall attempts did not resolve the issue; Billy offered to troubleshoot.",
+          "cachedValue": "Armin cannot connect. Two agent reinstall attempts did not resolve the issue; Billy offered to troubleshoot."
+        },
+        "Infrastructure & Cloud!J31": {
+          "value": "Billy and Armin to check the connection, agent health, and access path; verify a successful session.",
+          "cachedValue": "Billy and Armin to check the connection, agent health, and access path; verify a successful session."
+        }
+      }
+    },
+    {
+      "category": "Conflicting closure",
+      "summary": "Completed at 60%; progress and migration acceptance remain open.",
+      "cells": {
+        "Infrastructure & Cloud!C32": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G32": {
+          "value": "0.6",
+          "cachedValue": "0.6"
+        },
+        "Infrastructure & Cloud!I32": {
+          "value": "Mahan reported work in progress with no blocker; requestor, supporting team, and technical requirements were unclear.",
+          "cachedValue": "Mahan reported work in progress with no blocker; requestor, supporting team, and technical requirements were unclear."
+        },
+        "Infrastructure & Cloud!J32": {
+          "value": "Confirm request owner, image source, VM host and acceptance test; complete and validate the migration.",
+          "cachedValue": "Confirm request owner, image source, VM host and acceptance test; complete and validate the migration."
+        },
+        "Infrastructure & Cloud!M32": {
+          "value": "Assign the request owner and agree on acceptance criteria.",
+          "cachedValue": "Assign the request owner and agree on acceptance criteria."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C5": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G5": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I5": {
+          "value": "Phase 2 overall design direction is OK.",
+          "cachedValue": "Phase 2 overall design direction is OK."
+        },
+        "Infrastructure & Cloud!J5": {
+          "value": "Complete the initial network plan using the standard template.",
+          "cachedValue": "Complete the initial network plan using the standard template."
+        },
+        "Infrastructure & Cloud!M5": {
+          "value": "Initial review must be completed first.",
+          "cachedValue": "Initial review must be completed first."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C6": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G6": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I6": {
+          "value": "Phase 2 planning underway.",
+          "cachedValue": "Phase 2 planning underway."
+        },
+        "Infrastructure & Cloud!J6": {
+          "value": "Complete heatmap and final connectivity / port mapping.",
+          "cachedValue": "Complete heatmap and final connectivity / port mapping."
+        },
+        "Infrastructure & Cloud!M6": {
+          "value": "Manage together with new-site network design.",
+          "cachedValue": "Manage together with new-site network design."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C11": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G11": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I11": {
+          "value": "Skylink/satellite discussed; availability/performance need validation and prior Atlanta experience was mixed.",
+          "cachedValue": "Skylink/satellite discussed; availability/performance need validation and prior Atlanta experience was mixed."
+        },
+        "Infrastructure & Cloud!J11": {
+          "value": "First validate two AT&T gateways; evaluate Skylink only if additional capacity is required.",
+          "cachedValue": "First validate two AT&T gateways; evaluate Skylink only if additional capacity is required."
+        },
+        "Infrastructure & Cloud!M11": {
+          "value": "Decision only if AT&T capacity is insufficient.",
+          "cachedValue": "Decision only if AT&T capacity is insufficient."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C12": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G12": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I12": {
+          "value": "Potential over-broad camera visibility for company-credential users; HikCentral/domain synchronization has missing users and permission-sync issues.",
+          "cachedValue": "Potential over-broad camera visibility for company-credential users; HikCentral/domain synchronization has missing users and permission-sync issues."
+        },
+        "Infrastructure & Cloud!J12": {
+          "value": "Validate exposure, correct access controls/domain sync, and provide remediation timing.",
+          "cachedValue": "Validate exposure, correct access controls/domain sync, and provide remediation timing."
+        },
+        "Infrastructure & Cloud!M12": {
+          "value": "Confirm owner, remediation ETA, and temporary access restrictions if needed.",
+          "cachedValue": "Confirm owner, remediation ETA, and temporary access restrictions if needed."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C14": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G14": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I14": {
+          "value": "Troubleshooting has not started because the room is continuously occupied.",
+          "cachedValue": "Troubleshooting has not started because the room is continuously occupied."
+        },
+        "Infrastructure & Cloud!J14": {
+          "value": "Coordinate a dedicated maintenance window.",
+          "cachedValue": "Coordinate a dedicated maintenance window."
+        },
+        "Infrastructure & Cloud!M14": {
+          "value": "Local office assistance may be needed to reserve the room.",
+          "cachedValue": "Local office assistance may be needed to reserve the room."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C15": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G15": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I15": {
+          "value": "Temporary hotspot moved to MDF; UniFi devices should be online. Field work paused while resources support Douglasville.",
+          "cachedValue": "Temporary hotspot moved to MDF; UniFi devices should be online. Field work paused while resources support Douglasville."
+        },
+        "Infrastructure & Cloud!J15": {
+          "value": "Monitor temporary connectivity; resume after Douglasville decommission.",
+          "cachedValue": "Monitor temporary connectivity; resume after Douglasville decommission."
+        },
+        "Infrastructure & Cloud!M15": {
+          "value": "No immediate escalation.",
+          "cachedValue": "No immediate escalation."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C17": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G17": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I17": {
+          "value": "No broader outstanding firewall initiative; remaining work is primarily Walnut server/DMZ migration.",
+          "cachedValue": "No broader outstanding firewall initiative; remaining work is primarily Walnut server/DMZ migration."
+        },
+        "Infrastructure & Cloud!J17": {
+          "value": "Complete migration and validate final configuration.",
+          "cachedValue": "Complete migration and validate final configuration."
+        },
+        "Infrastructure & Cloud!M17": {
+          "value": "Confirm closure criteria.",
+          "cachedValue": "Confirm closure criteria."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C19": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G19": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I19": {
+          "value": "Conduct a comprehensive network optimization for Walnut Data Center, including:\nCable management and rack organization\nReplacement of non-standard/outdated switches\nVLAN and IP address planning and optimization\nCCTV / camera network optimization\nImprove network performance, manageability, and scalability\nEnhance network troubleshooting efficiency and security",
+          "cachedValue": "Conduct a comprehensive network optimization for Walnut Data Center, including:\nCable management and rack organization\nReplacement of non-standard/outdated switches\nVLAN and IP address planning and optimization\nCCTV / camera network optimization\nImprove network performance, manageability, and scalability\nEnhance network troubleshooting efficiency and security"
+        },
+        "Infrastructure & Cloud!J19": {
+          "value": "Evaluate existing network, devices, and rack conditions; define optimization plan\nOrganize and standardize data center cabling\nReplace non-standard switches and configure new devices\nReplan VLANs and IP addressing for efficiency and manageability\nOptimize camera VLANs, PoE, and bandwidth allocation\nUpdate network topology, IP plan, and SOPs; validate optimization results\nPlan production-grade deployment and multi-region expansion",
+          "cachedValue": "Evaluate existing network, devices, and rack conditions; define optimization plan\nOrganize and standardize data center cabling\nReplace non-standard switches and configure new devices\nReplan VLANs and IP addressing for efficiency and manageability\nOptimize camera VLANs, PoE, and bandwidth allocation\nUpdate network topology, IP plan, and SOPs; validate optimization results\nPlan production-grade deployment and multi-region expansion"
+        },
+        "Infrastructure & Cloud!M19": {
+          "value": "Priority: N/A; Target: Q2",
+          "cachedValue": "Priority: N/A; Target: Q2"
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C20": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G20": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I20": {
+          "value": "The technical team is awaiting the complete request reportedly sent by Chi wei to Mike.",
+          "cachedValue": "The technical team is awaiting the complete request reportedly sent by Chi wei to Mike."
+        },
+        "Infrastructure & Cloud!J20": {
+          "value": "Confirm owner, hosting, IP allowlisting, authentication, data scope, logging, retention, test window, and success criteria.",
+          "cachedValue": "Confirm owner, hosting, IP allowlisting, authentication, data scope, logging, retention, test window, and success criteria."
+        },
+        "Infrastructure & Cloud!M20": {
+          "value": "Require written requirements and security approval before configuration.",
+          "cachedValue": "Require written requirements and security approval before configuration."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C30": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G30": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I30": {
+          "value": "Jerimar restored HTTPS by restarting the affected services; sustained stability was not confirmed.",
+          "cachedValue": "Jerimar restored HTTPS by restarting the affected services; sustained stability was not confirmed."
+        },
+        "Infrastructure & Cloud!J30": {
+          "value": "Check website availability and logs; record cause and close the ticket if stable.",
+          "cachedValue": "Check website availability and logs; record cause and close the ticket if stable."
+        },
+        "Infrastructure & Cloud!M30": {
+          "value": "Escalate only if service or logs show a recurrence.",
+          "cachedValue": "Escalate only if service or logs show a recurrence."
+        }
+      }
+    },
+    {
+      "category": "Scope/closure review candidate",
+      "summary": "Completed/100% with planning, validation or remaining actions; owner should distinguish completed scope from follow-up.",
+      "cells": {
+        "Infrastructure & Cloud!C40": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "Infrastructure & Cloud!G40": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "Infrastructure & Cloud!I40": {
+          "value": "Help Desk needs confirmation of the China Level 2 schedule and application coverage. Separate tickets report nonworking phone numbers; the fault domain across 3CX, Twilio, or another service is not yet confirmed. Primary contacts have limited availability.",
+          "cachedValue": "Help Desk needs confirmation of the China Level 2 schedule and application coverage. Separate tickets report nonworking phone numbers; the fault domain across 3CX, Twilio, or another service is not yet confirmed. Primary contacts have limited availability."
+        },
+        "Infrastructure & Cloud!J40": {
+          "value": "Billy to review Stacy's support schedule and confirm contacts and scope. Post the phone-number issue in the existing 3CX/Twilio WeChat group, secure backup support, identify the failing service, and document resolution and escalation steps.",
+          "cachedValue": "Billy to review Stacy's support schedule and confirm contacts and scope. Post the phone-number issue in the existing 3CX/Twilio WeChat group, secure backup support, identify the failing service, and document resolution and escalation steps."
+        },
+        "Infrastructure & Cloud!M40": {
+          "value": "Confirm primary and backup contacts, coverage hours, supported applications, and the escalation standard.",
+          "cachedValue": "Confirm primary and backup contacts, coverage hours, supported applications, and the escalation standard."
+        }
+      }
+    },
+    {
+      "category": "Scope/percentage review",
+      "summary": "Pilot Testing - Completed at 90% while pilot completion and administrator MFA design remain open.",
+      "cells": {
+        "IT Security!C6": {
+          "value": "Pilot Testing - Completed",
+          "cachedValue": "Pilot Testing - Completed"
+        },
+        "IT Security!G6": {
+          "value": "0.9",
+          "cachedValue": "0.9"
+        },
+        "IT Security!I6": {
+          "value": "VPN MFA documentation is complete and pilot users have been added; administrator MFA through Microsoft remains under investigation.",
+          "cachedValue": "VPN MFA documentation is complete and pilot users have been added; administrator MFA through Microsoft remains under investigation."
+        },
+        "IT Security!J6": {
+          "value": "Complete pilot testing and implement the approved administrator MFA method.",
+          "cachedValue": "Complete pilot testing and implement the approved administrator MFA method."
+        },
+        "IT Security!M6": {
+          "value": "Confirm method and rollout date.",
+          "cachedValue": "Confirm method and rollout date."
+        }
+      }
+    },
+    {
+      "category": "Scope/percentage review",
+      "summary": "Authorization Review - Completed/100% while ownership and authorization are undocumented.",
+      "cells": {
+        "IT Security!C7": {
+          "value": "Authorization Review - Completed",
+          "cachedValue": "Authorization Review - Completed"
+        },
+        "IT Security!G7": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "IT Security!I7": {
+          "value": "The request covers migration from AWS to ITEM and management of assigned Raspberry Pi and robotics devices; ownership and authorization are not yet documented.",
+          "cachedValue": "The request covers migration from AWS to ITEM and management of assigned Raspberry Pi and robotics devices; ownership and authorization are not yet documented."
+        },
+        "IT Security!J7": {
+          "value": "Identify named users, approved activities, approving authority, and the exact device group; configure group-restricted access.",
+          "cachedValue": "Identify named users, approved activities, approving authority, and the exact device group; configure group-restricted access."
+        },
+        "IT Security!M7": {
+          "value": "Do not grant unrestricted access; require an approved access matrix.",
+          "cachedValue": "Do not grant unrestricted access; require an approved access matrix."
+        }
+      }
+    },
+    {
+      "category": "Scope/percentage review",
+      "summary": "Inventory / Compatibility Review at 100% while endpoint population is unknown.",
+      "cells": {
+        "IT Security!C8": {
+          "value": "Inventory / Compatibility Review",
+          "cachedValue": "Inventory / Compatibility Review"
+        },
+        "IT Security!G8": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "IT Security!I8": {
+          "value": "The endpoint population is not yet known; Mel can export the inventory from the current remote-management platform.",
+          "cachedValue": "The endpoint population is not yet known; Mel can export the inventory from the current remote-management platform."
+        },
+        "IT Security!J8": {
+          "value": "Export inventory, test application compatibility, prioritize endpoints, and approve phased upgrade or replacement.",
+          "cachedValue": "Export inventory, test application compatibility, prioritize endpoints, and approve phased upgrade or replacement."
+        },
+        "IT Security!M8": {
+          "value": "Review risk-ranked inventory and remediation plan.",
+          "cachedValue": "Review risk-ranked inventory and remediation plan."
+        }
+      }
+    },
+    {
+      "category": "Scope/percentage review",
+      "summary": "Security Review - Completed/100% while dedicated account and endpoint controls require approval.",
+      "cells": {
+        "IT Security!C9": {
+          "value": "Security Review - Completed",
+          "cachedValue": "Security Review - Completed"
+        },
+        "IT Security!G9": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "IT Security!I9": {
+          "value": "SBW1153 was removed from the domain and currently uses a passwordless local UNIS account.",
+          "cachedValue": "SBW1153 was removed from the domain and currently uses a passwordless local UNIS account."
+        },
+        "IT Security!J9": {
+          "value": "Create a dedicated licensed Microsoft account; document device ID, location, owner, users, configuration, and support ticket; apply unattended-use controls.",
+          "cachedValue": "Create a dedicated licensed Microsoft account; document device ID, location, owner, users, configuration, and support ticket; apply unattended-use controls."
+        },
+        "IT Security!M9": {
+          "value": "Approve the dedicated-account and endpoint-control design.",
+          "cachedValue": "Approve the dedicated-account and endpoint-control design."
+        }
+      }
+    },
+    {
+      "category": "Scope/percentage review",
+      "summary": "100% alongside UAT, sizing or procurement next steps; completed scope is not clarified.",
+      "cells": {
+        "IoT!G4": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "IoT!H4": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "IoT!I4": {
+          "value": "Monitoring Engine V2, iOS and Backend API are allcompleted.\nEnd users are using the IoT platform.",
+          "cachedValue": "Monitoring Engine V2, iOS and Backend API are allcompleted.\nEnd users are using the IoT platform."
+        },
+        "IoT!J4": {
+          "value": "iOS → Security UAT → Go/No-Go.",
+          "cachedValue": "iOS → Security UAT → Go/No-Go."
+        }
+      }
+    },
+    {
+      "category": "Scope/percentage review",
+      "summary": "100% alongside UAT, sizing or procurement next steps; completed scope is not clarified.",
+      "cells": {
+        "IoT!G5": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "IoT!H5": {
+          "value": "Completed",
+          "cachedValue": "Completed"
+        },
+        "IoT!I5": {
+          "value": "Camera scope and AI use cases are all configured, ready to .User Usage",
+          "cachedValue": "Camera scope and AI use cases are all configured, ready to .User Usage"
+        },
+        "IoT!J5": {
+          "value": "Camera selection → algorithm mapping → GPU sizing.",
+          "cachedValue": "Camera selection → algorithm mapping → GPU sizing."
+        }
+      }
+    },
+    {
+      "category": "Scope/percentage review",
+      "summary": "100% alongside UAT, sizing or procurement next steps; completed scope is not clarified.",
+      "cells": {
+        "IoT!G6": {
+          "value": "1",
+          "cachedValue": "1"
+        },
+        "IoT!H6": {
+          "value": "Completed\nnote:Nearly one month of continuous monitoring shows GPU, memory and bandwidth metrics are fairly stable. The server also has 7×24 performance monitoring and alerting, so it is capable of running our existing system application architecture.",
+          "cachedValue": "Completed\nnote:Nearly one month of continuous monitoring shows GPU, memory and bandwidth metrics are fairly stable. The server also has 7×24 performance monitoring and alerting, so it is capable of running our existing system application architecture."
+        },
+        "IoT!I6": {
+          "value": "The BP‑hosted GPU can cover the workloads for both the BP site and Walnut site.",
+          "cachedValue": "The BP‑hosted GPU can cover the workloads for both the BP site and Walnut site."
+        },
+        "IoT!J6": {
+          "value": "Finalize GPU specifications and procurement after camera matrix completion.",
+          "cachedValue": "Finalize GPU specifications and procurement after camera matrix completion."
+        }
+      }
+    },
+    {
+      "category": "Formula error",
+      "summary": "DISPIMG cached #NAME?; workbook ZIP contains no xl/media image parts.",
+      "cells": {
+        "IoT!N6": {
+          "value": "=_xlfn.DISPIMG(\"ID_BFCB287FF50949ACB47F716BD1E40440\",1)",
+          "cachedValue": "#NAME?"
+        }
+      }
+    },
+    {
+      "category": "Chronology review",
+      "summary": "Pickup narrative is 10/8; source note is 11-Sep. Relative certificate timing remains as supplied.",
+      "cells": {
+        "IT Compliance Program!I14": {
+          "value": "The vendor collected UNIS and ITEM equipment on Thursday (10/8); certificates are expected three to four weeks after pickup.",
+          "cachedValue": "The vendor collected UNIS and ITEM equipment on Thursday (10/8); certificates are expected three to four weeks after pickup."
+        },
+        "IT Compliance Program!N14": {
+          "value": "IT Network Team Meeting Notes, 11-Sep-2026 PST",
+          "cachedValue": "IT Network Team Meeting Notes, 11-Sep-2026 PST"
+        }
+      }
+    },
+    {
+      "category": "Ownership gap",
+      "summary": "Replacement-pending ownership is present in current source; no owner guessed.",
+      "cells": {
+        "IT Security!K2": {
+          "value": "Pendig replacement for Mike Wang, Robert",
+          "cachedValue": "Pendig replacement for Mike Wang, Robert"
+        },
+        "IT Security!K3": {
+          "value": "Pendig replacement for Mike Wang, Robert",
+          "cachedValue": "Pendig replacement for Mike Wang, Robert"
+        },
+        "IT Security!K4": {
+          "value": "Pendig replacement for Mike Wang, Robert",
+          "cachedValue": "Pendig replacement for Mike Wang, Robert"
+        },
+        "IT Security!K5": {
+          "value": "Pendig replacement for Mike Wang, Robert",
+          "cachedValue": "Pendig replacement for Mike Wang, Robert"
+        }
+      }
+    },
+    {
+      "category": "Ownership gap",
+      "summary": "Replacement-pending ownership is present in current source; no owner guessed.",
+      "cells": {
+        "IT Compliance Program!K4": {
+          "value": "Robert Moreno / Stacy Nguyen / Adam Gentner / Johanson Audit and Accounting Teams / Mike Wang's replacement pending / Legal / Vanta Administrator",
+          "cachedValue": "Robert Moreno / Stacy Nguyen / Adam Gentner / Johanson Audit and Accounting Teams / Mike Wang's replacement pending / Legal / Vanta Administrator"
+        },
+        "IT Compliance Program!K7": {
+          "value": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team",
+          "cachedValue": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team"
+        },
+        "IT Compliance Program!K9": {
+          "value": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team",
+          "cachedValue": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team"
+        },
+        "IT Compliance Program!K10": {
+          "value": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team",
+          "cachedValue": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team"
+        },
+        "IT Compliance Program!K11": {
+          "value": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team",
+          "cachedValue": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team"
+        },
+        "IT Compliance Program!K12": {
+          "value": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team",
+          "cachedValue": "Mike Wang's replacement pending, Robert,  Johanson Group, Vanta Team"
+        },
+        "IT Compliance Program!K15": {
+          "value": "Vincent / Robert Moreno / Mike Wang's replacement pending / Johanson Group",
+          "cachedValue": "Vincent / Robert Moreno / Mike Wang's replacement pending / Johanson Group"
+        },
+        "IT Compliance Program!K16": {
+          "value": "James Tran / Robert Moreno / Stacy Nguyen / Adam Gentner / Johanson Audit Team / Mike Wang's replacement pending / Vanta Administrator",
+          "cachedValue": "James Tran / Robert Moreno / Stacy Nguyen / Adam Gentner / Johanson Audit Team / Mike Wang's replacement pending / Vanta Administrator"
+        }
+      }
+    },
+    {
+      "category": "Reporting-label context",
+      "summary": "Attachment is labeled week of 01Nov; IoT banner is 06Nov, not the prior stale August banner.",
+      "cells": {
+        "IoT!A2": {
+          "value": "Team Lead: Yabin Liu | Reporting Date: 2026-11-06 PST | Source: IT_Project_Roadmap_Consolidated_2026_v1.0 (06Nov2026 PST)",
+          "cachedValue": "Team Lead: Yabin Liu | Reporting Date: 2026-11-06 PST | Source: IT_Project_Roadmap_Consolidated_2026_v1.0 (06Nov2026 PST)"
+        }
+      }
+    },
+    {
+      "category": "Reporting-label context",
+      "summary": "Source includes an explicit 08-Nov actual update and a 06Nov completion. Preserve dates without asserting an as-of-01Nov cutoff.",
+      "cells": {
+        "Infrastructure & Cloud!I7": {
+          "value": "As of 08-Nov: Charleston 1701 is escalated to level 3 for final installation; Atlanta 6150 awaits final network connection; Spectrum is connected at St. Johns while AT&T MPOE relocation awaits a date; Cornerway shared 1G is installed and awaits IT activation. Multiple disconnects, credits, equipment returns and relocations remain open.",
+          "cachedValue": "As of 08-Nov: Charleston 1701 is escalated to level 3 for final installation; Atlanta 6150 awaits final network connection; Spectrum is connected at St. Johns while AT&T MPOE relocation awaits a date; Cornerway shared 1G is installed and awaits IT activation. Multiple disconnects, credits, equipment returns and relocations remain open."
+        },
+        "Infrastructure & Cloud!F76": {
+          "value": "2026-11-06",
+          "cachedValue": "2026-11-06"
+        },
+        "Infrastructure & Cloud!I76": {
+          "value": "Armin resolved the Microsoft 365 licensing issue after troubleshooting with the user and Microsoft. The cause was identified as an internal issue, and no additional concern was raised.",
+          "cachedValue": "Armin resolved the Microsoft 365 licensing issue after troubleshooting with the user and Microsoft. The cause was identified as an internal issue, and no additional concern was raised."
+        }
+      }
+    },
+    {
+      "category": "Optional blank",
+      "summary": "Optional source/notes is blank; valid record remains included.",
+      "cells": {
+        "IoT!N8": {
+          "value": "",
+          "cachedValue": ""
+        }
+      }
+    }
+  ],
+  "resolvedPriorFindings": [
+    "Prior Security D2/G2 versus 59% narratives no longer present: current PCI scope-review row is Amber/30%.",
+    "IoT A2 now reports 06Nov2026 instead of 23Aug2026.",
+    "WCS I8/G8/M8/N8 consistently report approximately 80%; prior 65% narrative removed.",
+    "WCS C5/D5/G5 now acknowledge unresolved robot work at Amber/70%, replacing Green/100% resolved claim.",
+    "Infrastructure C33/G33 now explicitly unclear scope at 35%; no Completed claim.",
+    "Identifiers are unique within each current worksheet; prior duplicate IDs no longer present.",
+    "Prior IT Security orphan rows are now valid identified records; no orphan notes excluded.",
+    "Prior blank IT Security notes no longer present."
+  ],
+  "retainedRepeatedProjects": {
+    "Infrastructure & Cloud": [
+      [
+        23,
+        24
+      ],
+      [
+        37,
+        38
+      ],
+      [
+        54,
+        55
+      ],
+      [
+        62,
+        63
+      ]
+    ]
+  },
+  "imageParts": []
+}

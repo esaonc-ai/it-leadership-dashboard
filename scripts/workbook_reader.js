@@ -32,7 +32,7 @@ function parseWeeklyWorkbook(bytes) {
     if(type==='containsText')match=value(a).toLowerCase().includes((rule.getAttribute('text')||'').toLowerCase());
     else if(type==='expression'){
      let [ac,ar]=coord(a),[oc,or]=coord(origin),formula=txt(rule,'formula').replace(/(\$?)([A-Z]+)(\$?)(\d+)/g,(all,dc,c,dr,r)=>letters(dc?coord(c+'1')[0]:coord(c+'1')[0]+ac-oc)+(dr?+r:+r+ar-or));
-     formula=formula.replace(/ISNUMBER\(SEARCH\("([^"]*)",([A-Z]+\d+)\)\)/g,(all,s,ref)=>value(ref).toLowerCase().includes(s.toLowerCase())?'True':'False').replace(/([A-Z]+\d+)<>""/g,(all,ref)=>value(ref)?'True':'False');match=bool(formula);
+     formula=formula.replace(/ISNUMBER\(SEARCH\("([^"]*)",([A-Z]+\d+)\)\)/g,(all,s,ref)=>value(ref).toLowerCase().includes(s.toLowerCase())?'True':'False').replace(/([A-Z]+\d+)<>""/g,(all,ref)=>value(ref)?'True':'False').replace(/([A-Z]+\d+)="((?:[^"]|"")*)"/g,(all,ref,s)=>value(ref).toLowerCase()===s.replaceAll('""','"').toLowerCase()?'True':'False');match=bool(formula);
     }else throw Error('Unsupported RAG rule: '+type);
     if(!match)continue;let d=dxfs[+rule.getAttribute('dxfId')];if(d){if(!fs){let ff=fill(d,true);if(ff){f=ff;fs=true;}}if(!ts){let tf=font(d);if(tf){ft=tf;ts=true;}}}if(rule.getAttribute('stopIfTrue')==='1')break;
    }return [f,ft];
