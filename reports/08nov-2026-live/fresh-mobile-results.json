@@ -1,0 +1,19 @@
+{
+  "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+  "verifiedAtUtc": "2026-11-16T23:18:00.240782+00:00",
+  "viewport": "390x844",
+  "freshContext": true,
+  "noAuthOrStorageState": true,
+  "passedAssertions": 2842,
+  "filterStates": 25,
+  "cascadeTransitions": 16,
+  "htmlSha256": "1caa8b104c9043abbe73547c44df096c738fd5d7a27b2f6f864ac05096c7a1b1",
+  "browserErrors": [],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://esaonc-ai.github.io/it-leadership-dashboard/"
+    }
+  ],
+  "status": "PASS"
+}

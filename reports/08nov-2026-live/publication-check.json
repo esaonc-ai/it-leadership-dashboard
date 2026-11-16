@@ -1,0 +1,43 @@
+{
+  "attempt": 1,
+  "observedAtUtc": "2026-11-16T23:16:59.152461+00:00",
+  "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+  "finalUrl": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "516446",
+    "Server": "GitHub.com",
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Mon, 16 Nov 2026 23:16:46 GMT",
+    "Access-Control-Allow-Origin": "*",
+    "Strict-Transport-Security": "max-age=31556952",
+    "ETag": "\"6afb8ede-7e15e\"",
+    "expires": "Mon, 16 Nov 2026 23:26:59 GMT",
+    "Cache-Control": "max-age=600",
+    "x-proxy-cache": "MISS",
+    "X-GitHub-Request-Id": "660C:26449D:1DF8A:2CB44:6AFB8EEA",
+    "x-github-edge-region": "westus2",
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Date": "Mon, 16 Nov 2026 23:16:59 GMT",
+    "Via": "1.1 varnish",
+    "X-Served-By": "cache-bfi-kbfi7400039-BFI",
+    "X-Cache": "MISS",
+    "X-Cache-Hits": "0",
+    "X-Timer": "S1794871019.028140,VS0,VE101",
+    "Vary": "Accept-Encoding",
+    "X-Fastly-Request-ID": "cb2e931cdf0a83ed795d7e52542014370eec7468"
+  },
+  "reportDate": "2026-11-08",
+  "records": 179,
+  "rags": {
+    "Green": 91,
+    "Amber": 88
+  },
+  "sourceSha256": "a2c669002b25f78ebe4dc0397daa3f98fd59385af690d149a1a9f1881e0b08bd",
+  "htmlSha256": "1caa8b104c9043abbe73547c44df096c738fd5d7a27b2f6f864ac05096c7a1b1",
+  "matchesPushedCheckout": true,
+  "expectedContentCommit": "1a1183e8f2817179ebc95eb806a419ec4b512b78",
+  "publication": "PASS"
+}

@@ -1,0 +1,20 @@
+{
+  "reports/08nov-2026-live/deployment-poll.json": "c9e8d0d58c82b82353cbf8a7a7781a147c5bfe5d858e46f0934ddd258bdc0256",
+  "reports/08nov-2026-live/desktop.png": "ce412246b3e1a7e17fcc432fb176d17b95c0213cf0b936eae83a4b006a74bc27",
+  "reports/08nov-2026-live/direct-public-checks.json": "b98f02e5429281dcad051a18d8d35ffc416a4a066c86c0de1f2b02e80b6f4795",
+  "reports/08nov-2026-live/download-integrity.json": "773f20ea2b8ca9ff381b19e59181a11587d93e5852bc3fb375bfff192ed85de4",
+  "reports/08nov-2026-live/fresh-mobile-results.json": "e0555b834d9d2e720763cd9607e0818bd45b3478505f9e1fe3ceb6914d51c7fc",
+  "reports/08nov-2026-live/http.json": "4445b633a7a9be02e016b398cd396af733a6c1706bb1391126ed4926b8b61f76",
+  "reports/08nov-2026-live/initial-response-headers.txt": "94f4c229d45638a5ffcc9d16564adabc63169aa9a116d91f47e54288e421dc60",
+  "reports/08nov-2026-live/mobile-detail.png": "0087cea25cccebe2d3ef2ad536955bf657256757875fc3dae2ca8cf1d096568e",
+  "reports/08nov-2026-live/mobile-full-team.png": "14166b24bb3c6f9da02998c78316d33ef400c44023b2786c6b71069d4f6efd44",
+  "reports/08nov-2026-live/mobile-health.png": "36a22c77dc07f1e907ca3858c68392dc07f1abac9e59f818af5917d0f13bd148",
+  "reports/08nov-2026-live/mobile-new-conditional-color.png": "e75fdba290e495bf0eca62ffd4779a54f9be038b5f3a6d5d992d3f726fcc657a",
+  "reports/08nov-2026-live/mobile.png": "bdfe47b9d1dc0249c5f010829e6699804bfc63a3433a8780695d49cc29744df6",
+  "reports/08nov-2026-live/pre-live-LIVE_QA_REPORT.md": "d65e3480f2e551c21cfab0a5199e010cdc43428a18250a8f6c8bcb4c1764ed82",
+  "reports/08nov-2026-live/pre-live-QA_PUBLIC_RESULTS.json": "75fc6b982a42e9868eac61f1a52512d7d3d73a124ebccd5df85790d6c4c3799f",
+  "reports/08nov-2026-live/publication-check.json": "09c5d764fd39b4e1bfb10b6b4f043455f2092ead0bc29e85e82f43761fb0b31d",
+  "reports/08nov-2026-live/qa-results.json": "9d37103c78f3b3242fd81597bba01dfc8c322a25bb595f3d20317449edb64093",
+  "reports/08nov-2026-live/source-issue-recheck.json": "388b25df911b22893c7c1b409154c61592c34965bcf0a804544f95f23e8e87e6",
+  "reports/08nov-2026-live/workbook-audit.json": "4a25181e2c420285b869d6b1cb4ece9616b164c2ed62a3b8986519aa82920050"
+}

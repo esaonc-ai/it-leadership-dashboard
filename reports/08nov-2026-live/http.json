@@ -1,0 +1,29 @@
+{
+  "url": "https://esaonc-ai.github.io/it-leadership-dashboard/",
+  "status": 200,
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "age": "0",
+    "cache-control": "max-age=600",
+    "content-encoding": "gzip",
+    "content-length": "219114",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 16 Nov 2026 23:17:15 GMT",
+    "etag": "W/\"6afb8ede-7e15e\"",
+    "expires": "Mon, 16 Nov 2026 23:27:15 GMT",
+    "last-modified": "Mon, 16 Nov 2026 23:16:46 GMT",
+    "server": "GitHub.com",
+    "strict-transport-security": "max-age=31556952",
+    "vary": "Accept-Encoding",
+    "via": "1.1 varnish",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-fastly-request-id": "24af817a00b27f77fffb3400ddd14ba254ae4631",
+    "x-github-edge-region": "westus2",
+    "x-github-request-id": "822E:20336:1E09D:2CC12:6AFB8EFB",
+    "x-proxy-cache": "MISS",
+    "x-served-by": "cache-bfi-kbfi7400116-BFI",
+    "x-timer": "S1794871036.589646,VS0,VE106"
+  }
+}
