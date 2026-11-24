@@ -1,0 +1,82 @@
+{
+  "empty-records.csv": {
+    "bytes": 247,
+    "sha256": "0140a63ab5d1b128542a744162730c20061b7946cb1e8021622db706207de2c7"
+  },
+  "offline-workbook.xlsx": {
+    "bytes": 140112,
+    "sha256": "d6390cb656cede291c142822e01f88da43b817923332d602749487e00e1ee15f"
+  },
+  "desktop-team-health.png": {
+    "bytes": 23258,
+    "sha256": "81e3bb2362e153c07353414a9536a85a52b1fafe453dc46eb92c21a896714c5a"
+  },
+  "desktop-full-team-filter.png": {
+    "bytes": 3470,
+    "sha256": "5748de8f261c71be67b31f623da73afb46f36748e96ce53df035943e279f6f80"
+  },
+  "mobile.png": {
+    "bytes": 68128,
+    "sha256": "02fd882ce56798bcbd7726bc5a71b06ab5b3d07fc40e077d68c04de531864c7c"
+  },
+  "invalid.xlsx": {
+    "bytes": 14,
+    "sha256": "2f66dc481a54c04e20e01bf7a084eb9f2b95f856219a0f1607b9df45294cc47c"
+  },
+  "mobile-team-health.png": {
+    "bytes": 22718,
+    "sha256": "e31b062b3323019282288a86bac50286ff840f3c89b673e9b9e6b71c0157928b"
+  },
+  "dashboard.html": {
+    "bytes": 687361,
+    "sha256": "b66fc2a7cd232814d3cc2858ce623679c967eca6a5c3511751b9fc1e992da32b"
+  },
+  "mobile-detail.png": {
+    "bytes": 71457,
+    "sha256": "31872c783cac799c1a1d65ac90a90d11feb17d38b739b440f48da9fcc090b9f3"
+  },
+  "mobile-records.csv": {
+    "bytes": 249260,
+    "sha256": "5aceda9b0a90e0ccab9945e64ed21422c1879bf4ee472dce485a21a2b42bb1e8"
+  },
+  "uploaded-workbook.xlsx": {
+    "bytes": 140112,
+    "sha256": "d6390cb656cede291c142822e01f88da43b817923332d602749487e00e1ee15f"
+  },
+  "page-snapshot.html": {
+    "bytes": 687321,
+    "sha256": "4a1b6120913f4e4a9b2ba5191305ee50923f257b1bee1b2d0afe0797340e9241"
+  },
+  "desktop.png": {
+    "bytes": 121447,
+    "sha256": "7a63688121c86c536c0d0ae9f5858c54b4710a382a37591cfd067e6ecab27d26"
+  },
+  "all-records.csv": {
+    "bytes": 249260,
+    "sha256": "5aceda9b0a90e0ccab9945e64ed21422c1879bf4ee472dce485a21a2b42bb1e8"
+  },
+  "mobile-workbook.xlsx": {
+    "bytes": 140112,
+    "sha256": "d6390cb656cede291c142822e01f88da43b817923332d602749487e00e1ee15f"
+  },
+  "offline-records.csv": {
+    "bytes": 249260,
+    "sha256": "5aceda9b0a90e0ccab9945e64ed21422c1879bf4ee472dce485a21a2b42bb1e8"
+  },
+  "public-workbook.xlsx": {
+    "bytes": 140112,
+    "sha256": "d6390cb656cede291c142822e01f88da43b817923332d602749487e00e1ee15f"
+  },
+  "filtered-records.csv": {
+    "bytes": 10555,
+    "sha256": "5c329660f3845d2511125d60d07adc63a6be4a64ec69008f658ba9084d5925f5"
+  },
+  "uploaded-dashboard.html": {
+    "bytes": 686899,
+    "sha256": "8fe9f619079e9b69dba394a424c0f963c656198ae9ae8ade22ca3898c5853cea"
+  },
+  "mobile-full-team-filter.png": {
+    "bytes": 3555,
+    "sha256": "6e82aa687a8f01055e1d1fc39e779a964c4ed087930e856607a10733eff72f7a"
+  }
+}

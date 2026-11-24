@@ -1,45 +1,47 @@
 {
-  "url": "http://127.0.0.1:3000/",
-  "reportDate": "2026-11-08",
-  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx",
-  "sourceSha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550",
+  "url": "http://127.0.0.1:4174/",
+  "reportDate": "2026-11-15",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 15Nov2026 PST).xlsx",
+  "sourceSha256": "d6390cb656cede291c142822e01f88da43b817923332d602749487e00e1ee15f",
   "dashboardTitle": "IT & Technology Program Leadership Dashboard",
   "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
-  "records": 179,
+  "records": 195,
   "rags": {
-    "Green": 94,
-    "Amber": 85
+    "Green": 90,
+    "Amber": 105
   },
   "teamRags": {
     "IT Compliance Program": {
-      "Green": 5,
-      "Amber": 12
+      "Amber": 13,
+      "Green": 4
     },
     "IT Security": {
       "Green": 12,
-      "Amber": 1
+      "Amber": 2
     },
     "Infrastructure & Cloud": {
-      "Amber": 61,
-      "Green": 37
+      "Amber": 79,
+      "Green": 19
     },
     "IoT": {
       "Green": 5
     },
     "R&D AI": {
-      "Green": 9
+      "Green": 10
+    },
+    "Samba-Sharepoint Migration": {
+      "Green": 12
     },
     "UNIS ITEM- eHub integration": {
       "Amber": 3,
       "Green": 7
     },
     "UNIS.CO Email & Ticketing": {
-      "Green": 14,
-      "Amber": 2
+      "Green": 16
     },
     "WCS Engineering": {
       "Green": 5,
-      "Amber": 6
+      "Amber": 8
     }
   },
   "teamRagCombinations": [
@@ -76,16 +78,16 @@
       "Green"
     ],
     [
+      "Samba-Sharepoint Migration",
+      "Green"
+    ],
+    [
       "UNIS ITEM- eHub integration",
       "Amber"
     ],
     [
       "UNIS ITEM- eHub integration",
       "Green"
-    ],
-    [
-      "UNIS.CO Email & Ticketing",
-      "Amber"
     ],
     [
       "UNIS.CO Email & Ticketing",
@@ -100,25 +102,25 @@
       "Green"
     ]
   ],
-  "cascadeTransitions": 16,
+  "cascadeTransitions": 18,
   "teamRagMatrix": [
     {
       "team": "",
       "rag": "",
       "available": true,
-      "records": 179
+      "records": 195
     },
     {
       "team": "",
       "rag": "Amber",
       "available": true,
-      "records": 85
+      "records": 105
     },
     {
       "team": "",
       "rag": "Green",
       "available": true,
-      "records": 94
+      "records": 90
     },
     {
       "team": "",
@@ -136,13 +138,13 @@
       "team": "IT Compliance Program",
       "rag": "Amber",
       "available": true,
-      "records": 12
+      "records": 13
     },
     {
       "team": "IT Compliance Program",
       "rag": "Green",
       "available": true,
-      "records": 5
+      "records": 4
     },
     {
       "team": "IT Compliance Program",
@@ -160,7 +162,7 @@
       "team": "IT Security",
       "rag": "Amber",
       "available": true,
-      "records": 1
+      "records": 2
     },
     {
       "team": "IT Security",
@@ -172,7 +174,7 @@
       "team": "IT Security",
       "rag": "",
       "available": true,
-      "records": 13
+      "records": 14
     },
     {
       "team": "Infrastructure & Cloud",
@@ -184,13 +186,13 @@
       "team": "Infrastructure & Cloud",
       "rag": "Amber",
       "available": true,
-      "records": 61
+      "records": 79
     },
     {
       "team": "Infrastructure & Cloud",
       "rag": "Green",
       "available": true,
-      "records": 37
+      "records": 19
     },
     {
       "team": "Infrastructure & Cloud",
@@ -238,13 +240,37 @@
       "team": "R&D AI",
       "rag": "Green",
       "available": true,
-      "records": 9
+      "records": 10
     },
     {
       "team": "R&D AI",
       "rag": "",
       "available": true,
-      "records": 9
+      "records": 10
+    },
+    {
+      "team": "Samba-Sharepoint Migration",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "Samba-Sharepoint Migration",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "Samba-Sharepoint Migration",
+      "rag": "Green",
+      "available": true,
+      "records": 12
+    },
+    {
+      "team": "Samba-Sharepoint Migration",
+      "rag": "",
+      "available": true,
+      "records": 12
     },
     {
       "team": "UNIS ITEM- eHub integration",
@@ -279,14 +305,14 @@
     {
       "team": "UNIS.CO Email & Ticketing",
       "rag": "Amber",
-      "available": true,
-      "records": 2
+      "available": false,
+      "records": 0
     },
     {
       "team": "UNIS.CO Email & Ticketing",
       "rag": "Green",
       "available": true,
-      "records": 14
+      "records": 16
     },
     {
       "team": "UNIS.CO Email & Ticketing",
@@ -304,7 +330,7 @@
       "team": "WCS Engineering",
       "rag": "Amber",
       "available": true,
-      "records": 6
+      "records": 8
     },
     {
       "team": "WCS Engineering",
@@ -316,83 +342,17 @@
       "team": "WCS Engineering",
       "rag": "",
       "available": true,
-      "records": 11
+      "records": 13
     }
   ],
-  "unavailableTeamRagCombinations": 11,
+  "unavailableTeamRagCombinations": 14,
   "missingNotesRecordsRetained": [
     {
       "team": "IoT",
-      "row": 9
+      "row": 8
     }
   ],
-  "nonNumericCompletionRecords": [
-    {
-      "team": "IT Security",
-      "cell": "G5",
-      "value": "Not verified"
-    },
-    {
-      "team": "IT Security",
-      "cell": "G7",
-      "value": "Not verified"
-    },
-    {
-      "team": "IT Security",
-      "cell": "G8",
-      "value": "Not verified"
-    },
-    {
-      "team": "IT Security",
-      "cell": "G9",
-      "value": "Not verified"
-    },
-    {
-      "team": "IT Security",
-      "cell": "G11",
-      "value": "Not quantified"
-    },
-    {
-      "team": "IT Security",
-      "cell": "G13",
-      "value": "Not quantified"
-    },
-    {
-      "team": "IT Security",
-      "cell": "G14",
-      "value": "Not quantified"
-    },
-    {
-      "team": "Infrastructure & Cloud",
-      "cell": "G5",
-      "value": "Not verified"
-    },
-    {
-      "team": "Infrastructure & Cloud",
-      "cell": "G6",
-      "value": "Not verified"
-    },
-    {
-      "team": "Infrastructure & Cloud",
-      "cell": "G11",
-      "value": "Not verified"
-    },
-    {
-      "team": "Infrastructure & Cloud",
-      "cell": "G12",
-      "value": "Not verified"
-    },
-    {
-      "team": "Infrastructure & Cloud",
-      "cell": "G40",
-      "value": "Not verified"
-    },
-    {
-      "team": "Infrastructure & Cloud",
-      "cell": "G65",
-      "value": "Not verified"
-    }
-  ],
+  "nonNumericCompletionRecords": [],
   "dropdowns": {
     "Team": 1,
     "RAG": 1,
@@ -402,27 +362,11 @@
     "1440x1000",
     "390x844"
   ],
-  "passedAssertions": 42227,
+  "passedAssertions": 45621,
   "browserErrors": [],
   "failedRequests": [],
   "offlineDashboard": "PASS",
   "downloadHashes": "PASS",
   "csvDownloads": "PASS",
-  "status": "PASS",
-  "verifiedAtUtc": "2026-11-16T23:29:05.021684+00:00",
-  "scope": "Local rerun for latest same-week 08Nov revision _1; unpublished. Public baseline separately observed, not new revision verification.",
-  "freshMobileAssertions": 5640,
-  "combinedBrowserAssertions": 47867,
-  "staticChecks": {
-    "pythonCompile": "PASS",
-    "jsSyntax": "PASS, reader and all three inline scripts",
-    "ragRegressionTests": 4,
-    "refreshIdempotence": "PASS",
-    "cssUnchangedFromBaseline": true,
-    "arbitraryHostExactBytes": "PASS"
-  },
-  "frameworkBuildLintTypecheck": "Not applicable: standalone static HTML/JS with no package.json, build compiler or configured linter; Python and all JS syntax checks performed.",
-  "temporaryServer": "Stopped and awaited; port 3000 closed",
-  "priorRootReports": "reports/08nov-2026-original-published-baseline/",
-  "sourceIssueEvidence": "SOURCE_ISSUES.json"
+  "status": "PASS"
 }

@@ -17,12 +17,14 @@ parser = argparse.ArgumentParser()
 parser.add_argument('url')
 parser.add_argument('--workbook', type=Path, required=True)
 parser.add_argument('--report-date', required=True)
+parser.add_argument('--source-name', help='Original download filename when auditing the repository byte copy')
 parser.add_argument('--audit', type=Path, default=Path('qa-local/workbook-audit.json'))
 parser.add_argument('--output', type=Path, default=Path('qa-local'))
 args = parser.parse_args()
 out = args.output
 out.mkdir(parents=True, exist_ok=True)
 source = args.workbook.resolve()
+source_name = args.source_name or source.name
 sha = hashlib.sha256(source.read_bytes()).hexdigest()
 audit = json.loads(args.audit.read_text())
 reader = (Path(__file__).parent / 'workbook_reader.js').read_text()
@@ -65,7 +67,7 @@ try:
             check(target.evaluate('dashboardData.sourceFile') == source_name, 'Original source filename retained')
             check(target.locator('#sourceMeta').inner_text() == 'Source workbook: ' + source_name, 'Visible source filename including ampersand')
 
-        assert_branding(page, source.name)
+        assert_branding(page, source_name)
         check(page.locator('#uploadWeek').input_value() == args.report_date, 'Selected reporting week')
         check(page.evaluate('dashboardData.reportDate') == args.report_date, 'Correct weekly source date')
         check(page.evaluate('dashboardData.sourceSha256') == sha, 'Embedded source hash')
@@ -138,7 +140,8 @@ try:
             check({x['name'] for x in chart} == set(teams), 'Chart includes exact full worksheet names')
             check(not any(x['clipped'] for x in chart), 'Chart worksheet names wrap without clipping')
 
-        def filters(target=page, record_combinations=False):
+        def filters(target=None, record_combinations=False):
+            target = target or page
             target.click('#clear')
             assert_view(expected, target)
             assert_team_names(target)
@@ -270,7 +273,7 @@ try:
         for button, filename in [('#downloadWorkbook', 'public-workbook.xlsx'), ('#downloadDashboard', 'dashboard.html')]:
             with page.expect_download() as download:
                 page.click(button)
-            check(download.value.suggested_filename == (source.name if button == '#downloadWorkbook' else dashboard_filename), 'Original workbook or renamed dashboard suggested filename')
+            check(download.value.suggested_filename == (source_name if button == '#downloadWorkbook' else dashboard_filename), 'Original workbook or renamed dashboard suggested filename')
             download.value.save_as(out / filename)
             check('Download started:' in page.locator('#statusMessage').inner_text(), 'Visible download feedback')
         check(hashlib.sha256((out / 'public-workbook.xlsx').read_bytes()).hexdigest() == sha, 'Triggered workbook byte-identical')
@@ -278,7 +281,7 @@ try:
         observe(offline)
         context.set_offline(True)
         offline.goto((out / 'dashboard.html').resolve().as_uri())
-        assert_branding(offline, source.name)
+        assert_branding(offline, source_name)
         filters(offline)
         csv_download(offline, expected, 'offline-records.csv')
         uncertain_completion(offline)
@@ -288,7 +291,7 @@ try:
         offline.keyboard.press('Escape')
         with offline.expect_download() as dl:
             offline.click('#downloadWorkbook')
-        check(dl.value.suggested_filename == source.name, 'Offline original workbook suggested filename')
+        check(dl.value.suggested_filename == source_name, 'Offline original workbook suggested filename')
         dl.value.save_as(out / 'offline-workbook.xlsx')
         check(hashlib.sha256((out / 'offline-workbook.xlsx').read_bytes()).hexdigest() == sha, 'Offline workbook byte-identical')
         context.set_offline(False)
@@ -327,9 +330,12 @@ try:
         page.wait_for_function('document.getElementById("statusMessage").textContent.startsWith("Workbook not loaded:")')
         check(page.evaluate('dashboardData.reportDate') == next_week and page.evaluate('dashboardData.sourceSha256') == sha, 'Invalid upload preserves validated snapshot')
         check(not page.locator('#uploadWorkbook').is_disabled(), 'Upload input restored after error')
+        mobile_context = browser.new_context(accept_downloads=True, viewport={'width': 390, 'height': 844}, is_mobile=True, has_touch=True)
+        page = mobile_context.new_page()
+        observe(page)
         page.goto(args.url, wait_until='networkidle')
-        page.set_viewport_size({'width': 390, 'height': 844})
-        assert_branding(page, source.name)
+        check(not mobile_context.cookies(), 'Fresh anonymous mobile context without cookies')
+        assert_branding(page, source_name)
         filters()
         csv_download(page, expected, 'mobile-records.csv')
         uncertain_completion(page)
@@ -341,14 +347,14 @@ try:
         page.click('#close')
         with page.expect_download() as dl:
             page.click('#downloadWorkbook')
-        check(dl.value.suggested_filename == source.name, 'Mobile original workbook suggested filename')
+        check(dl.value.suggested_filename == source_name, 'Mobile original workbook suggested filename')
         dl.value.save_as(out / 'mobile-workbook.xlsx')
         check(hashlib.sha256((out / 'mobile-workbook.xlsx').read_bytes()).hexdigest() == sha, 'Mobile download byte-identical')
         check(not errors, 'Zero browser page/console errors')
         check(not failures, 'Zero failed network requests')
         check(hashlib.sha256(source.read_bytes()).hexdigest() == sha, 'Original attachment unchanged after all QA')
         browser.close()
-    summary = {'url': args.url, 'reportDate': args.report_date, 'sourceFile': source.name, 'sourceSha256': sha,
+    summary = {'url': args.url, 'reportDate': args.report_date, 'sourceFile': source_name, 'sourceSha256': sha,
                'dashboardTitle': brand, 'dashboardDownloadFilename': dashboard_filename,
                'records': total, 'rags': dict(totals), 'teamRags': team_totals,
                'teamRagCombinations': combinations, 'cascadeTransitions': len(cascade_cases),

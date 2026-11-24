@@ -1,0 +1,372 @@
+{
+  "url": "http://127.0.0.1:4174/",
+  "reportDate": "2026-11-15",
+  "sourceFile": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 15Nov2026 PST).xlsx",
+  "sourceSha256": "d6390cb656cede291c142822e01f88da43b817923332d602749487e00e1ee15f",
+  "dashboardTitle": "IT & Technology Program Leadership Dashboard",
+  "dashboardDownloadFilename": "IT & Technology Program Leadership Dashboard_Weekly.html",
+  "records": 195,
+  "rags": {
+    "Green": 90,
+    "Amber": 105
+  },
+  "teamRags": {
+    "IT Compliance Program": {
+      "Amber": 13,
+      "Green": 4
+    },
+    "IT Security": {
+      "Green": 12,
+      "Amber": 2
+    },
+    "Infrastructure & Cloud": {
+      "Amber": 79,
+      "Green": 19
+    },
+    "IoT": {
+      "Green": 5
+    },
+    "R&D AI": {
+      "Green": 10
+    },
+    "Samba-Sharepoint Migration": {
+      "Green": 12
+    },
+    "UNIS ITEM- eHub integration": {
+      "Amber": 3,
+      "Green": 7
+    },
+    "UNIS.CO Email & Ticketing": {
+      "Green": 16
+    },
+    "WCS Engineering": {
+      "Green": 5,
+      "Amber": 8
+    }
+  },
+  "teamRagCombinations": [
+    [
+      "IT Compliance Program",
+      "Amber"
+    ],
+    [
+      "IT Compliance Program",
+      "Green"
+    ],
+    [
+      "IT Security",
+      "Amber"
+    ],
+    [
+      "IT Security",
+      "Green"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Amber"
+    ],
+    [
+      "Infrastructure & Cloud",
+      "Green"
+    ],
+    [
+      "IoT",
+      "Green"
+    ],
+    [
+      "R&D AI",
+      "Green"
+    ],
+    [
+      "Samba-Sharepoint Migration",
+      "Green"
+    ],
+    [
+      "UNIS ITEM- eHub integration",
+      "Amber"
+    ],
+    [
+      "UNIS ITEM- eHub integration",
+      "Green"
+    ],
+    [
+      "UNIS.CO Email & Ticketing",
+      "Green"
+    ],
+    [
+      "WCS Engineering",
+      "Amber"
+    ],
+    [
+      "WCS Engineering",
+      "Green"
+    ]
+  ],
+  "cascadeTransitions": 18,
+  "teamRagMatrix": [
+    {
+      "team": "",
+      "rag": "",
+      "available": true,
+      "records": 195
+    },
+    {
+      "team": "",
+      "rag": "Amber",
+      "available": true,
+      "records": 105
+    },
+    {
+      "team": "",
+      "rag": "Green",
+      "available": true,
+      "records": 90
+    },
+    {
+      "team": "",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Amber",
+      "available": true,
+      "records": 13
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "Green",
+      "available": true,
+      "records": 4
+    },
+    {
+      "team": "IT Compliance Program",
+      "rag": "",
+      "available": true,
+      "records": 17
+    },
+    {
+      "team": "IT Security",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IT Security",
+      "rag": "Amber",
+      "available": true,
+      "records": 2
+    },
+    {
+      "team": "IT Security",
+      "rag": "Green",
+      "available": true,
+      "records": 12
+    },
+    {
+      "team": "IT Security",
+      "rag": "",
+      "available": true,
+      "records": 14
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Amber",
+      "available": true,
+      "records": 79
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "Green",
+      "available": true,
+      "records": 19
+    },
+    {
+      "team": "Infrastructure & Cloud",
+      "rag": "",
+      "available": true,
+      "records": 98
+    },
+    {
+      "team": "IoT",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "IoT",
+      "rag": "Green",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "IoT",
+      "rag": "",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "R&D AI",
+      "rag": "Green",
+      "available": true,
+      "records": 10
+    },
+    {
+      "team": "R&D AI",
+      "rag": "",
+      "available": true,
+      "records": 10
+    },
+    {
+      "team": "Samba-Sharepoint Migration",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "Samba-Sharepoint Migration",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "Samba-Sharepoint Migration",
+      "rag": "Green",
+      "available": true,
+      "records": 12
+    },
+    {
+      "team": "Samba-Sharepoint Migration",
+      "rag": "",
+      "available": true,
+      "records": 12
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Amber",
+      "available": true,
+      "records": 3
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "Green",
+      "available": true,
+      "records": 7
+    },
+    {
+      "team": "UNIS ITEM- eHub integration",
+      "rag": "",
+      "available": true,
+      "records": 10
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Amber",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "Green",
+      "available": true,
+      "records": 16
+    },
+    {
+      "team": "UNIS.CO Email & Ticketing",
+      "rag": "",
+      "available": true,
+      "records": 16
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Red",
+      "available": false,
+      "records": 0
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Amber",
+      "available": true,
+      "records": 8
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "Green",
+      "available": true,
+      "records": 5
+    },
+    {
+      "team": "WCS Engineering",
+      "rag": "",
+      "available": true,
+      "records": 13
+    }
+  ],
+  "unavailableTeamRagCombinations": 14,
+  "missingNotesRecordsRetained": [
+    {
+      "team": "IoT",
+      "row": 8
+    }
+  ],
+  "nonNumericCompletionRecords": [],
+  "dropdowns": {
+    "Team": 1,
+    "RAG": 1,
+    "total": 2
+  },
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "passedAssertions": 45621,
+  "browserErrors": [],
+  "failedRequests": [],
+  "offlineDashboard": "PASS",
+  "downloadHashes": "PASS",
+  "csvDownloads": "PASS",
+  "status": "PASS"
+}

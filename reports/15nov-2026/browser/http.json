@@ -1,0 +1,11 @@
+{
+  "url": "http://127.0.0.1:4174/",
+  "status": 200,
+  "headers": {
+    "content-length": "548965",
+    "content-type": "text/html",
+    "date": "Tue, 24 Nov 2026 01:53:34 GMT",
+    "last-modified": "Tue, 24 Nov 2026 01:47:44 GMT",
+    "server": "SimpleHTTP/0.6 Python/3.11.6"
+  }
+}

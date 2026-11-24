@@ -1,0 +1,839 @@
+IT & Technology Program Leadership Dashboard
+
+Weekly IT & Technology program leadership reporting | Week of Nov 15, 2026 | Reported as provided
+
+Find a workstream
+Reporting week
+Upload weekly workbook
+Clear filters
+Download filtered CSV
+Download source workbook
+Download IT & Technology Program Leadership Dashboard
+195 valid workbook records shown of 195. Weekly-only view.
+Source workbook: IT & Technology Project_Portfolios_2026_v1.0 (Week of 15Nov2026 PST).xlsx
+195100%
+Visible records
+10554%
+Amber
+9046%
+Green
+Team
+All teams
+Infrastructure & Cloud
+IoT
+IT Compliance Program
+IT Security
+R&D AI
+Samba-Sharepoint Migration
+UNIS ITEM- eHub integration
+UNIS.CO Email & Ticketing
+WCS Engineering
+RAG
+All applicable RAGs
+Amber
+Green
+Choose a Team first; RAG lists only applicable values.
+Health by team
+Infrastructure & Cloud
+98
+IoT
+5
+IT Compliance Program
+17
+IT Security
+14
+R&D AI
+10
+Samba-Sharepoint Migration
+12
+UNIS ITEM- eHub integration
+10
+UNIS.CO Email & Ticketing
+16
+WCS Engineering
+13
+Completion
+73%
+Average reported completion for visible records with a numeric value
+Workstream	Team	RAG	Completion	Estimated delivery date	Status	Owner	Management attention
+
+PCI Payment Data Environment
+#1 | Source row 2
+	IT Security	Green	30%	TBD — not supplied	Green	Qingmin Li — PCI technical lead / Robert Moreno — program coordination	Maintain Amber at 30% until the payment-data flow, in-scope systems, storage, encryption and logging evidence are validated.
+
+Web Security
+#2 | Source row 3
+	IT Security	Amber	75%	TBD — not supplied	In Progress	Robert Moreno / replacement for Mike Wang not confirmed for this workstream	Requires selection and procurement decision.
+
+DNS Security
+#3 | Source row 4
+	IT Security	Amber	50%	TBD — not supplied	On Hold	Robert Moreno / replacement for Mike Wang not confirmed for this workstream	Select key branches and phase deployment.
+
+Security Awareness & Incident Response
+#4 | Source row 5
+	IT Security	Green	60%	TBD — not supplied	Implementation partially complete / closure evidence pending	Robert Moreno / replacement for Mike Wang not confirmed for this workstream	Maintain Amber at 60%. Require training records, phishing-simulation results and incident-response drill evidence before closure.
+
+Network MFA Rollout
+#5 | Source row 6
+	IT Security	Green	90%	TBD — not supplied	Pilot complete / admin MFA pending	Jerimar Castaneda / IT Team	Maintain Amber at 90% until the administrator MFA method, rollout date and closure evidence are confirmed.
+
+Ticket 23527 Monitoring Access Review
+#6 | Source row 7
+	IT Security	Green	85%	TBD — not supplied	Technical migration advanced / authorization evidence pending	Mel Gutierrez / China Engineering / Olly Chen / Approver	Maintain Amber at 85%. Require the approved access matrix and group-restricted authorization evidence before closure.
+
+Windows 10 Security Remediation
+#7 | Source row 8
+	IT Security	Green	20%	TBD — not supplied	Inventory and compatibility assessment pending	Mel Gutierrez / Robert Moreno / Mike Wang / Robotics Team	Maintain Amber at 20%. Approve a risk-ranked inventory and phased upgrade or replacement plan before increasing completion.
+
+Dedicated Teams Room PC Security
+#8 | Source row 9
+	IT Security	Green	70%	TBD — not supplied	Technical setup advanced / security remediation pending	Mel Gutierrez / Jesse Webb / Armin / Business Owner	Maintain Amber at 70%. Require a dedicated licensed identity, endpoint controls and accountable ownership before closure.
+
+Amazon SP-PII Security Certification 2026
+#9 | Source row 10
+	IT Security	Green	95%	TBD — not supplied	138 tasks submitted / final reviewer acceptance pending	Qingmin Li / Robert Moreno / Linker Department	Maintain Amber at 95%. Move to 100% only after final reviewer acceptance and evidence retention are confirmed.
+
+PCI DSS v4.0.1 — SAQ-D & Linker Delivery
+#10 | Source row 11
+	IT Security	Green	90%	30-Nov-2026 target — conditional; Linker due 31-Dec-2026	ATSEC review complete / merchant confirmation and signatures pending	Qingmin Li — technical / ATSEC liaison; Stacy Nguyen — verification coordination; Robert Moreno — program; ATSEC — Part 3c; Part 3b signer and package sender — TBC; Victor Cui — Linker recipient	Maintain Amber at 90%. Confirm merchant data, authorized Part 3b signer, ATSEC Part 3c signature and release ownership before delivery.
+
+PCI DSS v4.0.1 — Vanta Controls
+#11 | Source row 12
+	IT Security	Green	59%	31-Dec-2026 target — remaining work may extend	In progress / remaining Vanta controls require assignment and evidence	Qingmin Li — implementation lead; individual Vanta task owners — TBC; Robert Moreno — program coordination	Maintain Amber at 59%. Require a risk-ranked task plan with accountable owners, due dates and evidence before improving completion.
+
+PCI DSS — Quarterly ASV Evidence
+#12 | Source row 13
+	IT Security	Green	65%	Around 25-Nov-2026 — report expected	ASV service active / current report pending	ATSEC — ASV provider; Qingmin Li — coordination / evidence; remediation owners — TBC	Maintain Amber at 65%. Confirm receipt, scope and passing status, and complete remediation or rescan if required.
+
+PCI DSS — Penetration-Test Evidence
+#13 | Source row 14
+	IT Security	Green	85%	Aug-2026 evidence reported; next update expected 27-Aug-2027	Evidence available / suitability and independence documentation pending	Qingmin Li — tester / evidence owner; ATSEC — assessment coordination; authorized merchant signer — TBC	Maintain Amber at 85%. Confirm accessible reports, scope, findings closure, tester competence and independence documentation.
+
+UNIS SOC 2 Type I — System Description and Penetration-Test Clarifications
+#14 | Source row 15
+	IT Security	Green	90%	Final quality-review submission pending clarification response	System Description edits addressed / final penetration-test clarifications pending	Qingmin Li — technical and penetration-test evidence / Robert Moreno — program coordination / Dillon Pusateri — Johanson audit lead / Vincent Tian and Stacy Nguyen — oversight	Maintain Amber at 90%. Treat the clarification response and high-risk remediation status as the final gates before Johanson quality review.
+
+QTS Data Center Service Reactivation
+#1 | Source row 2
+	Infrastructure & Cloud	Amber	55%	TBD - after equipment, access, rack, power, connectivity, and service-readiness validation	Contract transfer signed / equipment verification and operational readiness pending	Robert Moreno / Stacy Nguyen / Tom Yu / David Rodriguez / Mike Wang / Yangyang Yang / Network Support / Infrastructure and Security Teams / QTS	Treat contract execution as a completed milestone only. Require an evidence-based equipment inventory, documented security and recovery history, Tom’s build-direction decision, named site-readiness owner, and confirmed QTS facility capabilities before approving deployment dates or declaring the site operational.
+
+QTS Backup Data Center Strategy
+#2 | Source row 3
+	Infrastructure & Cloud	Amber	40%	TBD - after equipment suitability, service requirements, site readiness, and architecture approval	Proposed service scope defined / architecture, platform, capacity, and recovery requirements pending	Mike Wang / Robert Moreno / Tom Yu / Stacy Nguyen / David Rodriguez / Yangyang Yang / Network Support / Application Owners / Infrastructure, Security, Backup, and QTS Teams	Approve the workload scope, recovery objectives, platform decision, accountable owners, budget, and validation plan before build. Require a fresh and secure implementation path unless management explicitly authorizes justified legacy recovery. Do not classify QTS as backup-ready until deployment, access, replication, failover, restoration, and evidence-based testing are completed.
+
+Atlanta 6150 LaGrange Internet
+#3 | Source row 4
+	Infrastructure & Cloud	Green	95%	Field work targeted after 2026-11-22; completion confirmation pending	AT&T 100 Mbps circuit installed / Everett field connection and production acceptance pending	Everett / Erik Solis / David Rodriguez / Atlanta Operations / Network Engineering	Keep Amber at 95% until end-to-end validation and site acceptance are documented.
+
+6150 LaGrange Network Design
+#4 | Source row 5
+	Infrastructure & Cloud	Green	90%	TBD after onsite acceptance and documented design review	Initial design remains open / final network plan and implementation review pending	Mike Wang, Robert, Network Team	Approve the final design only after the field connection and production validation are complete.
+
+6150 LaGrange Wi-Fi / Heatmap
+#5 | Source row 6
+	Infrastructure & Cloud	Green	100%	TBD after final network connection and onsite wireless validation	Wi-Fi planning remains open / heatmap, AP placement and port mapping not evidenced complete	Mike Wang, Robert, Network Team	Keep this workstream open until survey evidence and site acceptance are recorded.
+
+ISP / Circuit Optimization
+#6 | Source row 7
+	Infrastructure & Cloud	Green	85%	TBD by site, carrier, return and final-billing closure	Multi-site activations, cutovers, disconnects, returns, relocations and billing recovery remain active	Robert Moreno / Erik Solis / David Rodriguez / Everett / Network Engineering / Site Operations / Accounting / Carrier Teams	Review the open carrier register weekly and escalate any missed date, unposted credit, unconfirmed return or circuit without an approved destination.
+
+Atlanta / Network Standardization
+#7 | Source row 8
+	Infrastructure & Cloud	Green	85%	TBD after LaGrange acceptance and template closeout	Standardization framework defined / latest LaGrange implementation evidence still pending	Mike Wang, Robert, Network Team	Require a completed as-built and acceptance package before calling the standard operational.
+
+Wireless Survey Tools
+#8 | Source row 9
+	Infrastructure & Cloud	Amber	88%	TBD after vendor response and purchase approval	Ekahau purchase path identified / vendor confirmation, approval and order placement pending	Robert Moreno / Mahan Sasani / David Rodriguez / Procurement / Local Resellers	Keep Amber at 88% until the purchase is placed and delivery and license ownership are confirmed.
+
+Alessandro Wi-Fi Remediation
+#9 | Source row 10
+	Infrastructure & Cloud	Green	85%	TBD after equipment installation and end-to-end acceptance	Site assessment complete / AP replacement, second-floor switching, cabling and acceptance work remain open	Mahan Sasani / David Rodriguez / Network Support / Alessandro Operations / Stacy Nguyen	Set a readiness date and require a passed test record before staff relocation. Escalate equipment, cabling or access blockers immediately.
+
+Long Beach – Backup Connectivity
+#10 | Source row 11
+	Infrastructure & Cloud	Green	80%	TBD after primary and temporary connectivity assessment	Conditional backup option remains unevaluated / business need and acceptance criteria unconfirmed	Mike Wang, Robert, Network Team	Decision only if AT&T capacity is insufficient.
+
+Atlas / Camera Access Security
+#11 | Source row 12
+	Infrastructure & Cloud	Green	100%	TBD after access review and remediation validation	Camera least-privilege and domain-sync remediation - completed	Mike Wang, Robert, Network Team	Confirm owner, remediation ETA, and temporary access restrictions if needed.
+
+Stimson Power Panel, Equipment and UPS Transition
+#12 | Source row 13
+	Infrastructure & Cloud	Green	90%	TBD - after destination and facilities approval	Move scope and destinations pending / UPS transfer dependent on Walnut readiness	Mahan Sasani / David Rodriguez / Jorge Reyes / Cubework / Facilities / Robert Moreno / Server Owners	Require approved placement, load, cooling, transport, outage, and recovery plans before transfer. 13-Nov context: Walnut server-hosting role remains undecided and migration-related internet upgrade is on hold; confirm approved site scope before committing move-related spend or outages.
+
+Buena Park – Conference Room
+#13 | Source row 14
+	Infrastructure & Cloud	Green	100%	TBD after room access is scheduled	Conference-room troubleshooting not started / maintenance window still required	Mike Wang, Robert, Network Team	Local office assistance may be needed to reserve the room.
+
+LaGrange, Atlanta – Field Network Activities
+#14 | Source row 15
+	Infrastructure & Cloud	Green	90%	Field completion confirmation pending after 2026-11-22 weekend target	Everett field visit targeted / final connection and acceptance not yet confirmed	Mike Wang, Robert, Network Team	Confirm outstanding field work and acceptance before closure; escalate missed commitments.
+
+MDM Migrate to ManageEngine Endpoint Central
+#15 | Source row 16
+	Infrastructure & Cloud	Green	100%	TBD	Completed	Mike Wang, Robert, Network Team	Escalate existing case if required.
+
+Walnut Migration
+#16 | Source row 17
+	Infrastructure & Cloud	Amber	55%	TBD after approved placement, cleanup and readiness acceptance	Migration remains active / server placement, cleanup and facilities dependencies open	Mike Wang, Robert, Network Team	Do not equate prior Walnut work with approval to host Buena Park production systems.
+
+Walnut Wi-Fi Correction, Mac Roaming & Failover Validation
+#17 | Source row 18
+	Infrastructure & Cloud	Green	90%	TBD - after onsite reproduction and evidence-based failover validation	SSID corrected / Mac roaming investigation and failover evidence pending	Mahan Sasani / Jerimar Castaneda / Kuan Goh / Christine / Network Engineering / Walnut Users	Require reproducible evidence, corrective-action records, affected-user acceptance, and a documented failover test before closure.
+
+Walnut DC Network Optimization
+#18 | Source row 19
+	Infrastructure & Cloud	Amber	65%	TBD after approved Walnut role and capacity decision	Optimization and capacity assessment open / migration-related ISP upgrade remains on hold	Erik Solis / Robert Moreno / Jerimar Castaneda / Mahan Sasani / Leadership / Network Team	Do not authorize a Walnut upgrade or assume it is the primary server destination without a recorded decision. Original 100% is unsupported by the task-based narrative.
+
+Davao SFTP Server Request
+#19 | Source row 20
+	Infrastructure & Cloud	Amber	40%	TBD after complete SFTP requirements and security approval	Requirements and approval remain incomplete / implementation not started	Robert Moreno / Mike Wang / Chi wei / Jerimar / Peng Gao / Mel Gutierrez	Require written requirements and security approval before configuration.
+
+Alessandro Network, Server Room and Office Readiness
+#20 | Source row 21
+	Infrastructure & Cloud	Amber	68%	TBD before incoming staff and Marcos equipment move	Site assessment complete / cleanup, equipment placement, switching, cabling and Wi-Fi work remain open	Mahan Sasani / David Rodriguez / Network Support / Facilities / Alessandro Operations / Marcos Team / Stacy Nguyen	Approve the room and network only after a documented readiness checklist and test record are complete.
+
+AP10 and Gateway Recovery - 2131 Willow
+#21 | Source row 22
+	Infrastructure & Cloud	Green	100%	2026-10-30	Gateway replacement and 10G uplink upgrade completed / post-change monitoring pending	Mahan Sasani / Jerimar Castaneda / Willow Operations / Network Support / Robert Moreno	Treat implementation as complete. Require post-change evidence before closing the incident record permanently.
+
+Joliet Fiber, IDF, Wireless & Workstation Readiness
+#22 | Source row 23
+	Infrastructure & Cloud	Amber	82%	TBD - after remaining wiring, upgrades, scanner tests, and Operations acceptance	Wired workstations more stable / remaining cabling, endpoint performance and wireless validation open	David Rodriguez / Javier Montane / Steven Garcia / Network Support / Joliet Operations / Robert Moreno	Maintain Amber until all active stations are validated on wired LAN, priority hardware is remediated, scanner/Wi-Fi testing is complete, and Operations signs off. Require IT review before new floor equipment is deployed.
+
+Joliet CCTV VLAN and HikCentral Integration
+#23 | Source row 24
+	Infrastructure & Cloud	Amber	45%	TBD after NVR, camera and electrical validation	Dedicated CCTV VLAN created / one of three NVRs added; 40–50 new cameras and electrical risks remain open	David Rodriguez / Jared Mark / Mahan Sasani / Joliet Operations / Network Support / Facilities	Prioritize new cameras and electrical safety. Do not migrate the 70–80 active cameras until the new-camera phase is stable and a controlled window is approved.
+
+Tolleson AZ Facility Decommission
+#24 | Source row 25
+	Infrastructure & Cloud	Amber	80%	TBD	Historical September decommission window / completion evidence not supplied	David Rodriguez / Network Team	Verify actual decommission and building handback status. Baseline 21–25 Sep work window and 30-Sep building return are historical targets, not current commitments.
+
+MoFi Router and Mobile Hotspot Review
+#25 | Source row 26
+	Infrastructure & Cloud	Amber	80%	TBD	In Progress	Robert Moreno / David Rodriguez / Jerimar Castaneda / Mahan Sasani	Keep the workstream open through final billing confirmation.
+
+MoFi Router, Mobile Hotspot and Field Inventory Review
+#26 | Source row 27
+	Infrastructure & Cloud	Amber	80%	TBD - after physical and billing reconciliation	Central tracker update pending / ownership and return reconciliation open	David Rodriguez / Robert Moreno / Jerimar Castaneda / Mahan Sasani / Accounting / Carrier Teams	Keep Amber until the physical inventory, tracker, carrier records, and billing are reconciled.
+
+Buena Park Closure & Infrastructure Transition
+#27 | Source row 28
+	Infrastructure & Cloud	Amber	80%	TBD after destination readiness, move dates and acceptance plans are approved	Buena Park closure in progress / two critical servers assigned to LAX; Alessandro equipment fit and move dates pending	Robert Moreno / Mahan Sasani / David Rodriguez / Stacy Nguyen / Marcos Team / LAX M-Theory / Facilities	Require destination-specific checklists and approved move dates before transporting equipment.
+
+Local Server, Hyper-V & UNISCO.com Infrastructure Handoff
+#28 | Source row 29
+	Infrastructure & Cloud	Amber	70%	TBD after Stacy confirms destination and owners accept the plan	Server inventory and ownership consolidation in progress / two China engineering servers require destination decision	Robert Moreno / Stacy Nguyen / Mahan Sasani / David Rodriguez / China Engineering / Server Owners	Obtain an explicit destination decision before finalizing LAX and Alessandro move scope.
+
+HikCentral HTTPS Service
+#29 | Source row 30
+	Infrastructure & Cloud	Green	100%	N/A	HTTPS restoration complete / stability and root-cause follow-up open	Jerimar Castaneda / Application owner	Escalate only if service or logs show a recurrence.
+
+SBW650 Web Remote Desktop
+#30 | Source row 31
+	Infrastructure & Cloud	Amber	85%	N/A	Remote desktop unavailable / troubleshooting and successful-session test complete	Armin / Billy Rivas	Track the troubleshooting result and escalate if specialist support is needed.
+
+Laptop Image to Virtual Machine
+#31 | Source row 32
+	Infrastructure & Cloud	Amber	90%	N/A	Image-to-VM work in progress / owner and acceptance complete	Mahan Sasani / request owner (TBD)	Assign the request owner and agree on acceptance criteria.
+
+CW108 ISO Preparation
+#32 | Source row 33
+	Infrastructure & Cloud	Amber	25%	TBD after ownership review	ISO scope, accountable owner and next steps remain undefined	Robert Moreno / Yangyang Yang / Compliance and Security Owners (TBD)	Require a written scope, owner, priority, and decision record before treating the initiative as active or complete.
+
+UniFi Optimization Application
+#33 | Source row 34
+	Infrastructure & Cloud	Amber	70%	TBD after test and release acceptance	Application development in progress / testing and deployment schedule not evidenced complete	Jerimar Castaneda / Network Engineering / Mike Wang	Confirm scope, target date, pilot site, and validation requirements before operational adoption.
+
+Walnut Electrical, Cooling & Facilities Readiness
+#34 | Source row 35
+	Infrastructure & Cloud	Amber	90%	TBD after APC UPS and room-readiness acceptance	Electrical work reported complete / final UPS and migration-phase readiness validation remains open	Mahan Sasani / David Rodriguez / Jorge Reyes / Facilities / APC / Server Owners / Robert Moreno	Do not authorize the next migration phase until UPS and facility readiness are evidenced. 13-Nov context: Walnut server-hosting role remains undecided and migration-related internet upgrade is on hold; confirm approved site scope before committing move-related spend or outages.
+
+Walnut Cooling Approval & Installation
+#35 | Source row 36
+	Infrastructure & Cloud	Amber	75%	TBD - after Steve approval and contractor schedule	Scope and quote available / Steve approval and installation schedule pending	Steve Kim / Jorge Reyes / Mahan Sasani / Stacy Nguyen / Tom Yu / Kuan Goh / Facilities / Vendor / Robert Moreno	Maintain Red until written approval, scheduled installation, commissioning results, and temperature acceptance are documented. 13-Nov context: Walnut server-hosting role remains undecided and migration-related internet upgrade is on hold; confirm approved site scope before committing move-related spend or outages.
+
+Alessandro AP Naming & Mapping Backlog
+#36 | Source row 37
+	Infrastructure & Cloud	Amber	75%	TBD - after map publication and validation	Additional AP reported installed / verified map and completed test record pending	David Rodriguez / Mahan Sasani / Jerimar Castaneda / Network Engineering / Alessandro Operations	Require controller-to-map reconciliation and documented tests before backlog closure.
+
+Alessandro AP Naming & Mapping Backlog
+#37 | Source row 38
+	Infrastructure & Cloud	Amber	85%	TBD - before coverage testing	Map substantially complete / two Aruba MACs and UniFi identification pending	David Rodriguez / Mahan Sasani / Jerimar Castaneda / Network Engineering / Alessandro Operations	Keep Amber until controller-to-map reconciliation and documented coverage testing are complete.
+
+Dynamics GP Support Ownership
+#38 | Source row 39
+	Infrastructure & Cloud	Green	100%	N/A	Documentation ownership requires confirmation - complete	Finance / Help Desk / Yangyang Yang / Infrastructure Team / Application Owner (TBD) / Robert Moreno	Assign named business and technical owners and a documentation completion date. Do not close the workstream until the support path and authoritative records are published.
+
+China Level 2 and 3CX/Twilio Support Coverage
+#39 | Source row 40
+	Infrastructure & Cloud	Amber	70%	TBD after 3CX and Twilio support ownership is documented	Rotating support confirmed / telephony escalation model and closure evidence remain incomplete	Billy Rivas / Chris (as named in source) / Stacy Nguyen / Yangyang Yang / China Support / Robert Moreno	Treat rotating coverage as an operational fact, not proof all support work is complete. Confirm service escalation and backup ownership.
+
+Charleston Circuit Transition - 1701 / 1301
+#40 | Source row 41
+	Infrastructure & Cloud	Amber	80%	TBD — 13-Nov activation target unconfirmed; 1301 ship date pending	1701 installed but inactive / activation escalated; 1301 equipment shipment pending	Erik Solis / David Rodriguez / Huy / Charleston Onsite Team / Robert Moreno / Carrier	Reviewer Red: permanent service remains inactive despite order closure. Obtain activation evidence and preserve temporary connectivity; do not declare the transition complete.
+
+6200 St. Johns MPOE Relocation
+#41 | Source row 42
+	Infrastructure & Cloud	Amber	80%	TBD — revised appointment pending	AT&T third-floor move being rescheduled / elevator-line coordination open	Erik Solis / Casey / Field IT / AT&T / Site Operations	Keep Amber until both carriers are installed and tested at the third-floor MPOE.
+
+1228 Cornerway San Antonio Circuit Cutover
+#42 | Source row 43
+	Infrastructure & Cloud	Amber	95%	TBD after old service termination and equipment-return confirmation	New AT&T circuit cut over to existing USG / old circuit termination and equipment return pending	Erik Solis / Everett / David Rodriguez / Network Engineering / AT&T / San Antonio Operations	Keep Amber at 95% until termination, return tracking and final billing are confirmed.
+
+Production Avenue Fontana ETF & Billing Recovery
+#43 | Source row 44
+	Infrastructure & Cloud	Amber	88%	TBD after AT&T documentation and posted credit	Circuit disconnected / ETF credit verbally approved but written confirmation and posting remain pending	Erik Solis / Accounts Payable / AT&T / Robert Moreno	Keep open until the credit is posted and reconciled; do not report a verbal indication as completed recovery.
+
+Torrance Circuit Relocation & Equipment Return
+#44 | Source row 45
+	Infrastructure & Cloud	Amber	90%	TBD after router return and final bill	Disconnect in process / ETF waived and return label issued; router return confirmation pending	Erik Solis / David Rodriguez / Field Team / AT&T / Accounting	Require carrier receipt, written waiver and final invoice before closure.
+
+Suffolk Verizon Circuit Relocation
+#45 | Source row 46
+	Infrastructure & Cloud	Amber	75%	TBD - before Jun-2027 contract end or approved alternative	Site vacated / Verizon circuit destination still pending	Robert Moreno / Erik Solis / Verizon / Site Operations	Select a destination or approved alternative before avoidable cost accumulates.
+
+Norcross AT&T Disconnect & Billing Dispute
+#46 | Source row 47
+	Infrastructure & Cloud	Amber	72%	TBD — equipment, invoice and ETF-posting dependent	Disconnect order in process / equipment return evidence and billing dispute remain open	David Rodriguez / Accounts Payable / Erik Solis / AT&T / Robert Moreno	Escalate the equipment and billing items through alternate carrier and site contacts.
+
+Douglasville AT&T Modem Return
+#47 | Source row 48
+	Infrastructure & Cloud	Amber	78%	TBD — field pickup/return date pending	Disconnect placed / modem moved to LaGrange and still requires UPS-store return	David Rodriguez / Field Team / Erik Solis / AT&T	Close only after serial, tracking and carrier acceptance are recorded.
+
+Goodyear Cox Disconnect
+#48 | Source row 49
+	Infrastructure & Cloud	Amber	90%	TBD - after final invoice	Cox disconnect completed / final zero-balance bill pending	Erik Solis / Accounts Payable / Cox	Close after zero-balance evidence is received.
+
+Greenwood Circuit Decommission Planning
+#49 | Source row 50
+	Infrastructure & Cloud	Amber	75%	TBD - aligned to facility closure	Facility decommission expected / disconnect approval and date pending	David Rodriguez / Robert Moreno / Erik Solis / Greenwood Operations / AT&T	Align the disconnect date to the approved operational closure.
+
+Analog POTS Line Review
+#50 | Source row 51
+	Infrastructure & Cloud	Amber	25%	TBD - after full carrier and site inventory	Enterprise analog-line review pending / no AT&T POTS lines identified to date	Erik Solis / Robert Moreno / Network Engineering / Facilities / Site Operations / Carriers	Require business-owner validation before any line cancellation.
+
+LAX Data Center Server Hosting Assessment
+#51 | Source row 52
+	Infrastructure & Cloud	Amber	75%	TBD after M-Theory validates the full inventory and provides pricing	Full LAX equipment list being assembled / rack, power, cabling and pricing confirmation pending	Mahan Sasani / Robert Moreno / Wayne Reed / Bailey Blunt / M-Theory / David Rodriguez / Server Owners	Do not approve migration dates or budget until M-Theory confirms the inventory is sufficient for capacity planning and pricing.
+
+LAX Data Center Power Upgrade & Placement Decision
+#52 | Source row 53
+	Infrastructure & Cloud	Amber	65%	TBD after capacity calculation, proposal and approved power cutover plan	Current 120 V / 30 A A+B cabinet near redundant-capacity limit / 208 V design and approval pending	Wayne Reed / Bailey Blunt / M-Theory / Mahan Sasani / Robert Moreno / Network and Server Teams	Require a written capacity calculation and controlled cutover plan before approving 208 V or additional equipment.
+
+Buena Park Critical Server Relocation to LAX
+#53 | Source row 54
+	Infrastructure & Cloud	Amber	72%	TBD after LAX capacity and move-window approval	Two critical servers assigned to LAX / rails, inventory acceptance and move controls pending	Mahan Sasani / David Rodriguez / Robert Moreno / M-Theory / Marcos Team / Server Owners	Treat destination as confirmed, but do not schedule the move until LAX readiness and acceptance controls are approved.
+
+Alessandro Marcos Equipment Readiness
+#54 | Source row 55
+	Infrastructure & Cloud	Amber	60%	TBD after room readiness and approved equipment list	Destination identified / closet cleanup, equipment fit, power, network and move date pending	Mahan Sasani / David Rodriguez / Marcos Team / Alessandro Operations / Facilities / Robert Moreno	Require a signed room-readiness checklist before transport.
+
+Heacock Wireless Bridges, Cameras & YMS Network Readiness
+#55 | Source row 56
+	Infrastructure & Cloud	Amber	85%	TBD - after camera installation, YMS validation, and Operations acceptance	Bridge connectivity installed / camera work continuing and end-to-end acceptance pending	David Rodriguez / Marco and Team / Mahan Sasani / Camera and AI Team / Network Engineering / Heacock Operations / Robert Moreno	Keep Amber until the remaining installation scope, test evidence, and Operations acceptance are recorded.
+
+175 Cesanek Site Decommission
+#56 | Source row 57
+	Infrastructure & Cloud	Amber	95%	TBD - after Hypercore and Verizon billing closure	Physical decommission complete / Hypercore and Verizon disconnects and final billing remain in process	David Rodriguez / Erik Solis / Buena Park Receiving / Hypercore / Verizon / Accounting	Close only after final carrier and asset evidence is complete.
+
+Mail Server Vulnerability & Disposition
+#57 | Source row 58
+	Infrastructure & Cloud	Amber	70%	TBD	Reuse blocked / owner and replacement plan pending	Mike Wang / Yangyang Yang / Email and Infrastructure Owners / Security Team / Robert Moreno	Assign an owner immediately and approve the security containment and disposition path before reuse or shutdown.
+
+remote.unisco.com Configuration Investigation
+#58 | Source row 59
+	Infrastructure & Cloud	Amber	70%	TBD	Investigation required / change source unknown	Mike Wang / Server Owner (TBD) / Infrastructure Team / Security Team / Yangyang Yang / Robert Moreno	Treat as an infrastructure and security investigation. Preserve evidence and require approved recovery and post-change validation.
+
+Customer Support Outage Contingency & DR Readiness
+#59 | Source row 60
+	Infrastructure & Cloud	Amber	70%	TBD - after decision approval and tabletop exercise	Decision sheet and working session pending / controls unvalidated	Robert Moreno / Billy Rivas / Lex Yang / Mike Wang / Yangyang Yang / Mel Gutierrez / Mary / Patrick / Gemar / Customer Support Operations / Help Desk / 3CX and Telephony Owner	High-priority management decision required. Confirm technical and operational owners, approve fallback channels and access, validate telephony capacity, require a controlled manual log and reconciliation procedure, and approve the plan only after evidence-based tabletop completion.
+
+External Teams Meeting Invitation Workflow
+#60 | Source row 61
+	Infrastructure & Cloud	Amber	75%	TBD - after HR approval, configuration, and business validation	Testing complete / PH-HR approval and controlled implementation pending	Yangyang Yang / Billy Rivas / Lex Yang / Jin / Gemar / Mike Wang / Armin / Cris / PH-HR / Customer Support Operations	Maintain Amber status and the documented workaround. Do not enable permissions before written PH-HR approval. Restrict configuration to the approved scope and require successful business validation plus documented operating ownership before production sign-off.
+
+Hyper-V Capacity, VM Inventory & Legacy Host Remediation
+#61 | Source row 62
+	Infrastructure & Cloud	Amber	70%	TBD - before BP migration or legacy-host workload move	Assessment in progress / utilization, offline-VM disposition, and legacy-host migration decision pending	Yangyang Yang / Mahan Sasani / Robert Moreno / Network Support / Infrastructure / Application Owners / Backup Team	Red until critical workload capacity and legacy-host risk are contained. Require measured peak-capacity evidence, backup validation, approved target host, migration plan, and post-change testing before relocation.
+
+Hyper-V Capacity, VM Inventory & Legacy Host Remediation
+#62 | Source row 63
+	Infrastructure & Cloud	Amber	55%	TBD - before relocation and legacy workload move	Interim readiness and inventory validation pending / broader transition deferred	Yangyang Yang / Mahan Sasani / Robert Moreno / Infrastructure / Application Owners / Backup Team	Maintain Red until critical workload capacity, backup, restore, target placement, and legacy-host risks are controlled.
+
+Stimson Supermicro Server, DNS & VPN Health Validation
+#63 | Source row 64
+	Infrastructure & Cloud	Amber	60%	TBD - after root-cause and recovery validation	Operational / underlying hardware issue and recovery readiness unresolved	Mahan Sasani / Yangyang Yang / Billy Rivas / Jerimar Castaneda / Armin Guevarra / Robert Moreno	Maintain Red until root cause or risk containment, recovery evidence, and the hosting recommendation are approved.
+
+Sparks IDF 1 Outage - 250 Vista Boulevard
+#64 | Source row 65
+	Infrastructure & Cloud	Amber	20%	Decommission target: end of December 2026; restoration status TBD	Prior outage unresolved in available evidence / site now targeted for end-of-December decommission	David Rodriguez / Robert Moreno / Erik Solis / Network Support / Facilities / Site Operations	Leadership decision required on repair versus risk acceptance before the decommission date.
+
+City Park Loop Decommission and ISP Disposition
+#65 | Source row 66
+	Infrastructure & Cloud	Amber	35%	TBD after site-exit date and circuit decision	Move-out expected within approximately 60 days / exact date, electrical closure and ISP disposition pending	David Rodriguez / Robert Moreno / Erik Solis / Facilities / Houston Operations / Network Support	Add the site to the formal decommission schedule once the date is approved.
+
+Roanoke Intermittent Device Delay - Ticket 26017
+#66 | Source row 67
+	Infrastructure & Cloud	Amber	70%	TBD - after provider-diversity assessment and issue diagnosis	Basic network checks passed / intermittent device delay remains under monitoring	Robert Moreno / Erik Solis / Jerimar Castaneda / Mahan Sasani / Jessica Herrera / Roanoke Operations	Prioritize a carrier-diverse backup decision for this large site.
+
+Roanoke YMS Gate Controller and Connectivity Readiness
+#67 | Source row 68
+	Infrastructure & Cloud	Amber	50%	Tentative target: end of following week or 2026-11-30	YMS gate-controller installation planned after LaGrange / timing and recurrence evidence pending	Everett / David Rodriguez / Mahan Sasani / Roanoke Operations / YMS Team / Network Support	Confirm a committed field date and require end-to-end acceptance evidence.
+
+NetBox and Infrastructure Documentation Governance
+#68 | Source row 69
+	Infrastructure & Cloud	Amber	70%	TBD - after ownership review and documented target dates	Network records maintained / server inventory and application-documentation ownership pending	Jerimar Castaneda / Yangyang Yang / Dynamics GP Owner (TBD) / Peng Gao / Infrastructure and Application Owners / Robert Moreno	Leadership to confirm documentation owners and target dates. Require periodic reconciliation and owner sign-off before treating NetBox and related records as complete.
+
+Joliet Conveyor Repair
+#69 | Source row 70
+	Infrastructure & Cloud	Amber	70%	TBD - after onsite repair and production validation	Required parts onsite / repair execution and acceptance pending	David Rodriguez / Joliet Operations / WCS Engineering / Safety / Robert Moreno	Track repair execution and production acceptance separately from material delivery.
+
+Memphis AGV Shipment and Receiving Readiness
+#70 | Source row 71
+	Infrastructure & Cloud	Amber	75%	TBD - after Transportation provides tracking and Memphis confirms receipt	Delivery target passed / PRO number, tracking, receipt, and inspection confirmation pending	David Rodriguez / Transportation / Jane and Memphis Team / Memphis Receiving and Operations / Roanoke Logistics / AGV Team / Carrier / Robert Moreno	Escalate the missing PRO number and track daily through confirmed receipt and inspection.
+
+USG Gateway Replacement & Remote Recovery Program
+#71 | Source row 72
+	Infrastructure & Cloud	Amber	75%	TBD - after remaining replacements and recovery validation	Willow completed / remaining gateway replacements and electrical dependencies open	Jerimar Castaneda / David Rodriguez / Mahan Sasani / Facilities / Site Operations	Require site power validation and post-change monitoring for every replacement.
+
+Walnut Server Room Cleanup, Switch & Rack Upgrades
+#72 | Source row 73
+	Infrastructure & Cloud	Amber	65%	TBD after Tuesday cleanup and facilities validation	New server-room preparation continues / old-room cabling blocks power-panel removal	David Rodriguez / Mahan Sasani / Jorge Reyes / Facilities / Network Support / Server Owners	Use a controlled cable-identification and change plan before power-panel work.
+
+WISE Scanner & Application Performance Investigation
+#73 | Source row 74
+	Infrastructure & Cloud	Amber	45%	TBD - after joint application and network review	Application-path investigation proposed / WISE owner, evidence and performance baseline pending	Robert Moreno / Stacy Nguyen / Jerimar Castaneda / Mo / WISE Development and Support / Network Engineering	Assign a technical liaison and require joint diagnostics before prioritization changes.
+
+Wi-Fi Connection Investigation - Ticket 26450
+#74 | Source row 75
+	Infrastructure & Cloud	Amber	45%	TBD - after user evidence, reproduction, and fault isolation	Phone-specific slow Wi-Fi and drops under investigation / required evidence pending	Armin Guevarra / Affected User / Jerimar Castaneda / Mahan Sasani / Network Support / Robert Moreno	Keep Amber until the fault domain, corrective action, monitoring, and user acceptance are documented.
+
+Microsoft 365 Licensing Observation
+#75 | Source row 76
+	Infrastructure & Cloud	Green	100%	2026-11-06	Resolved / monitoring complete	Armin / Microsoft Support / Affected User	No management action required.
+
+E-Waste Certificate Completion
+#76 | Source row 77
+	Infrastructure & Cloud	Amber	82%	TBD - no confirmed delivery date	UNIS e-waste certificate still outstanding / Steve follow-up pending	David Rodriguez / Steve Kim / Robert Moreno / Asset Management / Compliance	Set a target date and escalate if the certificate remains unavailable. Do not close asset disposal without retained evidence.
+
+Server Cleanup & Equipment Disposition
+#77 | Source row 78
+	Infrastructure & Cloud	Amber	45%	TBD — authorization, assignee and safe scope pending	Server-room cleanup proposed / Alessandro scope and authorization unconfirmed	David Rodriguez / Mahan Sasani / Robert Moreno / Assigned Technician (TBD) / Department and Application Owners / Facilities	Require an approved scope, dependency review, outage controls, backup confirmation, and post-work validation before cleanup begins.
+
+LAX FortiManager and Firewall Firmware Compliance
+#78 | Source row 79
+	Infrastructure & Cloud	Green	90%	TBD - after affected site and maintenance window are confirmed	FortiManager online and updated / one firewall firmware remediation remains urgent	Mahan Sasani / Jerimar Castaneda / Stacy Nguyen / Network Security / Site Operations	Treat the remaining firewall update as urgent and confirm the implementation date.
+
+Walnut APC UPS Inspection and Runtime Validation
+#79 | Source row 80
+	Infrastructure & Cloud	Amber	55%	TBD - before next migration phase	Electrician work complete / UPS inspection and service decision pending	Mahan Sasani / Jorge Reyes / David Rodriguez / Facilities / APC / Server Owners	Make UPS validation a prerequisite for migration approval. 13-Nov context: Walnut server-hosting role remains undecided and migration-related internet upgrade is on hold; confirm approved site scope before committing move-related spend or outages.
+
+CCTV Network Segmentation and Camera Modernization
+#80 | Source row 81
+	Infrastructure & Cloud	Amber	48%	TBD - after site inventory and phased implementation plan	Joliet CCTV implementation active / broader segmentation and modernization portfolio remains open	Jerimar Castaneda / David Rodriguez / Mahan Sasani / Network Security / Camera Team / Site Operations	Approve a phased site plan, owner and budget before mass migration.
+
+Summerville Data Drops and AP Stability
+#81 | Source row 82
+	Infrastructure & Cloud	Amber	30%	TBD - after device list and field schedule	Six drops requested / unstable AP list and onsite assessment pending	Jerimar Castaneda / David Rodriguez / Armin / Stephan Shoemaker / Summerville Operations	Confirm the device list, owner and target date.
+
+Roanoke and Joliet Carrier-Diverse Backup Internet
+#82 | Source row 83
+	Infrastructure & Cloud	Amber	25%	TBD — formal quote, diversity validation and approval pending	Joliet Lumen relocation under evaluation / local-loop and path diversity unverified	Erik Solis / Robert Moreno / Jerimar Castaneda / Network Engineering / Finance / Site Operations	Require evidence of actual carrier/path independence and written commercial terms before selecting backup; $530/month is a requested threshold, not an accepted price.
+
+Sugar Land Camera Outage
+#83 | Source row 84
+	Infrastructure & Cloud	Amber	30%	TBD - after electrical work and camera diagnosis	Seven cameras offline / electrical work dependency and investigation pending	Andrew / David Rodriguez / Facilities / Camera Team / Sugar Land Operations	Escalate if camera coverage remains unavailable after electrical work.
+
+Steel Street Exterior AP and Camera Deployment
+#84 | Source row 85
+	Infrastructure & Cloud	Amber	55%	TBD - after scope and field schedule confirmation	Installation work ongoing / detailed scope and ETA pending	Ryan / David Rodriguez / Installation Team / Network Engineering / Camera Team / Site Operations	Require a dated completion plan and test evidence.
+
+Joliet AGV IoT Wireless Readiness
+#85 | Source row 86
+	Infrastructure & Cloud	Amber	40%	TBD - aligned to AGV setup and mapping	Dedicated AGV SSID proposed / design and operational validation pending	David Rodriguez / Mahan Sasani / Jerimar Castaneda / Abhijeet Rathi / WCS Engineering / Joliet Operations	Complete wireless validation before production deployment.
+
+West and Central Site Decommission Program
+#86 | Source row 87
+	Infrastructure & Cloud	Amber	45%	Tacoma hard deadline 2026-11-30; Sparks end of December; Houston date TBD	Tacoma, Sparks and Houston exits identified / dates, carrier actions and equipment scope partly open	Robert Moreno / David Rodriguez / Erik Solis / Field Team / Network Support / Facilities / Site Operations	Prioritize Tacoma immediately due to the hard deadline. Confirm Sparks and Houston dates and circuit decisions next.
+
+Mezzanine Pick-to-Light Infrastructure Support
+#87 | Source row 88
+	Infrastructure & Cloud	Amber	35%	TBD - estimated 1-2 weeks after assignment	Configuration handoff pending / assignee and priority unconfirmed	Robert Moreno / David Rodriguez / Abhijeet Rathi / Assigned Technician / WCS Engineering / Operations	Confirm ownership and priority before committing the 1-2 week effort.
+
+Stafford Frontier Outage — 15205 Stafford, La Puente
+#88 | Source row 89
+	Infrastructure & Cloud	Green	100%	Restored 2026-11-19; monitoring complete	Service restored after onsite gateway reboot / Frontier found no circuit issue	Huy Nguyen / Network Support / Frontier / La Puente Operations	Closed at 100% based on restored service; monitor for recurrence.
+
+Waddell Unit C05 Wi-Fi and Core Fiber Recovery - ITS-27525
+#89 | Source row 90
+	Infrastructure & Cloud	Amber	55%	TBD after fiber remediation, AP recovery and tenant acceptance	AP08 and IDF-04 offline / multiple SFP optical issues identified; onsite verification and retest pending	Mahan Sasani / Huy Nguyen / Clarissa Rodriguez / David Rodriguez / Network Support / Reno Source	Prioritize physical-link recovery before RF changes. Keep Amber until AP08 is online and the tenant confirms stable service throughout C05.
+
+Rob Remote File Access / Reported VPN Disconnects
+#90 | Source row 91
+	Infrastructure & Cloud	Amber	60%	TBD — confirmed completion date not supplied	Troubleshooting pending Rob response / connection and failure mode unconfirmed	Jerimar Castaneda / Billy Rivas / Rob (affected user) / Robert Moreno / Mahan Sasani	Prioritize secure access recovery and proactive Operations updates; do not equate a SharePoint pilot with a VPN fix.
+
+I3PL Contracts & Rates SharePoint Pilot
+#91 | Source row 92
+	Infrastructure & Cloud	Amber	60%	TBD — confirmed completion date not supplied	Source and destination identified / copy, permissions and user acceptance unverified	Mahan Sasani / SharePoint Administrator (to identify) / Business Folder Owner (to confirm) / Rob / Samuel Lin	Gate pilot switch on integrity, access and user acceptance. Keep broad migration scope/approval separate.
+
+Samba Inventory, SharePoint Capacity & Migration Assessment
+#92 | Source row 93
+	Infrastructure & Cloud	Amber	60%	TBD — confirmed completion date not supplied	Assessment requested / full migration scope, capacity, costs and timeline not approved	Mahan Sasani / SharePoint Administrator (unidentified) / Samuel Lin / Department Owners / Robert Moreno / Stacy Nguyen / Tom Yu	Do not infer Tom approved moving all data; obtain measurements, active-folder priorities, business approvals and an implementation baseline first.
+
+Samba Share Access / Reported Public File Exposure Review
+#93 | Source row 94
+	Infrastructure & Cloud	Amber	60%	TBD — confirmed completion date not supplied	Reported exposure unverified / effective access and evidence review pending	Yangyang Yang / Mahan Sasani / Qingmin Li / David Augustine / Robert Moreno	Reviewer Red for potentially material unresolved access risk, not a declaration of a confirmed breach. Track containment and permission evidence separately from migration.
+
+Managed / Personal Device Remote-Access Controls
+#94 | Source row 95
+	Infrastructure & Cloud	Amber	60%	TBD — source says weeks for testing/implementation, no committed date	Tom’s device-access direction issued / feasibility, testing and implementation pending	Yangyang Yang / Qingmin Li / Billy Rivas / Network Support / Stacy Nguyen / Tom Yu	Obtain a scoped and tested plan; do not assume existing Endpoint Central migration satisfies this separate Intune/MFA/Conditional Access direction.
+
+Infrastructure Staffing & 2027 Support-Coverage Assessment
+#95 | Source row 96
+	Infrastructure & Cloud	Amber	60%	TBD — confirmed completion date not supplied	Current coverage considered manageable / pipeline-based resource assessment pending	Robert Moreno / Jerimar Castaneda / Infrastructure Technical Leads / Leadership	Assessment only; do not report an approved hire or an established staffing shortage.
+
+ITEM Microsoft Teams Blank-Page Report
+#96 | Source row 97
+	Infrastructure & Cloud	Amber	60%	TBD — confirmed completion date not supplied	White-page symptom reported / cause and resolution unconfirmed	TBD — support owner and reporting user not identified in source	Assign and triage; do not declare a platform-wide outage from a single unconfirmed report.
+
+Retired Network Device Monitoring Reconciliation
+#97 | Source row 98
+	Infrastructure & Cloud	Amber	60%	TBD — confirmed completion date not supplied	Confirmed-retired device records being removed / accurate offline counts pending	Jerimar Castaneda / Site Contacts / Network Support	Linked to #68 documentation governance; no new tool purchase or automated deletion implied.
+
+Northampton, PA Final Carrier Billing Closure
+#98 | Source row 99
+	Infrastructure & Cloud	Amber	70%	TBD — final bill pending	Hypercore and Verizon disconnects remain in process / final billing closure pending	Erik Solis / Accounts Payable	Keep separate until address/account match is established; no unsupported merge with #56.
+
+BP AI Camera IoT Phase 1
+#1 | Source row 4
+	IoT	Green	100%	TBD	Green / 8/20 Target	Yabin Liu	P1 – 8/20 launch.
+
+Walnut AI Camera IoT Phase 2
+#2 | Source row 5
+	IoT	Green	100%	TBD	Green / 8/28 Target	Yabin Liu	P2.User Usage and Feedback
+
+Walnut Local GPU Infrastructure
+#3 | Source row 6
+	IoT	Green	100%	TBD	Green / 9/1 Target	Yabin Liu	Local GPU recommended.
+
+User Manual Development (Monitoring Engine & IoT Platform)
+#4 | Source row 7
+	IoT	Green	100%	TBD	Green / 9/11 Target	Jiaming	Target delivery: Sep 11
+
+IoT Platform Development Phase 2 – Yard Management Project
+#5 | Source row 8
+	IoT	Green	50%	TBD	Green / 10/1 Target	Jiaming	Device-to-system integration progress On-site manpower coordination
+
+Yard Security and Monitoring System – Moreno Valley
+#1 | Source row 2
+	R&D AI	Green	85%	TBD	In Progress	Marco Ma / Olly	Follow up on the IT request and continue monitoring full-site test readiness.
+
+YMS Yard Check-In/Out Hardware and Software – Alessandro
+#2 | Source row 3
+	R&D AI	Green	76%	ETD: 4 weeks	In Progress	Marco Ma / Olly	Continue monitoring camera installation and integration-test results.
+
+Robot Dog B2W Deployment – Alessandro
+#3 | Source row 4
+	R&D AI	Green	25%	TBD	In Progress	Marco Ma / Ken	Continue monitoring test results and camera-workflow performance.
+
+Loading Dock Safety Check (Pending)
+#4 | Source row 5
+	R&D AI	Green	55%	ETD: 3–4 weeks	In Progress	Marco Ma / Olly	Follow up with the installer and continue monitoring model-validation progress.
+
+AGV Cycle Count in Bulk Area
+#5 | Source row 6
+	R&D AI	Green	86%	ETD: 2 weeks	In Progress	Marco Ma / Ken	Follow up with Operations regarding sample collection and continue monitoring model improvement.
+
+IoT AI Camera Platform
+#6 | Source row 7
+	R&D AI	Green	50%	Ongoing / No ETA	In Progress	Marco Ma / Olly	Continue reviewing milestones and overall project direction.
+
+ViT Library Maintenance for Packing Station
+#7 | Source row 8
+	R&D AI	Green	80%	TBD	In Progress	Marco Ma / Ken	Continue monitoring accuracy and performance improvements.
+
+AGV Inventory Count – Joliet
+#8 | Source row 9
+	R&D AI	Green	60%	TBD	In Progress	Marco Ma / Ken	Continue monitoring mapping progress, network quality, and charging-station readiness.
+
+Vision AI Platform
+#9 | Source row 10
+	R&D AI	Green	40%	TBD	In Progress	Marco Ma / Olly / Ken	Continue reviewing platform usability, implementation options, and development priorities.
+
+Dock Vision Forklift In/Out (Single-Camera Demo) – Ontario
+#10 | Source row 11
+	R&D AI	Green	100%	Completed	Completed	Marco Ma / Olly	No immediate management attention required.
+
+AirRob (Phase 1)
+#1 | Source row 2
+	WCS Engineering	Green	100%	N/A	Ops team using the system. Help provided incase of errors.	Chad Jacobs / Ops AM and PM contacts / Abhijeet Rathi / Brant Ji / Neil Zhou / Anuj Jagetia / WISE Team	Ops to let us know after FTZ inspection is done whether NYDJ customer be used in AirRob or not. If yes, then put more SKUs inside the AirRob.
+
+AGV-BP
+#2 | Source row 3
+	WCS Engineering	Green	100%	IT work completed; overall acceptance verification pending	AGV work reported complete; system retained in Preview for demonstrations	Anuj Jagetia / Abhijeet Rathi / Brant Ji / Neil Zhou / WISE Team / Network Team	Close the current IT work at 100% after recording acceptance. Manage any later production reactivation as a new workstream.
+
+AGV-Memphis
+#3 | Source row 4
+	WCS Engineering	Amber	95%	Closeout date pending documented acceptance	Implementation work reported complete; final project acceptance and closeout evidence pending	Anuj Jagetia / Abhijeet Rathi / Memphis Operations / Jane Sanchez / David Rodriguez / Network Team / Brant Ji / Neil Zhou / Robert Moreno	Keep Amber at 95% until acceptance evidence and operational ownership are documented; then close at 100%.
+
+Heacock – XYZ Palletizing Robot
+#4 | Source row 5
+	WCS Engineering	Amber	70%	Vendor corrective-action and shipment dates overdue; sustained-run acceptance TBD	Critical: recurring Stuck Box error and overdue replacement gripper/solenoid remain unresolved	XYZ Robotics / Thomas / Michael / Anuj Jagetia / Brant Ji / Neil Zhou / Heacock Operations / Robert Moreno	Immediate management priority. Require dated vendor commitments and successful sustained-run acceptance before improving RAG or completion.
+
+BP Conveyor Maintenance
+#5 | Source row 6
+	WCS Engineering	Amber	70%	Repair schedule TBD after walkthrough, approval, parts lead time, and outage confirmation	Awaiting Lafayette walkthrough and final repair-scope confirmation	Anuj Jagetia / John Diaz / Steve Kim / Robert Moreno / Lafayette Engineering / Vendor / BP Operations / Finance and AP	Maintain Amber at 70%. Secure the walkthrough and one complete written proposal before approval or scheduling.
+
+Visitor Management System – Heacock
+#6 | Source row 7
+	WCS Engineering	Green	100%	Completed	Completed and deployed	Anuj Jagetia / Heacock Operations / Stacy Nguyen / Robert Moreno	Close at 100% and track any printer enhancement separately.
+
+Shelf-to-Person AGV Project
+#7 | Source row 8
+	WCS Engineering	Green	85%	Completion date TBD pending integration, testing, and business acceptance	WCS integration and testing in progress	Brant Ji / Neil Zhou / WCS Team / WMS Team / Abhijeet Rathi / Anuj Jagetia	Keep Amber at Brant's confirmed 85% until documented test results, defect closure, and business acceptance support an increase.
+
+BP Air Compressor and Dryer Assessment
+#8 | Source row 9
+	WCS Engineering	Amber	70%	Decision and execution dates TBD after assessment findings and approval	Assessment and replacement decision remain in progress	Anuj Jagetia / Lafayette Engineering / John Diaz / Steve Kim / Robert Moreno / BP Operations / Facilities / Finance and AP	Maintain Amber at 70% until the assessment produces a written recommendation and approved execution path.
+
+Equipment Management System (EMS)
+#9 | Source row 10
+	WCS Engineering	Amber	90%	Deployment date pending DevOps confirmation	Handover to DevOps complete; deployment not yet confirmed	DevOps / Anuj Jagetia / Stacy Nguyen / Abhijeet Rathi / Site Operations Owners	Keep Amber at 90% until deployment, access, initial records, and accountable ownership are verified.
+
+Heacock Forklift Weight Scale Transfer
+#10 | Source row 11
+	WCS Engineering	Green	100%	IT transfer completed	IT transfer scope completed and accepted by Raul	Raul / Anuj Jagetia / Abhijeet Rathi / Buena Park Operations / Asset Management	Close IT scope at 100% and confirm a separate owner for any post-transfer work.
+
+Customer Onboarding SOP Development
+#11 | Source row 12
+	WCS Engineering	Amber	25%	Target date TBD based on priority and available capacity	In progress; capacity constrained by critical robotics and compressor work	Anuj Jagetia / Stacy Nguyen / Tom Yu / Robert Moreno / Customer Onboarding Stakeholders	Agree on priority, milestone dates, and protected capacity; monitor the impact of critical escalations on delivery.
+
+WCS and Robotics Support Coverage – Dec 2026 to Feb 2027
+#12 | Source row 13
+	WCS Engineering	Amber	20%	Coverage plan to be confirmed before January 2027	Resource plan requires confirmation	Robert Moreno / Anuj Jagetia / Abhijeet Rathi / Brant Ji / Neil Zhou / Stacy Nguyen	Approve the coverage plan before January and require documented handoffs for incidents, vendor escalations, and open automation work.
+
+WCS / Robotics / Automation Equipment Audit Program
+#13 | Source row 14
+	WCS Engineering	Amber	35%	Broader preventive-maintenance cadence planned after peak season	Issue-priority and visit-based audit approach approved; baseline and ownership remain in progress	Abhijeet Rathi / Anuj Jagetia / Brant Ji / Neil Zhou / Robert Moreno / Site Operations Owners	Keep Amber at 35%. Use site visits and a controlled interim tracker as checkpoints until EMS deployment is verified.
+
+PCI DSS / SAQ-D
+#1 | Source row 2
+	IT Compliance Program	Amber	59%	2026-12-31	PCI DSS v4.0.1 implementation active / SAQ-D Merchant questionnaire due 13-Nov-2026	Qingmin Li / Robert Moreno / Victor Cui / ATSEC / Vanta Team / Applicable Control Owners	Leadership visibility is required on high-risk Vanta items, named owners, committed closure dates, penetration-testing readiness, and the criteria for final PCI DSS sign-off.
+
+SOC 2 Type I Renewal for UNIS LLC
+#2 | Source row 3
+	IT Compliance Program	Green	85%	TBD - after auditor testing, issue resolution and final report	Scoping submitted / audit team assigned / Type I as-of date reached	Robert Moreno / Dillon Pusateri / Basavaraj Radder / Andre Veasley / Adam Gentner / Johanson Group / UNIS Control Owners	Track access confirmation, first auditor request, evidence exceptions, remediation owners, and report milestones. Do not describe 09-Nov as the fieldwork start unless Johanson confirms it.
+
+SOC 2 Type II Renewal for ITEM LLC
+#3 | Source row 4
+	IT Compliance Program	Amber	65%	2027-01-20	Observation active / preparation prerequisites and entity update pending	Robert Moreno / Stacy Nguyen / Adam Gentner / Johanson Audit and Accounting Teams / Mike Wang's replacement pending / Legal / Vanta Administrator	Keep preparation active, but do not represent November as formal testing. Require written confirmation of payment allocation, legal-entity treatment, and assignment prerequisites.
+
+UNIS LLC SOC 2 TSC & System Scope Alignment
+#4 | Source row 5
+	IT Compliance Program	Green	90%	TBD - after Johanson completes scope review	Scoping form submitted / auditor scope review pending	Robert Moreno / Dillon Pusateri / Adam Gentner / Johanson Group / UNIS Control Owners / Vanta Administrator	Keep the workstream Amber until Johanson completes scope review and any discrepancies are assigned and resolved.
+
+SOC 2 Control & Evidence Readiness
+#5 | Source row 6
+	IT Compliance Program	Green	97%	TBD - after evidence testing and exception closure	As-of-date readiness active / auditor review commencing	Qingmin Li / Robert Moreno / Dillon Pusateri / Respective Control Owners / Vanta Administrator / Johanson Group	Retain 97% only for control and evidence readiness. Report auditor testing and final engagement completion separately.
+
+SOC 2 BCP / DR / Ticketing Continuity
+#6 | Source row 7
+	IT Compliance Program	Amber	75%	TBD	High Priority	Mike Wang's replacement pending, Robert, Johanson Group, Vanta Team	Crosses SOC 2 and UNIS.CO.
+
+GDPR Compliance Program
+#7 | Source row 8
+	IT Compliance Program	Amber	48%	TBD - after pricing, readiness, and separate engagement approval	Vanta preparation active at ~48% / audit timing not approved	Stacy Nguyen / Robert Moreno / Vanta / Adam Gentner / Legal / Privacy and Control Owners	Allow evidence work to continue, but keep audit timing and purchasing subject to explicit pricing, entity, readiness, and engagement approval.
+
+GDPR Data Inventory & RoPA
+#8 | Source row 9
+	IT Compliance Program	Amber	60%	TBD	Not Fully Closed	Mike Wang's replacement pending, Robert, Johanson Group, Vanta Team	GDPR foundation.
+
+GDPR Data Transfer / Vendor Management
+#9 | Source row 10
+	IT Compliance Program	Amber	60%	TBD	Review Required	Mike Wang's replacement pending, Robert, Johanson Group, Vanta Team	Integrate with vendor management.
+
+GDPR DSAR / Data Subject Rights
+#10 | Source row 11
+	IT Compliance Program	Amber	60%	TBD	Process Definition	Mike Wang's replacement pending, Robert, Johanson Group, Vanta Team	Consider integrating with ticketing.
+
+GDPR Retention / Deletion
+#11 | Source row 12
+	IT Compliance Program	Amber	50%	TBD	Policy / Implementation	Mike Wang's replacement pending, Robert, Johanson Group, Vanta Team	Design together with Backup/DR.
+
+UNIS LLC SOC 2 Type I Readiness, Payment and Auditor Assignment
+#12 | Source row 13
+	IT Compliance Program	Green	85%	TBD - after testing, issue closure and final report	Auditor assigned / engagement access granted / testing initiation pending	Robert Moreno / Dillon Pusateri / Basavaraj Radder / Andre Veasley / Adam Gentner / Johanson Group / Vanta Administrator / Finance	Require confirmation of auditor access and the first testing milestone. Maintain least-privilege access and track all open requests to closure.
+
+UNIS and ITEM E-Waste Certification Evidence
+#13 | Source row 14
+	IT Compliance Program	Amber	75%	TBD (3-4 weeks)	Pending Vendor	David Rodriguez / Recycling Vendor / Robert Moreno	Escalate if certificates are not received within the stated window.
+
+Planned and Emergency Change Evidence (UNIS SOC 2 Type I)
+#14 | Source row 15
+	IT Compliance Program	Amber	70%	TBD	Pending Response	Vincent / Robert Moreno / Mike Wang's replacement pending / Johanson Group	Escalate for a firm delivery date and confirm whether fieldwork can proceed in parallel.
+
+Vanta Legal-Entity and Subscription Transition
+#15 | Source row 16
+	IT Compliance Program	Amber	65%	TBD - after legal review and signed Change Order	Legal documentation and Change Order pending / current entities retained	James Tran / Robert Moreno / Stacy Nguyen / Adam Gentner / Johanson Audit Team / Mike Wang's replacement pending / Vanta Administrator	Retain UNIS LLC and ITEM LLC as the active audit entities until legal review and signed Change Orders authorize a change.
+
+SOC 2 Entity, Invoice and Payment Reconciliation
+#16 | Source row 17
+	IT Compliance Program	Amber	72%	TBD - before questionnaire submission and Dec-2026 renewal approval	Billing and audit contacts under review / entity, invoice and payment reconciliation remain open	Stacy Nguyen / Robert Moreno / Technical Leads / Anthony Knox / Adam Gentner / Johanson Accounting / UNIS and ITEM Accounting / Legal / Vanta Administrator	Require confirmed contact details and written commercial reconciliation before questionnaire submission, renewal acceptance, or entity changes.
+
+UNIS & ITEM Vanta December 2026 Contract Renewal Review
+#17 | Source row 18
+	IT Compliance Program	Amber	25%	TBD - before Dec-2026 contract expiration	Meeting window proposed / scope and commercial decisions pending	Robert Moreno / Stacy Nguyen / Anthony Knox / Vanta / Legal / Finance / HR / Compliance Owners	Confirm the meeting promptly and require a decision log, updated proposals, and dated approval actions after the review.
+
+UNIS.CO Internal-Only Email Restriction
+#1 | Source row 2
+	UNIS.CO Email & Ticketing	Green	100%	TBD - ongoing governance	Implemented / controlled calendaring exception validated	Yangyang Yang / Email Team / Robert Moreno	Keep the workstream Green while the base control remains effective. Review exception evidence during mail-flow governance.
+
+External Domain Allowlist Controls
+#2 | Source row 3
+	UNIS.CO Email & Ticketing	Green	100%	TBD	Completed / Ongoing Governance	Email Team / Operations / Yangyang Yang	Review blocked-message trends and escalate only validated business domains for approval.
+
+Restricted Mailbox Bounce-Back Message
+#3 | Source row 4
+	UNIS.CO Email & Ticketing	Green	100%	TBD	Completed	Gemar Ermac / Mary Smothers / Email Team	No management action required unless testing identifies a failure.
+
+Shared Mailbox and UnisTicket Workflow
+#4 | Source row 5
+	UNIS.CO Email & Ticketing	Green	100%	Completed - Phase 1 original scope	Phase 1 complete / operational support and change control active	Robert Moreno / Gemar Ermac / Mary Smothers / Lex Yang / Robin Zhu / Yangyang Yang / Email and Technical Teams / Operations	Keep Green for the original Phase 1 scope. Require formal change control for additional workflow restrictions or enhancements.
+
+Active PH Employee and Mailbox Inventory
+#5 | Source row 6
+	UNIS.CO Email & Ticketing	Green	100%	TBD - after Phase II roster approval	PH migration complete / Phase II roster and dependency validation completed	Stacy Nguyen / Tom Yu / Yangyang Yang / Lex Yang / Vee Serra / HR / Help Desk / Robert Moreno	Keep this row Amber until the Phase II population, dependencies, retention rules, and rollout sequence are approved.
+
+OTP/MFA and System Notifications
+#6 | Source row 7
+	UNIS.CO Email & Ticketing	Green	100%	TBD	Completed	Mel Gutierrez / Gemar Ermac / Yangyang Yang / Robert Moreno	Escalate failed delivery for a business-critical system or retailer account.
+
+Individual Retailer OTP Accounts
+#7 | Source row 8
+	UNIS.CO Email & Ticketing	Green	100%	TBD	Completed	Gemar Ermac / Mel Gutierrez / Routing Team / Adam Li	Approve exceptions only with a named business owner and documented operational need.
+
+Blocked-Mail Monitoring and Alerts
+#8 | Source row 9
+	UNIS.CO Email & Ticketing	Green	100%	TBD	Completed	Yangyang Yang / Network Support / Email Team	Review alert evidence before declaring monitoring complete.
+
+Shared Mailbox Archiving, Licensing and Defender
+#9 | Source row 10
+	UNIS.CO Email & Ticketing	Green	100%	2026-08-31	Completed / Monitor	Email Team / Mike Wang	No immediate escalation; review exceptions during the next mailbox health check.
+
+Business Readiness and Go/No-Go Review
+#10 | Source row 11
+	UNIS.CO Email & Ticketing	Green	100%	Completed - formal Phase 1 sign-off issued	Phase 1 complete / formally signed off within original scope	Robert Moreno / Gemar Ermac / Mary Smothers / Patrick Paul Pogoy / Michelle Topete / Yangyang Yang / Email and Technical Teams / Business Owners	Recognize Phase 1 as complete at 100%. Enforce change control for any request beyond the original scope.
+
+Ticketing BCP and Operational Contingency
+#11 | Source row 12
+	UNIS.CO Email & Ticketing	Green	100%	TBD - before broader PH-US direct-email enforcement	Follow-on dependency / urgent-request fallback completed	Lex Yang / Robin Zhu / Mary Smothers / Gemar Ermac / Technical Team / Operations / Robert Moreno	Keep Amber and block broader mail enforcement until the fallback is approved, communicated, and tested. Do not reopen Phase 1 for this follow-on dependency.
+
+AWS Regional Resiliency and DR Decision
+#12 | Source row 13
+	UNIS.CO Email & Ticketing	Green	100%	TBD	Decision - put this into closure	Mike Wang / Lex Yang / Technical Team / Leadership	Leadership to accept the residual risk with contingency or authorize cross-region DR planning.
+
+Client Reconfiguration and Legacy Sender Cleanup
+#13 | Source row 14
+	UNIS.CO Email & Ticketing	Green	100%	TBD - after user acceptance	User validation and support - completed	Yangyang Yang / Billy Rivas / Mel Gutierrez / HelpDesk / Affected Users	Track affected users to verified closure and retain UNISCO.COM aliases unless a separately approved change removes them.
+
+PH-US Direct Email Restriction and Ticketing Enforcement
+#14 | Source row 15
+	UNIS.CO Email & Ticketing	Green	100%	TBD - after approved scope, mapping, contingency, pilot and change authorization	Follow-on change / requirements, exception mapping and limited pilot completed	Gemar Ermac / Mary Smothers / Michelle Topete / Patrick Paul Pogoy / Lex Yang / Robin Zhu / HR PH / Billy Rivas / Yangyang Yang / Email Team / Robert Moreno / Business Owners	Treat as a formal change request. Approve scope, bidirectional rules, exception ownership, routing, outage contingency, pilot evidence, support readiness, and rollback criteria before production enforcement.
+
+UNIS.CO / ITEMONLINE.CO Domain Migration Phase II
+#15 | Source row 16
+	UNIS.CO Email & Ticketing	Green	45%	TBD - after scope, roster, and dependency approval	Phased strategy proposed / stakeholder approval pending	Stacy Nguyen / Tom Yu / Yangyang Yang / Lex Yang / Robert Moreno / Vee Serra / HR / Help Desk / Business Owners	Leadership approval is required for the phased model, retention rules, owners, and cutover gates before provisioning or deactivation.
+
+External Microsoft Teams Invitation Workflow
+#16 | Source row 17
+	UNIS.CO Email & Ticketing	Green	100%	N/A	Completed	Yangyang Yang / Billy Rivas / Gemar Ermac / Lex Yang / Armin / Cris / Network Support / Robert Moreno	Keep Amber until the reply behavior is resolved or formally accepted, end-to-end calendar tests pass, and operating guidance is published.
+
+UNIS/ITEM-eHub Carrier Integration
+#1 | Source row 2
+	UNIS ITEM- eHub integration	Amber	75%	TBD - after Vesync validation, governance alignment, approved pilot execution, and acceptance review	TSP opportunity closed / Vesync validation and eHub governance transition remain in progress	Jeff Davidson - Sales and Partnership / Robert Moreno - IT Program and Technical Coordination / Jody Crouse - Implementation Support / Stacy Nguyen - IT Leadership and Governance / Gene Kwon / Katie Petty / Jason Hermansen / Jack Liu / Robert Chung / Lam Xie / eHub and ITEM Technical Teams / Vesync Operations and Finance	Maintain Amber for the overall program. Document the Jeff, Robert, and Jody responsibility split and confirm Robert’s participation in technical discussions. Close all TSP-specific workstreams without treating modeled savings as benefits. Require documented customer, commercial, technical, operational, financial, and service acceptance before any Vesync pilot or broader rollout.
+
+TSP Shipping Savings Analysis & Business Case
+#2 | Source row 3
+	UNIS ITEM- eHub integration	Green	100%	2026-10-30	Closed / TSP reviewed the analysis and declined to proceed	Song Liu / Stella Chan / Weixin Wang / TSP Leadership / Kennedy Linehan / Katie Petty / Lam Xie / Robert Moreno	Close the TSP business-case workstream as of 30-Oct-2026. Do not report the modeled 21% savings as committed or realized benefits.
+
+ITEM WMS Pre-Label Rate Shopping & Service Selection
+#3 | Source row 4
+	UNIS ITEM- eHub integration	Green	100%	2026-10-30	Closed / technical demonstration not pursued after TSP decision	ITEM Technical Team / eHub Integration Team / Robert Moreno / Katie Petty / TSP Operations and Users	Close the workstream. Preserve the technical requirements as a future reference, not as an accepted design.
+
+TSP Billing, Funding & Account Setup
+#4 | Source row 5
+	UNIS ITEM- eHub integration	Green	100%	2026-10-30	Closed / billing model not selected because TSP declined	eHub Finance / TSP Finance / ITEM Finance / Katie Petty / Robert Moreno	Close the workstream with no account activation or financial commitment.
+
+Claims, Declared Value & Shipment Coverage
+#5 | Source row 6
+	UNIS ITEM- eHub integration	Green	100%	2026-10-30	Closed / coverage procedure not pursued after TSP decision	eHub Claims and Support / ITEM Technical Team / TSP Operations and Finance / Katie Petty / Robert Moreno	Close the workstream and do not represent discussed coverage as approved protection.
+
+eHub Analytics Access & Delivery Performance
+#6 | Source row 7
+	UNIS ITEM- eHub integration	Green	100%	2026-10-30	Closed / TSP analytics onboarding not pursued	eHub Analytics Team / TSP Operations and Management / ITEM Technical Team / Katie Petty / Robert Moreno	Close the workstream. Do not use forecast or demonstration data as proof of TSP savings or service performance.
+
+Shipping Adjustment Monitoring & Warehouse Accuracy
+#7 | Source row 8
+	UNIS ITEM- eHub integration	Green	100%	2026-10-30	Closed / TSP operational controls not implemented	TSP Warehouse Operations / TSP Finance / eHub Analytics and Support / ITEM Technical Team / Robert Moreno	Close the workstream with no operational deployment.
+
+Existing Carrier Account Analytics Integration
+#8 | Source row 9
+	UNIS ITEM- eHub integration	Green	100%	2026-10-30	Closed / carrier-account connection not pursued for TSP	eHub Analytics and Integration Teams / ITEM Technical Team / TSP Carrier and IT Owners / Katie Petty / Robert Moreno	Close the workstream and do not rely on combined reporting assumptions.
+
+Vesync Carrier Orchestration Analysis and Pilot Decision
+#9 | Source row 10
+	UNIS ITEM- eHub integration	Amber	75%	TBD - after Vesync pilot decision	Detailed report received / validation and pilot approval pending	Jason Hermansen / Katie Petty / Jack Liu / Robert Chung / Lam Xie / Robert Moreno / Vesync Operations and Finance / ITEM and eHub Technical Teams	Keep Amber until Vesync accepts the commercial assumptions and pilot design. Do not use the report for third-party benchmarking or carrier negotiation. Require actual pilot cost, adjustment, transit, and exception results before rollout approval.
+
+eHub Governance, Sales Ownership & IT Coordination
+#10 | Source row 11
+	UNIS ITEM- eHub integration	Amber	75%	TBD - after Stacy aligns with Jeff and Gene	Ownership transition identified / governance alignment and communication cadence pending	Stacy Nguyen / Jeff Davidson / Robert Moreno / Jody Crouse / Gene Kwon / Katie Petty / eHub and ITEM Technical Teams	Confirm the responsibility matrix and meeting cadence promptly. Keep Robert involved in technical matters and invited calls, while Jeff leads sales and partnership decisions.
+
+Program Governance & Phased Migration
+#1 | Source row 2
+	Samba-Sharepoint Migration	Green	55%	Department validation from 2026-11-23; phased cutover from 2026-11-30	Phased priority-folder migration in progress; detailed enterprise scope and wave plan remain open	Robert Moreno / Stacy Nguyen / Samuel Lin / David Augustine / Billy Rivas / Mahan Sasani / Yangyang Yang / Jerimar Castaneda	Require a consolidated wave plan and verified completion evidence before communicating final dates. Treat early one-day estimates as non-final.
+
+Contracts & Rates Migration and Business Validation
+#2 | Source row 3
+	Samba-Sharepoint Migration	Green	95%	Validation requested 2026-11-20; closure pending confirmation	All Contracts & Rates folders copied to Phi3PL SharePoint; business validation remains pending	Billy Rivas / Samuel Lin / David Augustine / Robert Moreno	Keep Amber at 95% until business validation and exception closure are documented.
+
+Contracts & Rates Samba Access Freeze
+#3 | Source row 4
+	Samba-Sharepoint Migration	Green	75%	TBD pending technical implementation and user notice	Read-only control requested to prevent additions or updates on the legacy Samba copy	Billy Rivas / Network Support / Samuel Lin / David Augustine / Stacy Nguyen	Escalate if read-only enforcement or user communication is not completed before pilot closure.
+
+Payroll Priority Wave
+#4 | Source row 5
+	Samba-Sharepoint Migration	Green	50%	Before the 2026-12-04 payroll cycle; exact cutover TBD	All six Payroll entries designated as the first HR/Payroll migration wave; permissions and technical readiness remain open	Jade Parham / Dana Cardwell / Gerardo Romero / Payroll Team / Billy Rivas / Yangyang Yang / Robert Moreno	Treat the 2026-12-04 payroll cycle as the schedule constraint. Do not cut over until access, validation, rollback, and user communication are confirmed.
+
+HR Secondary Wave
+#5 | Source row 6
+	Samba-Sharepoint Migration	Green	35%	After Payroll wave; date TBD	HR folders confirmed as secondary to Payroll; active-folder order and contacts still require final confirmation	Jade Parham / Laith Mekhael / Dana Cardwell / HR Team / Yangyang Yang / Billy Rivas / Robert Moreno	Approve the first HR batch only after ownership, least-privilege access, retention, validation, and sequencing are documented.
+
+HR & Payroll Inventory Validation
+#6 | Source row 7
+	Samba-Sharepoint Migration	Green	90%	Inventory available; wave grouping and exception closure TBD	Inventory re-scan completed for the identified HR, Payroll, and shared folders; migration grouping still needs approval	Yangyang Yang / Billy Rivas / HR and Payroll Owners / Robert Moreno	Keep the inventory controlled and versioned. Require owner approval before removing, combining, or deferring listed folders.
+
+Accounting Initial Copy and Validation
+#7 | Source row 8
+	Samba-Sharepoint Migration	Green	80%	Validation from 2026-11-23 onward	Initial Accounting copy completed; three requested paths require department validation	Billy Rivas / Accounting Representatives / Samuel Lin / David Augustine / Robert Moreno	Do not mark complete until the three paths, permissions, final sync, and acceptance evidence are confirmed.
+
+Cubework Priority Folders
+#8 | Source row 9
+	Samba-Sharepoint Migration	Green	40%	TBD after size and readiness confirmation	Cubework usage list received; storage recalculation and transfer scheduling pending	Stacy Nguyen / Yangyang Yang / Cubework Business Owners / Billy Rivas / Robert Moreno	Require the recalculated inventory and business-owner sign-off before assigning a cutover date.
+
+SharePoint Access, Permissions and Ownership
+#9 | Source row 10
+	Samba-Sharepoint Migration	Green	60%	Before each department cutover	Administrative model defined at a high level; department-level approvers and user access lists remain incomplete	Billy Rivas / Samuel Lin / Robert Moreno / David Augustine / Department Owners / Paul / IT Support	No production cutover without approved access matrices and successful user-access tests.
+
+Technical Readiness, Error Remediation and Re-scans
+#10 | Source row 11
+	Samba-Sharepoint Migration	Green	85%	Before affected wave; date depends on exception approval	Five of six pilot directories passed re-scan; remaining long-path exception and migration-rate uncertainty require control	Billy Rivas / Yangyang Yang / Mahan Sasani / Jerimar Castaneda / Finance Owners / Robert Moreno	Use measured pilot results and clean re-scans for schedule estimates. Escalate unresolved exceptions before migration begins.
+
+Final Sync, Cutover and Post-Cutover Monitoring
+#11 | Source row 12
+	Samba-Sharepoint Migration	Green	30%	Three business days of monitoring per department after cutover	Framework defined; execution awaits department validation, permissions, and approved cutover dates	Robert Moreno / Billy Rivas / Mahan Sasani / Yangyang Yang / Jerimar Castaneda / Department Owners / Network Support	Approve cutover only with validated content, access, communication, rollback, support coverage, and named acceptance owner.
+
+UF Billing and Remaining Back Office Scope
+#12 | Source row 13
+	Samba-Sharepoint Migration	Green	25%	TBD after active-folder and ownership review	Input received; detailed priority, inventory, and wave placement remain to be defined	Samuel Lin / David Augustine / Stacy Nguyen / Billy Rivas / Yangyang Yang / UF Billing and Back Office Owners / Robert Moreno	Require a folder-level scope and business priority before estimating dates or approving migration.
+Download started: IT_Technology_Portfolio_2026-11-15.csv

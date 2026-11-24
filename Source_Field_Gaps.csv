@@ -5,82 +5,71 @@ IT Security,E3,start,TBD,TBD — not supplied
 IT Security,F3,finish,TBD,TBD — not supplied
 IT Security,E4,start,TBD,TBD — not supplied
 IT Security,F4,finish,TBD,TBD — not supplied
-IT Security,G5,completion,source text,Not verified
 IT Security,E5,start,TBD,TBD — not supplied
 IT Security,F5,finish,TBD,TBD — not supplied
 IT Security,E6,start,TBD,TBD — not supplied
 IT Security,F6,finish,TBD,TBD — not supplied
-IT Security,G7,completion,source text,Not verified
 IT Security,E7,start,TBD,TBD — not supplied
 IT Security,F7,finish,TBD,TBD — not supplied
-IT Security,G8,completion,source text,Not verified
 IT Security,E8,start,TBD,TBD — not supplied
 IT Security,F8,finish,TBD,TBD — not supplied
-IT Security,G9,completion,source text,Not verified
 IT Security,E9,start,TBD,TBD — not supplied
 IT Security,F9,finish,TBD,TBD — not supplied
 IT Security,F10,finish,TBD,TBD — not supplied
-IT Security,G11,completion,source text,Not quantified
 IT Security,E11,start,TBD,TBD — not supplied
 IT Security,F11,finish,source text / relative estimate,30-Nov-2026 target — conditional; Linker due 31-Dec-2026
 IT Security,E12,start,TBD,TBD — not supplied
 IT Security,F12,finish,source text / relative estimate,31-Dec-2026 target — remaining work may extend
-IT Security,G13,completion,source text,Not quantified
 IT Security,E13,start,TBD,TBD — not supplied
 IT Security,F13,finish,source text / relative estimate,Around 25-Nov-2026 — report expected
-IT Security,G14,completion,source text,Not quantified
 IT Security,E14,start,source text / relative estimate,Aug-2026 — exact test date not supplied
 IT Security,F14,finish,source text / relative estimate,Aug-2026 evidence reported; next update expected 27-Aug-2027
+IT Security,F15,finish,source text / relative estimate,Final quality-review submission pending clarification response
 Infrastructure & Cloud,F2,finish,TBD,"TBD - after equipment, access, rack, power, connectivity, and service-readiness validation"
 Infrastructure & Cloud,F3,finish,TBD,"TBD - after equipment suitability, service requirements, site readiness, and architecture approval"
-Infrastructure & Cloud,F4,finish,TBD,TBD — dispatch date and acceptance pending
-Infrastructure & Cloud,G5,completion,source text,Not verified
-Infrastructure & Cloud,E5,start,TBD,TBD
-Infrastructure & Cloud,F5,finish,TBD,TBD — completion not evidenced
-Infrastructure & Cloud,G6,completion,source text,Not verified
-Infrastructure & Cloud,E6,start,TBD,TBD
-Infrastructure & Cloud,F6,finish,TBD,TBD — completion not evidenced
-Infrastructure & Cloud,E7,start,TBD,TBD
-Infrastructure & Cloud,F7,finish,TBD,"TBD - by site, carrier and billing closure"
-Infrastructure & Cloud,E8,start,TBD,TBD
-Infrastructure & Cloud,F8,finish,TBD,TBD
-Infrastructure & Cloud,E9,start,TBD,TBD
-Infrastructure & Cloud,F9,finish,TBD,"TBD — reseller assessment, quotation and approval pending"
-Infrastructure & Cloud,E10,start,TBD,TBD
-Infrastructure & Cloud,F10,finish,TBD,TBD — following-week visit tentative; completion unconfirmed
-Infrastructure & Cloud,G11,completion,source text,Not verified
-Infrastructure & Cloud,E11,start,TBD,TBD
-Infrastructure & Cloud,F11,finish,TBD,TBD — completion not evidenced
-Infrastructure & Cloud,G12,completion,source text,Not verified
-Infrastructure & Cloud,E12,start,TBD,TBD
-Infrastructure & Cloud,F12,finish,TBD,TBD — completion not evidenced
-Infrastructure & Cloud,E13,start,TBD,TBD
+Infrastructure & Cloud,F4,finish,source text / relative estimate,Field work targeted after 2026-11-22; completion confirmation pending
+Infrastructure & Cloud,E5,start,N/A,N/A
+Infrastructure & Cloud,F5,finish,TBD,TBD after onsite acceptance and documented design review
+Infrastructure & Cloud,E6,start,N/A,N/A
+Infrastructure & Cloud,F6,finish,TBD,TBD after final network connection and onsite wireless validation
+Infrastructure & Cloud,E7,start,N/A,N/A
+Infrastructure & Cloud,F7,finish,TBD,"TBD by site, carrier, return and final-billing closure"
+Infrastructure & Cloud,E8,start,N/A,N/A
+Infrastructure & Cloud,F8,finish,TBD,TBD after LaGrange acceptance and template closeout
+Infrastructure & Cloud,E9,start,N/A,N/A
+Infrastructure & Cloud,F9,finish,TBD,TBD after vendor response and purchase approval
+Infrastructure & Cloud,F10,finish,TBD,TBD after equipment installation and end-to-end acceptance
+Infrastructure & Cloud,E11,start,N/A,N/A
+Infrastructure & Cloud,F11,finish,TBD,TBD after primary and temporary connectivity assessment
+Infrastructure & Cloud,E12,start,N/A,N/A
+Infrastructure & Cloud,F12,finish,TBD,TBD after access review and remediation validation
+Infrastructure & Cloud,E13,start,N/A,N/A
 Infrastructure & Cloud,F13,finish,TBD,TBD - after destination and facilities approval
-Infrastructure & Cloud,E14,start,TBD,TBD
-Infrastructure & Cloud,F14,finish,TBD,TBD — completion not evidenced
-Infrastructure & Cloud,E15,start,TBD,TBD
-Infrastructure & Cloud,F15,finish,TBD,TBD — completion not evidenced
+Infrastructure & Cloud,E14,start,N/A,N/A
+Infrastructure & Cloud,F14,finish,TBD,TBD after room access is scheduled
+Infrastructure & Cloud,E15,start,N/A,N/A
+Infrastructure & Cloud,F15,finish,source text / relative estimate,Field completion confirmation pending after 2026-11-22 weekend target
 Infrastructure & Cloud,E16,start,TBD,TBD
 Infrastructure & Cloud,F16,finish,TBD,TBD
 Infrastructure & Cloud,E17,start,TBD,TBD
-Infrastructure & Cloud,F17,finish,TBD,TBD — completion not evidenced
+Infrastructure & Cloud,F17,finish,TBD,"TBD after approved placement, cleanup and readiness acceptance"
 Infrastructure & Cloud,E18,start,TBD,TBD
 Infrastructure & Cloud,F18,finish,TBD,TBD - after onsite reproduction and evidence-based failover validation
 Infrastructure & Cloud,E19,start,TBD,TBD
-Infrastructure & Cloud,F19,finish,TBD,"TBD — approved scope, Walnut role and reliability review pending"
+Infrastructure & Cloud,F19,finish,TBD,TBD after approved Walnut role and capacity decision
 Infrastructure & Cloud,E20,start,TBD,TBD
-Infrastructure & Cloud,F20,finish,TBD,TBD — completion not evidenced
-Infrastructure & Cloud,F21,finish,TBD,TBD - after stability validation
+Infrastructure & Cloud,F20,finish,TBD,TBD after complete SFTP requirements and security approval
+Infrastructure & Cloud,F21,finish,TBD,TBD before incoming staff and Marcos equipment move
 Infrastructure & Cloud,F23,finish,TBD,"TBD - after remaining wiring, upgrades, scanner tests, and Operations acceptance"
-Infrastructure & Cloud,F24,finish,TBD,TBD - after application diagnosis and remaining network work
+Infrastructure & Cloud,F24,finish,TBD,"TBD after NVR, camera and electrical validation"
 Infrastructure & Cloud,F25,finish,TBD,TBD
 Infrastructure & Cloud,E26,start,TBD,TBD
 Infrastructure & Cloud,F26,finish,TBD,TBD
 Infrastructure & Cloud,E27,start,TBD,TBD
 Infrastructure & Cloud,F27,finish,TBD,TBD - after physical and billing reconciliation
-Infrastructure & Cloud,F28,finish,TBD,"TBD — department moves, inventory and destination readiness not approved"
+Infrastructure & Cloud,F28,finish,TBD,"TBD after destination readiness, move dates and acceptance plans are approved"
 Infrastructure & Cloud,E29,start,TBD,TBD
-Infrastructure & Cloud,F29,finish,TBD,TBD - after technical and business-owner approval
+Infrastructure & Cloud,F29,finish,TBD,TBD after Stacy confirms destination and owners accept the plan
 Infrastructure & Cloud,E30,start,TBD,TBD
 Infrastructure & Cloud,F30,finish,N/A,N/A
 Infrastructure & Cloud,E31,start,TBD,TBD
@@ -88,26 +77,25 @@ Infrastructure & Cloud,F31,finish,N/A,N/A
 Infrastructure & Cloud,E32,start,TBD,TBD
 Infrastructure & Cloud,F32,finish,N/A,N/A
 Infrastructure & Cloud,E33,start,TBD,TBD
-Infrastructure & Cloud,F33,finish,N/A,N/A
-Infrastructure & Cloud,F34,finish,N/A,N/A
-Infrastructure & Cloud,F35,finish,N/A,N/A
+Infrastructure & Cloud,F33,finish,TBD,TBD after ownership review
+Infrastructure & Cloud,F34,finish,TBD,TBD after test and release acceptance
+Infrastructure & Cloud,F35,finish,TBD,TBD after APC UPS and room-readiness acceptance
 Infrastructure & Cloud,F36,finish,TBD,TBD - after Steve approval and contractor schedule
 Infrastructure & Cloud,E37,start,TBD,TBD
 Infrastructure & Cloud,F37,finish,TBD,TBD - after map publication and validation
 Infrastructure & Cloud,E38,start,TBD,TBD
 Infrastructure & Cloud,F38,finish,TBD,TBD - before coverage testing
 Infrastructure & Cloud,F39,finish,N/A,N/A
-Infrastructure & Cloud,G40,completion,source text,Not verified
-Infrastructure & Cloud,F40,finish,N/A,N/A
+Infrastructure & Cloud,F40,finish,TBD,TBD after 3CX and Twilio support ownership is documented
 Infrastructure & Cloud,E41,start,TBD,TBD
 Infrastructure & Cloud,F41,finish,TBD,TBD — 13-Nov activation target unconfirmed; 1301 ship date pending
 Infrastructure & Cloud,E42,start,TBD,TBD
 Infrastructure & Cloud,F42,finish,TBD,TBD — revised appointment pending
 Infrastructure & Cloud,E43,start,TBD,TBD
-Infrastructure & Cloud,F43,finish,TBD,TBD — field cable-swap date pending
+Infrastructure & Cloud,F43,finish,TBD,TBD after old service termination and equipment-return confirmation
 Infrastructure & Cloud,E44,start,TBD,TBD
-Infrastructure & Cloud,F44,finish,TBD,TBD — reversal approval and posted credit pending
-Infrastructure & Cloud,F45,finish,TBD,"TBD — device location, return shipment and final billing pending"
+Infrastructure & Cloud,F44,finish,TBD,TBD after AT&T documentation and posted credit
+Infrastructure & Cloud,F45,finish,TBD,TBD after router return and final bill
 Infrastructure & Cloud,F46,finish,TBD,TBD - before Jun-2027 contract end or approved alternative
 Infrastructure & Cloud,E47,start,TBD,TBD
 Infrastructure & Cloud,F47,finish,TBD,"TBD — equipment, invoice and ETF-posting dependent"
@@ -117,10 +105,10 @@ Infrastructure & Cloud,E49,start,TBD,TBD
 Infrastructure & Cloud,F49,finish,TBD,TBD - after final invoice
 Infrastructure & Cloud,F50,finish,TBD,TBD - aligned to facility closure
 Infrastructure & Cloud,F51,finish,TBD,TBD - after full carrier and site inventory
-Infrastructure & Cloud,F52,finish,TBD,"TBD — final inventory, hosting pricing, approval and provisioning pending"
-Infrastructure & Cloud,F53,finish,TBD,"TBD — one-day supplier installation lead time, not a committed completion date"
-Infrastructure & Cloud,F54,finish,TBD,"TBD — department destinations, LAX power and site-readiness gates pending"
-Infrastructure & Cloud,F55,finish,TBD,"TBD — department destinations, LAX power and site-readiness gates pending"
+Infrastructure & Cloud,F52,finish,TBD,TBD after M-Theory validates the full inventory and provides pricing
+Infrastructure & Cloud,F53,finish,TBD,"TBD after capacity calculation, proposal and approved power cutover plan"
+Infrastructure & Cloud,F54,finish,TBD,TBD after LAX capacity and move-window approval
+Infrastructure & Cloud,F55,finish,TBD,TBD after room readiness and approved equipment list
 Infrastructure & Cloud,F56,finish,TBD,"TBD - after camera installation, YMS validation, and Operations acceptance"
 Infrastructure & Cloud,F57,finish,TBD,TBD - after Hypercore and Verizon billing closure
 Infrastructure & Cloud,F58,finish,TBD,TBD
@@ -130,16 +118,15 @@ Infrastructure & Cloud,F61,finish,TBD,"TBD - after HR approval, configuration, a
 Infrastructure & Cloud,F62,finish,TBD,TBD - before BP migration or legacy-host workload move
 Infrastructure & Cloud,F63,finish,TBD,TBD - before relocation and legacy workload move
 Infrastructure & Cloud,F64,finish,TBD,TBD - after root-cause and recovery validation
-Infrastructure & Cloud,G65,completion,source text,Not verified
-Infrastructure & Cloud,F65,finish,TBD,"TBD - pending onsite response, power checks, and diagnosis"
-Infrastructure & Cloud,F66,finish,TBD,TBD - after fuse replacement and service validation
+Infrastructure & Cloud,F65,finish,source text / relative estimate,Decommission target: end of December 2026; restoration status TBD
+Infrastructure & Cloud,F66,finish,TBD,TBD after site-exit date and circuit decision
 Infrastructure & Cloud,F67,finish,TBD,TBD - after provider-diversity assessment and issue diagnosis
-Infrastructure & Cloud,F68,finish,TBD,TBD - pending recurrence evidence and diagnosis
+Infrastructure & Cloud,F68,finish,source text / relative estimate,Tentative target: end of following week or 2026-11-30
 Infrastructure & Cloud,F69,finish,TBD,TBD - after ownership review and documented target dates
 Infrastructure & Cloud,F70,finish,TBD,TBD - after onsite repair and production validation
 Infrastructure & Cloud,F71,finish,TBD,TBD - after Transportation provides tracking and Memphis confirms receipt
 Infrastructure & Cloud,F72,finish,TBD,TBD - after remaining replacements and recovery validation
-Infrastructure & Cloud,F73,finish,TBD,TBD - after approved maintenance window and readiness review
+Infrastructure & Cloud,F73,finish,TBD,TBD after Tuesday cleanup and facilities validation
 Infrastructure & Cloud,F74,finish,TBD,TBD - after joint application and network review
 Infrastructure & Cloud,F75,finish,TBD,"TBD - after user evidence, reproduction, and fault isolation"
 Infrastructure & Cloud,F77,finish,TBD,TBD - no confirmed delivery date
@@ -152,12 +139,11 @@ Infrastructure & Cloud,F83,finish,TBD,"TBD — formal quote, diversity validatio
 Infrastructure & Cloud,F84,finish,TBD,TBD - after electrical work and camera diagnosis
 Infrastructure & Cloud,F85,finish,TBD,TBD - after scope and field schedule confirmation
 Infrastructure & Cloud,F86,finish,TBD,TBD - aligned to AGV setup and mapping
-Infrastructure & Cloud,F87,finish,TBD,TBD - January closure dates to be confirmed
+Infrastructure & Cloud,F87,finish,source text / relative estimate,Tacoma hard deadline 2026-11-30; Sparks end of December; Houston date TBD
 Infrastructure & Cloud,F88,finish,TBD,TBD - estimated 1-2 weeks after assignment
 Infrastructure & Cloud,E89,start,TBD,TBD — actual start date not supplied
-Infrastructure & Cloud,F89,finish,TBD,TBD — carrier restoration ETA pending
-Infrastructure & Cloud,E90,start,TBD,TBD — actual start date not supplied
-Infrastructure & Cloud,F90,finish,TBD,TBD — confirmed completion date not supplied
+Infrastructure & Cloud,F89,finish,source text / relative estimate,Restored 2026-11-19; monitoring complete
+Infrastructure & Cloud,F90,finish,TBD,"TBD after fiber remediation, AP recovery and tenant acceptance"
 Infrastructure & Cloud,E91,start,TBD,TBD — actual start date not supplied
 Infrastructure & Cloud,F91,finish,TBD,TBD — confirmed completion date not supplied
 Infrastructure & Cloud,E92,start,TBD,TBD — actual start date not supplied
@@ -184,9 +170,9 @@ IoT,E6,start,TBD,TBD
 IoT,F6,finish,TBD,TBD
 IoT,E7,start,TBD,TBD
 IoT,F7,finish,TBD,TBD
-IoT,N9,source,missing,
-IoT,E9,start,TBD,TBD
-IoT,F9,finish,TBD,TBD
+IoT,N8,source,missing,
+IoT,E8,start,TBD,TBD
+IoT,F8,finish,TBD,TBD
 R&D AI,E2,start,TBD,TBD
 R&D AI,F2,finish,TBD,TBD
 R&D AI,E3,start,TBD,TBD
@@ -204,20 +190,24 @@ R&D AI,F8,finish,TBD,TBD
 R&D AI,E9,start,TBD,TBD
 R&D AI,F9,finish,TBD,TBD
 R&D AI,E10,start,TBD,TBD
-R&D AI,F10,finish,source text / relative estimate,Completed
+R&D AI,F10,finish,TBD,TBD
+R&D AI,E11,start,TBD,TBD
+R&D AI,F11,finish,source text / relative estimate,Completed
 WCS Engineering,E2,start,TBD,TBD
 WCS Engineering,F2,finish,N/A,N/A
 WCS Engineering,E3,start,TBD,TBD
-WCS Engineering,F3,finish,TBD,TBD
-WCS Engineering,F4,finish,source text / relative estimate,Target: 04-Dec-2026 closeout; permanent yellow fence required before 24-Nov testing
-WCS Engineering,F5,finish,source text / relative estimate,Vendor follow-up target: 09-Nov-2026; delivery and sustained-run acceptance dates TBD
-WCS Engineering,F6,finish,source text / relative estimate,"Approval discussion target: 09-Nov-2026; repair date pending approval, parts lead time, and outage scheduling"
-WCS Engineering,F7,finish,source text / relative estimate,Target deployment: week of 09-Nov-2026
-WCS Engineering,F8,finish,source text / relative estimate,Completion date TBD pending resumed testing and verified results
-WCS Engineering,F9,finish,source text / relative estimate,Clarify before final proposal approval; execution date TBD
-WCS Engineering,F10,finish,source text / relative estimate,Peak-season issue response now; broader preventive-maintenance cadence after peak season
-WCS Engineering,F11,finish,source text / relative estimate,Target deployment: week of 09-Nov-2026
-WCS Engineering,F12,finish,source text / relative estimate,Transfer complete; operational-use confirmation TBD
+WCS Engineering,F3,finish,source text / relative estimate,IT work completed; overall acceptance verification pending
+WCS Engineering,F4,finish,source text / relative estimate,Closeout date pending documented acceptance
+WCS Engineering,F5,finish,source text / relative estimate,Vendor corrective-action and shipment dates overdue; sustained-run acceptance TBD
+WCS Engineering,F6,finish,source text / relative estimate,"Repair schedule TBD after walkthrough, approval, parts lead time, and outage confirmation"
+WCS Engineering,F7,finish,source text / relative estimate,Completed
+WCS Engineering,F8,finish,source text / relative estimate,"Completion date TBD pending integration, testing, and business acceptance"
+WCS Engineering,F9,finish,source text / relative estimate,Decision and execution dates TBD after assessment findings and approval
+WCS Engineering,F10,finish,source text / relative estimate,Deployment date pending DevOps confirmation
+WCS Engineering,F11,finish,source text / relative estimate,IT transfer completed
+WCS Engineering,F12,finish,source text / relative estimate,Target date TBD based on priority and available capacity
+WCS Engineering,F13,finish,source text / relative estimate,Coverage plan to be confirmed before January 2027
+WCS Engineering,F14,finish,source text / relative estimate,Broader preventive-maintenance cadence planned after peak season
 IT Compliance Program,F3,finish,TBD,"TBD - after auditor testing, issue resolution and final report"
 IT Compliance Program,F5,finish,TBD,TBD - after Johanson completes scope review
 IT Compliance Program,F6,finish,TBD,TBD - after evidence testing and exception closure
@@ -252,3 +242,15 @@ UNIS.CO Email & Ticketing,F17,finish,N/A,N/A
 UNIS ITEM- eHub integration,F2,finish,TBD,"TBD - after Vesync validation, governance alignment, approved pilot execution, and acceptance review"
 UNIS ITEM- eHub integration,F10,finish,TBD,TBD - after Vesync pilot decision
 UNIS ITEM- eHub integration,F11,finish,TBD,TBD - after Stacy aligns with Jeff and Gene
+Samba-Sharepoint Migration,F2,finish,source text / relative estimate,Department validation from 2026-11-23; phased cutover from 2026-11-30
+Samba-Sharepoint Migration,F3,finish,source text / relative estimate,Validation requested 2026-11-20; closure pending confirmation
+Samba-Sharepoint Migration,F4,finish,TBD,TBD pending technical implementation and user notice
+Samba-Sharepoint Migration,F5,finish,source text / relative estimate,Before the 2026-12-04 payroll cycle; exact cutover TBD
+Samba-Sharepoint Migration,F6,finish,source text / relative estimate,After Payroll wave; date TBD
+Samba-Sharepoint Migration,F7,finish,source text / relative estimate,Inventory available; wave grouping and exception closure TBD
+Samba-Sharepoint Migration,F8,finish,source text / relative estimate,Validation from 2026-11-23 onward
+Samba-Sharepoint Migration,F9,finish,TBD,TBD after size and readiness confirmation
+Samba-Sharepoint Migration,F10,finish,source text / relative estimate,Before each department cutover
+Samba-Sharepoint Migration,F11,finish,source text / relative estimate,Before affected wave; date depends on exception approval
+Samba-Sharepoint Migration,F12,finish,source text / relative estimate,Three business days of monitoring per department after cutover
+Samba-Sharepoint Migration,F13,finish,TBD,TBD after active-folder and ownership review

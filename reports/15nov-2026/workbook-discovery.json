@@ -1,0 +1,29 @@
+{
+  "candidates": [
+    {
+      "path": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 15Nov2026 PST).xlsx",
+      "bytes": 140112,
+      "sha256": "d6390cb656cede291c142822e01f88da43b817923332d602749487e00e1ee15f"
+    },
+    {
+      "path": "/home/user/workspace/it-leadership-dashboard/Weekly_Leadership_Source_Workbook.xlsx",
+      "bytes": 126410,
+      "sha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550"
+    }
+  ],
+  "previousBaselines": {
+    "github": {
+      "source": "IT & Technology Project_Portfolios_2026_v1.0 (Week of 08Nov2026 PST)_1.xlsx",
+      "reportDate": "2026-11-08",
+      "records": 179,
+      "sha256": "bf5fdec3238aff668760b3b0a110bf0aac52eab822b79d41399a59e50f3d2550"
+    },
+    "item": {
+      "name": "IT & Technology Project_Portfolios_2026_v1.0 (26Oct2026 PST).xlsx",
+      "sha256": "077f4dbf228a5f33be2940d519b17ad83f60a3cd4529da555e0ed9c43e64a4dc",
+      "snapshot": "26 Oct 2026"
+    }
+  },
+  "selected": "/home/user/workspace/IT & Technology Project_Portfolios_2026_v1.0 (Week of 15Nov2026 PST).xlsx",
+  "reason": "15 November is the newest reporting week available; no additional 15 November revisions found in workspace or checked-out repository files."
+}
